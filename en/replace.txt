@@ -1,0 +1,39 @@
+<title>Replace vehicles Help</title>
+
+<h1><strong>Replacing Vehicles</strong></h1>
+
+<p>
+The <strong>Replace</strong> window is used to replace multiple <a href="convoiinfo.txt">convoys</a> automatically. The replace vehicles window is accessed by clicking on a convoy in the world map, and clicking on the "replace" button in the convoy's information window.
+</p>
+<p>
+The <strong>Replace</strong> window can be <a href="mouse.txt">re-sized</a> (click on down-arrow on titlebar of controls to return to original size).
+</p>
+<p>
+At the top of the <strong>Replace</strong> window, the current<a href="convoiinfo.txt">Convoy</a> is shown, along with some information about that convoy, such as its maximum speed, the number of vehicles, etc.
+</p>
+<p>
+Immediately beneath that, underneath the words <strong>To be replaced by:</strong>, the convoy with which the current convoy will be replaced is shown. It starts blank: vehicles can be added by clicking on the appropriate vehicles in the middle part of the window. Vehicles can be removed by clicking on the vehicles in question underneath <strong>To be replaced by:</strong>. This part works in much the same way as the <a href="depot.txt">depot</a> window.
+</p>
+<p>
+<em>Finance</em><br>
+When any vehicles are selected, the cost or revenue from the operation is shown in the middle left of the window. This number might be positive, indicating that the vehicles that are to be sold are worth more than the vehicles that will be bought, or negative, indicating that the vehicles that will be bought cost more than the value of the vehicles to be sold. 
+</p>
+<p>
+<em>What to replace</em><br>
+By default, only the current convoy is replaced. However, there are two other options: <strong>Replace all in line</strong>, which will replace all convoys identical to the presently selected one in the current line, and <strong>Replace all</strong>, which will replace all convoys identical to the present one, whether they are in the same line or not. These options can be found towards te middle-left of the dialogue box.
+</p>
+<p>
+<em>Full replace</em><br>
+Click this button to replace the vehicles straight away, and have them resume their schedules as soon as the replacement is finished.
+</p>
+<p>
+<em>Replace but stay</em><br>
+Click this button to replace all the selected vehicles straight away, but have them wait in the depot after they have been replaced, rather than resuming their schedules.
+</p>
+<p>
+<em>Mark for replacing</em><br>
+Click this button to replace the selected vehicles the next time that they are sent to the depot manually.
+</p>
+<p>
+The <strong>Replace Cycle</strong> allows for, for example, every other vehicle in a line to be replaced.
+</p>

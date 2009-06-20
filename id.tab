@@ -1,0 +1,27 @@
+Bahasa
+PROP_FONT_FILE
+Prop-Latin1.bdf
+################################################################################
+#                                                                              #
+#                        Simutrans Base Translation File                       #
+#                             Scenario: Base texts                             #
+#                              Language: id Bahasa                             #
+#                             Encoding: ISO-8859-1                             #
+#                            Font : Prop-Latin1.bdf                            #
+#                           Date Created: 28.06 2008                           #
+#                                                                              #
+#                                   authors:                                   #
+#                           Biccar Hasiholon - biccar                          #
+#                                    note:                                     #
+#                            Catour Chezz - chezz1st                           #
+#                                    note:                                     #
+#                          Markus Pristovsek - prissi                          #
+#                            note: Administrator 64                            #
+#                                                                              #
+################################################################################
+#_________________________________program_text__________________________________
+#_________________________________program_text__________________________________
+cl_btn_sort_income
+Pendapatan
+cl_btn_sort_name
+Nama

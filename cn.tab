@@ -1,0 +1,39 @@
+§Sim. Chinese
+PROP_FONT_FILE
+
+################################################################################
+#                                                                              #
+#                        Simutrans Base Translation File                       #
+#                             Scenario: Base texts                             #
+#                           Language: cn Sim. Chinese                          #
+#                                Encoding: UTF-8                               #
+#                                    Font :                                    #
+#                           Date Created: 28.06 2008                           #
+#                                                                              #
+#                                   authors:                                   #
+#                           Alan Wei Hong - LondonBVE                          #
+#                     note: Translating Simplified Chinese.                    #
+#                          Markus Pristovsek - prissi                          #
+#                            note: Administrator 64                            #
+#                                                                              #
+################################################################################
+#_________________________________program_text__________________________________
+#_________________________________program_text__________________________________
+!0_STATION_CROWDED
+%s\nis车站繁忙
+!1_DEPOT_REACHED
+%s已经进入车库。
+%1_CITY_SYLL
+森
+%2_CITY_SYLL
+山
+%3_CITY_SYLL
+灰
+%4_CITY_SYLL
+春
+%5_CITY_SYLL
+松
+%6_CITY_SYLL
+露出
+cl_btn_sort_income
+收入

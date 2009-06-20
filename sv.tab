@@ -1,0 +1,511 @@
+Svenska
+PROP_FONT_FILE
+Prop-Latin1.bdf
+################################################################################
+#                                                                              #
+#                        Simutrans Base Translation File                       #
+#                             Scenario: Base texts                             #
+#                             Language: sv Svenska                             #
+#                             Encoding: ISO-8859-1                             #
+#                            Font : Prop-Latin1.bdf                            #
+#                           Date Created: 28.06 2008                           #
+#                                                                              #
+#                                   authors:                                   #
+#                                Ewa Wiman - ewa                               #
+#note: I am a student from Linköping, Sweden. I like Simutrans so much that wan#
+#                          Markus Pristovsek - prissi                          #
+#                            note: Administrator 64                            #
+#                                                                              #
+################################################################################
+#_________________________________program_text__________________________________
+#_________________________________program_text__________________________________
+!0_STATION_CROWDED
+%s är överfull.
+%1_CITY_SYLL
+Lund
+%2_CITY_SYLL
+Malm
+%3_CITY_SYLL
+Öre
+%4_CITY_SYLL
+Väster
+%5_CITY_SYLL
+Lin
+%6_CITY_SYLL
+Gustafs
+%7_CITY_SYLL
+Skog
+%8_CITY_SYLL
+Marie
+%9_CITY_SYLL
+Helsing
+%A_CITY_SYLL
+Arla
+%B_CITY_SYLL
+Örn
+&2_CITY_SYLL
+forsa
+&3_CITY_SYLL
+stad
+&4_CITY_SYLL
+bro
+&5_CITY_SYLL
+köping
+&6_CITY_SYLL
+vik
+&7_CITY_SYLL
+sala
+&8_CITY_SYLL
+ås
+&9_CITY_SYLL
+holm
+&A_CITY_SYLL
+borg
+1center
+%s %s
+1extern
+%s Filial%s
+1LIGHT_CHOOSE
+Ljusstyrka:
+1nord
+%s Norra %s
+1nordost
+%s Nordöstra %s
+1nordwest
+%s Nordvästra %s
+1ost
+%s Östra %s
+1sued
+%s Södra %s
+1suedost
+%s Sydöstra %s
+1suedwest
+%s Sydvästra %s
+1west
+%s Västra %s
+1WORLD_CHOOSE
+Inställningar för ny karta:
+2center
+%s Central%s
+2extern
+%s Annex%s
+2LIGHT_CHOOSE
+Färger:
+2WORLD_CHOOSE
+Kartnummer:
+3center
+%s Huvud%s
+3extern
+%s Landsbygds%s
+3LIGHT_CHOOSE
+Rullningsfart:
+3WORLD_CHOOSE
+Kartstorlek:
+4center
+%s Inre%s
+4extern
+%s Yttre %s
+4LIGHT_CHOOSE
+Invärtes rullning
+5center
+%s Förorts%s
+5LIGHT_CHOOSE
+Visa fotgängare
+5WORLD_CHOOSE
+Antal städer:
+6WORLD_CHOOSE
+Trafiktäthet:
+8WORLD_CHOOSE
+Använd dag och natt
+Abfrage
+Inspekteringsverktyg
+Abnehmer
+Konsumenter
+Abriss
+Förstör/Ta bort
+Absenken
+Sänk marken
+Add Stop
+Ny hållplats
+Angenommene Waren
+Varor behövda av nära industrier
+Anhaenger_tab
+Trailers
+Anheben
+Höj marken
+Arbeiter aus:
+Arbetarna bor i:
+Bahndepot
+Tåggarage
+Bankrott:\n\nDu bist bankrott.\n
+Bankrutt:\n\nDu är bankrutt.\n
+Baum
+Träd
+Baustelle
+Byggplats
+Beenden
+Avsluta
+BF
+station
+Blockstrecke ist\nbelegt\n
+Spårsträckan är\nupptagen\nav ett annat tåg\n
+Boden
+Mark/land
+Bruecke
+Bro
+Bruecke muss an\neinfachem\nHang beginnen!\n
+Broar måste\nbörja på\nraka sluttningar!\n
+Cancel
+Avbryt
+City size
+Storlek
+clf_btn_alle
+alla
+clf_btn_invers
+inv.
+clf_btn_keine
+inga
+clf_chk_cars
+Bussar/lastbilar
+clf_chk_name_filter
+Filternamn:
+clf_chk_noincome
+inga inkomster
+clf_chk_noroute
+ingen rutt
+clf_chk_noschedule
+ingen färdplan
+clf_chk_ships
+Fatyg
+clf_chk_spezial_filter
+Specialfilter:
+clf_chk_trains
+Tåg
+clf_chk_type_filter
+Filtertyper:
+clf_chk_waren
+Filtrera varor:
+clf_title
+Fordonslistans filter
+cl_btn_filter_disable
+av
+cl_btn_filter_enable
+på
+cl_btn_filter_settings
+Inställningar
+cl_btn_sort_asc
+ökande
+cl_btn_sort_desc
+minskande
+cl_btn_sort_income
+Inkomster
+cl_btn_sort_name
+Namn
+cl_btn_sort_type
+Typ
+cl_title
+Fordonslista
+cl_txt_filter
+Filter:
+cl_txt_sort
+Sortera efter:
+COLOR_CHOOSE\n
+Välj en färg\nfrån paletten:\n
+Currently playing:
+Spelar just nu:
+Das Feld gehoert\neinem anderen Spieler\n
+Den här mark-\nbiten ägs redan av\nen annan spelare!\n
+Del Stop
+ Ta bort
+Denkmal
+Minnesmärke
+Der Besitzer erlaubt das Entfernen nicht
+Ägaren vägrar\ntillåta att\ndetta tas bort.\n
+Details
+Detaljer
+Direkt erreichbare Haltestellen
+Direkta rutter härifrån
+Dock
+kaj
+Durchsatz
+Max. prod.
+Eigenbesitz\n
+Allmän egendom\n
+Ein %s\npasst hier nicht.\n
+En '%s'\npassar inte här.\n
+Einstellungen
+Alternativ:
+Einstellungen aendern
+Ändra alternativ:\n
+Einstellungsfenster
+Spelalternativ
+Erzeuge neue Karte.\n
+Vänta,\nskapar en\nny karta...\n\n (Det här kan ta\n några minuter\n på stora kartor.)\n
+Es wird bereits\nein Fahrplan\neingegeben\n
+En färdplan\nblir redan planerad.\nGör den färdig innan\ndu gör om den!\n
+Fabrikanschluss
+Förbundna industrier
+Fahrplan
+Färdplan
+Fahrzeuge koennen so nicht entfernt werden
+Fordon kan inte bli\nborttagna såhär.\n
+Farbe
+Spelarfärg
+Fertig
+Klar
+Filename
+Filnamn:
+Finanzen
+Finanser
+Found new city
+Bygg ny stad
+Fracht
+Last
+Full load
+Vänta på:      
+GAME PAUSED
+SPELET PAUSAT
+Gebaeude
+Byggnad
+Gewicht
+Vikt
+Gewinn
+Förtjänst
+H
+hållplats
+Helligk.
+Visning
+Helligk. u. Farben
+Skärminställningar
+Hier kann kein\nSignal aufge-\nstellt werden!\n
+Järnvägssignalen\nkan inte byggas\nhär!\n
+Hier warten/lagern:
+Väntande varor och passagerare:
+hlf_btn_alle
+alla
+hlf_btn_invers
+inv.
+hlf_btn_keine
+inga
+hlf_chk_anleger
+Kaj
+hlf_chk_bahnhof
+Järnvägsstation
+hlf_chk_bushalt
+Busshållplats
+hlf_chk_frachthof
+Lastplats
+hlf_chk_keine_verb
+ingen förbindelse
+hlf_chk_name_filter
+Filternamn:
+hlf_chk_spezial_filter
+Specialfilter:
+hlf_chk_type_filter
+Filtertyper:
+hlf_chk_waren_abgabe
+Produktion:
+hlf_chk_waren_annahme
+Behövda varor:
+hlf_title
+Stationslistans filter
+hl_btn_filter_disable
+av
+hl_btn_filter_enable
+på
+hl_btn_filter_settings
+Inställningar
+hl_btn_sort_asc
+ökande
+hl_btn_sort_desc
+minskande
+hl_btn_sort_name
+Namn
+hl_btn_sort_type
+Typ
+hl_btn_sort_waiting
+Väntande
+hl_title
+Stationslista
+hl_txt_filter
+Filter:
+hl_txt_sort
+Sorterade efter:
+Ins Stop
+Infoga
+Kann Spielstand\nnicht laden.\n
+Kan inte läsa/öppna\ndet sparade spelet!\n
+Kann Spielstand\nnicht speichern.\n
+Kan inte spara\nspelet!\n
+keine
+inga
+Lade Relief
+Ladda heightfield
+Laden
+Ladda
+LANG_CHOOSE\n
+Välj ditt språk:\n
+Last Year
+Förra året
+leer
+tom
+Leistung
+Styrka
+letzen Monat: diesen Monat:
+Förra månaden:   Den här månaden:
+LKW_tab
+Lastbilar
+LOCO_CAP
+Kapacitet: %d%s %s\n
+LOCO_INFO
+%s\nPris: %d$ (%1.2f$/km)\nStyrka: %dkW, %dkm/h\nVikt: %dt\n
+Lokomotive_tab
+Lok
+m3
+m³
+Map roughness
+Kartgrovhet:
+Marker
+Skylt
+Meldung
+Meddelande
+Mountain height
+Bergighet:
+Music volume:
+Musikvolym:
+Neue Karte
+Ny karta
+Neue Welt
+Skapa ny värld
+no goods waiting
+inga varor väntar
+Noch kein Fahrzeug\nmit Fahrplan\nvorhanden\n
+Ge fordonen\nen färdplan, före\ndu ger dem gå\nordern!\n
+Ok
+Ok
+paletten
+ lådor
+Passagiere
+Passagerare
+Passagierrate
+Passagerare
+Passagierziele
+Pass./post destinationer
+Pause
+Pausa
+Post
+Post
+Post muss neben\nHaltestelle\nliegen!\n
+Ett postkontor måste\nplaceras nära en\nhållplats/station!\n
+Power
+Strömstyrka
+Produktion
+Produktion
+q1
+Vår
+q2
+Sommar
+q3
+Höst
+q4
+Vinter
+RAILTOOLS
+Järnvägsbyggen
+Random map
+Slumpkarta
+Reliefkarte
+Karta
+Restwert:
+Försäljningsvärde:
+ROADTOOLS
+Vägbyggen
+sack
+ säckar
+Schienentunnel
+Bygg järnvägstunnel
+Schiffdepot
+Fartygsdepå
+Schiffhalt muss im\nWasser liegen!\n
+Fartygshållplatser\nmåste placeras\ni vatten\nnära en kaj!\n
+Schiff_tab
+Fartyg
+Schleppkahn_tab
+Bojar
+Screenshot\ngespeichert.\n
+Skärmbild\nsparad.\n
+SHIPTOOLS
+Båtbyggen
+Sound
+Ljud
+Sound settings
+Ljudinställningar
+Sound volume:
+Ljudvolym:
+Speichern
+Spara
+Spieler
+Spelare
+Spieler(mz)
+Spelare
+Spielerliste
+\n   Blå . . . .  %.2f$\n\n   Gul . .  %.2f$\n\n   Röd . . . . . %.2f$\n\n   Grön . . .  %.2f$\n\n   Turkos %.2f$\n\n   Rosa . . . .  %.2f$\n
+Spielstand wurde\ngeladen!\n
+\nSpelet laddat!\n
+Spielstand wurde\ngespeichert!\n
+\nSpelet sparat!\n
+Sprache
+Språk
+Stadtinformation
+Stadsinformation
+Start
+Kör!
+Starte Spiel
+ Starta spel
+Strassendepot
+Väggarage
+Strassentunnel
+Bygg vägtunnel
+Tage alt
+dagar gammalt
+There are still vehicles\nstored in this depot!\n
+Det finns fortfarande fordon\nlagrade i garaget/depån!\n
+This Year
+Det här året
+tonnen
+t
+Tunnel muss an\neinfachem\nHang beginnen!\n
+Tunnlar måste\nbörja på raka\nsluttningar!\n
+Tunnelmuendung
+Tunnel
+Verbrauch
+Konsumtion
+Verkauf
+Sälj
+Verschuldet:\n\nDu hast %d Monate Zeit,\ndie Schulden zurueckzuzahlen.\n
+Du står i skuld!\n\nDu har %d månader på dig\natt återbetala din skuld.\n
+Wagen im Block
+vagnar på spår-\nsträcka för tillfället
+WAGGON_INFO
+%s\nPris    : %d$ (%1.2f$/km)\nKapacitet: %d%s %s\nVikt: %dt\n
+Waggon_tab
+Vagnar
+waiting
+väntar
+Water level
+Vattennivå:
+Wegpunkt
+Färdmål
+Wert
+Värde
+WRONGSAVE
+Ej kompatibel spel-\nversion. Kan inte ladda\nden här filen.\n
+Zu nah am Kartenrand
+För nära\nkanten på kartan för att kunna\nbygga någonting.\n
+Zu nah an einem\nanderen Signal!\n
+Järnvägssignalen\nkan inte byggas\nhär.\nEn annan signal\när för nära!\n
+Zughalt muss auf\nSchiene liegen!\n
+Tåghållplatser\nmåste placeras\npå järnvägsspår!\n
+\nCan't open heightfield file.\n
+\nKan inte öppna heightfieldfilen.\n
+\nHeightfield has wrong image type.\n
+\nHeightfieldfilen \när av fel\nbildtyp.\n

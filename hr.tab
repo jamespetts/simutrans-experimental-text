@@ -1,0 +1,509 @@
+Hrvatski
+PROP_FONT_FILE
+Prop-Latin1.bdf
+################################################################################
+#                                                                              #
+#                        Simutrans Base Translation File                       #
+#                             Scenario: Base texts                             #
+#                             Language: hr Hrvatski                            #
+#                             Encoding: ISO-8859-1                             #
+#                            Font : Prop-Latin1.bdf                            #
+#                           Date Created: 28.06 2008                           #
+#                                                                              #
+#                                   authors:                                   #
+#                             Gordan Adzic - Mrvca                             #
+#                                    note:                                     #
+#                          Markus Pristovsek - prissi                          #
+#                            note: Administrator 64                            #
+#                                                                              #
+################################################################################
+#_________________________________program_text__________________________________
+#_________________________________program_text__________________________________
+!0_STATION_CROWDED
+%s\nje krcat
+!1_DEPOT_REACHED
+%s je u?ao u depo.
+%1_CITY_SYLL
+Apping
+%2_CITY_SYLL
+Malli
+%3_CITY_SYLL
+Ash
+%4_CITY_SYLL
+Spring
+%5_CITY_SYLL
+Polling
+%6_CITY_SYLL
+Baring
+%7_CITY_SYLL
+Hepp
+%8_CITY_SYLL
+Brent
+%9_CITY_SYLL
+Ren
+%A_CITY_SYLL
+Old
+%B_CITY_SYLL
+Hill
+%d buildings\n
+%d objekata
+%d convois
+%d konvoja
+%d Einzelfahrzeuge im Depot
+%d vozila uskladi?teno ovdje
+%i km/h (max. %ikm/h)
+%i km/h (max. %ikm/h)
+%s building %s %s
+%s %s %s
+%s city %d %s
+%s grad %d %s
+%s land %d %s
+%s zemlji?te %d %s
+%s now\noffers bus services\nbetween %s\nand attraction\n%s\nat (%i,%i).\n
+%s sada\nnudi uslugu prijevoza busom\nizmedju %s\ni atrakcije\n%s\nna (%i,%i).\n
+%s now\noffers bus services\nbetween %s\nand factory\n%s\nat (%i,%i).\n
+&s sada\nnudi uslugu prijevoza busom\nizmedju %s\ni tvornice\n%s\nna (%i, %i).\n
+%s wasted\nyour money with a\nnew townhall\nwhen it reached\n%i inhabitants.
+%s je sagradio novu gradsku vijecnicu kad je do?ao do broja od %i stanovnika
+%s\nnow operates\n%i trucks between\n%s at (%i,%i)\nand %s at (%i,%i).
+%s\sada ima\n%i kaimona izmedju\n%s na (%i,%i)\ni %s\na (%i, %i).
+%s\nopened a new railway\nbetween %s\nat (%i,%i) and\n%s at (%i,%i).
+%s\notvara novu zeljeznicu\nizmedju %s\nna (%i,%i) i\n%s\nna (%i,%i).\n
+&1_CITY_SYLL
+chester
+&2_CITY_SYLL
+ton
+&3_CITY_SYLL
+ville
+&4_CITY_SYLL
+den
+&5_CITY_SYLL
+borough
+&6_CITY_SYLL
+ham
+&7_CITY_SYLL
+field
+&8_CITY_SYLL
+mouth
+&9_CITY_SYLL
+lock
+&A_CITY_SYLL
+cross
+(in depot)
+(u depou)
+1 convoi
+1 konvoj
+1 Einzelfahrzeug im Depot
+1 Vozilo uskladi?teno ovdje
+1center
+%s %s
+1extern
+%s ekspoziturna %s
+1LIGHT_CHOOSE
+Osvijetljenost:
+1nord
+%s sjeverna %s
+1nordost
+%s SI %s
+1nordwest
+%s SZ %s
+1ost
+%s istocna %s
+1sued
+%s juzna %s
+1suedost
+%s JI %s
+1suedwest
+%s JZ %s
+1west
+%s zapadna %s
+1WORLD_CHOOSE
+Postavke za Novu Igru
+2center
+%s sredi?nja %s
+2extern
+%s vanjska %s
+2LIGHT_CHOOSE
+Boje:
+2WORLD_CHOOSE
+Broj mape:
+3center
+%s glavna %s
+3extern
+%s agrarna %s
+3LIGHT_CHOOSE
+Brzina pomicanja:
+3WORLD_CHOOSE
+Velicina (%d MB):
+4center
+%s unutra?nja %s
+4extern
+%s vanjska %s
+4LIGHT_CHOOSE
+Obrnuto pomicanje
+5center
+%S prijenosna %s
+5LIGHT_CHOOSE
+Pje?aci na postajama
+5WORLD_CHOOSE
+Br. gradova:
+6center
+%s cvorisna %s
+6LIGHT_CHOOSE
+Pje?aci u gradovima
+6WORLD_CHOOSE
+Gustoca prometa:
+7center
+%s grad %s
+8WORLD_CHOOSE
+promjena dana i noci
+<no line>
+<ne postoji ni jedna linija>
+A bridge must end on a way!
+Most mora\nzavr?iti na postojecem\nputu
+A bridge must start on a way!
+Most mora\nzavr?iti na\npostojecem putu. 
+Abfrage
+Istrazivacki alat
+Abnehmer
+Potrosac
+About
+O
+Abriss
+Uni?ti/Ukloni
+Absenken
+Sniziti zemlji?te
+Add Stop
+Dodaj postaju
+Add stops for backward travel
+Dodaj postaje za putovanje unatrag
+Add the selected vehicle(s) to the selected line
+Dodaj odabrano vozilo/la odabranoj liniji.
+Air
+Zrak
+aircraft_tab
+Teretni avioni
+Airport
+Aerodrom
+AIRTOOLS
+Avionski alati
+All
+Sve
+Allow player change
+Dopusti promjenu igraca
+Alters a schedule.
+Dodaj/ukloni postaje iz voznog reda
+Ambiguous signal combination.\nTry removing by clicking the\nother side of the signal.\n
+\nPrevi?e signala u blizini!\n\nPoku?ajte ukloniti tako da kliknete na\ndrugu stranu signala.\n\n
+cl_btn_sort_id
+unutarnji ID
+cl_btn_sort_income
+Prihod
+cl_btn_sort_name
+Ime
+cl_btn_sort_type
+Tip
+cl_title
+Lista vozila
+cl_txt_filter
+Filter:
+cl_txt_sort
+Sortirati:
+COLOR_CHOOSE\n
+Molimo Vas, a\nboju iz tablice:\n
+Constructed by
+Napravio
+Constructed by %s
+Napravio %s
+Construction_Btn
+Gradnja
+convoi %d of %d
+Konvoj %d od %d 
+Convoi has been sent\nto the nearest depot\nof appropriate type.\n
+Konvoj je poslan u najblizi depo prikladne vrste
+Convoi is sold when all wagons are empty.
+Konvoj je prodan kad su svi vagoni prazni
+convoi passed last\nmonth %i\n
+\n konvoja pro?lo pro?li\nmjesec: %i\n
+Convois: %d\nProfit: %s
+Vozila: %d\nPrihod: %s
+Convoys
+Konvoji
+Copy Convoi
+Kopiraj Konvoj
+Copy the selected convoi and its schedule or line
+Kopiraj odabrani konvoj i njegov vozni red ili liniju
+Create a new line based on this schedule
+Napravi novu liniju baziranu na ovom voznom redu
+curlist_title
+Lista atrakcija
+Currently playing:
+Svira:
+Das Feld gehoert\neinem anderen Spieler\n
+Ovaj dio \nzemlje posjeduje \ndrugi igrac!
+December
+Prosinac
+Del Stop
+Ukloni
+Delete Line
+Obrisati liniju
+Delete this file.
+Obrisati ovu datoteku
+Denkmal
+Spomenik
+Departed
+Odaslan
+Depots
+Depoi
+Der Besitzer erlaubt das Entfernen nicht
+\nVlasnik odbija dati \ndopu?tenje da \nunklonite ovo!\n
+Der Tunnel ist nicht frei!\n
+Tunel nije prazan.\n
+desert
+pustinjska klima
+Destination
+Odredi?te
+Details
+Detalji
+Die Bruecke ist nicht frei!\n
+Most nije prazan!
+Diese Zusammenstellung kann nicht fahren!\n
+Ova kombinacija\se ne moze kretati!\n
+diesel
+dizelski pogon
+Direkt erreichbare Haltestellen
+Direktne rute odavde
+Dock
+dok
+Dock must be built on single slope!
+Dok mora biti sagradjen na poziciji s kosinom
+Du hast %d Monate Zeit, deine Schulden zurueckzuzahlen
+Imate %d mjeseca da otplatite svoj dug.
+Durchsatz
+Max.
+EDITTOOLS
+Alati za uredjivanje mape
+Eigenbesitz\n
+Javni posjed\n
+Ein %s\npasst hier nicht.\n
+%s\nne pripada ovdje!\n
+Einstellungen
+Opcije
+Einstellungen aendern
+Promijeni opcije:\n
+Einstellungsfenster
+Opcije
+electric
+elektricni pogon
+Electrify track
+Elektrificiraj prugu
+Error
+Pogre?ka
+Erzeuge neue Karte.\n
+Molimo Vas, pricekajte dok se nova\nmapa ne kreira.\n\n (Ovo bi moglo\n potrajati nekoliko minuta\n za velike mape.)\n
+Es wird bereits\nein Fahrplan\neingegeben\n
+Vozni red se\n planira.\nZavr?ite ga prije\nponovnog planiranja!\n
+Fabrikanschluss
+Povezane tvornice
+Fabrikname
+ime tvornice
+Factories
+Tvornice
+Fahrplan
+Vozni red
+Fahrtziel
+Odredi?te:
+Fahrzeuge koennen so nicht entfernt werden
+Vozila ne mogu biti\nuklonjena na ovaj nacin
+Fahrzeuge:
+Vozila:
+Farbe
+Boja igraca
+Fast forward
+Ubrzati
+February
+Veljaca
+Ferry_tab
+Trajekti
+Fertig
+Zavr?eno
+Filename
+Ime datoteke:
+Finances of %s
+Financije %s
+Finanzen
+Financije
+Flugzeughalt muss auf\nRunway liegen!\n
+Stajali?te aviona mora\nne mo?e biti na tom mjestu
+Flug_tab
+Putnicki Avioni
+fl_title
+lista tvornica
+follow me
+Slijedi me.
+Follow the convoi on the map.
+Slijedi konvoj na mapi.
+Forest
+?uma
+Found new city
+sagraditi novi grad
+FPS:
+FPS:
+Fracht
+Teret
+Frame time:
+Okvirno vrijeme:
+Free Capacity
+Slobodan kapacitet
+Friction:
+trenutni faktor trenja:
+fuel_cell
+gorive celije
+Full load
+Cekaj:
+Fussgaenger
+Pje?ak
+GAME PAUSED
+Igra je zaustavljena
+Gear:
+Vucna snaga:
+Gebaeude
+Gradjevina 
+Gewicht
+Tezina
+Gewinn
+Dohodak:
+Give the selected vehicle(s) an individual schedule
+Dati odabranom(nim) vozilu(ima) poseban vozni red.
+gl_btn_sort_bonus
+bonusom
+gl_btn_sort_name
+imenom
+gl_btn_sort_revenue
+prihodom
+gl_btn_unsort
+nesortirano
+gl_title
+Lista svih dobara
+go home
+Idi u depo
+Goods list
+Lista dobara
+Gross Profit
+Tok novca
+Grow city
+Povecati grad
+Growth
+Rast grada
+H
+postaja
+Hangar
+Hangar
+Happy
+Sretni
+Helligk.
+Prikaz
+Helligk. u. Farben
+Opcije prikaza
+Help
+Pomoc
+Help text not found
+Tekst s pomoci nedostaje
+hide all building
+Sakrij sve gradjevine
+hide city building
+Sakrij gradjevine u gradovima
+hide transparent
+transparentno umjesto sakriveno
+hide trees
+Sakrij stabla
+Hier kann dieses\nFlughafengebaeude nicht\ngebaut werden!\n
+Ne mozete sagraditi\n\naerodromsku zgradu ovdje.\n
+Hier kann kein\nSignal aufge-\nstellt werden!\n
+Ne mozete staviti\nzeljeznicki signal ovdje.\n
+Hier warten/lagern:
+Dobra i putnici koji cekaju:
+hlf_btn_alle
+sve
+hlf_btn_invers
+obrnuti
+hlf_btn_keine
+ni?ta
+hlf_chk_airport
+Aerodromi
+hlf_chk_anleger
+Dok
+hlf_chk_bahnhof
+Zeljezincka stanica
+hlf_chk_bushalt
+Autobusna postaja
+hlf_chk_frachthof
+Zona za ukrcavanje
+hlf_chk_keine_verb
+nema veze
+hlf_chk_name_filter
+Imena filtera:
+hlf_chk_overflow
+Iznad kapaciteta
+hlf_chk_spezial_filter
+Poseban filter:
+hlf_chk_type_filter
+Tipovi filtera:
+hlf_chk_waren_abgabe
+Proizvodnja:
+hlf_chk_waren_annahme
+Potrebna dobra:
+hlf_title
+Filter liste stanica
+hl_btn_filter_disable
+onemogu?eno
+hl_btn_filter_enable
+omogu?eno
+hl_btn_filter_settings
+Opcije
+hl_btn_sort_asc
+uzlazno sortiranje
+hl_btn_sort_desc
+nizlazno sortiranje
+hl_btn_sort_name
+Ime
+hl_btn_sort_type
+Tip
+hl_btn_sort_waiting
+?eka:
+hl_title
+Lista stanica
+hl_txt_filter
+Filter:
+hl_txt_sort
+Sortirano:
+Home depot not found!\nYou need to send the\nconvoi to the depot\nmanually.
+Depo se ne mo?e na?i.\nMorate \nvozilo poslati ru?no
+Homeless
+Besku?nici
+hydrogene
+Vodik
+Idle:
+U mirovanju:
+industrial building
+industrijska gra?evina
+Init map ...
+Uvodna mapa
+Input
+ulaz
+Ins Stop
+Umetnuti
+Intercity road len:
+Du?ina me?ugradskih cesta:
+Intro. date:
+Datum uvo?enja:
+isometric map
+izometri?na mapa
+January
+Sije?anj
+July
+Srpanj
+June
+Lipanj
+Kann Spielstand\nnicht laden.\n
+U?itavanje spremljene igre nije mogu?e

@@ -1,0 +1,779 @@
+Romana
+PROP_FONT_FILE
+ro_font.fnt
+################################################################################
+#                                                                              #
+#                        Simutrans Base Translation File                       #
+#                             Scenario: Base texts                             #
+#                              Language: ro Romana                             #
+#                             Encoding: ISO-8859-2                             #
+#                              Font : ro_font.fnt                              #
+#                           Date Created: 28.06 2008                           #
+#                                                                              #
+#                                   authors:                                   #
+#                             Ferencz Székely - ph                             #
+#                    note: Hungarian translation coordinator                   #
+#                          Markus Pristovsek - prissi                          #
+#                            note: Administrator 64                            #
+#                                                                              #
+################################################################################
+#_________________________________program_text__________________________________
+#_________________________________program_text__________________________________
+!0_STATION_CROWDED
+%s este supraîc?rcat.
+!1_DEPOT_REACHED
+%s a sosit în depou/doc.
+%1_CITY_SYLL
+Dun?rea
+%2_CITY_SYLL
+Mure?ul
+%3_CITY_SYLL
+Cri?ul
+%4_CITY_SYLL
+Doroban?i
+%5_CITY_SYLL
+Râmnicu
+%6_CITY_SYLL
+Slatina
+%7_CITY_SYLL
+Vama
+%8_CITY_SYLL
+Întorsura
+%9_CITY_SYLL
+Some?ul
+%A_CITY_SYLL
+Str?bun
+%B_CITY_SYLL
+deal
+%d convois
+%d convoi
+%d Einzelfahrzeuge im Depot
+%d sunt
+&1_CITY_SYLL
+câmpie
+&2_CITY_SYLL
+sat
+&3_CITY_SYLL
+mun?i
+&4_CITY_SYLL
+vad
+&5_CITY_SYLL
+b?l?i
+&6_CITY_SYLL
+dumbrava
+&7_CITY_SYLL
+vârf
+&8_CITY_SYLL
+v?leni
+&9_CITY_SYLL
+cruci
+&A_CITY_SYLL
+hotar
+1 convoi
+1 convoi
+1 Einzelfahrzeug im Depot
+1 vehicol
+1center
+%s %s
+1extern
+%s întors?tur? %s
+1LIGHT_CHOOSE
+Luminozitate:
+1nord
+%s nord %s
+1nordost
+%s nord-est %s
+1nordwest
+%s nord-vest %s
+1ost
+%s est %s
+1sued
+%s sud %s
+1suedost
+%s sud-est %s
+1suedwest
+%s sud-vest %s
+1west
+%s vest %s
+1WORLD_CHOOSE
+Set?ri pt. noua hart?:
+2center
+%s centru %s
+2extern
+%s de sus %s
+2LIGHT_CHOOSE
+Nr. de culori:
+2WORLD_CHOOSE
+Nr. hart?:
+3center
+%s principal %s
+3extern
+%s de jos %s
+3LIGHT_CHOOSE
+Viteza de scrol:
+3WORLD_CHOOSE
+M?rime (%d MB):
+4center
+%s secundar %s
+4extern
+%s extern %s
+4LIGHT_CHOOSE
+Scrol invers
+5center
+%s transfer %s
+5LIGHT_CHOOSE
+Arat? pietonii
+5WORLD_CHOOSE
+Nr. ora?elor:
+6WORLD_CHOOSE
+Densit. traficului:
+8WORLD_CHOOSE
+Mod zi/noapte
+<no line>
+<f?r? traseu>
+Abfrage
+Unealta info
+Abnehmer
+Consumator
+About
+Despre
+Abriss
+?terge
+Absenken
+Adânce?te sol
+Add Stop
+Adaug?
+Add stops for backward travel
+Adaug? sta?ii noi pt. retur
+Add the selected vehicle(s) to the selected line
+Atribuie vehicolului traseul selectat
+All
+Tot
+Ambiguous signal combination.\nTry removing by clicking the\nother side of the signal.\n
+\nCombina?ie de semafor ambigu!\n\nSe poate schimba prin clic pe semnal pân?\nce sensul devine clar.\n\n
+Angenommene Waren
+Nevoile uzinelor adiacente
+Anhaenger_tab
+Remorci
+Anheben
+Ridic? sol
+Apply Line
+Aplic? traseu
+April
+Aprilie
+Arbeiter aus:
+Muncitori:
+Arrived
+Sosit
+Assets
+Avere
+August
+August
+Bahndepot
+Depou trenuri
+Bankrott:\n\nDu bist bankrott.\n
+Ai falimentat!\n
+Baum
+Copac
+Baustelle
+?antier
+Beenden
+Terminare joc
+BF
+sta?ie
+bio
+bio
+Blockstrecke ist\nbelegt\n
+Linia este ocupat?\nde un alt tren\n
+Boden
+P?mânt
+Bruecke
+Pod
+Bruecke muss an\neinfachem\nHang beginnen!\n
+Podul numai pe pant?\ndreapt? poate fi\nconstruit!\n
+Build ship depot
+Port nave
+Build signals
+Semafor
+Build train depot
+Depou tren
+Build truck depot
+Depou ma?ini
+Cancel
+Retrage
+Cannot create generic line!\nSelect line type by\nusing filter tabs.
+Traseul nu se poate crea!\n\nPrima dat? selecteaz?\ntipul traseului.\n
+Capacity: %s\nLoad: %d (%d%%)
+Capacitate: %s\n? %d (%d%%)
+Cash
+Cash
+Chart
+Grafic
+Choose operation executed on clicking stored/new vehicles
+Op?iunea selectat? intr? în vigoare atunci când se face clic pe vehicol
+City list
+Lista ora?elor
+City size
+M?rime ora?
+clf_btn_alle
+tot
+clf_btn_invers
+inv.
+clf_btn_keine
+nimic
+clf_chk_cars
+Autobuze/ma?ini
+clf_chk_indepot
+în depou
+clf_chk_name_filter
+Nume filtru:
+clf_chk_noincome
+f?r? venit
+clf_chk_noline
+f?r? traseu
+clf_chk_noroute
+r?t?cit
+clf_chk_noschedule
+f?r? rut?
+clf_chk_ships
+Nave
+clf_chk_spezial_filter
+Filtru special:
+clf_chk_trains
+Trenuri
+clf_chk_type_filter
+Tip filtru:
+clf_chk_waren
+Filtru bunuri:
+clf_title
+Filtru vehicole
+cl_btn_filter_disable
+interzis
+cl_btn_filter_enable
+activat
+cl_btn_filter_settings
+Set?ri
+cl_btn_sort_asc
+cresc?tor
+cl_btn_sort_desc
+descresc?tor
+cl_btn_sort_income
+Venit
+cl_btn_sort_name
+Nume
+cl_btn_sort_type
+Tip
+cl_title
+Lista vehicole
+cl_txt_filter
+Filtru:
+cl_txt_sort
+Sorteaz?:
+COLOR_CHOOSE\n
+Alege culoarea:\n
+Construction_Btn
+Construc?ii
+convoi %d of %d
+convoi din %d  %d
+Convoi has been sent\nto the nearest depot\nof appropriate type.\n
+Convoiul este trimis\nîn depoul cel mai\napropiat.\n
+Convois: %d\nProfit: %s
+Vehicole: %d\nProfit: %s
+Convoys
+Convoaie
+Copy Convoi
+Duplicare convoi
+Copy the selected convoi and its schedule or line
+Duplic? convoiul ?i traseul gata f?cut
+Create a new line based on this schedule
+Traseu nou pe baza sta?iilor selectate
+Currently playing:
+Juc?torii:
+Das Feld gehoert\neinem anderen Spieler\n
+Teritoriul apar?ine\nunui alt juc?tor!\n
+December
+Decembrie
+Del Stop
+?terge
+Delete Line
+?terge traseu
+Delete this file.
+?terge fi?ier.
+Denkmal
+Atrac?ie
+Departed
+Plecat
+Der Besitzer erlaubt das Entfernen nicht
+\nÎnl?turarea nu este\npermis? de propietar!\n
+Der Tunnel ist nicht frei!\n
+Tunelul nu este liber!\n
+Destination
+Destinatie
+Details
+Detalii
+Diese Zusammenstellung kann nicht fahren!\n
+Combina?ie gre?it?!\n
+diesel
+dizel
+Direkt erreichbare Haltestellen
+Traseu direct
+Dock
+Doc
+Durchsatz
+Max.
+Eigenbesitz\n
+Proprietate public?\n
+Ein %s\npasst hier nicht.\n
+'%s'\nnu încape!\n
+Einstellungen
+Op?iuni:
+Einstellungen aendern
+Schimbare op?iuni:\n
+Einstellungsfenster
+Set?ri joc
+electric
+electric
+Electrify track
+Cale ferat? electrificat?
+Erzeuge neue Karte.\n
+V? rug?m pu?in?\nr?bdare pâna la\ngenerarea noi h?r?i.\n\n(În cazul h?r?ilor\nmari timpul poate\nfi destul de lung.)\n
+Es wird bereits\nein Fahrplan\neingegeben\n
+Deja este început\nun traseu!\n
+Fabrikanschluss
+Parteneri
+Fahrplan
+Traseu/rut?
+Fahrzeuge koennen so nicht entfernt werden
+Vehicolul nu poate fi\nînl?turat în acest mod!\n
+Fahrzeuge:
+Vehicole
+Farbe
+Culoare juc?tor
+February
+Februarie
+Fertig
+Gata
+Filename
+Nume fi?ier:
+Finanzen
+Finan?e
+Found new city
+Fondeaz? un nou ora?
+Fracht
+Marf?
+Free Capacity
+Capacit. libere.
+Full load
+A?teapt?:
+Fussgaenger
+Pieton
+GAME PAUSED
+Paus?
+Gear:
+Angrenaj:
+Gebaeude
+Cl?dire
+Gewicht
+Greutate
+Gewinn
+Încasare
+Give the selected vehicle(s) an individual schedule
+Prima dat? terbuie definit o rut?
+go home
+înapoi depou
+Goods list
+Lista bunurilor
+Gross Profit
+Profit brut
+H
+sta?ie
+Happy
+Satisf?cut
+Helligk.
+Monitor
+Helligk. u. Farben
+Setare monitor
+Hier kann kein\nSignal aufge-\nstellt werden!\n
+Aici nu se poate\nconstrui semafor!\n
+Hier warten/lagern:
+Marf?/pasageri în a?teptare:
+hlf_btn_alle
+tot
+hlf_btn_invers
+inv.
+hlf_btn_keine
+nimic
+hlf_chk_anleger
+Doc
+hlf_chk_bahnhof
+Sta?ie cale ferat?
+hlf_chk_bushalt
+Sta?ie autobuz
+hlf_chk_frachthof
+Depou
+hlf_chk_keine_verb
+f?r? contact
+hlf_chk_name_filter
+Nume filtru:
+hlf_chk_spezial_filter
+Filtru special:
+hlf_chk_type_filter
+Tip filtru:
+hlf_chk_waren_abgabe
+Produc?ie:
+hlf_chk_waren_annahme
+Materii prime necesare:
+hlf_title
+Filtru sta?ii
+hl_btn_filter_disable
+Interzis
+hl_btn_filter_enable
+Activat
+hl_btn_filter_settings
+Set?ri
+hl_btn_sort_asc
+Cresc.
+hl_btn_sort_desc
+Descres.
+hl_btn_sort_name
+Dp. nume
+hl_btn_sort_type
+Tip
+hl_btn_sort_waiting
+Dp. a?tept.
+hl_title
+Lista sta?iilor
+hl_txt_filter
+Filtru:
+hl_txt_sort
+Sorteaz?:
+Home depot not found!\nYou need to send the\nconvoi to the depot\nmanually.
+Depou inexistent!\nDepoul trebuie desemna\nmanual.
+Homeless
+Cer?etori
+hydrogene
+hidrogen
+Ins Stop
+Inserare
+Intro. date:
+An fabrica?ie:
+January
+Januarie
+July
+Julie
+June
+Junie
+Kann Spielstand\nnicht laden.\n
+Fi?ierul nu se poate deschide!\n
+Kann Spielstand\nnicht speichern.\n
+Fi?ierul nu poate fi suprascris!\n
+keine
+nimic
+Keine Einzelfahrzeuge im Depot
+Nu este vehicol
+Lade Relief
+Încarc? hart?.
+Laden
+Încarc?
+LANG_CHOOSE\n
+Alege limba:\n
+Last Year
+Anul trecut:
+leer
+gol
+Leistung
+Putere
+Leitung
+Linie electrificat?
+letzen Monat: diesen Monat:
+luna trecut?:   luna asta:
+Line
+Traseu
+Line Management
+Management trasee
+Lines are used to manage groups of vehicles
+Cu trasee po?i dirija u?or mai multe vehicole
+Lines serving this stop
+Trasee ce deservesc sta?ia
+LKW_tab
+Ma?ini
+Load game
+Încarc? joc
+LOCO_CAP
+Capacitate: %d%s %s\n
+LOCO_INFO
+%s\nPre?: %d$ (%1.2f$/km)\nPutere: %dKW, %dkm/o\nGreutate: %dt\n
+Lokomotive_tab
+Locomotive
+m3
+m3
+Maintenance
+Între?inere
+Map roughness
+Dificultate teren:
+March
+Martie
+Marker
+Indicator
+Max. speed:
+Vit. max.:
+May
+Mai
+Meldung
+Mesaj
+Menge
+Cantitate
+Modify the selected line
+Modificarea traseului selectat
+Months
+Lun?
+Mountain height
+In?l?ime mun?i:
+Move the selected vehicle(s) back to the depot
+Vehicolul selectat este dus înapoi în depou
+Music playing disabled/not available
+Muzica deactivat?
+Music volume:
+Volum muzic?:
+Net Wealth
+Profit net
+Neue Karte
+Hart? nou?
+Neue Welt
+Hart? nou?
+new convoi
+convoi nou
+New Line
+Traseu nou
+New line created!\nYou can assign the line now\nby selecting it from the\nline selector above.
+Traseul nou este gata!\nAtribuirea se face cu\nselectorul de traseu.\n
+New vehicle now available:\n%s\n
+V? st? la dispozi?ie un nou vehicol:\n ? %s ? \n\n
+New Vehicles
+Vehicol nou
+no convois
+nu este conv.
+no goods waiting
+nu este marf? în a?teptare
+No Route
+F?r? rut?
+Noch kein Fahrzeug\nmit Fahrplan\nvorhanden\n
+Prima dat? define?te un traseu!\n
+Not allowed!\nThe convoi's schedule can\nnot be changed currently.\nTry again later!
+Interzis schimbarea\ntraseului. Încearc?\nmai târziu!\n
+November
+Noiembrie
+Ok
+Accept?
+Oktober
+Octombrie
+Operation
+Opera?ii
+Ops Profit
+Profit ops
+Origin
+Origine
+paletten
+palete
+Passagiere
+pasageri
+Passagierrate
+Trafic pasageri
+Passagierziele
+Destina?ie pasager/po?t?
+Pause
+Pauz?
+Please choose vehicles first\n
+Selecteaz? un vehicol prima dat?!\n
+Post
+Post?
+Post muss neben\nHaltestelle\nliegen!\n
+Po?ta trebuie s? fie\naproape de sta?ie!\n
+Postrate
+Trafic po?t?
+Power
+Putere
+Produktion
+Produc?ie
+Profit
+Profit
+promote to line
+Traseu nou
+q1
+Prim?vara
+q2
+Var?
+q3
+Toamn?
+q4
+Iarn?
+RAILTOOLS
+Scule pt. trenuri
+Random map
+Hart? aleatorie
+Reliefkarte
+Hart?
+Remove vehicle from map. Use with care!
+Înl?tur? vehicolul!\n(doar pe prorie r?spundere :-) )
+Restwert:
+Pre? vânzare:
+return ticket
+Retur
+Revenue
+Venit
+ROADTOOLS
+Scule pt. automobile
+sack
+ sac(i)
+Schienentunnel
+Tunel feroviar
+Schiffdepot
+Depou nave
+Schiffhalt muss im\nWasser liegen!\n
+Punc de ancorare\nse poate pune numai pe\nap?, aproape de port!\n
+Schiff_tab
+Nave
+Schleppkahn_tab
+Balize
+Screenshot\ngespeichert.\n
+Imaginea \ns-a salvat.\n
+Sell the selected vehicle(s)
+Vehicolul selectat este vândut
+Sends the convoi to the last depot it departed from!
+Vehicolul este trimis în depoul de unde provine!
+September
+Septembrie
+SEP_FRACTION
+,
+Serves Line:
+Rut? de deserv:
+Service
+Service
+Ship
+Nav?
+SHIPTOOLS
+Scule pt. nave
+Show/hide statistics
+Arat?/ascunde statist.
+SLOPETOOLS
+Formeaz? relief
+Sort waiting list by
+Sorteaz? list?.:
+Sound
+Sunet
+Sound settings
+Setare sunet
+Sound volume:
+Volum efecte:
+special freight
+marf? special?
+Speedlimit
+Vitez? limit.
+Speichern
+Salveaz?
+Spieler
+Juc?tor
+Spieler(mz)
+Juc?tori\n
+Spielerliste
+\n   Albastru . . . .   %.2f$\n\n   Galben . .   %.2f$\n\n   Ro?u . .   %.2f$\n\n   Verde . . . .   %.2f$\n\n   Turcoaz . . .  %.2f$\n\n   Roz %.2f$\n
+Spielstand wurde\ngeladen!\n
+\nÎnc?rcarea jocului s-a terminat!\n
+Spielstand wurde\ngespeichert!\n
+\nSalvarea jocului s-a terminat!\n
+Sprache
+Limba
+Stadtinformation
+Statisticile ora?ului
+Start
+Start
+Start the selected vehicle(s)
+Porne?te vehicolul selectat
+Starte Spiel
+Porne?te joc
+Station already\nhas a post office!\n
+Sta?ia are deja po?t?!\n
+Status
+Stare
+steam
+aburi
+Strassendepot
+Depou ma?ini
+Strassentunnel
+Tunel
+Suppliers
+Parteneri:
+Tage alt
+zile
+There are still vehicles\nstored in this depot!\n
+Mai este vehicol\nîn depou!\n
+This Year
+Anul actual:
+tonnen
+t
+Tracks
+Trasee
+Traffic
+Trafic
+Train
+Tren
+Truck
+Camion
+Tunnel muss an\neinfachem\nHang beginnen!\n
+Tunelul numai pe pant?\ndreapt? poate fi\nconstruit!\n
+Tunnelmuendung
+Tunel
+Unemployed
+?omeri
+Unhappy
+Nesatisf?cut
+units/day
+unitate/zi
+Update Line
+Actualizare traseu
+Verbrauch
+Consum
+Verkauf
+Vinde
+verkaufen
+Vânzare
+Verkehrsteilnehmer
+Automobil
+Verschuldet:\n\nDu hast %d Monate Zeit,\ndie Schulden zurueckzuzahlen.\n
+Ai datorie!\n\n%d luni ?i-au r?mas\npt. rambursarea datoriei!\n
+via
+via
+via %s\n
+via %s\n
+voranstellen
+În fat?
+Wagen im Block
+vagoane pe traseu
+WAGGON_INFO
+%s\nPre?    : %d$ (%1.2f$/km)\nCapacitate: %d%s %s\nGreutate: %dt\nVit. max.: %dkm/ó\n
+Waggon_tab
+Vagoane
+waiting
+A?teapt?
+Water level
+Adâncime ap?:
+Wegpunkt
+Punc de a?teptare
+Wert
+Valoare
+WRONGSAVE
+\nVersiune incompatibil?.\nÎnc?rcarea fi?ierului nu este posibil?.\n
+Years
+An
+Zielort
+Destina?ie
+Zu nah am Kartenrand
+Marginea h?r?ii este\nprea aproape pt.\nconstruc?ie!\n
+Zu nah an einem\nanderen Signal!\n
+Deja este un semafor\nîn apropiere!\n
+Zughalt muss auf\nSchiene liegen!\n
+Sta?ie de cale ferat? numai\npe cale ferat? se poate\nconstrui!\n
+\nCan't open heightfield file.\n
+\nRelieful nu poate fi deschis.\n
+\nHeightfield has wrong image type.\n
+\nRelieful con?ine imagini\nincompatibile.\n
