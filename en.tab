@@ -502,7 +502,7 @@ The vehicle will be sold as soon as it is completely empty.
 Convoi is sent to depot when all wagons are empty.
 The convoy will be sent to the nearest depot as soon as it is completely empty.
 convoi passed last\nmonth %i\n
-\nconvoys passing in the last\nmonth: %i\n
+\nConvoys passing in the\nlast month: %i\n
 Convois: %d\nProfit: %s
 Vehicles: %d\nProfit: %s
 Convoys
@@ -554,7 +554,7 @@ Direct routes from here
 Dock
 dock
 Dock must be built on single slope!
-Docks must be built on a single-sloped tile.
+Docks must be built on a\nsingle, sloped tile.
 Du hast %d Monate Zeit, deine Schulden zurueckzuzahlen
 You have %d months to repay your debt.
 Durchsatz
@@ -1291,6 +1291,10 @@ Speichern
 Save
 Spieler
 Player
+owned by
+Owned by
+Haus kaufen
+Buy house
 Spieler(mz)
 Players
 Spielerliste
@@ -1425,6 +1429,8 @@ Vehicle %s is stucked!
 Vehicle %s is stuck!
 Vehicle details
 Vehicle details
+Rotate map
+Rotate map (CTRL + R)
 no route
 No route
 stuck
@@ -1526,13 +1532,13 @@ Hide all buildings
 \nCan't open heightfield file.\n
 \nCannot open height map.\n
 \ndirection:
-\ndirections: 
+\nDirections: 
 \nelektrified
 \nElectrified\n
 \nHeightfield has wrong image type.\n
 \nHeightfield has wrong\nimage type.\n
 \nis reserved by:
-\nreserved by train 
+\nReserved by: 
 \nminimum speed:
 \nminimum speed: 
 \nnot elektrified
@@ -1544,7 +1550,7 @@ Hide all buildings
 \nsingle way
 \nSingle Way
 \nwith sign/signal\n
-\nwith sign/signal\n
+\nHas a sign or signal\n
 \nRibi (unmasked)
 \nDirections\n (unmasked): 
 month wait time
@@ -1564,7 +1570,7 @@ Terraforming not possible\nhere in underground view
 Cannot built this station/building\nin underground mode here.
 Cannot built this station/building\nin underground mode here.
 sliced underground mode
-Sliced underground mode
+Sliced underground mode (CTRL + U)
 decrease underground view level
 Decrease underground view level
 increase underground view level
@@ -1578,7 +1584,9 @@ Loading paks ...
 Loading addon paks ...
 Loading addon paks ...
 PaxDest
-Pass. destinations
+Pass. dest.
+Passenger destinations
+Passenger destinations
 The main game window can be scrolled by right-clicking and dragging the ground.
 The main game window can be scrolled by right-clicking and dragging the ground.
 Pedestrians will appear near stops whenver a passenger vehicle unloads there.
@@ -1607,4 +1615,6 @@ Routes will update instantly after any changes to lines/schedules. Can make the 
 Routes will update instantly after any changes to lines/schedules. Can make the game respond slowly on big maps.
 See under the ground, one layer at a time. Toggle with CTRL + U. Move up/down in layers with HOME and END.
 See under the ground, one layer at a time. Toggle with CTRL + U. Move up/down in layers with HOME and END.
+Kein Besitzer\n
+Unowned or privately owned\n
 

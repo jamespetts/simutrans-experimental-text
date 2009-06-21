@@ -22,7 +22,7 @@ Click the buttons to cycle through the options (the button text changes to refle
 - <em>Waiting</em> ordered by the amount of passengers, mail or goods present in proportion to the stop's capacity.
 </p>
 <p>
-- <em>ascending</em> / <em>descending</em> reverses order of the list.
+- <em>ascending</em> / <em>descending</em> reverses the order of the list.
 </p>
 <p>
 <em>Filter:</em> two option buttons apply and set options for the filter.
