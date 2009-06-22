@@ -3,7 +3,7 @@ PROP_FONT_FILE
 Prop-Latin1.bdf
 ################################################################################
 #                                                                              #
-#                        Simutrans Base Translation File                       #
+#                 Simutrans-Experimental Base Translation File                 #
 #                             Scenario: Base texts                             #
 #                             Language: en English                             #
 #                                Encoding: ASCII                               #
@@ -141,6 +141,14 @@ Hill
 %s\nopened a new railway\nbetween %s\nat (%i,%i) and\n%s\nat (%i,%i).
 %s\nspeed %i\nmax_speed %i\ndx:%i dy:%i
 %s\nspeed %i\nmax speed %i\ndx:%i dy:%i
+%s\nwas liquidated.
+%s\nhas been liquidated.
+<em>%C</em> - %s<br>\n
+[<em>%C</em>]: %s<br>\n
+<no line>
+<no line exists>
+<title>Keyboard Help</title>\n<h1><strong>Keyboard Help</strong></h1><p>\n
+<title>Keyboard Help</title>\n<h1><strong>Keyboard Help</strong></h1>\n<p>\n<strong>Keyboard Help</strong> shows functions for various key presses on the keyboard.\n</p>\n<p>\nThe <strong>Keyboard Help</strong> window opens when an unassigned key is pressed or from <a href="general.txt">general help</a>.\n</p>\n<p>\nKey presses are case sensitive (use [<em>Shift</em>] for upper-case letters).\n</p>\n<p>\nKeys with assigned functions include:\n</p>\n<p>\n[<em>Arrow Keys</em>]: scroll the main game window in the direction of the arrow.<br>\n[<em>Backspace</em>]: close all windows, toolbars and help-texts in the main game window.<br>\n[<em>Delete</em>], or [<em>Escape</em>]: close the top window, toolbar or help text visible.<br>\n[<em>Enter</em>], or [<em>Return</em>]: used to confirm actions.<br>\n[<em>Page-Up</em>], or [<em>></em>]: zoom in the main game window.<br>\n[<em>Page-Down</em>], or [<em>less than symbol</em>]: zoom-out the main game window.\n[<em>F1</em>]: open <a href="general.txt">Simutrans Help</a>.<br></p>\n<p>\n[<em>1</em>]: scroll the main game window South.<br>\n[<em>2</em>]: scroll the main game window South-East.<br>\n[<em>3</em>]: scroll the main game window east-wards.<br>\n[<em>4</em>]: scroll the main game window South-West.<br>\n[<em>6</em>]: scroll the main game window North-East.<br>\n[<em>7</em>]: scroll the main game window West.<br>\n[<em>8</em>]: scroll the main game window North-West.<br>\n[<em>9</em>]: scroll the main game window North.\n</p>\n<p>\n[<em>Shift</em>] + <a href="mouse.txt">mouse</a>: used on the <a href="map.txt">map</a> to see links in <a href="industry_info.txt">industry chains</a>.<br>\n[<em>CTRL</em>] + tool: construct (signals & <a href="station.txt">Stops</a>) on upper level; or build slower roads and tracks over faster ones; or build straighter (more direct) roads and tracks.<br>\n[<em>CTRL</em>] + ([<em>F2</em>] to [<em>F12</em>]): sets the select current tool to keypresses [<em>F2</em>] to [<em>F12</em>].\n</p>\n<p>
 and1_CITY_SYLL
 chester
 and2_CITY_SYLL
@@ -237,12 +245,6 @@ Traffic density:
 %s city %s
 8WORLD_CHOOSE
 Cycle day and night
-<em>%C</em> - %s<br>\n
-[<em>%C</em>]: %s<br>\n
-<no line>
-<no line>
-<title>Keyboard Help</title>\n<h1><strong>Keyboard Help</strong></h1><p>\n
-<title>Keyboard Help</title>\n<h1><strong>Keyboard Help</strong></h1>\n<p>\n<strong>Keyboard Help</strong> shows functions for various key presses on the keyboard.\n</p>\n<p>\n<strong>Keyboard Help</strong> opens when an unassigned key is pressed or from <a href="general.txt">General Help</a>.\n</p>\n<p>\nKey presses are case sensitive (use [<em>Shift</em>] for upper-case letters).\n</p>\n<p>\nKeys with assigned functions include:\n</p>\n<p>\n[<em>Arrow Keys</em>]: scroll the main game window in direction of arrow.<br>\n[<em>Backspace</em>]: close all windows, toolbars and help-texts in the main game window.<br>\n[<em>Delete</em>], or [<em>Escape</em>]: close top window, toolbar or help-text in the main game window.<br>\n[<em>Enter</em>], or [<em>Return</em>]: used to confirm actions.<br>\n[<em>Page-Up</em>], or [<em>></em>]: zoom-in the main game window.<br>\n[<em>Page-Down</em>], or  [<em> less than symbol</em>]: zoom-out the main game window.\n[<em>F1</em>]: open <a href="general.txt">Simutrans Help</a>.<br></p>\n<p>\n[<em>1</em>]: scroll the main game window south-wards.<br>\n[<em>2</em>]: scroll the main game window south-east-wards.<br>\n[<em>3</em>]: scroll the main game window east-wards.<br>\n[<em>4</em>]: scroll the main game window south-west-wards.<br>\n[<em>6</em>]: scroll the main game window north-east-wards.<br>\n[<em>7</em>]: scroll the main game window west-wards.<br>\n[<em>8</em>]: scroll the main game window north-west-wards.<br>\n[<em>9</em>]: scroll the main game window north-wards.\n</p>\n<p>\n[<em>Shift</em>] + <a href="mouse.txt">mouse</a>: used on <a href="map.txt">Map</a> to see links in <a href="industry_info.txt">Industry Supply Chain</a>.<br>\n[<em>CTRL</em>] + tool: construct (signals and <a href="station.txt">Stops</a>) on upper level; or build slower roads and tracks over faster ones; or build straighter (more direct) roads and tracks.<br>\n[<em>CTRL</em>] + ([<em>F2</em>] to [<em>F12</em>]): sets select current tool to keypresses [<em>F2</em>] to [<em>F12</em>].\n</p>\n<p>
 A bridge must end on a way!
 Bridges must end on an\nexisting way. A bridge can\n only start on a single\nway tile and must end either\non a single way tile\nor a matching slope.\n
 A bridge must start on a way!
@@ -257,6 +259,8 @@ Abriss
 Destroy/remove
 Absenken
 Lower land
+Accelerate time
+Accelerate time
 Add Stop
 Add Stop
 Add stops for backward travel
@@ -277,8 +281,6 @@ Allow player change
 Allow player change
 Alters a schedule.
 Add/removes stops to/from a schedule
-Ambiguous signal combination.\nTry removing by clicking the\nother side of the signal.\n
-\nToo many signals nearby.\n\nTry removing by clicking the\nother side of the signal.\n\n
 Angenommene Waren
 Goods needed by nearby industries
 anhaengen
@@ -379,6 +381,8 @@ Built random attraction
 Build a random attraction.
 Bus_tab
 Buses
+Can only move from halt to halt or waypoint to waypoint.
+Can only move \nfrom halt to halt or \nfrom waypoint to waypoint.
 cancel
 Cancel
 Cannot built depot here!
@@ -485,6 +489,8 @@ cl_txt_filter
 Filter:
 cl_txt_sort
 Sort by:
+Clear block reservation
+Show/clear block reservations
 COLOR_CHOOSE\n
 Please choose a\ncolour from the\ntable:\n
 Constructed by
@@ -521,6 +527,8 @@ Das Feld gehoert\neinem anderen Spieler\n
 This piece of\nland is owned by\nanother player!\n
 December
 December
+Deccelerate time
+Decelerate time
 Del Stop
  Remove
 Delete Line
@@ -983,6 +991,8 @@ no load
 No load
 No Route
 No Route
+No stop here!
+A stop can only\nbe placed on a matching\nway type, and not on top\nof another stop.
 No terminal station here!
 A terminal station can only\nbe placed on a matching\nway type, at the end of\na way. It cannot be placed\non top of another station\nor signals/signs.
 No through station here!
@@ -1157,6 +1167,8 @@ City Hall
 City Hall
 Rating
 Status
+remove airstrips
+remove runways
 Reliefkarte
 Map
 Remove vehicle from map. Use with care!
@@ -1225,6 +1237,8 @@ shops and stores
 Shops and offices\n
 Show all
 Show all
+show all building
+Show all buildings
 Show also vehicles no longer in production.
 Also show obsolete vehicles
 Show also vehicles that do not match for current action.
@@ -1392,7 +1406,7 @@ Trams/light rail tools
 Transported
 Transported
 Travellers now\nuse %s's\nbusses between\n%s \nand %s.\n
-Travellers now\nuse %s's\nbuses between\n%s \nand %s.\n
+Passengers now\nuse %s's\nbuses between\n%s \nand %s.\n
 tropic
 Tropical climate
 Truck
@@ -1439,6 +1453,8 @@ too heavy
 Too heavy
 Verbrauch
 Consumption
+Vergroessere die Karte\n
+Enlarge map.\n
 Verkauf
 Sell
 verkaufen
