@@ -103,6 +103,8 @@ Neu
 Steinen
 %B_CITY_SYLL
 Rast
+%C: - %s<br>\n
+%C: - %s<br>\n
 %d buildings\n
 %d Gebäude
 %d convois
@@ -123,12 +125,18 @@ Touristen nutzen nun\n%ss\nVerbindung zwischen\n%s und\n%s bei (%i,%i).\n
 %s\nschafft nun Arbeiter\naus %s\nzur Fabrik\n%s\nbei (%i,%i).\n
 %s s\nheadquarter now\nat (%i,%i).
 Neuer Firmensitz von %s eröffnet.
+%s wasted\nyour money with a\nnew townhall\nwhen it reached\n%i inhabitants.
+Bürgermeister will\nnicht mehr frieren:\n%s\nbaut ein neues Rathaus.\n
 %s\nnow operates\n%i trucks between\n%s at (%i,%i)\nand %s at (%i,%i).
 %s fährt\nnun mit %i LKW zwischen\n%s (%i,%i)\nund %s\nbei (%i,%i).\n
 %s\nopened a new railway\nbetween %s\nat (%i,%i) and\n%s at (%i,%i).
 %s hat eine\nneue Bahnverbindung\nzwischen %s\nbei (%i,%i) und\n%s\nbei (%i,%i) eingeweiht.\n
 %s\nspeed %i\nmax_speed %i\ndx:%i dy:%i
 %s\n\n
+%s\nwas liquidated.
+%s\nwurde liquidiert.
+%s's\nheadquarter now\nat (%i,%i).
+Neues Hauptquartier von\n%s bei\n(%i,%i) eingeweiht!.
 &1_CITY_SYLL
 stadt
 &2_CITY_SYLL
@@ -153,6 +161,8 @@ werda
 (%i) 
 (in depot)
 (im Depot)
+\n\nRibi (unmasked)
+\nRichtungen (alle) 
 \nBauzeit bis
  bis 
 \nBauzeit von
@@ -167,6 +177,8 @@ werda
 \nFalscher Dateityp.\n
 \nis reserved by:
 \nreserviert von Zug: \n 
+\nMax. weight:
+zul. Gesamtgewicht:
 \nminimum speed:
 \nMindestgeschwin-\ndigkeit: 
 \nnot elektrified
@@ -179,6 +191,10 @@ werda
 \nRichtungen (alle):
 \nsingle way
 Keine Einfahrt!
+\nway1 reserved by
+Weg 1 besetzt von 
+\nway2 reserved by
+Weg 2 besetzt von 
 \nwith sign/signal\n
 \nHat Verkehrszeichen/Signal\n
 <em>%C</em> - %s<br>\n
@@ -243,22 +259,34 @@ Größe (%d MB):
 %s Außen %s
 4LIGHT_CHOOSE
 Inverses Kartenscrolling
+4suburb
+%s Kolonie %s %s
 5center
 %s Transfer %s
+5extern
+%s Wiesengrund %s
 5LIGHT_CHOOSE
 Fußgänger (Haltestellen)
+5suburb
+Entwicklungsgebiet %s %s %s
 5WORLD_CHOOSE
 Anzahl Städte:
 6center
 %s Zentrum %s
+6extern
+%s Industriepark %s
 6LIGHT_CHOOSE
 Fußgänger (Stadt)
 6WORLD_CHOOSE
 Verkehrsdichte:
 7center
 %s Stadt %s
+8center
+%s Knoten %s
 8WORLD_CHOOSE
 Tag und Nacht wechseln
+9center
+%s Ring %s
 A bridge must end on a way!
 Brücke muss auf\neiner Straße/Gleis enden!\n
 A bridge must start on a way!
@@ -273,6 +301,14 @@ Abriss
 Abrisswerkzeug
 Absenken
 Land absenken
+Accelerate time
+Spielablauf beschleunigen
+Account above %s
+%s Kontostand
+Active player only
+nur eigene Marker
+Add forest
+Wald aufforsten
 Add Stop
 Hinzufügen
 Add stops for backward travel
@@ -283,6 +319,10 @@ Air
 Flug
 aircraft_tab
 Frachtflugzeuge
+Airline service by\n%s\nnow between\n%s \nand %s.\n
+%s hat\neine Flugverbindung zwischen\n%s und\n%s eingerichtet.
+airplane
+Luftfahrzeug
 Airport
 Flughafen
 AIRTOOLS
@@ -291,6 +331,8 @@ All
 Alle
 Allow player change
 Spieler darf wechseln
+allowed climates:\n
+Klimazonen:\n
 Alters a schedule.
 Fahrplan verändern
 Ambiguous signal combination.\nTry removing by clicking the\nother side of the signal.\n
@@ -303,6 +345,8 @@ Anhaenger_tab
 Anhänger
 Anheben
 Land anheben
+Appends stops at the end of the schedule
+Halt am Fahrplanende hinzufügen
 Apply Line
 Linie zuweisen
 April
@@ -311,6 +355,8 @@ Arbeiter aus:
 Arbeiter aus:
 arctic
 Polarklima
+Arrived
+Angekommen
 Assets
 Fahrzeugwert
 Aufloesen
@@ -333,6 +379,8 @@ baum builder
 Bäume pflanzen
 Baustelle
 Baustelle
+Bauzeit
+Bauzeit
 Beenden
 Beenden
 Beginner mode
@@ -347,6 +395,8 @@ Blockstrecke ist\nbelegt\n
 \nBlockstrecke ist\nbelegt!\n
 Boden
 Land
+bridge is too high for its type!
+Tal ist zu tief für\ndiesen Brückentyp!\n
 Bridge is too long for this type!\n
 Die Spannweite ist\nzu groß für diese Art\nvon Brücke!\n
 Bruecke
@@ -355,6 +405,8 @@ Bruecke muss an\neinfachem\nHang beginnen!\n
 Die Brücke muss an\neinem geraden\nHang beginnen!\n
 Brueckenboden
 Brücke
+Build air depot
+Flughafenhangar bauen
 build choosesignals
 Einfahrtsignal
 Build city market
@@ -365,6 +417,8 @@ build HQ
 Firmensitzbau
 Build land consumer
 Industriekette auf dem Land errichten
+Build maglev depot
+Magnetbahndepot bauen
 Build monorail depot
 Einschienenbahndepot
 Build monotrail depot
@@ -387,6 +441,8 @@ Build truck depot
 Straßenfahrzeugdepot
 Building costs estimates
 ungefähre Baukosten
+Buildings
+Anzahl Häuser
 Built artifical slopes
 Aufschüttungen
 Built random attraction
@@ -397,6 +453,8 @@ Can only move from halt to halt or waypoint to waypoint.
 Kann nur von Halt zu Halt\noder von Wegpunkt zu\nWegpunkt verschieben
 cancel
 Abbrechen
+Cancel
+Abbrechen
 Cannot built depot here!
 Hier kann kein Depot gebaut werden!
 Cannot create generic line!\nSelect line type by\nusing filter tabs.
@@ -405,18 +463,24 @@ Capacity: %s\nLoad: %d (%d%%)
 Kapazität: %s\n» %d (%d%%)
 Cars are not available yet!
 Es gibt noch nicht einmal Pferde!\nBitte erst nach dem Urknall starten ...
+cars.\nstate
+Fahrzeugen\n
 Cash
 Kontostand
 Change player
 Spieler wechseln
 Chart
 Statistik
+Choose direction
+Ausrichtung auswählen
 Choose operation executed on clicking stored/new vehicles
 Wähle, was mit angeklickten gelagerten/neuen Fahrzeugen geschehen soll.
 chooses a random map
 Wählt eine Zufallskarte aus
 citicens
 Einwohner
+City attraction
+Stadtattraktionen
 City industries
 Stadtgeschäfte
 City list
@@ -453,6 +517,8 @@ cl_txt_filter
 Filter:
 cl_txt_sort
 Sortiert nach:
+Clear block reservation
+Blockreservierungen anzeigen/aufheben
 clf_btn_alle
 alle
 clf_btn_invers
@@ -499,12 +565,18 @@ clf_title
 Fahrzeugliste - Einstellungen
 Climate Control
 Klimazonen einstellen
+closed
+Geschlossen
 COLOR_CHOOSE\n
 Bitte wählen Sie\nIhre Kennfarbe\ndurch Anklicken:\n
+Company bankrupt
+Die Firma ist pleite!
 Congratulation\nScenario was complete in\n%i months %i years.
 Glückwünsche\n\nDas Spielziel wurde in\n\n%i Monat(en) und %i Jahr(en)\n\nerreicht!\n
 Connect factory
 Industrien mit Lieferverträgen verbinden
+Connected stops
+Erreichbare Haltestellen:
 Constructed by
 Gemalt von 
 Constructed by %s
@@ -519,6 +591,8 @@ Convoi is sold when all wagons are empty.
 Fahrzeugverband wird verkauft, sobald dieser leer ist.\nVerkaufswert wird dem Kontostand gutgeschrieben.
 convoi passed last\nmonth %i\n
 \nIm letzten Monat vorbeigefahrene \n Fahrzeuge: %i\n
+Convois
+Fahrzeuge
 Convois: %d\nProfit: %s
 Fahrzeuge: %d\nProfit: %s
 Convoys
@@ -527,6 +601,8 @@ Copy Convoi
 Kopieren
 Copy the selected convoi and its schedule or line
 Fahrzeugverband mit Fahrplan oder Linienzugehörigkeit kopieren.
+cost for removal
+Kosten für's Entfernen
 Create a new line based on this schedule
 Eine neue Linie mit diesem Fahrplan anlegen.
 curiosity builder
@@ -537,12 +613,16 @@ Currently playing:
 Gerade abgespielt wird:
 Das Feld gehoert\neinem anderen Spieler\n
 Das Grundstück\ngehört einem\nanderen Spieler!\n
+Deccelerate time
+Spielablauf verlangsamen
 December
 Dezember
 Del Stop
 Löschen
 Delete Line
 Linie löschen
+Delete the current stop
+ausgewählten Halt löschen
 Delete this file.
 Diese Datei löschen.
 Denkmal
@@ -569,6 +649,8 @@ diesel
 Diesel
 Direkt erreichbare Haltestellen
 -- direkte Verkehrsverbindungen:
+disable midi
+Midi-Musik ausschalten
 Dock
 Hafen
 Dock must be built on single slope!
@@ -591,12 +673,18 @@ Einstellungsfenster
 Einstellungen ändern
 electric
 Elektrisch
+Electricity
+Stromversorgung
+Electricity producer\n\n
+Stromerzeuger
 Electrics_tab
 Elektrotraktion
 Electrify track
 Fahrleitung
 enlarge map
 Kartenfläche vergrößern
+enter a value between %i and %i
+Erlaubte Werte: zwischen %i und %i
 Error
 Auch der Computer irrt...
 Erzeuge neue Karte.\n
@@ -629,6 +717,8 @@ Fast forward
 Schnelllauf
 February
 Februar
+Ferry service by\n%s\nnow between\n%s \nand %s.\n
+Schiff Ahoi!\n%s Kreuzfahrten\nbringt nun Passagiere von\n%s nach %s.
 Ferry_tab
 Fähren
 Fertig
@@ -661,16 +751,22 @@ Frame time:
 Bildfrequenz:
 Free Capacity
 Freie Kapazität
+freeplay mode
+Ohne Bankrott
 Friction:
 Momentaner Bremswert:
 fuel_cell
 Brennstoffzelle
 Full load
 Mindestbeladung:
+Full replace
+Ersetzen
 Fussgaenger
 Fußgänger
 GAME PAUSED
 Spiel angehalten
+Gear:
+Übersetzung:
 Gebaeude
 Gebäude
 Gewicht
@@ -695,12 +791,16 @@ go home
 zum Depot
 Goods
 angeforderte Waren 
+Goods AI
+Fracht-KI
 Goods list
 Warenübersicht
 Goods supplied
 angebotene Waren 
 Gross Profit
 Bruttogewinn
+Groundobj
+Objekt
 Grow city
 Einwohnerzahl erhöhen
 Growth
@@ -711,6 +811,10 @@ Hangar
 Hangar
 Happy
 Zufrieden
+Headquarter and %li trains
+Firmensitz und %li Züge
+Headquartern and %li trains
+Firmensitz und %li Züge
 Helligk.
 Anzeige
 Helligk. u. Farben
@@ -723,6 +827,8 @@ hide all building
 alle Gebäude minimieren
 hide city building
 Stadtgebäude minimieren
+hide station names
+Stationsnamen ausblenden
 hide transparent
 Transparent statt minimiert
 hide trees
@@ -733,6 +839,8 @@ Hier kann kein\nSignal aufge-\nstellt werden!\n
 Hier kann kein\nSignal aufge-\nstellt werden!\n
 Hier warten/lagern:
 Wartende Passagiere/Güter:
+Hilly landscape
+Extreme Höhendifferenzen
 hl_btn_filter_disable
 aus
 hl_btn_filter_enable
@@ -805,6 +913,8 @@ Idle:
 Leerlauf:
 ignore climates
 alle Klimazonen
+Increase Industry density
+Industriedichte erhöhen
 industrial building
 Industriegebäude
 Init map ...
@@ -813,10 +923,14 @@ Input
 Eingang
 Ins Stop
 Einfügen
+Insert stop before the current stop
+Halt vor aktueller Fahrplanposition einfügen
 Intercity road len:
 Verbindungstraßenlänge:
 Intro. date:
 Einführung:
+invalid
+undefiniert
 Invalid coordinate
 ungültiger Eintrag
 isometric map
@@ -825,6 +939,8 @@ January
 Januar
 July
 Juli
+Jump to
+Zentrieren auf
 June
 Juni
 Kann Spielstand\nnicht laden.\n
@@ -835,6 +951,8 @@ keine
 keine
 Keine Einzelfahrzeuge im Depot
 Keine Fahrzeuge im Depot
+Keyboard_Help\n
+Tastaturkürzel\n
 koord
 nach Orten
 Kreuzung
@@ -845,6 +963,8 @@ Lade Relief
 Lade Relief
 Laden
 Laden
+Land attraction
+Ausflugsziel
 Land industries
 Industriezweige
 LANG_CHOOSE\n
@@ -883,6 +1003,8 @@ Load game
 Lade Spiel
 load height data from file
 Lade Relief aus Datei
+Load scenario
+Szenario spielen
 loaded
 geladen.
 loaded passenger/freight
@@ -901,6 +1023,8 @@ Lokomotive_tab
 Loks
 m3
 m³
+Maglevhalt muss auf\nMaglevschiene liegen!\n
+Magnetbahnhalt muss auf Magnetschiene liegen.
 Mailbox
 Meldungen anzeigen
 Mailbox Options
@@ -909,6 +1033,8 @@ Maintenance
 Instandhaltung
 make stop public (or join with public stop next) costs %i per tile and level
 Erzeugen/verbinden mit öffentlichem Stop (%i$ pro Feld und Level)
+Manual (Human)
+Mensch (kein KI)
 Manufactured:
 Hergestellt:
 Map roughness
@@ -919,6 +1045,10 @@ March
 März
 Margin (%)
 Marge
+Mark for replacing
+Vormerken
+Mark for replacing. The convoy will replace when manually sent to depot
+Nur vormerken. Beim nächsten Depotbesuch wird dann ersetzt.
 Marker
 Markierung
 max
@@ -957,10 +1087,14 @@ Monate alt
 Monate alt.
 Monorail
 Einschienenbahn
+monorail vehicle
+Einschienenbahnwagen
 Monorailboden
 Erhöhter Verkehrsweg
 Monoraildepot
 Einschienenbahndepot
+Monorailhalt
+Einschienenbahnhof
 Monorailhalt muss auf\nMonorail liegen!\n
 Einschienenbahnhof muss auf\nEinschienenbahnschiene liegen!\n
 Monorails are not available yet!
@@ -971,14 +1105,22 @@ month wait time
 max. Wartezeit
 Months
 Monate
+Monument
+Denkmal
+Monuments
+Denkmäler
 Mountain height
 Berghöhe
 Move the selected vehicle(s) back to the depot
 Aktuellen Fahrzeugverband auflösen
+Movingobj
+Verschieben
 Music playing disabled/not available
 Musik nicht verfügbar/abgeschaltet
 Music volume:
 Musiklautstärke:
+mute sound
+Klänge aus
 Name
 Name
 Net Wealth
@@ -987,6 +1129,8 @@ Neue Karte
 Neue Karte
 Neue Welt
 Eine Neue Welt
+New %s now available:\n%s\n
+%s '%s'\nist nun verfügbar.
 new convoi
 Neuer Fahrzeugverband
 New factory chain\nfor %s near\n%s built with\n%i factories.
@@ -1019,6 +1163,10 @@ no load
 nicht laden
 No Route
 Keine Route
+No stop here!
+Werkzeug wirkt nur auf Haltestellen!
+No suitable ground!
+Dieser Boden ist ungeeignet.
 No terminal station here!
 Ein Endhalt kann nur\nauf einem Endstück\ngebaut werden!\n
 No through station here!
@@ -1047,14 +1195,26 @@ Now active as %s.\n
 Du bist jetzt Spieler  '%s'.
 Number of rivers
 Anzahl Flüsse
+Object
+Objekt
 Obsolescence increase
 Alterungsmehraufwand
 Ok
 Ok
 Oktober
 Oktober
+On loan since %i month(s)
+%i Monat(e) Konto überzogen
+On narrowgauge track only!\n
+Ein Schmalspurhalt muss auf Schmalspurgleisen liegen.
 On this map, you are not\nallowed to change player!\n
 Spiel geschützt!\nSpielerwechsel ist auf dieser\nKarte nicht möglich.\n
+Only city chains
+Nur Stadtgewerbe.
+Only land chains
+Nur Fabriken außerhalb der Stadt
+open
+Geöffnet
 Operation
 Betriebskosten
 Ops Profit
@@ -1077,6 +1237,8 @@ Passagierrate
 Passagieraufkommen
 Passagierziele
 Passagier-/Postziele
+Passenger AI
+Passagier-KI
 Passengers %d %c, %d %c, %d no route
 Fahrgäste %d %c, %d %c, %d ohne Route
 Passengers %d %c, %d %c, %d no route\n\nCapacity: %i\n
@@ -1089,12 +1251,14 @@ Planes are not available yet!
 Noch keine Fluggeräte erfunden!
 Plant tree
 Baum
-player -1
-Simutrans-Spieler
+player
+Spieler
 player 0
 Öffentliche Hand
 player 1
 Napik 128 AS
+player -1
+Simutrans-Spieler
 player 2
 Trikky Transport
 player 3
@@ -1119,6 +1283,8 @@ Power:
 Leistung: 
 Powerlines
 Freileitungen
+Production of %s has been stopped:\n%s\n
+%s '%s'\nwird nicht mehr hergestellt.
 Production of vehicle has been stopped:\n%s\n
 %s\nwird nicht mehr hergestellt.\n
 Produktion
@@ -1135,24 +1301,60 @@ q3
 Herbst
 q4
 Winter
+rail car
+Schienenfahrzeug
 RAILTOOLS
 Eisenbahnbauwerkzeuge
+random
+Zufällig
+Random age
+Zufallsjahr
 Random map
 Zufallskarte
 Rathaus
 Rathaus
 Rating
 Status
+ratio_pax
+Verhältnis
 Reliefkarte
 Reliefkarte
+Remove
+Label löschen
+remove airstrips
+Landebahnen und Rollfelder entfernen
+remove channels
+Kanal zuschütten
 remove interm. signals
 Entferne überzählige Signale
+remove maglev tracks
+Magnetbahngleise abbauen
+remove monorails
+Einschienenbahnstrecken abreißen
+remove roads
+Straßenzug einreißen
+remove tracks
+Eisenbahngleise rückbauen
 Remove vehicle from map. Use with care!
 Fahrzeug wird sofort verkauft.\nVerkaufswert wird als Gewinn gutgeschrieben.
+Replace
+Modernisieren
+replace all
+Alle ersetzen
+Replace all convoys like this
+Alle derartigen Fahrzeugverbände, die Sie besitzen, ersetzen.
+Replace all convoys like this belonging to this line
+Alle derartigen Fahrzeugverbände dieser Linie ersetzen.
+replace all in line
+Alle der Linie ersetzen
+Replace but stay
+Im Depot warten
 replace other signals
 Ersetze vorhandene Signale
 replace stop
 Stop verlegen
+request closing
+Schließen
 residential house
 Wohnhaus
 Restore natural slope
@@ -1165,12 +1367,18 @@ return ticket
 ...und zurück
 Revenue
 Einnahmen
+road vehicle
+Straßenfahrzeug
 Roadsign
 Verkehrsschild
 ROADTOOLS
 Straßenbauwerkzeuge
 rocky
 Alpines Klima
+Rotate map
+Karte um 90° drehen
+Rotation
+Rotation
 rpl_cnv_replace
 Ersetzen
 rpl_cnv_sell
@@ -1183,6 +1391,8 @@ sail
 Wind
 Saving map ...
 Speichere Karte ...
+Scenario complete: %i%%
+Spielziel zu %i%% erreicht.
 Schienentunnel
 Bahntunnel
 Schiff_tab
@@ -1201,6 +1411,10 @@ Sehenswuerdigkeit
 Sehenswürdigkeit
 Sell the selected vehicle(s)
 Verkaufe das ausgewählte Fahrzeug.
+Send convoy to depot, replace and restart it automatically
+Ins Depot schicken, ersetzen und sofort wieder starten.
+Send convoy to depot, replace it and stay there
+Ins Depot schicken, ersetzen und dort warten.
 sended
 abgeschickt
 Sends the convoi to the last depot it departed from!
@@ -1257,10 +1471,16 @@ Shows the currently selected schedule
 Zeigt den aktuell ausgewählten Fahrplan als Liniengrafik.
 Shrink city
 Einwohnerzahl verringern
+shuffle midis
+Zufallsauswahl
+signal spacing
+Signalabstand
 Sim:
 Simloops:
 SLOPETOOLS
 Geländebauwerkzeuge
+slot empty
+unbelegt
 Sort by
 sortiert nach
 Sort waiting list by
@@ -1319,18 +1539,26 @@ Strassendepot
 Bus und LKW Depot
 Strassentunnel
 Straßentunnel
+street car
+Straßenbahnwagen
 sued
 Süd
 suedost
 Südost
 suedwest
 Südwest
+Summer snowline
+Sommerschnee ab
 Suppliers
 Lieferanten
+Supply %s at (%i,%i)
+Beliefere %s bei (%i,%i)
 Tage alt
 Tage alt
 temperate
 gemäßigtes Klima
+That would exceed\nyour credit limit.
+Das übersteigt Ihren Kreditrahmen.
 There are still vehicles\nstored in this depot!\n
 Es sind noch Fahrzeuge\nin diesem Depot!\n
 This Month
@@ -1345,8 +1573,12 @@ tl_title
 Stadtliste
 To attract more tourists\n%s built\na %s\nwith the aid of\n%i tax payers.
 Touristikförderung:\n%s\nbaut %s.\n
+To be replaced by:
+Ersetzen mit:
 To heavy traffic\nresults in traffic jam.\n
 Verkehrsmeldung:\nStau seit Monaten.\n
+Toggle day/night view
+Tag/Nachtmodus umschalten
 tonnen
 t
 too heavy
@@ -1369,6 +1601,10 @@ Train
 Zug
 Trains are not available yet!
 Züge sind noch nicht verfügbar!
+Tram
+Tram
+tram %i km/h, monorail %i km/h\nmaglev %i km/h, narrowgauge %i km/h.
+Straßenbahnen %i km/h, Monorailbahnen %i km/h\nManetbahnen %i km/h, Schmalspurbahnen %i km/h.
 Tramdepot
 Straßenbahndepot
 Trams are not available yet!
@@ -1377,8 +1613,12 @@ TRAMTOOLS
 Straßenbahnbauwerkzeuge
 Transformer only next to factory!
 Umspannwerke können nur auf\neinem freien geraden Feld\ndirekt neben einer Fabrik\ngebaut werden!
+Translation
+Übersetzung
 transparent station coverage
 transparentes Stationseinzugsgebiet
+Transport %li passengers
+Befördere %li Reisende
 Transported
 Beförderungen
 Travellers now\nuse %s's\nbusses between\n%s \nand %s.\n
@@ -1405,6 +1645,8 @@ underground mode
 Untergrundansicht
 UNDO failed!
 Diese Aktion kann nicht\nmehr rückgänging gemacht \nwerden. Das geht nur \nunmittelbar nach dem \nWegebau!
+Undo last ways construction
+Letzten Wegebau rückgängig machen.
 Unemployed
 Arbeitslos
 Unhappy
@@ -1453,18 +1695,26 @@ waiting
 wartend
 Water level
 Grundwasser
+water vehicle
+Wasserfahrzeug
 way %s cannot longer used:\n
 Weg %s darf\nnicht mehr gebaut werden!\n
 way %s cannot longer used:\n%s\n
 %s steht nicht mehr zur Verfügung:\n
 way %s now available:\n
 Weg %s kann\nab sofort gebaut werden.
+way %s now available:\n%s\n
+%s\nkann nun gebaut werden.
+Ways not connected
+Wege sind nicht verbunden!\n
 Wegpunkt
 freier Wegpunkt
 Wert
 Wert
 west
 West
+Winter snowline
+Winterschnee bis
 With a big festival\n%s built\na new monument.\n%i citicens rejoiced.
 %s ehrt die \nwackeren Pioniere von Simutrans \nmit einem neuen Denkmal.\n%i Zuschauer sind mit dabei.
 withdraw
@@ -1479,263 +1729,13 @@ Zeiger
 Landmarke
 Zielort
 Zielort
+zooming in
+Darstellung verkleinern
+zooming out
+Darstellung vergrößern
 Zu nah am Kartenrand
 Zu nah am Kartenrand!\nBitte es weiter weg\nnochmal versuchen!\n
 Zu nah an einem\nanderen Signal!\n
 Hier kann kein\nSignal aufge-\nstellt werden.\nZu nah an einem\nanderen Signal!\n
 Zughalt muss auf\nSchiene liegen!\n
 Züge können nur\nauf Schienen halten!\n
-%C: - %s<br>\n
-%C: - %s<br>\n
-%s wasted\nyour money with a\nnew townhall\nwhen it reached\n%i inhabitants.
-Bürgermeister will\nnicht mehr frieren:\n%s\nbaut ein neues Rathaus.\n
-%s's\nheadquarter now\nat (%i,%i).
-Neues Hauptquartier von\n%s bei\n(%i,%i) eingeweiht!.
-%s\nwas liquidated.
-%s\nwurde liquidiert.
-4suburb
-%s Kolonie %s %s
-5extern
-%s Wiesengrund %s
-5suburb
-Entwicklungsgebiet %s %s %s
-6extern
-%s Industriepark %s
-8center
-%s Knoten %s
-9center
-%s Ring %s
-Accelerate time
-Spielablauf beschleunigen
-Account above %s
-%s Kontostand
-Add forest
-Wald aufforsten
-Airline service by\n%s\nnow between\n%s \nand %s.\n
-%s hat\neine Flugverbindung zwischen\n%s und\n%s eingerichtet.
-airplane
-Luftfahrzeug
-allowed climates:\n
-Klimazonen:\n
-Appends stops at the end of the schedule
-Halt am Fahrplanende hinzufügen
-Arrived
-Angekommen
-Bauzeit
-Bauzeit
-bridge is too high for its type!
-Tal ist zu tief für\ndiesen Brückentyp!\n
-Buildings
-Anzahl Häuser
-Cancel
-Abbrechen
-City attraction
-Stadtattraktionen
-Clear block reservation
-Blockreservierungen anzeigen/aufheben
-Company bankrupt
-Die Firma ist pleite!
-Connected stops
-Erreichbare Haltestellen:
-Convois
-Fahrzeuge
-cost for removal
-Kosten für's Entfernen
-Deccelerate time
-Spielablauf verlangsamen
-Delete the current stop
-ausgewählten Halt löschen
-Electricity
-Stromversorgung
-Electricity producer\n\n
-Stromerzeuger
-Ferry service by\n%s\nnow between\n%s \nand %s.\n
-Schiff Ahoi!\n%s Kreuzfahrten\nbringt nun Passagiere von\n%s nach %s.
-Gear:
-Übersetzung:
-Groundobj
-Objekt
-Headquartern and %li trains
-Firmensitz und %li Züge
-hide station names
-Stationsnamen ausblenden
-Increase Industry density
-Industriedichte erhöhen
-Insert stop before the current stop
-Halt vor aktueller Fahrplanposition einfügen
-Jump to
-Zentrieren auf
-Keyboard_Help\n
-Tastaturkürzel\n
-Land attraction
-Ausflugsziel
-Load scenario
-Szenario spielen
-Maglevhalt muss auf\nMaglevschiene liegen!\n
-Magnetbahnhalt muss auf Magnetschiene liegen.
-monorail vehicle
-Einschienenbahnwagen
-Monument
-Denkmal
-Monuments
-Denkmäler
-Movingobj
-Verschieben
-mute sound
-Klänge aus
-New %s now available:\n%s\n
-%s '%s'\nist nun verfügbar.
-No suitable ground!
-Dieser Boden ist ungeeignet.
-Object
-Objekt
-On loan since %i month(s)
-%i Monat(e) Konto überzogen
-On narrowgauge track only!\n
-Ein Schmalspurhalt muss auf Schmalspurgleisen liegen.
-Only city chains
-Nur Stadtgewerbe.
-Only land chains
-Nur Fabriken außerhalb der Stadt
-Production of %s has been stopped:\n%s\n
-%s '%s'\nwird nicht mehr hergestellt.
-rail car
-Schienenfahrzeug
-random
-Zufällig
-Random age
-Zufallsjahr
-ratio_pax
-Verhältnis
-remove airstrips
-Landebahnen und Rollfelder entfernen
-remove channels
-Kanal zuschütten
-remove monorails
-Einschienenbahnstrecken abreißen
-remove roads
-Straßenzug einreißen
-remove tracks
-Eisenbahngleise rückbauen
-road vehicle
-Straßenfahrzeug
-Rotate map
-Karte um 90° drehen
-Rotation
-Rotation
-Scenario complete: %i%%
-Spielziel zu %i%% erreicht.
-shuffle midis
-Zufallsauswahl
-street car
-Straßenbahnwagen
-Summer snowline
-Sommerschnee ab
-Supply %s at (%i,%i)
-Beliefere %s bei (%i,%i)
-Tram
-Tram
-Translation
-Übersetzung
-Transport %li passengers
-Befördere %li Reisende
-Undo last ways construction
-Letzten Wegebau rückgängig machen.
-water vehicle
-Wasserfahrzeug
-way %s now available:\n%s\n
-%s\nkann nun gebaut werden.
-Ways not connected
-Wege sind nicht verbunden!\n
-Winter snowline
-Winterschnee bis
-zooming in
-Darstellung verkleinern
-zooming out
-Darstellung vergrößern
-\n\nRibi (unmasked)
-\nRichtungen (alle) 
-\nway1 reserved by
-Weg 1 besetzt von 
-\nway2 reserved by
-Weg 2 besetzt von 
-Active player only
-nur eigene Marker
-Build air depot
-Flughafenhangar bauen
-Build maglev depot
-Magnetbahndepot bauen
-cars.\nstate
-Fahrzeugen\n
-Choose direction
-Ausrichtung auswählen
-closed
-Geschlossen
-disable midi
-Midi-Musik ausschalten
-enter a value between %i and %i
-Erlaubte Werte: zwischen %i und %i
-freeplay mode
-Ohne Bankrott
-Goods AI
-Fracht-KI
-Headquarter and %li trains
-Firmensitz und %li Züge
-Hilly landscape
-Extreme Höhendifferenzen
-invalid
-undefiniert
-Manual (Human)
-Mensch (kein KI)
-No stop here!
-Werkzeug wirkt nur auf Haltestellen!
-open
-Geöffnet
-Passenger AI
-Passagier-KI
-player
-Spieler
-Remove
-Label löschen
-remove maglev tracks
-Magnetbahngleise abbauen
-Replace
-Modernisieren
-request closing
-Schließen
-signal spacing
-Signalabstand
-slot empty
-unbelegt
-To be replaced by:
-Ersetzen mit:
-Toggle day/night view
-Tag/Nachtmodus umschalten
-tram %i km/h, monorail %i km/h\nmaglev %i km/h, narrowgauge %i km/h.
-Straßenbahnen %i km/h, Monorailbahnen %i km/h\nManetbahnen %i km/h, Schmalspurbahnen %i km/h.
-replace all in line
-Alle der Linie ersetzen
-Replace all convoys like this belonging to this line
-Alle derartigen Fahrzeugverbände dieser Linie ersetzen.
-replace all
-Alle ersetzen
-Replace all convoys like this
-Alle derartigen Fahrzeugverbände, die Sie besitzen, ersetzen.
-Full replace
-Ersetzen
-Send convoy to depot, replace and restart it automatically
-Ins Depot schicken, ersetzen und sofort wieder starten.
-Replace but stay
-Im Depot warten
-Send convoy to depot, replace it and stay there
-Ins Depot schicken, ersetzen und dort warten.
-Mark for replacing
-Vormerken
-Mark for replacing. The convoy will replace when manually sent to depot
-Nur vormerken. Beim nächsten Depotbesuch wird dann ersetzt.
-That would exceed\nyour credit limit.
-Das übersteigt Ihren Kreditrahmen.
-\nMax. weight:
-zul. Gesamtgewicht:
-Monorailhalt
-Einschienenbahnhof
