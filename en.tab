@@ -88,7 +88,7 @@ Prop-Latin1.bdf
 !0_STATION_CROWDED
 %s\nis crowded.
 !1_DEPOT_REACHED
-%s\nhas entered a depot.
+%s \nhas entered a depot.
 %1_CITY_SYLL
 Apping
 %2_CITY_SYLL
@@ -130,81 +130,41 @@ Hill
 %s now\noffers bus services\nbetween %s\nand factory\n%s\nat (%i,%i).\n
 %s now\noffers bus services\nbetween %s\nand factory\n%s\nat (%i,%i).\n
 %s s\nheadquarter now\nat (%i,%i).
-%s's\nheadquarters moved\nto (%i,%i).
+%s's has built new headquarters.
 %s wasted\nyour money with a\nnew town hall\nwhen it reached\n%i inhabitants.
 %s \nbuilt a\nnew town hall\nwhen it reached\n%i inhabitants.
-%s\nCost:     %d$\nMaint.: %1.2f$/km, %1.2f$/month\nCapacity: %d (%d)%s %s\nWeight: %dt\nTop speed: %dkm/h\n
-%s\nCost:     %d$\nMaint.: %1.2f$/km, %1.2f$/month\nCapacity: %d (%d)%s %s\nWeight: %dt\nTop speed: %dkm/h\n
-%s\nCost:     %d$\nMaint.: %1.2f$/km, %1.2f$/month\nCapacity: %d%s %s\nWeight: %dt\nTop speed: %dkm/h\n
-%s\nCost:     %d$\nMaint.: %1.2f$/km, %1.2f$/month\nCapacity: %d%s %s\nWeight: %dt\nTop speed: %dkm/h\n
-%s\nCost: %d$\nMaint.: %1.2f$/km, %1.2f$/month\nPower: %dkW, %dkm/h\nWeight: %dt\n
-%s\nCost: %d$\nMaint.: %1.2f$/km, %1.2f$/month\nPower: %dkW, %dkm/h\nWeight: %dt\n
+%s's\nheadquarter now\nat (%i,%i).
+%s's\nheadquarters now\nat (%i,%i).
 %s\nnow operates\n%i trucks between\n%s at (%i,%i)\nand %s at (%i,%i).
 %s\nnow operates\n%i trucks between\n%s at (%i,%i)\nand %s\nat (%i,%i).
 %s\nopened a new railway\nbetween %s\nat (%i,%i) and\n%s at (%i,%i).
 %s\nopened a new railway\nbetween %s\nat (%i,%i) and\n%s\nat (%i,%i).
 %s\nspeed %i\nmax_speed %i\ndx:%i dy:%i
 %s\nspeed %i\nmax speed %i\ndx:%i dy:%i
-&1_CITY_SYLL
+and1_CITY_SYLL
 chester
-&2_CITY_SYLL
+and2_CITY_SYLL
 ton
-&3_CITY_SYLL
+and3_CITY_SYLL
 ville
-&4_CITY_SYLL
+and4_CITY_SYLL
 den
-&5_CITY_SYLL
+and5_CITY_SYLL
 borough
-&6_CITY_SYLL
+and6_CITY_SYLL
 ham
-&7_CITY_SYLL
+and7_CITY_SYLL
 field
-&8_CITY_SYLL
+and8_CITY_SYLL
 mouth
-&9_CITY_SYLL
+and9_CITY_SYLL
 lock
-&A_CITY_SYLL
+andA_CITY_SYLL
 cross
 (%i)-
 (%i) 
 (in depot)
 (in depot)
-\nBauzeit bis
- until 
-\nBauzeit von
-\nAppears from 
-\nCan't open heightfield file.\n
-\nCannot open height map.\n
-\ndirection:
-\ndirections: 
-\nelektrified
-\nElectrified\n
-\nHeightfield has wrong image type.\n
-\nHeightfield has wrong\nimage type.\n
-\nis reserved by:
-\nreserved by train 
-\nminimum speed:
-\nminimum speed: 
-\nnot elektrified
-\nNot electrified\n
-\nRail block
-\nRail block No. 
-\nRibi (masked)
-\n\nDirections\n (masked): 
-\nRibi (unmasked)
-\nDirections\n (unmasked): 
-\nsingle way
-\nSingle Way
-\nwith sign/signal\n
-\nwith sign/signal\n
-<em>%C</em> - %s<br>\n
-[<em>%C</em>]: %s<br>\n
-<no line>
-<no line>
-<title>Keyboard Help</title>\n<h1><strong>Keyboard Help</strong></h1><p>\n
-<title>Keyboard Help</title>\n<h1><strong>Keyboard Help</strong></h1>\n<p>\n<strong>Keyboard Help</strong> shows functions for various key presses on the keyboard.\n</p>\n<p>\n<strong>Keyboard Help</strong> opens when an unassigned key is pressed or from <a href="general.txt">General Help</a>.\n</p>\n<p>\nKey presses are case sensitive (use [<em>Shift</em>] for upper-case letters).\n</p>\n<p>\nKeys with assigned functions include:\n</p>\n<p>\n[<em>Arrow Keys</em>]: scroll the main game window in direction of arrow.<br>\n[<em>Backspace</em>]: close all windows, toolbars and help-texts in the main game window.<br>\n[<em>Delete</em>], or [<em>Escape</em>]: close top window, toolbar or help-text in the main game window.<br>\n[<em>Enter</em>], or [<em>Return</em>]: used to confirm actions.<br>\n[<em>Page-Up</em>], or [<em>></em>]: zoom-in the main game window.<br>\n[<em>Page-Down</em>], or  [<em> less than symbol</em>]: zoom-out the main game window.\n[<em>F1</em>]: open <a href="general.txt">Simutrans Help</a>.<br></p>\n<p>\n[<em>1</em>]: scroll the main game window south-wards.<br>\n[<em>2</em>]: scroll the main game window south-east-wards.<br>\n[<em>3</em>]: scroll the main game window east-wards.<br>\n[<em>4</em>]: scroll the main game window south-west-wards.<br>\n[<em>6</em>]: scroll the main game window north-east-wards.<br>\n[<em>7</em>]: scroll the main game window west-wards.<br>\n[<em>8</em>]: scroll the main game window north-west-wards.<br>\n[<em>9</em>]: scroll the main game window north-wards.\n</p>\n<p>\n[<em>Shift</em>] + <a href="mouse.txt">mouse</a>: used on <a href="map.txt">Map</a> to see links in <a href="industry_info.txt">Industry Supply Chain</a>.<br>\n[<em>CTRL</em>] + tool: construct (signals and <a href="station.txt">Stops</a>) on upper level; or build slower roads and tracks over faster ones; or build straighter (more direct) roads and tracks.<br>\n[<em>CTRL</em>] + ([<em>F2</em>] to [<em>F12</em>]): sets select current tool to keypresses [<em>F2</em>] to [<em>F12</em>].\n</p>\n<p>
-00_CITY
-City Hall
 1 convoi
 One convoy
 1 Einzelfahrzeug im Depot
@@ -266,7 +226,7 @@ Scroll Inverse
 5LIGHT_CHOOSE
 Pedestrians at stops
 5WORLD_CHOOSE
-Number of cities:
+Nrumber of cities:
 6center
 %s Hub %s
 6LIGHT_CHOOSE
@@ -276,7 +236,13 @@ Traffic density:
 7center
 %s city %s
 8WORLD_CHOOSE
-day and night change
+Cycle day and night
+<em>%C</em> - %s<br>\n
+[<em>%C</em>]: %s<br>\n
+<no line>
+<no line>
+<title>Keyboard Help</title>\n<h1><strong>Keyboard Help</strong></h1><p>\n
+<title>Keyboard Help</title>\n<h1><strong>Keyboard Help</strong></h1>\n<p>\n<strong>Keyboard Help</strong> shows functions for various key presses on the keyboard.\n</p>\n<p>\n<strong>Keyboard Help</strong> opens when an unassigned key is pressed or from <a href="general.txt">General Help</a>.\n</p>\n<p>\nKey presses are case sensitive (use [<em>Shift</em>] for upper-case letters).\n</p>\n<p>\nKeys with assigned functions include:\n</p>\n<p>\n[<em>Arrow Keys</em>]: scroll the main game window in direction of arrow.<br>\n[<em>Backspace</em>]: close all windows, toolbars and help-texts in the main game window.<br>\n[<em>Delete</em>], or [<em>Escape</em>]: close top window, toolbar or help-text in the main game window.<br>\n[<em>Enter</em>], or [<em>Return</em>]: used to confirm actions.<br>\n[<em>Page-Up</em>], or [<em>></em>]: zoom-in the main game window.<br>\n[<em>Page-Down</em>], or  [<em> less than symbol</em>]: zoom-out the main game window.\n[<em>F1</em>]: open <a href="general.txt">Simutrans Help</a>.<br></p>\n<p>\n[<em>1</em>]: scroll the main game window south-wards.<br>\n[<em>2</em>]: scroll the main game window south-east-wards.<br>\n[<em>3</em>]: scroll the main game window east-wards.<br>\n[<em>4</em>]: scroll the main game window south-west-wards.<br>\n[<em>6</em>]: scroll the main game window north-east-wards.<br>\n[<em>7</em>]: scroll the main game window west-wards.<br>\n[<em>8</em>]: scroll the main game window north-west-wards.<br>\n[<em>9</em>]: scroll the main game window north-wards.\n</p>\n<p>\n[<em>Shift</em>] + <a href="mouse.txt">mouse</a>: used on <a href="map.txt">Map</a> to see links in <a href="industry_info.txt">Industry Supply Chain</a>.<br>\n[<em>CTRL</em>] + tool: construct (signals and <a href="station.txt">Stops</a>) on upper level; or build slower roads and tracks over faster ones; or build straighter (more direct) roads and tracks.<br>\n[<em>CTRL</em>] + ([<em>F2</em>] to [<em>F12</em>]): sets select current tool to keypresses [<em>F2</em>] to [<em>F12</em>].\n</p>\n<p>
 A bridge must end on a way!
 Bridges must end on an\nexisting way. A bridge can\n only start on a single\nway tile and must end either\non a single way tile\nor a matching slope.\n
 A bridge must start on a way!
@@ -307,10 +273,6 @@ AIRTOOLS
 Airport Tools
 All
 All
-all convoi tooltips
-Full convoy tooltips
-All hidden items (such as trees and buildings) will appear as transparent.
-All hidden items (such as trees and buildings) will appear as transparent.
 Allow player change
 Allow player change
 Alters a schedule.
@@ -333,6 +295,10 @@ Arbeiter aus:
 Workers live in:
 arctic
 Arctic climate
+Goods supplied
+Goods supplied
+Goods
+Goods needed
 Assets
 Assets
 Aufloesen
@@ -351,8 +317,6 @@ battery
 Battery
 Baum
 Tree
-baum builder
-Tree editor
 Baustelle
 Construction site
 Beenden
@@ -383,10 +347,12 @@ Build city market
 Build a new market in the nearest city.
 Build drain
 Build substation
+Transformer only next to factory!
+Substations can only be\nbuilt next to industries.
 build HQ
 Build HQ
 Build land consumer
-Build land consumer
+Build a new power station.
 Build monorail depot
 Build monorail depot
 Build monotrail depot
@@ -407,30 +373,20 @@ Build tram depot
 Build tram depot
 Build truck depot
 Build Garage
-Building costs estimates
-Estimated cost
 Built artifical slopes
 Build artificial slopes
 Built random attraction
 Build a random attraction.
 Bus_tab
 Buses
-Can only move from halt to halt or waypoint to waypoint.
-Can only move from halt to\nhalt or waypoint to waypoint.
 cancel
 Cancel
 Cannot built depot here!
 Cannot build a depot here.
-Cannot built this station/building\nin underground mode here.
-Cannot built this station/building\nin underground mode here.
 Cannot create generic line!\nSelect line type by\nusing filter tabs.
 Cannot create a generic line.\nSelect line type\nusing filter tabs.
 Capacity: %s\nLoad: %d (%d%%)
 Capacity: %s\nLoad: %d (%d%%)
-Capital expenditure on infrastructure
-Capital expenditure on infrastructure
-Capital expenditure on vehicle purchases and upgrades
-Capital expenditure on vehicle purchases and upgrades
 Cars are not available yet!
 Cars are not yet available.
 Cash
@@ -451,12 +407,60 @@ City list
 City list
 City size
 City size
-city_road
-City road
-citybuilding builder
-Build city buildings
 CityLimit
 City limits
+city_road
+City road
+clf_btn_alle
+all
+clf_btn_invers
+inv.
+clf_btn_keine
+none
+clf_chk_obsolete
+Obsolete vehicles
+clf_chk_aircrafts
+Aircraft
+clf_chk_cars
+Buses/trucks
+clf_chk_trams
+Trams
+clf_chk_monorail
+Monorail trains
+clf_chk_maglev
+Maglev trains
+clf_chk_narrowgauge
+N/gauge trains
+clf_chk_indepot
+in a depot
+clf_chk_name_filter
+Filter names:
+clf_chk_noincome
+no income
+clf_chk_noline
+no line
+clf_chk_noroute
+no route
+clf_chk_noschedule
+no schedule
+clf_chk_ships
+Ships
+clf_chk_spezial_filter
+Special filter:
+clf_chk_stucked
+stuck
+clf_chk_trains
+Trains
+clf_chk_type_filter
+Filter types:
+clf_chk_waren
+Filter goods:
+clf_title
+Vehicle List Filter
+Climate settings
+Set climate
+Climate Control
+Climate settings
 cl_btn_filter_disable
 Disabled
 cl_btn_filter_enable
@@ -481,62 +485,8 @@ cl_txt_filter
 Filter:
 cl_txt_sort
 Sort by:
-clf_btn_alle
-all
-clf_btn_invers
-inv.
-clf_btn_keine
-none
-clf_chk_aircrafts
-Aircrafts
-clf_chk_cars
-Buses/trucks
-clf_chk_indepot
-in a depot
-clf_chk_maglev
-Maglev trains
-clf_chk_monorail
-Monorail trains
-clf_chk_name_filter
-Filter names:
-clf_chk_narrowgauge
-Narrow gauge trains
-clf_chk_noincome
-no income
-clf_chk_noline
-no line
-clf_chk_noroute
-no route
-clf_chk_noschedule
-no schedule
-clf_chk_obsolete
-obsolete
-clf_chk_ships
-Ships
-clf_chk_spezial_filter
-Filter status:
-clf_chk_stucked
-stuck
-clf_chk_trains
-Trains
-clf_chk_trams
-Trams
-clf_chk_type_filter
-Filter types:
-clf_chk_waren
-Filter goods:
-clf_title
-Vehicle List Filter
-Climate Control
-Climate settings
-Climate settings
-Set climate
 COLOR_CHOOSE\n
 Please choose a\ncolour from the\ntable:\n
-Congratulation\nScenario was complete in\n%i months %i years.
-Congratulations -\nyou completed the\nscenario successfully,\ntaking %i months\nand %i years.
-Connect factory
-Link industries
 Constructed by
 Painted by 
 Constructed by %s
@@ -545,16 +495,12 @@ Construction_Btn
 Construction costs
 convoi %d of %d
 Convoy %d of %d
-convoi error tooltips
-Only error convoy tooltips
 Convoi has been sent\nto the nearest depot\nof appropriate type.\n
 Convoy has been sent\nto the nearest depot\nof the appropriate type.\n
-Convoi is sent to depot when all wagons are empty.
-The convoy will be sent to the nearest depot as soon as it is completely empty.
 Convoi is sold when all wagons are empty.
 The vehicle will be sold as soon as it is completely empty.
-convoi mouseover tooltips
-Mouse-over convoy tooltips
+Convoi is sent to depot when all wagons are empty.
+The convoy will be sent to the nearest depot as soon as it is completely empty.
 convoi passed last\nmonth %i\n
 \nconvoys passing in the last\nmonth: %i\n
 Convois: %d\nProfit: %s
@@ -565,12 +511,8 @@ Copy Convoi
 Copy Convoy
 Copy the selected convoi and its schedule or line
 Copy the selected convoy and its schedule or line
-Cost of overdraft interest payments
-Cost of overdraft interest payments
 Create a new line based on this schedule
 Create a new line based on this schedule
-curiosity builder
-Build attractions
 curlist_title
 Attraction list
 Currently playing:
@@ -579,8 +521,6 @@ Das Feld gehoert\neinem anderen Spieler\n
 This piece of\nland is owned by\nanother player!\n
 December
 December
-decrease underground view level
-Decrease underground view level
 Del Stop
  Remove
 Delete Line
@@ -633,12 +573,10 @@ Einstellungsfenster
 Game options
 electric
 electric
+Electrify track
+Electrify track
 Electrics_tab
 Electric units
-Electrify track
-Electrify track
-enlarge map
-Enlarge the map
 Error
 Error
 Erzeuge neue Karte.\n
@@ -655,8 +593,6 @@ Factory chain extended\nfor %s near\n%s built with\n%i factories.
 Economy going strong:\n%s near %s extends chain.\n%i new factory opened.
 factory details
 Factory details
-factorybuilder
-Build industries
 Fahrplan
 Schedule
 Fahrtziel
@@ -681,12 +617,12 @@ Finances of %s
 Finances of %s
 Finanzen
 Finances
-fl_title
-Industry list
-Flug_tab
-Passenger Aircraft
 Flugzeughalt muss auf\nRunway liegen!\n
 Plane stand must\nbe on a taxiway.
+Flug_tab
+Passenger Aircraft
+fl_title
+Industry list
 follow me
 Follow me.
 Follow the convoi on the map.
@@ -725,28 +661,22 @@ Give the selected vehicle(s) an individual schedule
 Give the selected vehicle(s) an individual schedule.
 gl_btn_sort_bonus
 by bonus
-gl_btn_sort_catg
-by category
 gl_btn_sort_name
 by name
 gl_btn_sort_revenue
 by revenue
 gl_btn_unsort
 unsorted
+gl_btn_sort_catg
+by category
 gl_title
 Goods list
 go home
 Go to depot
-Goods
-Goods needed
 Goods list
 Goods list
-Goods supplied
-Goods supplied
 Gross Profit
 Cash Flow
-Gross revenue
-Gross revenue
 Grow city
 Grow city
 Growth
@@ -765,20 +695,66 @@ Help
 Help
 Help text not found
 The help text is missing.
-hide all building
-Hide all buildings
-hide city building
-Hide city buildings
 hide transparent
 Hidden items appear transparent
+transparent station coverage
+Transparent station coverage
 hide trees
 Hide trees
 Hier kann dieses\nFlughafengebaeude nicht\ngebaut werden!\n
 You cannot build\n\nairport buildings here.\n
 Hier kann kein\nSignal aufge-\nstellt werden!\n
 You cannot place\nrail signals here.\n
+signale bauen
+Build
+set signal spacing
+Set signal spacing
+remove interm. signals
+Remove intermediate signals
+replace other signals
+Replace existing signals
 Hier warten/lagern:
 Goods and passengers waiting:
+hlf_btn_alle
+all
+hlf_btn_invers
+inverse
+hlf_btn_keine
+none
+hlf_chk_airport
+Airports
+hlf_chk_anleger
+Dock
+hlf_chk_bahnhof
+Railway station
+hlf_chk_bushalt
+Bus stop
+hlf_chk_tramstop
+Tram stop
+hlf_chk_monorailstop
+Monorail stop
+hlf_chk_maglevstop
+Maglev stop
+hlf_chk_narrowgaugestop
+N/gauge stop
+hlf_chk_frachthof
+Loading bay
+hlf_chk_keine_verb
+No connexion
+hlf_chk_name_filter
+Filter names:
+hlf_chk_overflow
+Over Capacity
+hlf_chk_spezial_filter
+Special filter:
+hlf_chk_type_filter
+Filter types:
+hlf_chk_waren_abgabe
+Production:
+hlf_chk_waren_annahme
+Goods needed:
+hlf_title
+Stop List Filter
 hl_btn_filter_disable
 disabled
 hl_btn_filter_enable
@@ -801,46 +777,6 @@ hl_txt_filter
 Filter:
 hl_txt_sort
 Sorted by:
-hlf_btn_alle
-all
-hlf_btn_invers
-inverse
-hlf_btn_keine
-none
-hlf_chk_airport
-Airports
-hlf_chk_anleger
-Dock
-hlf_chk_bahnhof
-Railway station
-hlf_chk_bushalt
-Bus stop
-hlf_chk_frachthof
-Loading bay
-hlf_chk_keine_verb
-No connexion
-hlf_chk_maglevstop
-Maglev stop
-hlf_chk_monorailstop
-Monorail stop
-hlf_chk_name_filter
-Filter names:
-hlf_chk_narrowgaugestop
-Narrow gauge stop
-hlf_chk_overflow
-Over Capacity
-hlf_chk_spezial_filter
-Special filter:
-hlf_chk_tramstop
-Tram stop
-hlf_chk_type_filter
-Filter types:
-hlf_chk_waren_abgabe
-Production:
-hlf_chk_waren_annahme
-Goods needed:
-hlf_title
-Stop List Filter
 Home depot not found!\nYou need to send the\nconvoi to the depot\nmanually.
 Depot cannot be found.\nYou must send the\nvehicle there manually.
 Homeless
@@ -849,10 +785,6 @@ hydrogene
 Hydrogen
 Idle:
 Idle:
-ignore climates
-Ignore climate
-increase underground view level
-Increase underground view level
 industrial building
 Industrial building
 Init map ...
@@ -867,8 +799,6 @@ Intro. date:
 Intro. date:
 Invalid coordinate
 Invalid Order
-isometric map
-Isometric view
 January
 January
 July
@@ -883,12 +813,8 @@ keine
 none
 Keine Einzelfahrzeuge im Depot
 No vehicles stored here
-koord
-Map co-ordinate
 Kreuzung
 Crossing
-labellist_title
-Marker list
 Lade Relief
 Load Height Map
 Laden
@@ -897,16 +823,14 @@ Land industries
 Industry chains:
 LANG_CHOOSE\n
 Please choose your\npreferred language:\n
-LARGE_NUMBER_STRING
-M
-LARGE_NUMBER_VALUE
-1000000
 Last Year
 Last Year:
 leer
 empty
 Legend
 Map legend
+MAGLEVTOOLS
+Maglev tools
 Leistung
 Power
 Leistung: %d kW
@@ -935,36 +859,26 @@ loaded
 loaded
 loaded passenger/freight
 Sort passengers/freight by
-Loading addon paks ...
-Loading addon paks ...
 Loading map ...
 Loading map ...
-Loading paks ...
-Loading paks ...
-Loading skins ...
-Loading skins ...
 Lock game
 Disallow player changes (requires confirmation).
 LOCO_CAP
 Capacity: %d%s %s\n
 LOCO_INFO
 %s\nCost: %d$ (%1.2f$/km)\nPower: %dkW, %dkm/h\nWeight: %dt\n
-LOCO_INFO_EXT
-%s\nCost: %d$\nConsumption: %1.2f$/km\nMaintenance: %1.2f$/month\nPower: %dkW\nmax. Speed: %dkm/h\nWeight: %dt\n
+%s\nCost: %d$\nMaint.: %1.2f$/km, %1.2f$/month\nPower: %dkW, %dkm/h\nWeight: %dt\n
+%s\nCost: %d$\nMaint.: %1.2f$/km, %1.2f$/month\nPower: %dkW, %dkm/h\nWeight: %dt\n
 Lokomotive_tab
 Locomotives
 m3
 m3
-MAGLEVTOOLS
-Maglev tools
 Mailbox
 Message Centre
 Mailbox Options
 Message Centre Options
 Maintenance
 Inf. maintenance
-make stop public (or join with public stop next) costs %i per tile and level
-Make a stop public (or join with a neighbouring public stop): costs %i per tile and level
 Manufactured:
 Manufactured:
 Map roughness
@@ -985,8 +899,6 @@ Max. speed:
 Max. speed:
 Maximum 254 stops\nin a schedule!\n
 Maximum of 254 stops\nin a schedule!\n
-maximum length of rivers
-Max. river length
 Maximum tile height difference reached.
 The maximum height\ndifference between\ntwo tiles has\nbeen reached.
 May
@@ -994,17 +906,15 @@ May
 Median Citizen per town
 Median citizens per city:
 mediterran
-Mediterran. climate
+Mediterran climate
 Meldung
 Message
 Menge
 amount
 MessageOptionsText
-\nNew Year\n\nAI News\n\nCity News\n\nNo Route\n\nNew Industries\n\nTourist\n\nNew Vehicles\n\nStation full\n\nProblems\n\nWarnings
+\nNew Year\n\nAI News\n\nCity News\n\nNo Route\n\nNew Industries\n\nTourist\n\nNew Vehicles\n\nStation full\n\nProblems
 min
 min.
-minimum length of rivers
-Min. river length
 Modify the selected line
 Modify the selected line
 Momorailhalt
@@ -1023,8 +933,6 @@ Monorails are not available yet!
 Monorails are not yet available.
 MONORAILTOOLS
 Monorail tools
-month wait time
-Max. wait for load
 Months
 Months
 Mountain height
@@ -1065,8 +973,6 @@ New world record for railways: %.1f km/h by %s.
 New world record for \nrailways:\n %.1f km/h \nby %s.
 New world record for ship: %.1f km/h by %s.
 New world record for\nships:\n %.1f km/h\nby %s.
-no buildings hidden
-Do not hide any buildings
 no convois
 No convoys
 No goods are loaded onto this convoi.
@@ -1077,16 +983,12 @@ no load
 No load
 No Route
 No Route
-no route
-No route
 No terminal station here!
 A terminal station can only\nbe placed on a matching\nway type, at the end of\na way. It cannot be placed\non top of another station\nor signals/signs.
 No through station here!
 A through station can only\nbe placed on a matching\nway type, and not at the\nend of a way. It cannot be\nplaced on top of another\nstation or signals/signs.
 no timeline
 timeline off  
-no tree
-No trees
 Noch kein Fahrzeug\nmit Fahrplan\nvorhanden\n
 Give the Vehicle(s)\n(a) schedule(s), before\ngiving it(them) the go\norder!\n
 none
@@ -1105,24 +1007,46 @@ November
 November
 Now active as %s.\n
 Now active as %s.\n
-Number of rivers
-Number of rivers
-Number of units of passengers and goods transported
-Number of units of passengers and goods transported
-Obsolescence increase
-Obsolescence increase
 Ok
 OK
 Oktober
 October
 On this map, you are not\nallowed to change player!\n
 This game is locked.\nNo player changes are possible.\n
-Operating revenue less operating expenditure
-Operating revenue less operating expenditure
 Operation
 Running costs
 Ops Profit
 Operating Profit
+Capital expenditure on infrastructure
+Capital expenditure on infrastructure
+Vehicle running costs (both fixed and distance related)
+Vehicle running costs (both fixed and distance related)
+Capital expenditure on vehicle purchases and upgrades
+Capital expenditure on vehicle purchases and upgrades
+Gross revenue
+Gross revenue
+Recurring expenses of infrastructure maintenance
+Recurring expenses of infrastructure maintenance
+Total capital assets, excluding liabilities
+Total capital assets, excluding liabilities
+Total liquid assets
+Total liquid assets
+Total assets less total liabilities
+Total assets less total liabilities
+Total income less total expenditure
+Total income less total expenditure
+Operating revenue less operating expenditure
+Operating revenue less operating expenditure
+Percentage of revenue retained as profit
+Percentage of revenue retained as profit
+Number of units of passengers and goods transported
+Number of units of passengers and goods transported
+Revenue from electricity transmission
+Revenue from electricity transmission
+Cost of overdraft interest payments
+Cost of overdraft interest payments
+The maximum amount that can be borrowed without prohibiting further capital outlays
+The maximum amount that can be borrowed without prohibiting further capital outlays
 Optionen
 Options
 Origin
@@ -1133,8 +1057,6 @@ Output
 Output
 paletten
  crates
-Pas_tab
-Passenger carriages
 Passagiere
 Passengers
 Passagierrate
@@ -1145,22 +1067,24 @@ Passengers %d %c, %d %c, %d no route
 Passengers %d %c, %d %c, %d no route
 Passengers %d %c, %d %c, %d no route\n\nCapacity: %i\n
 Passengers %d %c, %d %c, %d no route\n\nCapacity: %i\n
+Pas_tab
+Passenger carriages
 Pause
 Pause
-PaxDest
-Pass. destinations
-Pedestrians will appear near stops whenver a passenger vehicle unloads there.
-Pedestrians will appear near stops whenver a passenger vehicle unloads there.
-Pedestrians will appear randomly in towns.
-Pedestrians will appear randomly in towns.
-Percent Electricity
-Electricity output (% demand):
-Percentage of revenue retained as profit
-Percentage of revenue retained as profit
 Planes are not available yet!
 Aircraft are not yet available.
 Plant tree
 Plant random tree
+PowerBridge
+Raised high voltage cables
+replace stop
+Replace a stop
+make stop public (or join with public stop next) costs %i per tile and level
+Make a stop public (or join with a neighbouring public stop): costs %i per tile and level
+enlarge map
+Enlarge the map
+Building costs estimates
+Estimated cost
 player -1
 Default player
 player 0
@@ -1205,8 +1129,6 @@ Power
 Power
 Power:
 Power:
-PowerBridge
-Raised high voltage cables
 Powerlines
 Powerlines
 Production of vehicle has been stopped:\n%s\n
@@ -1231,20 +1153,14 @@ Random map
 Random map
 Rathaus
 City Hall
+00_CITY
+City Hall
 Rating
 Status
-Recurring expenses of infrastructure maintenance
-Recurring expenses of infrastructure maintenance
 Reliefkarte
 Map
-remove interm. signals
-Remove intermediate signals
 Remove vehicle from map. Use with care!
 Sell the whole convoy immediately. Use with care: this cannot be undone.
-replace other signals
-Replace existing signals
-replace stop
-Replace a stop
 residential house
 Residential house\n
 Restore natural slope
@@ -1257,22 +1173,12 @@ return ticket
 Mirror schedule
 Revenue
 Revenue
-Revenue from electricity transmission
-Revenue from electricity transmission
 Roadsign
 Road Sign
 ROADTOOLS
 Road tools
 rocky
 Mountain climate
-Routes will update instantly after any changes to lines/schedules. Can make the game respond slowly on big maps.
-Routes will update instantly after any changes to lines/schedules. Can make the game respond slowly on big maps.
-rpl_cnv_replace
-Replace
-rpl_cnv_sell
-Sell
-rpl_cnv_skip
-Skip
 sack
  Bags
 sail
@@ -1281,22 +1187,18 @@ Saving map ...
 Saving game...
 Schienentunnel
 Build railway tunnel
-Schiff_tab
-Ships
 Schiffdepot
 Shipyard
 Schiffhalt muss im\nWasser liegen!\n
 A ship stop can only\nbe placed on water\nnear a dock.\n
+Schiff_tab
+Ships
 Schleppkahn_tab
 Barges
 Screenshot
 Take a screenshot
 Screenshot\ngespeichert.\n
 Screenshot\nsaved.\n
-See under the ground, one layer at a time. Toggle with CTRL + U. Move up/down in layers with HOME and END.
-See under the ground, one layer at a time. Toggle with CTRL + U. Move up/down in layers with HOME and END.
-See under the ground, to build tunnels and underground railways/metros. Toggle with SHIFT + U
-See under the ground, to build tunnels and underground railways/metros. Toggle with SHIFT + U
 Sehenswuerdigkeit
 Tourist attraction
 Sell the selected vehicle(s)
@@ -1305,18 +1207,16 @@ sended
 Sent
 Sends the convoi to the last depot it departed from!
 Sends the convoy to the last depot from which it departed
+September
+September
 SEP_FRACTION
 .
 SEP_THOUSAND
 ,
-September
-September
 Serves Line:
 Serves line:
 Service
 Service
-set signal spacing
-Set signal spacing
 Ship
 Ship
 SHIPTOOLS
@@ -1325,14 +1225,10 @@ shops and stores
 Shops and offices\n
 Show all
 Show all
-show all building
-Show all buildings
 Show also vehicles no longer in production.
 Also show obsolete vehicles
 Show also vehicles that do not match for current action.
 Also show vehicles that cannot be used by the selected action.
-Show from how far that passengers or goods will come to use your stops. Toggle with the v key.
-Show from how far that passengers or goods will come to use your stops. Toggle with the v key.
 show grid
 Show grid
 Show industry
@@ -1349,30 +1245,28 @@ show station coverage
 Show station coverage
 show station names
 Show station names
-Show the map in the same isometric orientation as the main game window
-Show the map in the same isometric orientation as the main game window
 show waiting bars
 Show waiting graphs
 Show/hide statistics
 Show/hide Statistics
-Shows a bar graph representing the number of passengers/mail/goods waiting at stops.
-Shows a bar graph representing the number of passengers/mail/goods waiting at stops.
 Shows consumer/suppliers for factories
 Show consumers/suppliers for factories
-Shows the borderlines of each tile in the main game window. Can be useful for construction. Toggle with the # key.
-Shows the borderlines of each tile in the main game window. Can be useful for construction. Toggle with the # key.
 Shows the currently selected schedule
 Show the currently selected schedule
-Shows the names of the individual stations in the main game window.
-Shows the names of the individual stations in the main game window.
 Shrink city
 Shrink city
-signale bauen
-Build
+factorybuilder
+Build industries
+Connect factory
+Link industries
+curiosity builder
+Build attractions
+citybuilding builder
+Build city buildings
+baum builder
+Tree editor
 Sim:
 Simloops:
-sliced underground mode
-Sliced underground mode
 SLOPETOOLS
 Landscape tools
 Sort by
@@ -1433,8 +1327,6 @@ Strassendepot
 Garage
 Strassentunnel
 Build road tunnel
-stuck
-Stuck
 sued
 South
 suedost
@@ -1447,14 +1339,8 @@ Tage alt
 days old.
 temperate
 Temperate climate
-Terraforming not possible\nhere in underground view
-Terraforming not possible\nhere in underground view
-The display of the station coverage can either be a transparent rectangle or a series of boxes.
-The display of the station coverage can either be a transparent rectangle or a series of boxes.
-The main game window can be scrolled by right-clicking and dragging the ground.
-The main game window can be scrolled by right-clicking and dragging the ground.
-The maximum amount that can be borrowed without prohibiting further capital outlays
-The maximum amount that can be borrowed without prohibiting further capital outlays
+tundra
+Tundra
 There are still vehicles\nstored in this depot!\n
 There are vehicles\nin this depot!\n
 This Month
@@ -1473,18 +1359,8 @@ To heavy traffic\nresults in traffic jam.\n
 Heavy traffic\ncauses traffic congestion.\n
 tonnen
 t
-too heavy
-Too heavy
-Total assets less total liabilities
-Total assets less total liabilities
-Total capital assets, excluding liabilities
-Total capital assets, excluding liabilities
-Total income less total expenditure
-Total income less total expenditure
 Total inhabitants:
 Total inhabitants:
-Total liquid assets
-Total liquid assets
 Tourist attractions
 Tourist attractions:
 Tourists
@@ -1503,28 +1379,20 @@ Trains are not available yet!
 Trains are not yet available.
 Tramdepot
 Tram depot
+TrolleyBus_tab
+Trolleybuses
 Trams are not available yet!
 Trams are not yet available.
 TRAMTOOLS
 Trams/light rail tools
-Transformer only next to factory!
-Substations can only be\nbuilt next to industries.
-transparent station coverage
-Transparent station coverage
 Transported
 Transported
 Travellers now\nuse %s's\nbusses between\n%s \nand %s.\n
 Travellers now\nuse %s's\nbuses between\n%s \nand %s.\n
-Trees will be miniaturised or made transparent in the main game window.
-Trees will be miniaturised or made transparent in the main game window.
-TrolleyBus_tab
-Trolleybuses
 tropic
 Tropical climate
 Truck
 Truck
-tundra
-Tundra
 Tunnel muss an\neinfachem\nHang beginnen!\n
 Tunnels must\nstart on a straight\nslope\n
 Tunnel must end on single way!
@@ -1557,12 +1425,14 @@ Vehicle %s is stucked!
 Vehicle %s is stuck!
 Vehicle details
 Vehicle details
-Vehicle running costs (both fixed and distance related)
-Vehicle running costs (both fixed and distance related)
+no route
+No route
+stuck
+Stuck
+too heavy
+Too heavy
 Verbrauch
 Consumption
-Vergroessere die Karte\n
-Enlarging the map
 Verkauf
 Sell
 verkaufen
@@ -1583,6 +1453,10 @@ Wagen im Block
 waggons in block
 WAGGON_INFO
 %s\nCost:     %d$ (%1.2f$/km)\nCapacity: %d%s %s\nWeight: %dt\nTop speed: %dkm/h\n
+%s\nCost:     %d$\nMaint.: %1.2f$/km, %1.2f$/month\nCapacity: %d%s %s\nWeight: %dt\nTop speed: %dkm/h\n
+%s\nCost:     %d$\nMaint.: %1.2f$/km, %1.2f$/month\nCapacity: %d%s %s\nWeight: %dt\nTop speed: %dkm/h\n
+%s\nCost:     %d$\nMaint.: %1.2f$/km, %1.2f$/month\nCapacity: %d (%d)%s %s\nWeight: %dt\nTop speed: %dkm/h\n
+%s\nCost:     %d$\nMaint.: %1.2f$/km, %1.2f$/month\nCapacity: %d (%d)%s %s\nWeight: %dt\nTop speed: %dkm/h\n
 Waggon_tab
 Freight wagons
 waiting
@@ -1597,12 +1471,12 @@ way %s now available:\n
 Way-type %s is available now.\n
 Wegpunkt
 Waypoint
+Can only move from halt to halt or waypoint to waypoint.
+Can only move from halt to\nhalt or waypoint to waypoint.
 Wert
 Value
 west
 West
-Whether the lighting in the main game window simulates a periodic transition between day and night.
-Whether the lighting in the main game window simulates a periodic transition between day and night.
 With a big festival\n%s built\na new monument.\n%i citicens rejoiced.
 With a big festival,\n%s built\na new monument.\n%i citizens rejoiced.
 withdraw
@@ -1623,3 +1497,114 @@ Zu nah an einem\nanderen Signal!\n
 Rail signals can't\nbe built here.\nAnother signal\nis too close.\n
 Zughalt muss auf\nSchiene liegen!\n
 Rail stations must\nbe placed on the\nrailway track.\n
+no tree
+No trees
+Number of rivers
+Number of rivers
+minimum length of rivers
+Min. river length
+maximum length of rivers
+Max. river length
+Percent Electricity
+Electricity output (% demand):
+convoi mouseover tooltips
+Mouse-over convoy tooltips
+all convoi tooltips
+Full convoy tooltips
+convoi error tooltips
+Only error convoy tooltips
+no buildings hidden
+Do not hide any buildings
+hide city building
+Hide city buildings
+hide all building
+Hide all buildings
+\nBauzeit bis
+ until 
+\nBauzeit von
+\nAppears from 
+\nCan't open heightfield file.\n
+\nCannot open height map.\n
+\ndirection:
+\ndirections: 
+\nelektrified
+\nElectrified\n
+\nHeightfield has wrong image type.\n
+\nHeightfield has wrong\nimage type.\n
+\nis reserved by:
+\nreserved by train 
+\nminimum speed:
+\nminimum speed: 
+\nnot elektrified
+\nNot electrified\n
+\nRail block
+\nRail block No. 
+\nRibi (masked)
+\n\nDirections\n (masked): 
+\nsingle way
+\nSingle Way
+\nwith sign/signal\n
+\nwith sign/signal\n
+\nRibi (unmasked)
+\nDirections\n (unmasked): 
+month wait time
+Max. wait for load
+isometric map
+Isometric view
+Show the map in the same isometric orientation as the main game window
+Show the map in the same isometric orientation as the main game window
+ignore climates
+Ignore climate
+labellist_title
+Marker list
+koord
+Map co-ordinate
+Terraforming not possible\nhere in underground view
+Terraforming not possible\nhere in underground view
+Cannot built this station/building\nin underground mode here.
+Cannot built this station/building\nin underground mode here.
+sliced underground mode
+Sliced underground mode
+decrease underground view level
+Decrease underground view level
+increase underground view level
+Increase underground view level
+Congratulation\nScenario was complete in\n%i months %i years.
+Congratulations -\nyou completed the\nscenario successfully,\ntaking %i months\nand %i years.
+Loading skins ...
+Loading skins ...
+Loading paks ...
+Loading paks ...
+Loading addon paks ...
+Loading addon paks ...
+PaxDest
+Pass. destinations
+The main game window can be scrolled by right-clicking and dragging the ground.
+The main game window can be scrolled by right-clicking and dragging the ground.
+Pedestrians will appear near stops whenver a passenger vehicle unloads there.
+Pedestrians will appear near stops whenver a passenger vehicle unloads there.
+Pedestrians will appear randomly in towns.
+Pedestrians will appear randomly in towns.
+Whether the lighting in the main game window simulates a periodic transition between day and night.
+Whether the lighting in the main game window simulates a periodic transition between day and night.
+All hidden items (such as trees and buildings) will appear as transparent.
+All hidden items (such as trees and buildings) will appear as transparent.
+Trees will be miniaturised or made transparent in the main game window.
+Trees will be miniaturised or made transparent in the main game window.
+The display of the station coverage can either be a transparent rectangle or a series of boxes.
+The display of the station coverage can either be a transparent rectangle or a series of boxes.
+Show from how far that passengers or goods will come to use your stops. Toggle with the v key.
+Show from how far that passengers or goods will come to use your stops. Toggle with the v key.
+See under the ground, to build tunnels and underground railways/metros. Toggle with SHIFT + U
+See under the ground, to build tunnels and underground railways/metros. Toggle with SHIFT + U
+Shows the borderlines of each tile in the main game window. Can be useful for construction. Toggle with the # key.
+Shows the borderlines of each tile in the main game window. Can be useful for construction. Toggle with the # key.
+Shows the names of the individual stations in the main game window.
+Shows the names of the individual stations in the main game window.
+Shows a bar graph representing the number of passengers/mail/goods waiting at stops.
+Shows a bar graph representing the number of passengers/mail/goods waiting at stops.
+Routes will update instantly after any changes to lines/schedules. Can make the game respond slowly on big maps.
+Routes will update instantly after any changes to lines/schedules. Can make the game respond slowly on big maps.
+See under the ground, one layer at a time. Toggle with CTRL + U. Move up/down in layers with HOME and END.
+See under the ground, one layer at a time. Toggle with CTRL + U. Move up/down in layers with HOME and END.
+
