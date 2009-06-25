@@ -557,6 +557,8 @@ clf_chk_stucked
 blockiert
 clf_chk_trains
 Züge
+clf_chk_trams
+Straßenbahnen
 clf_chk_type_filter
 Typen filtern:
 clf_chk_waren
@@ -894,7 +896,7 @@ hlf_chk_overflow
 hlf_chk_spezial_filter
 Spezialfilter:
 hlf_chk_tramstop
-Tramhaltestelle
+Straßenbahnhaltestelle
 hlf_chk_type_filter
 Typen filtern:
 hlf_chk_waren_abgabe
@@ -1602,7 +1604,7 @@ Zug
 Trains are not available yet!
 Züge sind noch nicht verfügbar!
 Tram
-Tram
+Straßenbahn 
 tram %i km/h, monorail %i km/h\nmaglev %i km/h, narrowgauge %i km/h.
 Straßenbahnen %i km/h, Monorailbahnen %i km/h\nManetbahnen %i km/h, Schmalspurbahnen %i km/h.
 Tramdepot
