@@ -420,7 +420,7 @@ Build a random attraction.
 Bus_tab
 Buses
 Can only move from halt to halt or waypoint to waypoint.
-Can only move \nfrom halt to halt or \nfrom waypoint to waypoint.
+Can only move from halt to\nhalt or waypoint to waypoint.
 cancel
 Cancel
 Cannot built depot here!
@@ -642,7 +642,7 @@ Factory details
 Fahrplan
 Schedule
 Fahrtziel
-Destination: 
+Destination
 Fahrzeuge koennen so nicht entfernt werden
 Vehicles cannot be\nremoved this way.\n
 Fahrzeuge:
@@ -702,7 +702,7 @@ Building
 Gewicht
 Weight
 Gewinn
-Revenue:
+Revenue
 Give the selected vehicle(s) an individual schedule
 Give the selected vehicle(s) an individual schedule.
 gl_btn_sort_bonus
@@ -1263,6 +1263,8 @@ SEP_FRACTION
 .
 SEP_THOUSAND
 ,
+Serves Line
+Serves line
 Serves Line:
 Serves line:
 Service
@@ -1531,8 +1533,6 @@ way %s now available:\n
 Way-type %s is available now.\n
 Wegpunkt
 Waypoint
-Can only move from halt to halt or waypoint to waypoint.
-Can only move from halt to\nhalt or waypoint to waypoint.
 Wert
 Value
 west
@@ -1677,4 +1677,3 @@ rpl_cnv_sell
 Sell
 rpl_cnv_skip
 Skip
-
