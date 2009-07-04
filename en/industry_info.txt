@@ -24,10 +24,10 @@ To connect a <a href="station.txt">stop</a> to an industry, simply place the sto
 <p>
 When starting the game, the intial number of Industry Supply Chains can be set in <a href="new_world.txt">Create New World</a>.
 As <a href="citywindow.txt">urban areas</a> grow, more industries may appear. New industries appears each time the population of an urban area doubles, from about 2,000 onwards.<br>
-<em>Tip</em>: Add an industry to an urban area manually by using the <a href="edittools.txt">Build a new market in the nearest city</a> tool in the <a href="special.txt">special construction tools</a>. Change when new industries are generated in <strong>cityrules.tab</strong> (industry_increase_every = 0 generates no new industry).
+<em>Tip</em>: Build and link industries manually by using the <strong>build industries</strong> tool in the <a href="edittools.txt">map editing</a> toolstrip. You must be the <a href="players.txt">public player</a> to do this. Change when new industries are generated in the <strong>cityrules.tab</strong> file: industry_increase_every = 0 generates no new industries.
 </p>
 <p>
-Click on an industry in the main game window with the <a href="inspection_tool.txt">Inspection Tool</a> or an industry listed in the <a href="factorylist_filter.txt">?Industry List</a> to open the <strong>Industry Information</strong> window.<br>
+Click on an industry in the main game window with the <a href="inspection_tool.txt">Inspection Tool</a> or an industry listed in the <a href="factorylist_filter.txt">Industry List</a> to open the <strong>Industry Information</strong> window.<br>
 Use the <a href="mouse.txt">slider bar</a> to scroll items if all are not visible at once.
 </p>
 <p>

@@ -1005,8 +1005,8 @@ New Line
 New Line
 New line created!\nYou can assign the line now\nby selecting it from the\nline selector above.
 New line created!\nYou can assign the line now\nby selecting it from the\nline selector above.
-New vehicle now available:\n%s\n
-\n A new vehicle is\n now available:\n\n\n -- %s --\n\n
+New %s now available:\n%s\n
+A new %s is now available:\n%s\n
 New Vehicles
 New Vehicles
 New world record for monorails: %.1f km/h by %s.
@@ -1179,8 +1179,8 @@ Power:
 Power:
 Powerlines
 Powerlines
-Production of vehicle has been stopped:\n%s\n
-Production of vehicle\nhas been stopped:\n%s.\n
+Production of %s has been stopped:\n%s\n
+Production of the\nfollowing %s has been\ndiscontinued:\n%s\n
 Produktion
 Production
 Profit
@@ -1473,6 +1473,8 @@ Update Line
 Update line
 upgrade HQ
 Upgrade HQ
+Upgrade to %s now available:\n%s\n
+An upgrade to a %s is now available:\n%s\n
 Use timeline start year
 Use timeline from year:
 Vehicle %s can't find a route!
@@ -1677,4 +1679,19 @@ rpl_cnv_sell
 Sell
 rpl_cnv_skip
 Skip
+road vehicle
+road vehicle
+rail car
+railway vehicle
+water vehicle
+water craft
+monorail vehicle
+monorail vehicle
+street car
+tram
+airplane
+aircraft
+maglev vehicle
+narrowgauge vehicle
+narrow gauge railway vehicle
 

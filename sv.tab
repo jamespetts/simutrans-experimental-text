@@ -3,190 +3,32 @@ PROP_FONT_FILE
 Prop-Latin1.bdf
 ################################################################################
 #                                                                              #
-#                        Simutrans Base Translation File                       #
-#                             Scenario: Base texts                             #
+#                Simutrans Scenario Specific Translation File                  #
+#                          Scenario: Sim-Experimental                          #
 #                             Language: sv Svenska                             #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 28.06 2008                           #
+#                           Date Created: 28.06 2009                           #
 #                                                                              #
 #                                   authors:                                   #
-#                                Ewa Wiman - ewa                               #
-#note: I am a student from Linköping, Sweden. I like Simutrans so much that wan#
+#                              Frank Penz - FrankP                             #
+#                      note: Administrator SimuTranslator                      #
+#                           Michael Persson - Mippzon                          #
+#                                    note:                                     #
+#                          Susanna Björverud - Susanna                         #
+#                                    note:                                     #
+#                             Paul Color - color42                             #
+#                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
-#                            note: Administrator 64                            #
+#              note: Administrator Base texts / pak64 / pak.japan              #
 #                                                                              #
 ################################################################################
-#_________________________________program_text__________________________________
-#_________________________________program_text__________________________________
-!0_STATION_CROWDED
-%s är överfull.
-%1_CITY_SYLL
-Lund
-%2_CITY_SYLL
-Malm
-%3_CITY_SYLL
-Öre
-%4_CITY_SYLL
-Väster
-%5_CITY_SYLL
-Lin
-%6_CITY_SYLL
-Gustafs
-%7_CITY_SYLL
-Skog
-%8_CITY_SYLL
-Marie
-%9_CITY_SYLL
-Helsing
-%A_CITY_SYLL
-Arla
-%B_CITY_SYLL
-Örn
-&2_CITY_SYLL
-forsa
-&3_CITY_SYLL
-stad
-&4_CITY_SYLL
-bro
-&5_CITY_SYLL
-köping
-&6_CITY_SYLL
-vik
-&7_CITY_SYLL
-sala
-&8_CITY_SYLL
-ås
-&9_CITY_SYLL
-holm
-&A_CITY_SYLL
-borg
-1center
-%s %s
-1extern
-%s Filial%s
-1LIGHT_CHOOSE
-Ljusstyrka:
-1nord
-%s Norra %s
-1nordost
-%s Nordöstra %s
-1nordwest
-%s Nordvästra %s
-1ost
-%s Östra %s
-1sued
-%s Södra %s
-1suedost
-%s Sydöstra %s
-1suedwest
-%s Sydvästra %s
-1west
-%s Västra %s
-1WORLD_CHOOSE
-Inställningar för ny karta:
-2center
-%s Central%s
-2extern
-%s Annex%s
-2LIGHT_CHOOSE
-Färger:
-2WORLD_CHOOSE
-Kartnummer:
-3center
-%s Huvud%s
-3extern
-%s Landsbygds%s
-3LIGHT_CHOOSE
-Rullningsfart:
-3WORLD_CHOOSE
-Kartstorlek:
-4center
-%s Inre%s
-4extern
-%s Yttre %s
-4LIGHT_CHOOSE
-Invärtes rullning
-5center
-%s Förorts%s
-5LIGHT_CHOOSE
-Visa fotgängare
-5WORLD_CHOOSE
-Antal städer:
-6WORLD_CHOOSE
-Trafiktäthet:
-8WORLD_CHOOSE
-Använd dag och natt
-Abfrage
-Inspekteringsverktyg
-Abnehmer
-Konsumenter
-Abriss
-Förstör/Ta bort
-Absenken
-Sänk marken
-Add Stop
-Ny hållplats
-Angenommene Waren
-Varor behövda av nära industrier
-Anhaenger_tab
-Trailers
-Anheben
-Höj marken
-Arbeiter aus:
-Arbetarna bor i:
-Bahndepot
-Tåggarage
-Bankrott:\n\nDu bist bankrott.\n
-Bankrutt:\n\nDu är bankrutt.\n
-Baum
-Träd
-Baustelle
-Byggplats
-Beenden
-Avsluta
-BF
-station
-Blockstrecke ist\nbelegt\n
-Spårsträckan är\nupptagen\nav ett annat tåg\n
-Boden
-Mark/land
-Bruecke
-Bro
-Bruecke muss an\neinfachem\nHang beginnen!\n
-Broar måste\nbörja på\nraka sluttningar!\n
-Cancel
-Avbryt
-City size
-Storlek
-clf_btn_alle
-alla
-clf_btn_invers
-inv.
-clf_btn_keine
-inga
-clf_chk_cars
-Bussar/lastbilar
-clf_chk_name_filter
-Filternamn:
-clf_chk_noincome
-inga inkomster
-clf_chk_noroute
-ingen rutt
-clf_chk_noschedule
-ingen färdplan
-clf_chk_ships
-Fatyg
-clf_chk_spezial_filter
-Specialfilter:
-clf_chk_trains
-Tåg
-clf_chk_type_filter
-Filtertyper:
-clf_chk_waren
-Filtrera varor:
-clf_title
-Fordonslistans filter
+#_____________________________Simutrans Base Texts______________________________
+#_____________________________Simutrans Base Texts______________________________
+#__________________________________button_text__________________________________
+#__________________________________button_text__________________________________
+Apply Line
+Använd linje
 cl_btn_filter_disable
 av
 cl_btn_filter_enable
@@ -194,41 +36,695 @@ på
 cl_btn_filter_settings
 Inställningar
 cl_btn_sort_asc
-ökande
+stigande
 cl_btn_sort_desc
-minskande
+fallande
+cl_btn_sort_id
+ID-nummer
 cl_btn_sort_income
-Inkomster
+Intäkter
 cl_btn_sort_name
-Namn
+Beteckning
 cl_btn_sort_type
 Typ
+clf_btn_alle
+alla
+clf_btn_invers
+omv.
+clf_btn_keine
+inga
+Construction_Btn
+Byggkostnader
+gl_btn_sort_bonus
+efter bonus
+gl_btn_sort_name
+efter namn
+gl_btn_sort_revenue
+efter intäkter
+gl_btn_unsort
+osorterade
+hl_btn_filter_disable
+av
+hl_btn_filter_enable
+på
+hl_btn_filter_settings
+Inställningar
+hl_btn_sort_asc
+stigande
+hl_btn_sort_desc
+fallande
+hl_btn_sort_name
+Beteckning
+hl_btn_sort_type
+Typ
+hl_btn_sort_waiting
+Väntande
+hlf_btn_alle
+alla
+hlf_btn_invers
+omvänt
+hlf_btn_keine
+inga
+koord
+efter orter
+#_________________________________climates_text_________________________________
+#_________________________________climates_text_________________________________
+arctic
+Polarklimat
+desert
+Ökenklimat
+mediterran
+Medelhavsklimat
+rocky
+Fjällklimat
+temperate
+Tempererat klimat
+tropic
+Tropiskt klimat
+tundra
+Tundra
+#__________________________________error_text___________________________________
+#__________________________________error_text___________________________________
+A bridge must start on a way!
+Broar måste börja/sluta\ni änden av en befintlig \nväg eller på en tom \nsluttning!
+Autohalt muss auf\nStrasse liegen!\n
+Buss- och lastbilshållplatser måste ligga på en väg.\n
+bridge is too high for its type!
+Dalen är för djup för\ndenna typ av bro!\n
+Bridge is too long for this type!\n
+Spannet skulle bli för\nlångt för denna typ av bro!\n
+Bruecke muss an\neinfachem\nHang beginnen!\n
+Broar måste\nbörja på\nraka sluttningar!\n
+Cannot built depot here!
+Här går det inte att bygga någon fordonshall!
+Cannot built this station/building\nin underground mode here.
+Byggnaden kan enbart\nbyggas ovan jord.\n\n
+Cannot create generic line!\nSelect line type by\nusing filter tabs.
+Det går inte att skapa en linje av generell typ.\nVälj linjetyp med hjälp av filtreringstabbarna.
+Das Feld gehoert\neinem anderen Spieler\n
+Den här mark-\nbiten ägs av\nen annan spelare!\n
+Der Besitzer erlaubt das Entfernen nicht
+Ägaren tillåter\ninte att\ndetta tas bort!\n
+Der Tunnel ist nicht frei!\n
+Tunneln är inte tom.\n
+Die Bruecke ist nicht frei!\n
+Bron är inte tom!\n
+Diese Zusammenstellung kann nicht fahren!\n
+Denna kombination\nkan ej köra!\n
+Dock must be built on single slope!
+Hamnar måste byggas\nvid en kust!
+Fahrzeuge koennen so nicht entfernt werden
+Det går inte att ta bort\nfordon/fartyg på det här sättet!\n
+Flugzeughalt muss auf\nRunway liegen!\n
+Flygplan kan bara\nlanda på flygplatser!\n
+Hier kann dieses\nFlughafengebaeude nicht\ngebaut werden!\n
+Här kan man inte\nbygga den här flygplats-\nbyggnaden.\n
+Hier kann kein\nSignal aufge-\nstellt werden!\n
+Här kan man\ninte bygga\nnågon signal!
+Home depot not found!\nYou need to send the\nconvoi to the depot\nmanually.
+Vet inte var fordonet \nhör hemma! Lägg\nmanuellt till\ndetta i färdplanen.
+Kann Spielstand\nnicht laden.\n
+Kan inte öppna\ndet sparade spelet!\n
+Kann Spielstand\nnicht speichern.\n
+Kan inte spara\nspelet!\n
+Maglevhalt muss auf\nMaglevschiene liegen!\n
+En maglevstation måste placeras på maglevräls!
+Monorailhalt muss auf\nMonorail liegen!\n
+Monorail hållplatser måste\nplaceras på monorail spår.
+Monorails are not available yet!
+Det finns ännu inte någon monorail tillgänglig.
+Narrowgauge are not available yet!
+Smalspår finns ännu inte tillgängligt!
+Narrowgaugehalt muss auf\nNarrowgauge liegen!\n
+Smalspårsstation måste\nligga på ett smalspår!\n
+No through station here!
+Här kan inte byggas\nnågon station\neller hållplats.
+Noch kein Fahrzeug\nmit Fahrplan\nvorhanden\n
+Det finns ännu inte någon\ntidtabell att köra efter!
+Not allowed!\nThe convoi's schedule can\nnot be changed currently.\nTry again later!
+Detta går inte!\nFordonets tidtabell kan\nför närvarande inte ändras.\nFörsök igen senare!
+On narrowgauge track only!\n
+En smalspårshållplats måste ligga på smalspår.
+Planes are not available yet!
+Flygplan har ännu inte uppfunnits!
+Post muss neben\nHaltestelle\nliegen!\n
+En stationstillbyggnad (t ex\n\npostkontor, lager)\n\nmåste byggas på en fri\n\nyta i direkt anslutning\n\ntill en hållplats!
+Schiffhalt muss im\nWasser liegen!\n
+Fartygshållplatser\nmåste placeras\ni vatten!\n
+Terraforming not possible\nhere in underground view
+Det går inte att förändra\nlandskapet på detta sätt under jord.\n
+Zughalt muss auf\nSchiene liegen!\n
+Tåghållplatser\nmåste placeras\npå järnvägsspår!\n
+#___________________________________help_text___________________________________
+#___________________________________help_text___________________________________
+<title>Keyboard Help</title>\n<h1><strong>Keyboard Help</strong></h1><p>\n
+<title>Tangentbordshjälp</title>\n\n<h1><strong>Tangentbordshjälp</strong></h1>\n<p>\n<strong>Tangentbordshjälp</strong> visar vilka funktioner som aktiveras av tangentbordets olika tangenter.\n</p>\n<p>\n<strong>Tangentbordshjälp</strong> öppnas när en tangent som ej är kopplad till någon funktion trycks ner eller från<a href="general.txt">Allmän hjälp</a>.\n</p>\n<p>\nTangentnedtryckningar är skiftlägeskänsliga (använd [<em>Skift</em>] för stora bokstäver).\n</p>\n<p>\nExempel på tangenter som är kopplade till en viss funktion är:\n</p>\n<p>\n[<em>Piltangenterna</em>]: rulla spelplanen i tangentens riktning.<br>\n[<em>Bakåtsteg</em>]: stäng alla fönster, verktygsmenyer och hjälptexter som finns öppna på spelplanen.<br>\n[<em>Delete</em>] eller [<em>Escape</em>]: stäng det översta fönstret, verktygsmenyn eller hjälpfönster som finns öppet på spelplanen.<br>\n[<em>Enter</em>] eller [<em>Return</em>]: används för att bekräfta handlingar.<br>\n[<em>Page-Up</em>] eller [<em>></em>]: zooma in på spelplanen.<br>\n[<em>Page-Down</em>] eller [<em> mindre än-symbolen</em>]: zooma ut på spelplanen.\n[<em>F1</em>]: öppna <a href="general.txt">Simutrans-hjälpen</a>.<br></p>\n<p>\n[<em>1</em>]: rulla spelplanen mot söder.<br>\n[<em>2</em>]: rulla spelplanen mot sydöst.<br>\n[<em>3</em>]: rulla spelplanen mot öster.<br>\n[<em>4</em>]: rulla spelplanen mot sydväst.<br>\n[<em>6</em>]: rulla spelplanen mot nordöst.<br>\n[<em>7</em>]: rulla spelplanen mot väster.<br>\n[<em>8</em>]: rulla spelplanen mot nordväst.<br>\n[<em>9</em>]: rulla spelplanen mot norr.\n</p>\n<p>\n[<em>Skift</em>] + <a href="mouse.txt">mouse</a>: använd på <a href="map.txt">kartan</a> för att se länkar i <a href="industry_info.txt">industrinförsörjningskedjan</a>.<br>\n[<em>CTRL</em>] + verktyg: bygg (signaler & <a href="station.txt">Stationer</a>) på den övre nivån; eller bygg långsammare vägar and järnvägar över existerande; eller bygg rakare vägar och järnvägar.<br>\n[<em>CTRL</em>] + ([<em>F2</em>] till [<em>F12</em>]): binder nuvarande verktyg till tangent[<em>F2</em>] till [<em>F12</em>].\n</p>\n<p>\n\n
+Clear block reservation
+Visa/lös upp lagda tågvägar
+#____________________________________ki_text____________________________________
+#____________________________________ki_text____________________________________
+%s now\noffers bus services\nbetween %s\nand attraction\n%s\nat (%i,%i).\n
+Nu kan turisterna\nåka i %s regi\nmellan %s\noch %s på (%i,%i).\n
+%s now\noffers bus services\nbetween %s\nand factory\n%s\nat (%i,%i).\n
+%s kör nu arbetare\nfrån %s\ntill fabriken %s\n på (%i,%i).\n
+%s\nnow operates\n%i trucks between\n%s at (%i,%i)\nand %s at (%i,%i).
+%s\nhar nu\n%i lastbilar i trafik mellan\n%s vid (%i,%i)\noch %s\nvid (%i,%i).
+%s\nopened a new railway\nbetween %s\nat (%i,%i) and\n%s at (%i,%i).
+%s\nöppnade en ny järnväg\nmellan %s\nvid (%i,%i) och\n%s\nvid (%i,%i).\n\n
+Airline service by\n%s\nnow between\n%s \nand %s.\n
+Nu flyger %s mellan\n%s och %s!\n
+Ferry service by\n%s\nnow between\n%s \nand %s.\n
+Skepp ohoj!\n%s kryssningsfartyg\ntar nu passagerare från\s%s till %s.
+Travellers now\nuse %s's\nbusses between\n%s \nand %s.\n
+Det finns nu en ny\nförbindelse i\n%ss\nregi mellan %s\noch %s.
+#___________________________________menu_text___________________________________
+#___________________________________menu_text___________________________________
+AIRTOOLS
+Flygplatsverktyg
+EDITTOOLS
+Kartredigerare
+LISTTOOLS
+Listor
+MONORAILTOOLS
+Monorailverktyg
+NARROWGAUGETOOLS
+Verktyg för smalspår
+RAILTOOLS
+Järnvägsverktyg
+ROADTOOLS
+Vägverktyg
+SHIPTOOLS
+Kanaler, hamnar och varv
+SLOPETOOLS
+Markhöjdsverktyg
+SPECIALTOOLS
+Specialbyggnader
+TRAMTOOLS
+Spårvagnsverktyg 
+#_________________________________message_text__________________________________
+#_________________________________message_text__________________________________
+%s s\nheadquarter now\nat (%i,%i).
+Ett nytt huvudkontor har byggts av %s.
+%s wasted\nyour money with a\nnew townhall\nwhen it reached\n%i inhabitants.
+Borgmästaren vägrar frysa mer:\nNytt rådhus byggt i %s\n när staden blev %i invånare stor.\n
+Bankrott:\n\nDu bist bankrott.\n
+Bankrutt:\n\nDu är bankrutt.\n
+Congratulation\nScenario was complete in\n%i months %i years.
+Gratulationer!\nDetta scenario har \nspelats klart på \n%i månader och %i år!
+Du hast %d Monate Zeit, deine Schulden zurueckzuzahlen
+Du har %d månader på dig att betala dina skulder.
+Factory chain extended\nfor %s near\n%s built with\n%i factories.
+Ekonomin är stark:\n%s nära %s utvidgar.\n%i nya fabriker har öppnat.
+New %s now available:\n%s\n
+%s av typen '%s'\när nu tillgänglig.\n
+New factory chain\nfor %s near\n%s built with\n%i factories.
+Industritillväxt: Ny fabrikskedja\ntill %s nära\n%s byggd med\n%i fabriker.
+New vehicle now available:\n%s\n
+\nEtt nytt fordon är\n nu tillgängligt:\n\n\n -- %s --\n\n
+On this map, you are not\nallowed to change player!\n
+Detta spel är låst.\nInga spelarbyten är tillåtna\npå denna karta.\n
+Production of %s has been stopped:\n%s\n
+%s av typ '%s'\ntillverkas inte längre.\n
+Remove vehicle from map. Use with care!
+Fordonet tas bort. Försäljningsvärdet tillgodoskrivs som vinst.
+Scenario complete: %i%%
+Scenariot klart på: %i%%
+Screenshot\ngespeichert.\n
+Skärmbild\nsparad.\n
+Sends the convoi to the last depot it departed from!
+Sänder konvojen till nästa fordonshall.
+Spielstand wurde\ngeladen!\n
+\nSpelet har lästs in!\n
+Spielstand wurde\ngespeichert!\n
+\nSpelet har sparats!\n
+Verschuldet:\n\nDu hast %d Monate Zeit,\ndie Schulden zurueckzuzahlen.\n
+Du står i skuld!\n\nDu har %d månader på dig\natt återbetala din skuld.\n
+With a big festival\n%s built\na new monument.\n%i citicens rejoiced.
+Med en stor festival,\n%s firar man\nbygget av ett nytt monument.\n%i åskådare deltar.
+#_________________________________program_text__________________________________
+#_________________________________program_text__________________________________
+!0_STATION_CROWDED
+%s är överfull.
+!1_DEPOT_REACHED
+%s\nhar nått fordonshall
+(%i)-
+(%i)
+(in depot)
+(i fordonshall)
+\nBauzeit bis
+ t o m 
+\nBauzeit von
+\nKan byggas fr o m 
+\nCan't open heightfield file.\n
+\nKan inte öppna höjdkartefilen.\n
+\ndirection:
+\nRiktningar:
+\nelektrified
+\nelektrifierad\n
+\nHeightfield has wrong image type.\n
+\nFel filtyp.\n
+\nis reserved by:
+\ntågväg är lagd för: \n
+\nminimum speed:
+\nminsta tillåtna hastighet:
+\nnot elektrified
+\nej elektrifierad\n
+\nRibi (masked)
+\nriktningar (dolda):
+\nRibi (unmasked)
+\nriktningar (alla):
+\nsingle way
+\nEnkelriktat
+\nway1 reserved by
+\nväg 1 är reserverad av 
+\nway2 reserved by
+\nväg 2 är reserverad av 
+\nwith sign/signal\n
+\n med skylt/signal\n
+&1_CITY_SYLL
+stad
+&2_CITY_SYLL
+by
+&3_CITY_SYLL
+bro
+&4_CITY_SYLL
+brunn
+&5_CITY_SYLL
+berg
+&6_CITY_SYLL
+dal
+&7_CITY_SYLL
+fält
+&8_CITY_SYLL
+fors
+&9_CITY_SYLL
+sluss
+&A_CITY_SYLL
+vad
+&B_CITY_SYLL
+köping
+&C_CITY_SYLL
+hult
+&D_CITY_SYLL
+vik
+&E_CITY_SYLL
+borg
+%1_CITY_SYLL
+Lunds
+%2_CITY_SYLL
+Malm
+%3_CITY_SYLL
+Norr
+%4_CITY_SYLL
+Väster
+%5_CITY_SYLL
+Söder
+%6_CITY_SYLL
+Öster
+%7_CITY_SYLL
+Skog
+%8_CITY_SYLL
+Marie
+%9_CITY_SYLL
+Karls
+%A_CITY_SYLL
+Oskars
+%B_CITY_SYLL
+Alm
+%C_CITY_SYLL
+Böke
+%d buildings\n
+%d byggnader 
+%d convois
+%d konvojer
+%d Einzelfahrzeuge im Depot
+%d fordon förvaras här.
+%D_CITY_SYLL
+Gran
+%E_CITY_SYLL
+Tall
+%F_CITY_SYLL
+Ek
+%i km/h (max. %ikm/h)
+%i km/t (max %i km/t)
+%s building %s %s
+%s %s %s
+%s city %d %s
+%s %d stad %s
+%s land %d %s
+%s %d landsbygd %s
+%s\nspeed %i\nmax_speed %i\ndx:%i dy:%i
+%s\nhastighet %i\nhögsta hastighet %i\ndx:%i dy:%i
+%s\nwas liquidated.
+%s\nhar avvecklats.
+<em>%C</em> - %s<br>\n
+[<em>%C</em>]: %s<br>\n
+<no line>
+<ingen linje finns>
+1 convoi
+1 konvoj
+1 Einzelfahrzeug im Depot
+1 fordon förvaras här.
+1center
+%s %s
+1extern
+%s filial %s
+1LIGHT_CHOOSE
+Ljusstyrka:
+1suburb
+%s %s %s
+1WORLD_CHOOSE
+Inställningar för nytt spel:
+2center
+%s central %s
+2extern
+%s annex %s
+2LIGHT_CHOOSE
+Färger:
+2suburb
+%s Nya %s %s
+2WORLD_CHOOSE
+Kartnummer:
+3center
+%s huvud%s
+3extern
+%s landsbygd %s
+3LIGHT_CHOOSE
+Rullningsfart:
+3suburb
+%s by %s %s
+3WORLD_CHOOSE
+Kartstorlek (%d MB):
+4center
+%s inre %s
+4extern
+%s yttre %s
+4LIGHT_CHOOSE
+Omvänd rullning
+4suburb
+%s koloni %s %s
+5LIGHT_CHOOSE
+Fotgängare vid stationer
+5WORLD_CHOOSE
+Antal städer:
+6center
+%s centrum %s
+6extern
+%s industriområde %s
+6LIGHT_CHOOSE
+Fotgängare i städer
+6WORLD_CHOOSE
+Trafiktäthet:
+7center
+%s stad %s
+8WORLD_CHOOSE
+Skilj på dag och natt
+Abfrage
+Granskningsverktyg
+Abnehmer
+Konsumenter
+About
+Om
+Abriss
+Rivningsverktyg
+Absenken
+Sänk marknivån
+Accelerate time
+Accelerera tidsförlopp
+Account above %s
+Kontoställning för %s
+Active player only
+Endast aktiv spelare
+Add forest
+Lägg till skog
+Add Stop
+Lägg till
+Add stops for backward travel
+Lägg till stopp på vägen tillbaka.
+Add the selected vehicle(s) to the selected line
+Konvojerna sätts i trafik på vald linje.
+Air
+Flyg
+aircraft_tab
+Fraktflygplan
+airplane
+Flygplan
+Airport
+Flygplats
+All
+Alla
+Allow player change
+Tillåt spelarbyte
+allowed climates:\n
+Klimatzoner:
+Alters a schedule.
+Ändrar en tidtabell
+Angenommene Waren
+--Varor som kan levereras hit
+anhaengen
+häng på
+Anhaenger_tab
+Släpvagnar
+Anheben
+Höj marknivån
+Appends stops at the end of the schedule
+Lägg till stationer i slutet av tidtabellen
+Arbeiter aus:
+Arbetarna bor i:
+Arrived
+Anlänt
+Assets
+Fordonsvärde
+Aufloesen
+Upplös 
+August
+Augusti
+Available
+Tillgänglig
+Bahndepot
+Lokstall/vagnhall
+battery
+Batteri
+Baum
+Träd
+baum builder
+Plantera träd
+Baustelle
+Byggplats
+Bauzeit
+Byggnadstid
+Beenden
+Avsluta
+Beginner mode
+Nybörjarläge
+Besonderes Gebaeude
+Turistattraktion 
+BF
+station
+bio
+biologisk
+Blockstrecke ist\nbelegt\n
+Spårblocket är\nupptaget\nav ett annat tåg\n
+Boden
+Mark
+Bruecke
+Bro
+Brueckenboden
+Bro
+Build air depot
+Hangar
+build choosesignals
+Infartssignaler
+Build city market
+Ny affärsbyggnad
+Build drain
+Transformatorstation
+build HQ
+Huvudkontor
+Build land consumer
+En ny industrikedja kommer att byggas
+Build maglev depot
+Maglevfordonshall
+Build monorail depot
+Monorailfordonshall
+Build narrowgauge depot
+Smalspårsfordonshall
+Build powerline
+Kraftledning
+Build presignals
+Tvåblockssignaler
+Build road depot
+Garage
+Build ship depot
+Bygg skeppsvarv
+Build signals
+Bygg signaler
+Build train depot
+Bygg lokstall/vagnhall
+Build tram depot
+Bygg spårvagnshall
+Build truck depot
+Bygg garage
+Building costs estimates
+Uppskattad byggkostnad
+Buildings
+Antal hus
+Built artifical slopes
+Bygg konstgjorda sluttningar
+Built random attraction
+Ny sevärdhet
+Bus_tab
+Bussar
+Can only move from halt to halt or waypoint to waypoint.
+Kan endast flytta \nfrån hållplats till hållplats eller \nfrån vägpunkt till vägpunkt.
+Cancel
+Avbryt
+Capacity: %s\nLoad: %d (%d%%)
+Kapacitet: %s\n? %d (%d%%)
+Cars are not available yet!
+Det finns inte ens hästar än!\nBörja från första knallen...
+cars.\nstate
+ fordon\n
+Cash
+Konto
+Change player
+Byt spelare
+Chart
+Statistik
+Choose direction
+Välj riktning
+Choose operation executed on clicking stored/new vehicles
+Välj vad som skall hända när du klickar på nya fordon eller fordon i fordonshall.
+chooses a random map
+Väljer slumpkarta.
+citicens
+Medborgare
+City attraction
+Stadsattraktion
+City industries
+Affärer i städer
+City list
+Stadslista
+City size
+Stadsstorlek
+city_road
+Gata
+citybuilding builder
+Bygg stadsbyggnader
+CityLimit
+Stadsgränser
 cl_title
 Fordonslista
 cl_txt_filter
 Filter:
 cl_txt_sort
 Sortera efter:
+clf_chk_aircrafts
+Flygplan
+clf_chk_cars
+Bussar/lastbilar
+clf_chk_indepot
+i fordonshall
+clf_chk_maglev
+Maglevbanor
+clf_chk_monorail
+Monorailbanor
+clf_chk_name_filter
+Filternamn:
+clf_chk_narrowgauge
+Smalspårsbanor
+clf_chk_noincome
+inga intäkter
+clf_chk_noline
+ingen linje
+clf_chk_noroute
+ingen rutt
+clf_chk_noschedule
+ingen tidtabell
+clf_chk_ships
+Fartyg
+clf_chk_spezial_filter
+Specialfilter:
+clf_chk_stucked
+blockerad
+clf_chk_trains
+Tåg
+clf_chk_type_filter
+Filtertyper:
+clf_chk_waren
+Filtrera varor:
+clf_title
+Fordonslista - inställningar
+Climate Control
+Välj klimat
+closed
+stängd
 COLOR_CHOOSE\n
 Välj en färg\nfrån paletten:\n
+Company bankrupt
+Företaget är satt i konkurs!
+Connect factory
+Skapa trafikled mellan industrianläggningar
+Connected stops
+Hållplatser (med anslutning till denna fabrik)
+Constructed by
+Skapad av
+Constructed by %s
+Skapad av %s
+convoi %d of %d
+Konvoj %d från %d
+Convoi has been sent\nto the nearest depot\nof appropriate type.\n
+Fordonet har skickats\ntill närmaste fordons-\nhall av lämplig typ.
+Convoi is sold when all wagons are empty.
+Konvojen kommer att tas bort så fort som den är tömd. Försäljningsvärdet kommer att tillgodogöras kassan.
+convoi passed last\nmonth %i\n
+\nkonvojer som passerade\nförra månaden: %i\n
+Convois
+Konvojer
+Convois: %d\nProfit: %s
+Fordon: %d\nVinst: %s
+Convoys
+Konvojer
+Copy Convoi
+Kopiera konvoj
+Copy the selected convoi and its schedule or line
+Gör en kopia av konvojen med dess tidtabell eller linje
+cost for removal
+Kostnad för att ta bort 
+Create a new line based on this schedule
+Skapa en ny linje baserad på denna tidtabell.
+curiosity builder
+Bygg sevärdheter
+curlist_title
+Turistmål
 Currently playing:
 Spelar just nu:
-Das Feld gehoert\neinem anderen Spieler\n
-Den här mark-\nbiten ägs redan av\nen annan spelare!\n
+Deccelerate time
+Sänk spelhastigheten
 Del Stop
- Ta bort
+Ta bort
+Delete Line
+Ta bort linje
+Delete the current stop
+Ta bort nuvarande hållplats
+Delete this file.
+Ta bort denna fil.
 Denkmal
 Minnesmärke
-Der Besitzer erlaubt das Entfernen nicht
-Ägaren vägrar\ntillåta att\ndetta tas bort.\n
+Departed
+Avgått
+Depots
+Fordonshallar
 Details
 Detaljer
 Direkt erreichbare Haltestellen
-Direkta rutter härifrån
+--direkta trafikförbindelser:
+disable midi
+Tysta MIDI-musiken
 Dock
-kaj
+Hamn
 Durchsatz
-Max. prod.
+Max.
 Eigenbesitz\n
 Allmän egendom\n
 Ein %s\npasst hier nicht.\n
@@ -239,68 +735,176 @@ Einstellungen aendern
 Ändra alternativ:\n
 Einstellungsfenster
 Spelalternativ
+electric
+elektrisk
+Electricity
+Strömförsörjning
+Electricity producer\n\n
+Elektricitetsproducent\n\n
+Electrics_tab
+Elektricitet
+Electrify track
+Elektrifiera spåret
+enlarge map
+Gör kartan större
+enter a value between %i and %i
+Välj ett värde mellan %i och %i.
+Error
+Ett fel har uppstått...
 Erzeuge neue Karte.\n
-Vänta,\nskapar en\nny karta...\n\n (Det här kan ta\n några minuter\n på stora kartor.)\n
+Vänta,\nskapar en\nny karta...\n\n(Det här kan ta\nnågra minuter\npå stora kartor.)\n
 Es wird bereits\nein Fahrplan\neingegeben\n
-En färdplan\nblir redan planerad.\nGör den färdig innan\ndu gör om den!\n
+Du håller redan på att\nsammanställa en tidtabell!
 Fabrikanschluss
-Förbundna industrier
+--Fabriker som har anslutning till denna hållplats
+Fabrikname
+Fabriksnamn
+Factories
+Fabriker
+factory details
+Fabriksinformation
+factorybuilder
+Bygg industrianläggningar
 Fahrplan
-Färdplan
-Fahrzeuge koennen so nicht entfernt werden
-Fordon kan inte bli\nborttagna såhär.\n
+Tidtabell
+Fahrtziel
+Färdmål:
+Fahrzeuge:
+Fordon/fartyg:
 Farbe
 Spelarfärg
+Fast forward
+Snabbspola
+February
+Februari
+Ferry_tab
+Färjor
 Fertig
 Klar
 Filename
 Filnamn:
+Finances of %s
+Finanser för %s
 Finanzen
 Finanser
+fl_title
+Fabrikslista
+Flug_tab
+Passagerarflygplan
+follow me
+Följ mig
+Follow the convoi on the map.
+Följ denna konvoj.
+Forest
+Skog
 Found new city
-Bygg ny stad
+Grunda ny stad
+FPS:
+Bildhastighet (fps):
 Fracht
-Last
+Frakt
+Frame time:
+Bildfrekvens:
+Free Capacity
+Fri kapacitet
+freeplay mode
+ingen bankrutt
+Friction:
+Nuvarande friktionsfaktor:
+fuel_cell
+bränslecell
 Full load
-Vänta på:      
+Minimilast:     
+Fussgaenger
+Fotgängare
 GAME PAUSED
-SPELET PAUSAT
+Spelet är pausat
+Gear:
+Utväxling:
 Gebaeude
-Byggnad
+Byggnader
 Gewicht
 Vikt
 Gewinn
-Förtjänst
-H
-hållplats
+Vinst:
+Give the selected vehicle(s) an individual schedule
+Tilldela de valda fordonen en egen tidtabell.
+gl_btn_sort_catg
+efter typ
+gl_title
+Varulista
+go home
+Till fordonshall
+Goods
+Varor
+Goods AI
+Frakt-AI
+Goods list
+Varuöversikt
+Gross Profit
+Bruttovinst
+Groundobj
+Föremål
+Grow city
+Utöka invånarantal
+Growth
+Tillväxt
+Happy
+Tillfreds
+Headquarter and %li trains
+Huvudkontor och %li tåg
 Helligk.
 Visning
 Helligk. u. Farben
-Skärminställningar
-Hier kann kein\nSignal aufge-\nstellt werden!\n
-Järnvägssignalen\nkan inte byggas\nhär!\n
+Visning:
+Help
+Hjälp
+Help text not found
+Det går bara att\nvisa hjälptexter som\nredan finns. Ställ\ndin fråga till\nett av Simutrans-forumen.
+hide all building
+Krymp alla byggnader
+hide city building
+Krymp stadsbyggnader
+hide station names
+Dölj stationsnamn
+hide transparent
+Genomskinlig istället för krympt
+hide trees
+Krymp träd
 Hier warten/lagern:
 Väntande varor och passagerare:
-hlf_btn_alle
-alla
-hlf_btn_invers
-inv.
-hlf_btn_keine
-inga
+hl_title
+Stationslista
+hl_txt_filter
+Filter:
+hl_txt_sort
+Sorterade efter:
+hlf_chk_airport
+Flygplatser
 hlf_chk_anleger
-Kaj
+Hamnar
 hlf_chk_bahnhof
-Järnvägsstation
+Järnvägsstationer
 hlf_chk_bushalt
-Busshållplats
+Busshållplatser
 hlf_chk_frachthof
-Lastplats
+Lastplatser
 hlf_chk_keine_verb
 ingen förbindelse
+hlf_chk_maglevstop
+Maglevstation
+hlf_chk_monorailstop
+Monorailhållplats
 hlf_chk_name_filter
 Filternamn:
+hlf_chk_narrowgaugestop
+Smalspårsstation
+hlf_chk_overflow
+Överfull
 hlf_chk_spezial_filter
 Specialfilter:
+hlf_chk_tramstop
+Spårvagnshållplats
 hlf_chk_type_filter
 Filtertyper:
 hlf_chk_waren_abgabe
@@ -308,99 +912,337 @@ Produktion:
 hlf_chk_waren_annahme
 Behövda varor:
 hlf_title
-Stationslistans filter
-hl_btn_filter_disable
-av
-hl_btn_filter_enable
-på
-hl_btn_filter_settings
-Inställningar
-hl_btn_sort_asc
-ökande
-hl_btn_sort_desc
-minskande
-hl_btn_sort_name
-Namn
-hl_btn_sort_type
-Typ
-hl_btn_sort_waiting
-Väntande
-hl_title
-Stationslista
-hl_txt_filter
-Filter:
-hl_txt_sort
-Sorterade efter:
+Stationslista - inställningar
+Homeless
+Hemlösa
+hydrogene
+Väte
+Idle:
+Tomgång:
+ignore climates
+Alla klimatzoner
+Increase Industry density
+Höj industridensiteten
+industrial building
+Industribyggnad
+Init map ...
+Kartan läses in...
+Input
+tillförd
 Ins Stop
 Infoga
-Kann Spielstand\nnicht laden.\n
-Kan inte läsa/öppna\ndet sparade spelet!\n
-Kann Spielstand\nnicht speichern.\n
-Kan inte spara\nspelet!\n
+Insert stop before the current stop
+Infoga hållplats innan den nuvarande hållplatsen
+Intercity road len:
+Längd på vägar mellan orter:
+Intro. date:
+Introduktion:
+invalid
+odefinierad
+Invalid coordinate
+Ogiltig order
+isometric map
+Isometrisk karta
+January
+Januari 
+July
+Juli
+Jump to
+Centrera runt
+June
+Juni
 keine
 inga
+Keine Einzelfahrzeuge im Depot
+Inga fordon förvaras här
+Keyboard_Help\n
+Tangentsbordshjälp\n
+Kreuzung
+Järnvägskorsning
+labellist_title
+Lista över markörer
 Lade Relief
-Ladda heightfield
+Läs in höjdkarta
 Laden
 Ladda
+Land attraction
+Utflyktsmål
+Land industries
+Industrinätverk
 LANG_CHOOSE\n
 Välj ditt språk:\n
 Last Year
 Förra året
 leer
 tom
+Legend
+Kart info
 Leistung
 Styrka
+Leistung: %d kW
+Styrka: %d kW
+Leitung
+Högspänningsledningar
 letzen Monat: diesen Monat:
 Förra månaden:   Den här månaden:
+Line
+Linje
+Line Management
+Linjeredigeraren
+Lines are used to manage groups of vehicles
+Linjer används för att hantera flera grupper av fordon
+Lines serving this stop
+--Linjer som trafikerar denna hållplats
 LKW_tab
 Lastbilar
+Load game
+Läs in spel
+load height data from file
+Läs in höjddata från fil.
+Load scenario
+Läs in scenario
+loaded
+ilastat
+loaded passenger/freight
+Sortera pass./varor efter
+Loading map ...
+Kartan laddas...
+Lock game
+Tillåt inte spelarbyte under spelets gång (kräver konfirmation).
 LOCO_CAP
 Kapacitet: %d%s %s\n
 LOCO_INFO
-%s\nPris: %d$ (%1.2f$/km)\nStyrka: %dkW, %dkm/h\nVikt: %dt\n
+%s\nPris: %d$ (%1.2f$/km)\nStyrka: %dkW, %dkm/t\nVikt: %dt\n
 Lokomotive_tab
-Lok
+Lokomotiv 
 m3
 m³
+Maglev
+maglev
+maglev vehicle
+Maglevfordon
+Maglevdepot
+Maglevvagnhall
+Mailbox
+Meddelanden
+Mailbox Options
+Meddelandealternativ
+Maintenance
+Underhåll 
+make stop public (or join with public stop next) costs %i per tile and level
+Skapa eller anknyt till existerande allmän hållplats (%i$ per ruta och nivå)
+Manual (Human)
+Människa (utan AI)
+Manufactured:
+Tillverkad:
 Map roughness
-Kartgrovhet:
+Bergighet:
+map zoom
+zoom
+March
+Mars
+Margin (%)
+Marginal
 Marker
-Skylt
+Skapa en skylt
+Max income:
+Max. inkomst:
+Max. speed:
+maxhastighet:
+Maximum 254 stops\nin a schedule!\n
+Det får inte finnas mer än\n254 stopp i en tidtabell!\n
+maximum length of rivers
+Längsta flodlängd
+Maximum tile height difference reached.
+Höjdskillnaden\nmellan två rutor\nfår inte överstiga\ntvå steg.
+May
+Maj
+Median Citizen per town
+Genomsnittlig stadsstorlek:
 Meldung
 Meddelande
+Menge
+antal
+MessageOptionsText
+\nNytt år\n\nAI:n bygger\n\nStadsnyheter\n\nRutt saknas\n\nNy industri\n\nNya sevärdheter\n\nNya fordonstyper\n\nFulla stationer\n\nGenerella problem\n\nVarningar
+min
+min.
+minimum length of rivers
+Minsta flodlängd
+Modify the selected line
+Ändra in den valda linjen
+Monate alt
+månader gammal.
+monorail vehicle
+Monorailfordon
+Monorailboden
+Monorail understöd
+Monoraildepot
+Monorail depå
+month wait time
+Månaders väntetid
+Months
+Månader
+Monuments
+Monument
 Mountain height
-Bergighet:
+Bergshöjd:
+Move the selected vehicle(s) back to the depot
+Upplös aktuell konvoj.
+Movingobj
+Rörliga
+Music playing disabled/not available
+Musik avstängd/ej tillgänglig
 Music volume:
 Musikvolym:
+mute sound
+Stäng av allt ljud
+Name
+Namn
+Narrowgauge
+Smalspår
+narrowgauge vehicle
+Smalspårsfordon
+Narrowgaugedepot
+Smalspårsvagnhall
+Net Wealth
+Nettotillgångar
 Neue Karte
 Ny karta
 Neue Welt
 Skapa ny värld
+new convoi
+Ny konvoj
+New Line
+Ny linje
+New line created!\nYou can assign the line now\nby selecting it from the\nline selector above.
+Ny linje skapad!\nDu kan nu välja att\nknyta konvojen\ntill den ovan.
+New Vehicles
+Nya fordon
+no convois
+Inga konvojer
+No goods are loaded onto this convoi.
+Lasta inte på mer.
 no goods waiting
 inga varor väntar
-Noch kein Fahrzeug\nmit Fahrplan\nvorhanden\n
-Ge fordonen\nen färdplan, före\ndu ger dem gå\nordern!\n
+no load
+Ingen last
+No Route
+Ingen rutt
+No stop here!
+Verktyget går enbart att använda på hållplatser!
+No suitable ground!
+Olämplig mark!
+No terminal station here!
+En ändstation kan\nendast byggas vid slutet\nav en led!
+no timeline
+Alla epoker
+no tree
+Inga träd
+none
+ingen
+nord
+Norra
+nordost
+Nordöstra
+nordwest
+Nordvästra
+Not enough fields would remain.
+Det måste finnas ett\nvisst antal fält\nkvar runt varje bondgård.
+Now active as %s.\n
+Du är nu spelare:%s.\n
+Number of rivers
+Antal floder
+Object
+Objekt
 Ok
-Ok
+OK
+On loan since %i month(s)
+Kontot övertrasserat i %i månad(er)
+Only city chains
+Endast stadsnätverk
+Only land chains
+Endast fabriker utanför städer
+open
+öppnad
+Operation
+Driftskostnader
+Ops Profit
+Driftsvinster
+Optionen
+Alternativ
+Origin
+Avgångsort
+ost
+Östra
+Output
+resultat
 paletten
- lådor
+lastpallar
+Pas_tab
+Passagerartåg
 Passagiere
 Passagerare
 Passagierrate
-Passagerare
+Passagerartal
 Passagierziele
-Pass./post destinationer
+Destinationer för pass. och post
+Passenger AI
+Passagerar-AI
+Passengers %d %c, %d %c, %d no route
+Passagerare %d %c, %d %c, %d utan rutt
 Pause
 Pausa
-Post
-Post
-Post muss neben\nHaltestelle\nliegen!\n
-Ett postkontor måste\nplaceras nära en\nhållplats/station!\n
+Percent Electricity
+Andel kraftverk (%)
+Plant tree
+Träd
+player
+Spelare
+player -1
+Simutrans-spelare 
+player 0
+samhällsservice
+player 1
+Napik 128 HB
+player 10
+spelare 10
+player 11
+spelare 11
+player 12
+Spelare 12
+player 13
+Spelare 13
+player 2
+Trikky Transport
+player 3
+Meyers Flytt AB.
+player 4
+Transport AB
+player 5
+H-Trans AB
+player 6
+PSK & Son AB
+player 7
+Spelare 7
+player 8
+Spelare 8
+player 9
+Spelare 9
+Please choose vehicles first\n
+Välj en konvoj först!
+Postrate
+Posttal
 Power
 Strömstyrka
-Produktion
-Produktion
+Power:
+Ström:
+Powerlines
+Kraftnät
+Profit
+Vinst
+promote to line
+Ny linje
 q1
 Vår
 q2
@@ -409,38 +1251,150 @@ q3
 Höst
 q4
 Vinter
-RAILTOOLS
-Järnvägsbyggen
+rail car
+Rälsfordon
+random
+slumpmässig
+Random age
+Slumpår
 Random map
 Slumpkarta
+Rathaus
+Rådhus
+Rating
+Rang
+ratio_pax
+Proportion
 Reliefkarte
-Karta
+Reliefkarta
+Remove
+Ta bort etikett
+remove airstrips
+Ta bort taxi-/landingsbana
+remove channels
+Ta bort kanal
+remove maglev tracks
+Ta bort maglevspår
+remove monorails
+Ta bort monorailspår
+remove narrowgauge tracks
+Ta bort smalspår
+remove roads
+Ta bort väg
+remove tracks
+Ta bort järnvägssträcka
+replace stop
+ersätt hållplats
+request closing
+förbered nedstängning
+residential house
+Bostadshus
+Restore natural slope
+Återställ naturlig sluttning
 Restwert:
-Försäljningsvärde:
-ROADTOOLS
-Vägbyggen
+\nFörsäljningsvärde:
+Retire. date:
+Slopning:
+return ticket
+Skapa rundtur
+Revenue
+Inkomster
+road vehicle
+Landsvägsfordon
+Roadsign
+Vägskylt
+Rotate map
+Vrid spelplanen 90°
 sack
- säckar
+säckar
+sail
+vind
+Saving map ...
+Sparar karta...
 Schienentunnel
-Bygg järnvägstunnel
-Schiffdepot
-Fartygsdepå
-Schiffhalt muss im\nWasser liegen!\n
-Fartygshållplatser\nmåste placeras\ni vatten\nnära en kaj!\n
+Järnvägstunnel
 Schiff_tab
 Fartyg
+Schiffdepot
+Fartygsvarv
 Schleppkahn_tab
-Bojar
-Screenshot\ngespeichert.\n
-Skärmbild\nsparad.\n
-SHIPTOOLS
-Båtbyggen
+Kanalpråmar
+Screenshot
+Skärmbild
+Sehenswuerdigkeit
+Sevärdhet
+Sell the selected vehicle(s)
+Sälj det valda fordonet.
+sended
+Ivägskickat
+SEP_FRACTION
+,
+SEP_THOUSAND
+ 
+Serves Line:
+Betjänar linje:
+Service
+Tillfartsvägar
+Ship
+Fartyg
+shops and stores
+Affärsbyggnader\n
+Show all
+Visa allt
+show all building
+Visa alla byggnader
+Show also vehicles no longer in production.
+Visa också fordon som inte längre framställs.
+Show also vehicles that do not match for current action.
+Visa även fordon som ej kan användas med vald handling.
+show grid
+Visa rutnät
+Show industry
+Industrilista
+Show legend
+Teckenförklaring
+Show map scale
+Kartskala
+Show obsolete
+Visa även föråldrade
+Show schedules
+Tidtabeller
+show station coverage
+Visa stationstäckning
+show station names
+Visa stationsnamn
+show waiting bars
+Visa staplar över väntande gods
+Show/hide statistics
+Visa/dölj statistik 
+Shows consumer/suppliers for factories
+Visar kunder (eller med skift nedtryckt: leverantörer) till fabriken under muspekaren
+Shows the currently selected schedule
+Visa aktuell tidtabell som en bild.
+Shrink city
+Minska invånarantal
+shuffle midis
+Slumpval
+Sim:
+Simloopar:
+slot empty
+tom
+Sort by
+sortera efter
+Sort waiting list by
+Sortera väntelistan efter
 Sound
 Ljud
 Sound settings
 Ljudinställningar
 Sound volume:
 Ljudvolym:
+special freight
+Specialfrakt
+Speedbonus\nroad %i km/h, rail %i km/h\nships %i km/h, planes %i km/h.
+Hastighetsbonus\npå väg %i km/t, järnväg %i km/t\nfartyg %i km/t, flygplan %i km/t.
+Speedlimit
+Maxhastighet
 Speichern
 Spara
 Spieler
@@ -449,63 +1403,373 @@ Spieler(mz)
 Spelare
 Spielerliste
 \n   Blå . . . .  %.2f$\n\n   Gul . .  %.2f$\n\n   Röd . . . . . %.2f$\n\n   Grön . . .  %.2f$\n\n   Turkos %.2f$\n\n   Rosa . . . .  %.2f$\n
-Spielstand wurde\ngeladen!\n
-\nSpelet laddat!\n
-Spielstand wurde\ngespeichert!\n
-\nSpelet sparat!\n
 Sprache
 Språk
+Sprachen
+Språkval
 Stadtinformation
 Stadsinformation
 Start
 Kör!
+Start the selected vehicle(s)
+Skicka ut det valda fordonet.
 Starte Spiel
- Starta spel
+Starta spel
+Station tiles:
+Stationsrutor:
+Status
+Hållplatsstatus
+steam
+ånga
+Step timeline one year
+Hoppa över ett år
+Storage capacity
+Förvaringskapacitet
 Strassendepot
-Väggarage
+Garage
 Strassentunnel
 Bygg vägtunnel
+street car
+Landsvägsfordon
+sued
+Södra
+suedost
+Sydöstra
+suedwest
+Sydvästra
+Summer snowline
+Sommarsnögräns
+Suppliers
+Leverantörer
+Supply %s at (%i,%i)
+Tillförsel %s vid (%i,%i)
 Tage alt
-dagar gammalt
+dagar.
 There are still vehicles\nstored in this depot!\n
-Det finns fortfarande fordon\nlagrade i garaget/depån!\n
+Det finns fort-\nfarande fordon här!\n
+This Month
+Denna månad
 This Year
-Det här året
+Hittills i år
+Tile not empty.
+Rutan är upptagen\noch kan för närvarande\ninte ändras.\n
+timeline
+enligt epok
+tl_title
+Stadslista
+To attract more tourists\n%s built\na %s\nwith the aid of\n%i tax payers.
+För att attrahera fler turister har \n%s byggt\n%s\nför %i:- av skattebetalarnas pengar.
+To heavy traffic\nresults in traffic jam.\n
+Mycket trafik\norsakar trafikkaos.\n
+Toggle day/night view
+Växla mellan dag och natt
 tonnen
 t
+Total inhabitants:
+Totalt antal invånare:
+Tourist attractions
+Turistattraktioner
+Tourists
+Attraktioner
+Town: %s\n
+Ligger i staden %s\n
+Towns
+Städer
+Tracks
+Spår
+Traffic
+Trafik
+Train
+Tåg
+Trains are not available yet!
+Det finns ännu inte tåg!
+Tram
+Spårvagn
+tram %i km/h, monorail %i km/h\nmaglev %i km/h, narrowgauge %i km/h.
+spårvagn %i km/t, monorail %i km/t\nmaglev %i km/t, smalspår %i km/t.
+Tramdepot
+Spårvagnshall
+Trams are not available yet!
+Spårvagnar är ännu inte tillgängliga.
+Transformer only next to factory!
+Transformatorer kan endast byggas\n på platt mark i anslutning\n till en industri!
+Translation
+Översättning 
+transparent station coverage
+Genomskinlig stationstäckning
+Transport %li passengers
+Transporterade %li passagerare
+Transported
+Antal resor
+TrolleyBus_tab
+Trådbuss
+Truck
+Lastbilar
 Tunnel muss an\neinfachem\nHang beginnen!\n
 Tunnlar måste\nbörja på raka\nsluttningar!\n
-Tunnelmuendung
+Tunnel must start on single way!
+Tunnel måste starta på en befintlig väg.
+Tunnelboden
 Tunnel
+underground mode
+Underjordsläge
+UNDO failed!
+Detta går inte längre\natt ångra! Man kan enbart\nångra direkt efter byggnation!
+Undo last ways construction
+Ångra senast byggda väg.
+Unemployed
+Arbetslösa
+Unhappy
+Olyckliga
+units/day
+enheter/månad
+Update Line
+Ändra linje
+upgrade HQ
+Uppgradera huvudkontor
+Use timeline start year
+Ange startår:
+Vehicle %s can't find a route!
+%s\nkan inte längre\nhitta någon väg!
+Vehicle %s is stucked!
+Fordon %s sitter fast!
+Vehicle details
+Fordonsdetaljer
 Verbrauch
 Konsumtion
+Vergroessere die Karte\n
+Förstora kartan\n
 Verkauf
 Sälj
-Verschuldet:\n\nDu hast %d Monate Zeit,\ndie Schulden zurueckzuzahlen.\n
-Du står i skuld!\n\nDu har %d månader på dig\natt återbetala din skuld.\n
-Wagen im Block
-vagnar på spår-\nsträcka för tillfället
+verkaufen
+säljläge 
+Verkehrsteilnehmer
+Stadsbilar
+via %s\n
+ via %s\n
+via Menge
+via (antal)
+voranstellen
+ställ först
 WAGGON_INFO
-%s\nPris    : %d$ (%1.2f$/km)\nKapacitet: %d%s %s\nVikt: %dt\n
+%s\nPris: %d$ (%1.2f$/km)\nKapacitet: %d%s %s\nVikt: %dt\nMaxhast.: %dkm/h\n
 Waggon_tab
 Vagnar
 waiting
 väntar
 Water level
-Vattennivå:
+Grundvattennivå
+water vehicle
+Fartyg
+way %s cannot longer used:\n
+Vägtyp %s\nkan inte byggas längre!\n
+way %s cannot longer used:\n%s\n
+%s finns inte längre tillgänglig:\n
+way %s now available:\n
+Vägtyp %s kan\Nframöver byggas.\n
+way %s now available:\n%s\n
+%s\nkan nu byggas.
+Ways not connected
+Vägarna hänger inte ihop!\n
 Wegpunkt
-Färdmål
+Vägpunkt
 Wert
 Värde
+west
+Västra
+Winter snowline
+Vintersnögräns
+withdraw
+dra tillbaka
 WRONGSAVE
-Ej kompatibel spel-\nversion. Kan inte ladda\nden här filen.\n
+Ej kompatibel spel-\nversion. Kan inte läsa\nin den här filen.\n
+Year %i has started.
+År %i har börjat.
+Years
+År
+Zielort
+destination
+zooming in
+Zoomar in
+zooming out
+Zoomar ut
 Zu nah am Kartenrand
-För nära\nkanten på kartan för att kunna\nbygga någonting.\n
-Zu nah an einem\nanderen Signal!\n
-Järnvägssignalen\nkan inte byggas\nhär.\nEn annan signal\när för nära!\n
-Zughalt muss auf\nSchiene liegen!\n
-Tåghållplatser\nmåste placeras\npå järnvägsspår!\n
-\nCan't open heightfield file.\n
-\nKan inte öppna heightfieldfilen.\n
-\nHeightfield has wrong image type.\n
-\nHeightfieldfilen \när av fel\nbildtyp.\n
+För nära\nkanten på spelplanen för att kunna\nbygga någonting.\n
+#__________________________________record_text__________________________________
+#__________________________________record_text__________________________________
+New world record for maglevs: %.1f km/h by %s.
+Nytt världsrekord för maglevtåg med: %.1f km/t av %s.
+New world record for monorails: %.1f km/h by %s.
+Ett nytt världsrekord\nför monorail: %.1f km/t\nav %s.
+New world record for motorcars: %.1f km/h by %s.
+Bengt Blyfot når\n%.1fkm/t med\n%s.\nNytt världsrekord!
+New world record for narrowgauges: %.1f km/h by %s.
+Ett nytt världsrekord för\nsmalspårtåg med %.1f km/t\nav %s.
+New world record for planes: %.1f km/h by %s.
+Lilienthals arvingar rapporterar\nnytt världsrekord:\nflög i %.f km/t\n%s.
+New world record for railways: %.1f km/h by %s.
+Där flög vevstaken\nsin väg. Lokförare\nCederlund körde i %.f km/t!\n%s.
+New world record for ship: %.1f km/h by %s.
+Ett nytt världsrekord för\nfartyg med: %.1f km/t\npå %s.
+#_________________________Simutrans Experimental Texts__________________________
+#_________________________Simutrans Experimental Texts__________________________
+#_________________________________program_text__________________________________
+#_________________________________program_text__________________________________
+ mins. travelling
+min. restid
+ mins. waiting)
+min. väntetid
+\n\nInterest on your debt is\naccumulating at %i %%
+\n\nRänta påförs din skuld\nmed %i %%
+\n\nYour credit rating is being affected.
+\n\nDin kreditvärdighet påverkas.
+\nMax. weight:
+\nMaxvikt:
+\nMAY USE:  
+\nKAN ANVÄNDA SIG AV:
+\nMUST USE: 
+\nMÅSTE ANVÄNDA SIG AV:
+\nNetwork ID:
+\nNätverksid:
+%s\nCost:     %d$\nMaint.: %1.2f$/km, %1.2f$/month\nCapacity: %d (%d)%s %s\nWeight: %dt\nTop speed: %dkm/h\n
+%s\nKostn.:     %d$\nUnderh.: %1.2f$/km, %1.2f$/mån.\nKapacitet: %d (%d)%s %s\nVikt: %dt\nMaxhast.: %dkm/h\n
+%s\nCost:     %d$\nMaint.: %1.2f$/km, %1.2f$/month\nCapacity: %d%s %s\nWeight: %dt\nTop speed: %dkm/h\n
+%s\nKostn.:     %d$\nUnderh.: %1.2f$/km, %1.2f$/månad\nKapacitet: %d%s %s\nVikt: %dt\nMaxhast.: %dkm/h\n
+%s\nCost: %d$\nMaint.: %1.2f$/km, %1.2f$/month\nPower: %dkW, %dkm/h\nWeight: %dt\n
+s\nKostn.: %d$\nUnderh.: %1.2f$/km, %1.2f$/månad\nKraft: %dkW, %dkm/h\nVikt: %dt\n
+All hidden items (such as trees and buildings) will appear as transparent.
+Alla dolda föremål (som träd och byggnader) kommer att visas som genomskinliga.
+Capital expenditure on infrastructure
+Infrastrukturutlägg
+Capital expenditure on vehicle purchases and upgrades
+Utlägg för fordonsinköp och -förbättringar
+Catering level: %i\n
+Serveringsnivå: %i\n
+Comfort:
+Bekvämlighet:
+Cost of overdraft interest payments
+Räntekostnader för övertrasserat konto
+Full replace
+Ersätt fullständigt
+gl_btn_sort_catg
+efter kategori
+Gross revenue
+Bruttoinkomst
+Industry: %s has closed down, with the loss of %d jobs. %d upstream suppliers and %d downstream customers are affected.
+Industriy: %s har lagts ner, %d blev arbetslösa. %d leverantörer och %d kunder påverkas.
+Loading time:
+Lasttid:
+LOCO_INFO_EXT
+%s\nKostn: %d$\nUnderh.: %1.2f$/km, %1.2f$/månad\nKraft: %dkW, %dkm/h\nVikt: %dt\n
+Mark for replacing
+Markera för utbyte
+Mark for replacing. The convoy will replace when manually sent to depot
+Markera för utbyte. Konvojen kommer att bytas ut när den manuellt skickas till en fordonshall.
+Number of units of passengers and goods transported
+Antal enheter passagerare och gods som transporterats.
+Obsolescence increase
+Ökning p g a föråldrat material
+Operating revenue less operating expenditure
+Driftsinkomster minus driftskostnader
+origin
+Startpunkt
+Passenger destinations
+Resmål
+Passengers %d %c, %d %c, %d no route\n\nCapacity: %i\n
+Passagerare %d %c, %d %c, %d utan rutt\n\nKapacitet: %i\n
+Pedestrians will appear near stops whenver a passenger vehicle unloads there.
+Fotgängare kommer att uppträda i närheten av hållplatser vid varje tillfälle då ett passagerarfordon släpper av passagerare där.
+Pedestrians will appear randomly in towns.
+Fotgängare kommer att slumpmässigt uppträda i städer.
+Percentage of revenue retained as profit
+Andel av inkomster som avsätts för vinst
+Power demand
+Kraftbehov
+Recurring expenses of infrastructure maintenance
+Återkommande utgifter för infrastrukturens underhåll
+remove interm. signals
+Ta bort mellanliggande signaler
+Replace
+Ersätt
+replace all
+ersätt alla
+Replace all convoys like this
+Ersätt alla likadana konvojer
+Replace all convoys like this belonging to this line
+Ersätt alla liknande konvojer som trafikerar denna linje
+replace all in line
+Ersätt alla på linjen
+Replace but stay
+Ersätt men behåll
+Replace cycle:
+Ersättningscykel:
+replace other signals
+Ersätt existerande signaler
+Revenue from electricity transmission
+Inkomster från elektricitetsöverföring
+Routes will update instantly after any changes to lines/schedules. Can make the game respond slowly on big maps.
+Rutter kommer att uppdateras omedelbart efter någon ändring av tidtabellen. Kan leda till att spelet verkar reagera långsamt på stora kartor.
+rpl_cnv_replace
+Ersätt
+rpl_cnv_sell
+Sälj
+rpl_cnv_skip
+Hoppa över
+See under the ground, one layer at a time. Toggle with CTRL + U. Move up/down in layers with HOME and END.
+Se under marken, ett lager åt gången. Växla med CTRL + U. Flytta dig upp och ner mellan lagrena med HOME och END.
+See under the ground, to build tunnels and underground railways/metros. Toggle with SHIFT + U
+Se under marken, för att bygga tunnlar och underjordiska järnvägar/tunnelbanor. Växla med SKIFT + U
+Sell
+Sälj
+Send convoy to depot, replace and restart it automatically
+Sänd konvojen till en fordonshall, ersätt den och kör iväg den igen automatiskt
+Send convoy to depot, replace it and stay there
+Sänd konvojen till en fordonshall, ersätt den och låt den stanna kvar där.
+set signal spacing
+Ange signaltäthet
+Show from how far that passengers or goods will come to use your stops. Toggle with the v key.
+Visa upptagningsområdet för dina hållplatser. Växla med v-tangenten.
+Show the map in the same isometric orientation as the main game window
+Visa kartan i samma isometriska projektion som kartan i huvudfönstret
+Shows a bar graph representing the number of passengers/mail/goods waiting at stops.
+Visar stapeldiagram över antal passagerare/post/frakt som väntar vid hållplatser.
+Shows the borderlines of each tile in the main game window. Can be useful for construction. Toggle with the # key.
+Visar kantlinjer för varje ruta i huvudfönstret. Kan vara användbart vid byggnation. Växla med #-tangenten.
+Shows the names of the individual stations in the main game window.
+Visar enskilda stationers namn i huvudfönstret.
+signale bauen
+Bygg
+Skip
+Hoppa över
+That would exceed\nyour credit limit.
+Det skulle överstiga\ndin kreditvärdighet.
+The display of the station coverage can either be a transparent rectangle or a series of boxes.
+En stations upptagningsområde kan antingen visas som en genomskinlig rektangel, eller som en serie av rutor.
+The main game window can be scrolled by right-clicking and dragging the ground.
+Huvudfönstret kan skrollas genom att dra med höger musknapp.
+The maximum amount that can be borrowed without prohibiting further capital outlays
+Det största belopp som kan lånas utan att framtida investeringar förhindras.
+This is a tilting vehicle\n
+Detta är ett fordon med lutande vagnskorg\n
+To be replaced by:
+Att ersättas av:
+Total assets less total liabilities
+Sammanlagda tillgångar minus sammanlagda skulder
+Total capital assets, excluding liabilities
+Sammanlagda tillgångar undantaget eventuella skulder
+Total income less total expenditure
+Sammanlagda inkomster minus sammanlagda utgifter
+Total liquid assets
+Sammanlagda likvida medel
+Trees will be miniaturised or made transparent in the main game window.
+Träd kommer att krympas eller göras genomskinliga i huvudfönstret.
+Vehicle running costs (both fixed and distance related)
+Driftskostnader för fordon (omfattar både fasta och avståndsrelaterade kostnader)
+waiting time unknown)
+okänd väntetid)
+Whether the lighting in the main game window simulates a periodic transition between day and night.
+Om ljussättningen i huvudfönstret skall simulera en periodisk växling mellan dag och natt.
+You have been overdrawn\nfor %i months
+Ditt konto har varit övertrasserat\ni %i månader.
+You have been overdrawn\nfor one month
+Ditt konto har varit övertrasserat\ni en månad.
