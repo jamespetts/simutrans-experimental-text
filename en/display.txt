@@ -74,7 +74,7 @@ Click on the square buttons to select options (the button is indented when the o
 </p>
 <p>
 Below these settings, information is shown on computer performance when running Simutrans.<br>
-If numbers (usually white) are red or ?yellow you may need to change your settings.<br>
+If numbers (usually white) are red or yellow you may need to change your settings.<br>
 Changes in rate that time passes in game, <a href="window.txt">T</a>, (using Fast Forward  >> icon at top of the main game window, or [,]/ [.]) may change number colour.
 </p>
 <p>
