@@ -8,7 +8,7 @@ Prop-Latin1.bdf
 #                             Language: sv Svenska                             #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 28.06 2009                           #
+#                           Date Created: 18.07 2009                           #
 #                                                                              #
 #                                   authors:                                   #
 #                              Frank Penz - FrankP                             #
@@ -116,7 +116,7 @@ Spannet skulle bli för\nlångt för denna typ av bro!\n
 Bruecke muss an\neinfachem\nHang beginnen!\n
 Broar måste\nbörja på\nraka sluttningar!\n
 Cannot built depot here!
-Här går det inte att bygga någon fordonshall!
+Fordonshall kan inte byggas här!
 Cannot built this station/building\nin underground mode here.
 Byggnaden kan enbart\nbyggas ovan jord.\n\n
 Cannot create generic line!\nSelect line type by\nusing filter tabs.
@@ -173,6 +173,8 @@ Schiffhalt muss im\nWasser liegen!\n
 Fartygshållplatser\nmåste placeras\ni vatten!\n
 Terraforming not possible\nhere in underground view
 Det går inte att förändra\nlandskapet på detta sätt under jord.\n
+Upgrade must have\na higher level
+Kan enbart uppgrader\ntill högre nivå
 Zughalt muss auf\nSchiene liegen!\n
 Tåghållplatser\nmåste placeras\npå järnvägsspår!\n
 #___________________________________help_text___________________________________
@@ -463,8 +465,8 @@ Add stops for backward travel
 Lägg till stopp på vägen tillbaka.
 Add the selected vehicle(s) to the selected line
 Konvojerna sätts i trafik på vald linje.
-Air
-Flyg
+air
+flyg
 aircraft_tab
 Fraktflygplan
 airplane
@@ -473,6 +475,8 @@ Airport
 Flygplats
 All
 Alla
+all convoi tooltips
+alla verktygstips för konvojer
 Allow player change
 Tillåt spelarbyte
 allowed climates:\n
@@ -673,10 +677,14 @@ Constructed by %s
 Skapad av %s
 convoi %d of %d
 Konvoj %d från %d
+convoi error tooltips
+verktygstips om fel för konvojer
 Convoi has been sent\nto the nearest depot\nof appropriate type.\n
 Fordonet har skickats\ntill närmaste fordons-\nhall av lämplig typ.
 Convoi is sold when all wagons are empty.
 Konvojen kommer att tas bort så fort som den är tömd. Försäljningsvärdet kommer att tillgodogöras kassan.
+convoi mouseover tooltips
+verktygstips för konvojer vid muspekning
 convoi passed last\nmonth %i\n
 \nkonvojer som passerade\nförra månaden: %i\n
 Convois
@@ -701,6 +709,8 @@ Currently playing:
 Spelar just nu:
 Deccelerate time
 Sänk spelhastigheten
+decrease underground view level
+Sänk kartans utsnittshöjd.
 Del Stop
 Ta bort
 Delete Line
@@ -851,6 +861,8 @@ Growth
 Tillväxt
 Happy
 Tillfreds
+Haus kaufen
+Köp hus
 Headquarter and %li trains
 Huvudkontor och %li tåg
 Helligk.
@@ -916,13 +928,15 @@ Stationslista - inställningar
 Homeless
 Hemlösa
 hydrogene
-Väte
+vätgas
 Idle:
 Tomgång:
 ignore climates
 Alla klimatzoner
 Increase Industry density
 Höj industridensiteten
+increase underground view level
+Öka kartans utsnittshöjd.
 industrial building
 Industribyggnad
 Init map ...
@@ -951,6 +965,8 @@ Jump to
 Centrera runt
 June
 Juni
+Kein Besitzer\n
+Ingen ägare\n
 keine
 inga
 Keine Einzelfahrzeuge im Depot
@@ -973,10 +989,12 @@ LANG_CHOOSE\n
 Välj ditt språk:\n
 Last Year
 Förra året
+Leaving depot!
+Lämnar fordonshall!
 leer
 tom
 Legend
-Kart info
+Kartinfo
 Leistung
 Styrka
 Leistung: %d kW
@@ -1005,8 +1023,16 @@ loaded
 ilastat
 loaded passenger/freight
 Sortera pass./varor efter
+Loading (%i->%i%%)!
+Under ilastning (%i->%i%%)!
+Loading addon paks ...
+Läser in tilläggspaket (addon paks)
 Loading map ...
 Kartan laddas...
+Loading paks ...
+Läser in paket (pak) ...
+Loading skins ...
+Läser in skinn ...
 Lock game
 Tillåt inte spelarbyte under spelets gång (kräver konfirmation).
 LOCO_CAP
@@ -1021,6 +1047,8 @@ Maglev
 maglev
 maglev vehicle
 Maglevfordon
+maglev_track
+Magneträls
 Maglevdepot
 Maglevvagnhall
 Mailbox
@@ -1075,6 +1103,8 @@ Monate alt
 månader gammal.
 monorail vehicle
 Monorailfordon
+monorail_track
+Monorailräls
 Monorailboden
 Monorail understöd
 Monoraildepot
@@ -1103,6 +1133,8 @@ Narrowgauge
 Smalspår
 narrowgauge vehicle
 Smalspårsfordon
+narrowgauge_track
+Smalspår
 Narrowgaugedepot
 Smalspårsvagnhall
 Net Wealth
@@ -1119,6 +1151,8 @@ New line created!\nYou can assign the line now\nby selecting it from the\nline s
 Ny linje skapad!\nDu kan nu välja att\nknyta konvojen\ntill den ovan.
 New Vehicles
 Nya fordon
+no buildings hidden
+inga byggnader krympta
 no convois
 Inga konvojer
 No goods are loaded onto this convoi.
@@ -1193,6 +1227,8 @@ Passengers %d %c, %d %c, %d no route
 Passagerare %d %c, %d %c, %d utan rutt
 Pause
 Pausa
+PaxDest
+Pass.Dest.
 Percent Electricity
 Andel kraftverk (%)
 Plant tree
@@ -1270,7 +1306,7 @@ Reliefkarta
 Remove
 Ta bort etikett
 remove airstrips
-Ta bort taxi-/landingsbana
+Ta bort rullbana
 remove channels
 Ta bort kanal
 remove maglev tracks
@@ -1283,8 +1319,10 @@ remove roads
 Ta bort väg
 remove tracks
 Ta bort järnvägssträcka
+Remove wayobj %s
+Ta bort vägobjekt %s
 replace stop
-ersätt hållplats
+Ersätt hållplats
 request closing
 förbered nedstängning
 residential house
@@ -1299,6 +1337,8 @@ return ticket
 Skapa rundtur
 Revenue
 Inkomster
+road
+väg
 road vehicle
 Landsvägsfordon
 Roadsign
@@ -1311,6 +1351,8 @@ sail
 vind
 Saving map ...
 Sparar karta...
+Schedule changing!
+Tidtabellen ändras!
 Schienentunnel
 Järnvägstunnel
 Schiff_tab
@@ -1377,6 +1419,8 @@ shuffle midis
 Slumpval
 Sim:
 Simloopar:
+sliced underground mode
+utsnittsläge för underjordiska nivåer
 slot empty
 tom
 Sort by
@@ -1463,6 +1507,8 @@ To heavy traffic\nresults in traffic jam.\n
 Mycket trafik\norsakar trafikkaos.\n
 Toggle day/night view
 Växla mellan dag och natt
+Toggle vehicle tooltips
+Växla visning av verktygstips för fordon
 tonnen
 t
 Total inhabitants:
@@ -1475,6 +1521,8 @@ Town: %s\n
 Ligger i staden %s\n
 Towns
 Städer
+track
+räls
 Tracks
 Spår
 Traffic
@@ -1487,6 +1535,8 @@ Tram
 Spårvagn
 tram %i km/h, monorail %i km/h\nmaglev %i km/h, narrowgauge %i km/h.
 spårvagn %i km/t, monorail %i km/t\nmaglev %i km/t, smalspår %i km/t.
+tram_track
+spårvägsräls
 Tramdepot
 Spårvagnshall
 Trams are not available yet!
@@ -1557,6 +1607,10 @@ Waggon_tab
 Vagnar
 waiting
 väntar
+Waiting for clearance!
+Väntar på fri väg!
+water
+vatten
 Water level
 Grundvattennivå
 water vehicle
@@ -1581,6 +1635,8 @@ Winter snowline
 Vintersnögräns
 withdraw
 dra tillbaka
+Withdraw All
+Dra tillbaka alla
 WRONGSAVE
 Ej kompatibel spel-\nversion. Kan inte läsa\nin den här filen.\n
 Year %i has started.
@@ -1636,15 +1692,19 @@ min. väntetid
 %s\nCost:     %d$\nMaint.: %1.2f$/km, %1.2f$/month\nCapacity: %d%s %s\nWeight: %dt\nTop speed: %dkm/h\n
 %s\nKostn.:     %d$\nUnderh.: %1.2f$/km, %1.2f$/månad\nKapacitet: %d%s %s\nVikt: %dt\nMaxhast.: %dkm/h\n
 %s\nCost: %d$\nMaint.: %1.2f$/km, %1.2f$/month\nPower: %dkW, %dkm/h\nWeight: %dt\n
-s\nKostn.: %d$\nUnderh.: %1.2f$/km, %1.2f$/månad\nKraft: %dkW, %dkm/h\nVikt: %dt\n
+ %s\nKostn.: %d$\nUnderh.: %1.2f$/km, %1.2f$/månad\nStyrka: %dkW, %dkm/h\nVikt: %dt\n
 All hidden items (such as trees and buildings) will appear as transparent.
 Alla dolda föremål (som träd och byggnader) kommer att visas som genomskinliga.
+Cannot set marker here.\n
+Det går inte att sätta ut en markör här.\n
 Capital expenditure on infrastructure
 Infrastrukturutlägg
 Capital expenditure on vehicle purchases and upgrades
 Utlägg för fordonsinköp och -förbättringar
 Catering level: %i\n
 Serveringsnivå: %i\n
+Centralised path searching
+Centraliserad vägsökning.
 Comfort:
 Bekvämlighet:
 Cost of overdraft interest payments
@@ -1653,14 +1713,22 @@ Full replace
 Ersätt fullständigt
 gl_btn_sort_catg
 efter kategori
+Graphs showing financial information will appear from right to left instead of left to right
+Grafer visar finansinformation från höger till vänster i stället för från vänster till höger.
+Graphs showing non-financial information will appear from right to left instead of left to right
+Grafer visar övrig information (ej finanser) från höger till vänster i stället för från vänster till höger.
 Gross revenue
 Bruttoinkomst
 Industry: %s has closed down, with the loss of %d jobs. %d upstream suppliers and %d downstream customers are affected.
 Industriy: %s har lagts ner, %d blev arbetslösa. %d leverantörer och %d kunder påverkas.
+Inverse graphs (financial)
+Omvända grafer (finanser)
+Inverse graphs (other)
+Omvända grafer (övrigt)
 Loading time:
 Lasttid:
 LOCO_INFO_EXT
-%s\nKostn: %d$\nUnderh.: %1.2f$/km, %1.2f$/månad\nKraft: %dkW, %dkm/h\nVikt: %dt\n
+%s\nPris: %d$\nUnderh.: %1.2f$/km, %1.2f$/månad\nKraft: %dkW, %dkm/h\nVikt: %dt\n
 Mark for replacing
 Markera för utbyte
 Mark for replacing. The convoy will replace when manually sent to depot
@@ -1685,6 +1753,8 @@ Percentage of revenue retained as profit
 Andel av inkomster som avsätts för vinst
 Power demand
 Kraftbehov
+Read-only option : need to be set in simuconf.tab
+Detta alternativ kan enbart läsas,  sätts m h a simuconf.tab
 Recurring expenses of infrastructure maintenance
 Återkommande utgifter för infrastrukturens underhåll
 remove interm. signals
@@ -1749,10 +1819,30 @@ The main game window can be scrolled by right-clicking and dragging the ground.
 Huvudfönstret kan skrollas genom att dra med höger musknapp.
 The maximum amount that can be borrowed without prohibiting further capital outlays
 Det största belopp som kan lånas utan att framtida investeringar förhindras.
+The number of convoys that have serviced this stop
+Antal konvojer som har trafikerat denna hållplats
+The number of passengers who could not find a route to their destination
+Antal passagerare som inte kunde hitta en färdväg till sitt resmål.
+The number of passengers who decline to travel because the journey would take too long
+Antal passagerare som avstått från resa p g a för lång restid
+The number of passengers who have left because of overcrowding or excess waiting
+Antal passagerare som har gått sin väg p g a överfull hållplats eller för lång väntetid
+The number of passengers who have travelled successfully from this stop
+Antal passagerare som har rest härifrån och kommit fram till sitt resmål
+The number of passengers/units of mail/goods that have arrived at this stop
+Antal passagerare/mängd post/gods som har anlänt till denna hållplats
+The number of passengers/units of mail/goods that have departed from this stop
+Antal passagerare/mängd post/gods som har rest/fraktats iväg från denna hållplats
+The number of passengers/units of mail/goods waiting at this stop
+Antal passagerare/mängd post/gods som väntar vid denna hållplats
 This is a tilting vehicle\n
 Detta är ett fordon med lutande vagnskorg\n
 To be replaced by:
 Att ersättas av:
+too heavy
+För tungt
+Too slow
+För lång restid
 Total assets less total liabilities
 Sammanlagda tillgångar minus sammanlagda skulder
 Total capital assets, excluding liabilities
@@ -1763,10 +1853,18 @@ Total liquid assets
 Sammanlagda likvida medel
 Trees will be miniaturised or made transparent in the main game window.
 Träd kommer att krympas eller göras genomskinliga i huvudfönstret.
+Use centralised instead of distributed path searching system.
+Använd centraliserad i stället för distribuerad vägsökning
+Use performance counter
+Använd prestandaräknare
 Vehicle running costs (both fixed and distance related)
 Driftskostnader för fordon (omfattar både fasta och avståndsrelaterade kostnader)
 waiting time unknown)
 okänd väntetid)
+Way constraint permissive 
+Tillåtande vägbegränsning
+Way constraint prohibitive %n\n
+Förbjudande vägbegränsning
 Whether the lighting in the main game window simulates a periodic transition between day and night.
 Om ljussättningen i huvudfönstret skall simulera en periodisk växling mellan dag och natt.
 You have been overdrawn\nfor %i months

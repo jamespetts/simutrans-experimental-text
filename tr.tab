@@ -1,18 +1,20 @@
-Indonesia
+§Türk dili
 PROP_FONT_FILE
-Prop-Latin1.bdf
+cyr.bdf
 ################################################################################
 #                                                                              #
 #                Simutrans Scenario Specific Translation File                  #
 #                          Scenario: Sim-Experimental                          #
-#                            Language: id Indonesia                            #
-#                             Encoding: ISO-8859-1                             #
-#                            Font : Prop-Latin1.bdf                            #
+#                            Language: tr Türk dili                            #
+#                                Encoding: UTF-8                               #
+#                                Font : cyr.bdf                                #
 #                           Date Created: 28.06 2009                           #
 #                                                                              #
 #                                   authors:                                   #
 #                              Frank Penz - FrankP                             #
 #                      note: Administrator SimuTranslator                      #
+#                     Ercan Kiratlioğlu - ercankiratlioglu                     #
+#                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
 #              note: Administrator Base texts / pak64 / pak.japan              #
 #                                                                              #
@@ -21,14 +23,6 @@ Prop-Latin1.bdf
 #_____________________________Simutrans Base Texts______________________________
 #__________________________________button_text__________________________________
 #__________________________________button_text__________________________________
-hl_btn_sort_waiting
-Menunggu
-hlf_btn_alle
-Semua
-hlf_btn_invers
-Balik
-koord
-kordinat
 #_________________________________climates_text_________________________________
 #_________________________________climates_text_________________________________
 #__________________________________error_text___________________________________
@@ -43,26 +37,6 @@ kordinat
 #_________________________________message_text__________________________________
 #_________________________________program_text__________________________________
 #_________________________________program_text__________________________________
-hl_title
-Daftar Stasiun
-hl_txt_filter
-Filter:
-hl_txt_sort
-Disusun menurut:
-hlf_chk_anleger
-Pelabuhan
-hlf_chk_bahnhof
-Stasiun Kereta Api
-hlf_chk_bushalt
-Pemberhentian Bus
-hlf_chk_keine_verb
-tidak ada jaringan
-hlf_chk_maglevstop
-Stasiun Maglev
-player 2
-Trikky Transport
-player 3
-Meyer Moving Co.
 #__________________________________record_text__________________________________
 #__________________________________record_text__________________________________
 #_________________________Simutrans Experimental Texts__________________________

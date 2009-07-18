@@ -1,126 +1,202 @@
 Hrvatski
 PROP_FONT_FILE
-Prop-Latin1.bdf
+Prop-Latin2.bdf
 ################################################################################
 #                                                                              #
-#                        Simutrans Base Translation File                       #
-#                             Scenario: Base texts                             #
+#                Simutrans Scenario Specific Translation File                  #
+#                          Scenario: Sim-Experimental                          #
 #                             Language: hr Hrvatski                            #
-#                             Encoding: ISO-8859-1                             #
-#                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 28.06 2008                           #
+#                             Encoding: ISO-8859-2                             #
+#                            Font : Prop-Latin2.bdf                            #
+#                           Date Created: 28.06 2009                           #
 #                                                                              #
 #                                   authors:                                   #
-#                             Gordan Adzic - Mrvca                             #
-#                                    note:                                     #
+#                              Frank Penz - FrankP                             #
+#                      note: Administrator SimuTranslator                      #
 #                          Markus Pristovsek - prissi                          #
-#                            note: Administrator 64                            #
+#              note: Administrator Base texts / pak64 / pak.japan              #
 #                                                                              #
 ################################################################################
-#_________________________________program_text__________________________________
-#_________________________________program_text__________________________________
-!0_STATION_CROWDED
-%s\nje krcat
-!1_DEPOT_REACHED
-%s je u?ao u depo.
-%1_CITY_SYLL
-Apping
-%2_CITY_SYLL
-Malli
-%3_CITY_SYLL
-Ash
-%4_CITY_SYLL
-Spring
-%5_CITY_SYLL
-Polling
-%6_CITY_SYLL
-Baring
-%7_CITY_SYLL
-Hepp
-%8_CITY_SYLL
-Brent
-%9_CITY_SYLL
-Ren
-%A_CITY_SYLL
-Old
-%B_CITY_SYLL
-Hill
-%d buildings\n
-%d objekata
-%d convois
-%d konvoja
-%d Einzelfahrzeuge im Depot
-%d vozila uskladi?teno ovdje
-%i km/h (max. %ikm/h)
-%i km/h (max. %ikm/h)
-%s building %s %s
-%s %s %s
-%s city %d %s
-%s grad %d %s
-%s land %d %s
-%s zemlji?te %d %s
+#_____________________________Simutrans Base Texts______________________________
+#_____________________________Simutrans Base Texts______________________________
+#__________________________________button_text__________________________________
+#__________________________________button_text__________________________________
+cl_btn_filter_disable
+tiltva
+cl_btn_filter_enable
+engedélyezve
+cl_btn_filter_settings
+Beállítások
+cl_btn_sort_id
+unutarnji ID
+cl_btn_sort_income
+Prihod
+cl_btn_sort_name
+Ime
+cl_btn_sort_type
+Tip
+clf_btn_alle
+mind
+clf_btn_invers
+ford.
+clf_btn_keine
+semmi
+Construction_Btn
+Gradnja
+gl_btn_sort_bonus
+bonusom
+gl_btn_sort_name
+imenom
+gl_btn_sort_revenue
+prihodom
+gl_btn_unsort
+nesortirano
+hl_btn_filter_settings
+Opcije
+hl_btn_sort_asc
+uzlazno sortiranje
+hl_btn_sort_desc
+nizlazno sortiranje
+hl_btn_sort_name
+Ime
+hl_btn_sort_type
+Tip
+hlf_btn_alle
+sve
+hlf_btn_invers
+obrnuti
+#_________________________________climates_text_________________________________
+#_________________________________climates_text_________________________________
+arctic
+Sarkvidéki éghajlat
+desert
+pustinjska klima
+mediterran
+Mediterrán éghajlat
+rocky
+Sziklás/köves
+temperate
+Mérsékelt éghajlat
+tropic
+Trópusi éghajlat
+tundra
+Tundra éghajlat
+#__________________________________error_text___________________________________
+#__________________________________error_text___________________________________
+bridge is too high for its type!
+A híd túl magas a típusához képest!
+Cannot built depot here!
+Ide nem építhetsz depót!
+Das Feld gehoert\neinem anderen Spieler\n
+Ovaj dio \nzemlje posjeduje \ndrugi igrac!
+Der Tunnel ist nicht frei!\n
+Tunel nije prazan.\n
+Diese Zusammenstellung kann nicht fahren!\n
+Ova kombinacija\se ne moze kretati!\n
+Dock must be built on single slope!
+Dok mora biti sagradjen na poziciji s kosinom
+Fahrzeuge koennen so nicht entfernt werden
+Vozila ne mogu biti\nuklonjena na ovaj nacin
+Hier kann dieses\nFlughafengebaeude nicht\ngebaut werden!\n
+Ne mozete sagraditi\n\naerodromsku zgradu ovdje.\n
+Hier kann kein\nSignal aufge-\nstellt werden!\n
+Ne mozete staviti\nzeljeznicki signal ovdje.\n
+Monorails are not available yet!
+Még nem áll rendelkezésre nyeregvasúti szerelvény!
+No through station here!
+Ide nem lehet építeni átszállót!
+#___________________________________help_text___________________________________
+#___________________________________help_text___________________________________
+#____________________________________ki_text____________________________________
+#____________________________________ki_text____________________________________
 %s now\noffers bus services\nbetween %s\nand attraction\n%s\nat (%i,%i).\n
 %s sada\nnudi uslugu prijevoza busom\nizmedju %s\ni atrakcije\n%s\nna (%i,%i).\n
 %s now\noffers bus services\nbetween %s\nand factory\n%s\nat (%i,%i).\n
 &s sada\nnudi uslugu prijevoza busom\nizmedju %s\ni tvornice\n%s\nna (%i, %i).\n
-%s wasted\nyour money with a\nnew townhall\nwhen it reached\n%i inhabitants.
-%s je sagradio novu gradsku vijecnicu kad je do?ao do broja od %i stanovnika
 %s\nnow operates\n%i trucks between\n%s at (%i,%i)\nand %s at (%i,%i).
 %s\sada ima\n%i kaimona izmedju\n%s na (%i,%i)\ni %s\na (%i, %i).
 %s\nopened a new railway\nbetween %s\nat (%i,%i) and\n%s at (%i,%i).
 %s\notvara novu zeljeznicu\nizmedju %s\nna (%i,%i) i\n%s\nna (%i,%i).\n
-&1_CITY_SYLL
-chester
-&2_CITY_SYLL
-ton
-&3_CITY_SYLL
-ville
-&4_CITY_SYLL
-den
-&5_CITY_SYLL
-borough
-&6_CITY_SYLL
-ham
-&7_CITY_SYLL
-field
-&8_CITY_SYLL
-mouth
-&9_CITY_SYLL
-lock
-&A_CITY_SYLL
-cross
+#___________________________________menu_text___________________________________
+#___________________________________menu_text___________________________________
+AIRTOOLS
+Avionski alati
+EDITTOOLS
+Alati za uredjivanje mape
+LISTTOOLS
+Szortírozás
+MONORAILTOOLS
+Nyeregvasúti kellékek
+RAILTOOLS
+Vasúti kellékek
+ROADTOOLS
+Közúti kellékek
+SHIPTOOLS
+Hajózás
+SLOPETOOLS
+Földformázás
+SPECIALTOOLS
+Speciális eszközök
+TRAMTOOLS
+Villamos kellékek
+#_________________________________message_text__________________________________
+#_________________________________message_text__________________________________
+Du hast %d Monate Zeit, deine Schulden zurueckzuzahlen
+Imate %d mjeseca da otplatite svoj dug.
+Scenario complete: %i%%
+Forgatóköny befejezve:%i%%
+Sends the convoi to the last depot it departed from!
+Visszaküldés a legközelebbi depóba!
+#_________________________________program_text__________________________________
+#_________________________________program_text__________________________________
+!0_STATION_CROWDED
+%s\je pretrpan
+(%i)-
+(%i)
 (in depot)
 (u depou)
+\ndirection:
+\nirány
+\nelektrified
+villamosított
+\nHeightfield has wrong image type.\n
+A domborzatfájl inkompatibilis képeket tartalmaz.
+\nis reserved by:
+\nfoglalja: 
+\nminimum speed:
+\nminimum sebesség:
+\nnot elektrified
+nincs villamosítva
+\nRibi (masked)
+\nberendezések (lefedett):
+\nRibi (unmasked)
+\nberendezések\n(összes):
+\nsingle way
+\negyirányú út
+\nwith sign/signal\n
+\njellel/táblával \n
+%d buildings\n
+%d objekata
+%d convois
+%d konvoja
+%s building %s %s
+%s %s %s
+%s city %d %s
+%s grad %d %s
+<no line>
+<ne postoji ni jedna linija>
 1 convoi
 1 konvoj
-1 Einzelfahrzeug im Depot
-1 Vozilo uskladi?teno ovdje
 1center
 %s %s
 1extern
 %s ekspoziturna %s
 1LIGHT_CHOOSE
 Osvijetljenost:
-1nord
-%s sjeverna %s
-1nordost
-%s SI %s
-1nordwest
-%s SZ %s
-1ost
-%s istocna %s
-1sued
-%s juzna %s
-1suedost
-%s JI %s
-1suedwest
-%s JZ %s
-1west
-%s zapadna %s
+1suburb
+%s %s %s
 1WORLD_CHOOSE
 Postavke za Novu Igru
-2center
-%s sredi?nja %s
 2extern
 %s vanjska %s
 2LIGHT_CHOOSE
@@ -133,46 +209,34 @@ Broj mape:
 %s agrarna %s
 3LIGHT_CHOOSE
 Brzina pomicanja:
+3suburb
+%s lakótelep %s %s
 3WORLD_CHOOSE
 Velicina (%d MB):
-4center
-%s unutra?nja %s
 4extern
 %s vanjska %s
 4LIGHT_CHOOSE
 Obrnuto pomicanje
 5center
 %S prijenosna %s
-5LIGHT_CHOOSE
-Pje?aci na postajama
 5WORLD_CHOOSE
 Br. gradova:
 6center
 %s cvorisna %s
-6LIGHT_CHOOSE
-Pje?aci u gradovima
 6WORLD_CHOOSE
 Gustoca prometa:
 7center
 %s grad %s
 8WORLD_CHOOSE
 promjena dana i noci
-<no line>
-<ne postoji ni jedna linija>
-A bridge must end on a way!
-Most mora\nzavr?iti na postojecem\nputu
-A bridge must start on a way!
-Most mora\nzavr?iti na\npostojecem putu. 
 Abfrage
 Istrazivacki alat
 Abnehmer
 Potrosac
 About
 O
-Abriss
-Uni?ti/Ukloni
-Absenken
-Sniziti zemlji?te
+Account above %s
+Egyenleg %s alatt
 Add Stop
 Dodaj postaju
 Add stops for backward travel
@@ -185,46 +249,168 @@ aircraft_tab
 Teretni avioni
 Airport
 Aerodrom
-AIRTOOLS
-Avionski alati
 All
 Sve
 Allow player change
 Dopusti promjenu igraca
+allowed climates:\n
+megengedett klímatípusok:\n
 Alters a schedule.
 Dodaj/ukloni postaje iz voznog reda
-Ambiguous signal combination.\nTry removing by clicking the\nother side of the signal.\n
-\nPrevi?e signala u blizini!\n\nPoku?ajte ukloniti tako da kliknete na\ndrugu stranu signala.\n\n
-cl_btn_sort_id
-unutarnji ID
-cl_btn_sort_income
-Prihod
-cl_btn_sort_name
-Ime
-cl_btn_sort_type
-Tip
+Angenommene Waren
+Közeli ipartelepek szükségletei
+anhaengen
+Utánfutó
+Anhaenger_tab
+Utánfutók
+Anheben
+Talaj emelése
+Appends stops at the end of the schedule
+Megálló hozzáadása a menetrend végéhez
+April
+Április
+Arbeiter aus:
+Munkások:
+Arrived
+Érkezett
+Assets
+Vagyon
+Aufloesen
+Felbont
+August
+Augusztus
+Available
+Rendelkezésre állás
+Bahndepot
+Vasúti kocsiszin
+battery
+akkumulátor
+Baum
+Fa
+baum builder
+Faültetés
+Baustelle
+Építési terület
+Beenden
+Kilépés
+Besonderes Gebaeude
+Különleges épületek
+BF
+p.u.
+bio
+bió
+Boden
+Föld
+Bruecke
+Híd
+Brueckenboden
+hídalap
+Build city market
+Fogyasztó/ipari egység építése
+Build drain
+Trafóállomás építése
+build HQ
+Központ építés
+Build monorail depot
+Nyeregvasút depó építése
+Build powerline
+Elektromos hálózat építése
+Build road depot
+Közúti depó építése
+Build ship depot
+Hajódepó építése
+Build train depot
+Vasúti depó építése
+Build tram depot
+Villamos depó építése
+Build truck depot
+Kocsiszín építése
+Building costs estimates
+Építkezés költségeinek becslése
+Buildings
+Épületek
+Built artifical slopes
+Mesterséges töltés építése
+Bus_tab
+Személy/posta szállítás
+Can only move from halt to halt or waypoint to waypoint.
+Eltávolítás csak megállótól megállóig vagy szakaszponttól szakaszpontig lehetséges.
+Cancel
+Mégsem
+Cars are not available yet!
+Még nem áll rendelkezésre gépkocsi!
+Cash
+Készpénz
+Change player
+Játékos váltás
+Chart
+Grafikon
+citicens
+városlakók
+City attraction
+Városi látványosságok
+City industries
+Ipari egységek (városban)
+City list
+Városok listája
+City size
+Városméret
+city_road
+Városi út
+CityLimit
+Városhatár
 cl_title
 Lista vozila
 cl_txt_filter
 Filter:
 cl_txt_sort
 Sortirati:
+clf_chk_cars
+Buszok/kocsik
+clf_chk_indepot
+depóban
+clf_chk_name_filter
+Filter neve:
+clf_chk_noincome
+nincs bevétel
+clf_chk_noline
+nincs vonal
+clf_chk_noroute
+eltévedt
+clf_chk_noschedule
+nincs menetrend
+clf_chk_ships
+Hajók
+clf_chk_spezial_filter
+Speciális filter:
+clf_chk_stucked
+elakadás
+clf_chk_trains
+Vonatok
+clf_chk_type_filter
+Filter típusa:
+clf_chk_waren
+Javak filtere:
+Climate Control
+Éghajlati beállítások
 COLOR_CHOOSE\n
 Molimo Vas, a\nboju iz tablice:\n
+Connect factory
+Kapcsold össze a gyárakat!
+Connected stops
+Összekapcsolt megállók.
 Constructed by
 Napravio
 Constructed by %s
 Napravio %s
-Construction_Btn
-Gradnja
 convoi %d of %d
 Konvoj %d od %d 
 Convoi has been sent\nto the nearest depot\nof appropriate type.\n
 Konvoj je poslan u najblizi depo prikladne vrste
 Convoi is sold when all wagons are empty.
 Konvoj je prodan kad su svi vagoni prazni
-convoi passed last\nmonth %i\n
-\n konvoja pro?lo pro?li\nmjesec: %i\n
+Convois
+Konvojok
 Convois: %d\nProfit: %s
 Vozila: %d\nPrihod: %s
 Convoys
@@ -233,20 +419,22 @@ Copy Convoi
 Kopiraj Konvoj
 Copy the selected convoi and its schedule or line
 Kopiraj odabrani konvoj i njegov vozni red ili liniju
+cost for removal
+Törlés díja
 Create a new line based on this schedule
 Napravi novu liniju baziranu na ovom voznom redu
 curlist_title
 Lista atrakcija
 Currently playing:
 Svira:
-Das Feld gehoert\neinem anderen Spieler\n
-Ovaj dio \nzemlje posjeduje \ndrugi igrac!
 December
 Prosinac
 Del Stop
 Ukloni
 Delete Line
 Obrisati liniju
+Delete the current stop
+Aktuális megálló törlése
 Delete this file.
 Obrisati ovu datoteku
 Denkmal
@@ -255,34 +443,16 @@ Departed
 Odaslan
 Depots
 Depoi
-Der Besitzer erlaubt das Entfernen nicht
-\nVlasnik odbija dati \ndopu?tenje da \nunklonite ovo!\n
-Der Tunnel ist nicht frei!\n
-Tunel nije prazan.\n
-desert
-pustinjska klima
-Destination
-Odredi?te
 Details
 Detalji
-Die Bruecke ist nicht frei!\n
-Most nije prazan!
-Diese Zusammenstellung kann nicht fahren!\n
-Ova kombinacija\se ne moze kretati!\n
 diesel
 dizelski pogon
 Direkt erreichbare Haltestellen
 Direktne rute odavde
 Dock
 dok
-Dock must be built on single slope!
-Dok mora biti sagradjen na poziciji s kosinom
-Du hast %d Monate Zeit, deine Schulden zurueckzuzahlen
-Imate %d mjeseca da otplatite svoj dug.
 Durchsatz
 Max.
-EDITTOOLS
-Alati za uredjivanje mape
 Eigenbesitz\n
 Javni posjed\n
 Ein %s\npasst hier nicht.\n
@@ -295,26 +465,22 @@ Einstellungsfenster
 Opcije
 electric
 elektricni pogon
+Electricity
+Villamosság
 Electrify track
 Elektrificiraj prugu
-Error
-Pogre?ka
 Erzeuge neue Karte.\n
 Molimo Vas, pricekajte dok se nova\nmapa ne kreira.\n\n (Ovo bi moglo\n potrajati nekoliko minuta\n za velike mape.)\n
-Es wird bereits\nein Fahrplan\neingegeben\n
-Vozni red se\n planira.\nZavr?ite ga prije\nponovnog planiranja!\n
 Fabrikanschluss
 Povezane tvornice
 Fabrikname
 ime tvornice
 Factories
 Tvornice
+factory details
+Term./fogy. infó
 Fahrplan
 Vozni red
-Fahrtziel
-Odredi?te:
-Fahrzeuge koennen so nicht entfernt werden
-Vozila ne mogu biti\nuklonjena na ovaj nacin
 Fahrzeuge:
 Vozila:
 Farbe
@@ -325,30 +491,22 @@ February
 Veljaca
 Ferry_tab
 Trajekti
-Fertig
-Zavr?eno
 Filename
 Ime datoteke:
 Finances of %s
 Financije %s
 Finanzen
 Financije
-Flugzeughalt muss auf\nRunway liegen!\n
-Stajali?te aviona mora\nne mo?e biti na tom mjestu
-Flug_tab
-Putnicki Avioni
 fl_title
 lista tvornica
+Flug_tab
+Putnicki Avioni
 follow me
 Slijedi me.
 Follow the convoi on the map.
 Slijedi konvoj na mapi.
-Forest
-?uma
 Found new city
 sagraditi novi grad
-FPS:
-FPS:
 Fracht
 Teret
 Frame time:
@@ -361,8 +519,6 @@ fuel_cell
 gorive celije
 Full load
 Cekaj:
-Fussgaenger
-Pje?ak
 GAME PAUSED
 Igra je zaustavljena
 Gear:
@@ -375,18 +531,12 @@ Gewinn
 Dohodak:
 Give the selected vehicle(s) an individual schedule
 Dati odabranom(nim) vozilu(ima) poseban vozni red.
-gl_btn_sort_bonus
-bonusom
-gl_btn_sort_name
-imenom
-gl_btn_sort_revenue
-prihodom
-gl_btn_unsort
-nesortirano
 gl_title
 Lista svih dobara
 go home
 Idi u depo
+Goods
+Javak
 Goods list
 Lista dobara
 Gross Profit
@@ -397,8 +547,6 @@ Growth
 Rast grada
 H
 postaja
-Hangar
-Hangar
 Happy
 Sretni
 Helligk.
@@ -413,22 +561,20 @@ hide all building
 Sakrij sve gradjevine
 hide city building
 Sakrij gradjevine u gradovima
+hide station names
+Megállók nevének elrejtése
 hide transparent
 transparentno umjesto sakriveno
 hide trees
 Sakrij stabla
-Hier kann dieses\nFlughafengebaeude nicht\ngebaut werden!\n
-Ne mozete sagraditi\n\naerodromsku zgradu ovdje.\n
-Hier kann kein\nSignal aufge-\nstellt werden!\n
-Ne mozete staviti\nzeljeznicki signal ovdje.\n
 Hier warten/lagern:
 Dobra i putnici koji cekaju:
-hlf_btn_alle
-sve
-hlf_btn_invers
-obrnuti
-hlf_btn_keine
-ni?ta
+hl_title
+Lista stanica
+hl_txt_filter
+Filter:
+hl_txt_sort
+Sortirano:
 hlf_chk_airport
 Aerodromi
 hlf_chk_anleger
@@ -455,55 +601,503 @@ hlf_chk_waren_annahme
 Potrebna dobra:
 hlf_title
 Filter liste stanica
-hl_btn_filter_disable
-onemogu?eno
-hl_btn_filter_enable
-omogu?eno
-hl_btn_filter_settings
-Opcije
-hl_btn_sort_asc
-uzlazno sortiranje
-hl_btn_sort_desc
-nizlazno sortiranje
-hl_btn_sort_name
-Ime
-hl_btn_sort_type
-Tip
-hl_btn_sort_waiting
-?eka:
-hl_title
-Lista stanica
-hl_txt_filter
-Filter:
-hl_txt_sort
-Sortirano:
-Home depot not found!\nYou need to send the\nconvoi to the depot\nmanually.
-Depo se ne mo?e na?i.\nMorate \nvozilo poslati ru?no
-Homeless
-Besku?nici
 hydrogene
 Vodik
 Idle:
 U mirovanju:
-industrial building
-industrijska gra?evina
+ignore climates
+Klimaövezetek ignorálása
 Init map ...
 Uvodna mapa
 Input
 ulaz
 Ins Stop
 Umetnuti
-Intercity road len:
-Du?ina me?ugradskih cesta:
-Intro. date:
-Datum uvo?enja:
-isometric map
-izometri?na mapa
-January
-Sije?anj
+Insert stop before the current stop
+Megálló beszúrása a jelenlegi után
+Invalid coordinate
+Nem valós útvonal!
 July
 Srpanj
+Jump to
+Ugrás
 June
 Lipanj
-Kann Spielstand\nnicht laden.\n
-U?itavanje spremljene igre nije mogu?e
+keine
+nincs
+Lade Relief
+Domborzat betölt.
+Laden
+Betöltés
+Land attraction
+Terep látványosságok
+Land industries
+Ipari egységek
+Last Year
+Múlt év:
+leer
+üres
+Legend
+Jelmagyarázat
+Leistung
+Teljesítmény
+Leistung: %d kW
+Teljesítmény: %d kW
+Leitung
+vezeték
+letzen Monat: diesen Monat:
+múlt hónap:   e hónap:
+Line
+Vonal
+Line Management
+Útvonal menedzselés
+Lines serving this stop
+Megállót kiszolgáló vonalak
+LKW_tab
+Kocsik
+Load game
+Játék betöltés
+load height data from file
+Terepadatok betöltése
+Load scenario
+Forg.könyv betölt
+loaded
+Betöltve
+loaded passenger/freight
+Utas/rakomány betöltve
+Loading map ...
+Térkép betöltése
+Lock game
+Játék zárolása
+LOCO_CAP
+Kapacitás: %d %s %s
+LOCO_INFO
+%s\nÁr: %d$ (%1.2f$/km)\nTeljesítmény: %dKW\nMax.seb: %dkm/ó  Súly: %dt\n
+Lokomotive_tab
+Mozdonyok
+Mailbox
+Postaláda
+Mailbox Options
+Üzenetek beállításai
+Maintenance
+Karbantartás
+Manufactured:
+Vásárlás ideje (hó,év):
+Map roughness
+Terepdurvaság:
+map zoom
+méretarány
+March
+Március
+Margin (%)
+Árrés(%)
+Max income:
+Maximális bevétel:
+Max. speed:
+Max. sebesség: \n
+Maximum tile height difference reached.
+A két szomszédos \nterület \nmagasságkülönbsége \nnagyobb mint \na megengedett!
+May
+Május
+Median Citizen per town
+Átlag lakós városonként:
+Meldung
+Üzenet
+Menge
+Mennyiség
+Modify the selected line
+Kiválasztott útvonal módosítása
+Monate alt
+hónapos
+Monorail
+Nyeregvasút
+Monorailboden
+Nyeregvasút alap
+Monoraildepot
+Nyeregvasút depó
+Months
+Hónap
+Mountain height
+Hegymagasság:
+Music playing disabled/not available
+Zenelejátszás kikapcsolva
+mute sound
+Hang némít
+Name
+Név
+Net Wealth
+Nettó jövedelem
+Neue Karte
+Új térkép
+Neue Welt
+Új térkép
+new convoi
+új konvoj
+New Line
+Új vonal
+no convois
+nincs konvoj
+No goods are loaded onto this convoi.
+Nincs áru betöltve ebbe a szerelvénybe
+no goods waiting
+nincs várakozó áru/utas
+no load
+Nincs talaj!
+No Route
+Úttalan
+No terminal station here!
+Ide nem lehet építeni megállót!
+no tree
+Fák elrejtése
+none
+semmi
+nord
+Észak
+nordost
+Északkelet
+nordwest
+Északnyugat
+Not enough fields would remain.
+A farm körül nem marad elég szabad terület!
+Object
+Objektum
+Ok
+Rendben
+Oktober
+Október
+On loan since %i month(s)
+A kölcsön %i hónapja indult!
+Only city chains
+Csak városi láncolat!
+Only land chains
+Csak terep láncolat!
+Operation
+Munkálatok
+Ops Profit
+Üzleti eredmény
+Optionen
+Opciók
+Origin
+Kiindulás
+ost
+Kelet
+Output
+Kimenet
+paletten
+raklap
+Pas_tab
+Személy/posta szállítás
+Passagiere
+Utas
+Passagierrate
+Utas forgalom
+Passagierziele
+Utas/levél célállomás
+Passengers %d %c, %d %c, %d no route
+Az utasoknak %d %c, %d %c, %d nincs útvonala
+Pause
+Szünet
+Percent Electricity
+Százalék villamosság
+Plant tree
+Faültetés
+player -1
+Énmagam :-).
+player 0
+Nullusz Kft.
+player 1
+Amata Transz Kft.
+player 2
+Trikky Transport
+player 3
+Mávocska Rt.
+player 4
+Pihe Transz Kft.
+player 5
+Lubisz Speed Rt.
+player 6
+Fakerék Transz Rt.
+Post
+Posta
+Postrate
+Posta forgalom
+Power
+Teljesítmény
+Power:
+Teljesítmény:
+Powerlines
+Elektr. hálóz.
+Produktion
+Termelés
+promote to line
+Új útvonal
+q1
+Tavasz
+q2
+Nyár
+q4
+Tél
+rail car
+Vasúti kocsi
+Random map
+Véletlen térkép
+Rathaus
+Városháza
+Rating
+Terheltség
+Reliefkarte
+Térkép
+remove airstrips
+Kifutópálya eltávolítása
+remove channels
+Csatorna eltávolítása
+remove monorails
+Nyeregvasút eltávolítása
+remove roads
+Közút eltávolítása
+remove tracks
+Sín eltávolítása
+replace stop
+Megállócsere
+residential house
+lakóház
+Restore natural slope
+Terepviszonyok visszaállítása
+Restwert:
+Eladási ár:
+Retire. date:
+Elavulási év:
+return ticket
+Visszaút
+Revenue
+Árbevétel
+road vehicle
+Közúti kocsi
+Rotate map
+Térkép forgatása
+Rotation
+Forgatás
+sack
+ zsák(ok)
+sail
+Szél
+Saving map ...
+Térkép mentése...
+Schienentunnel
+Vasúti alagút építése
+Schiff_tab
+Hajók
+Schiffdepot
+Hajó dokk
+Schleppkahn_tab
+Uszályok
+Sehenswuerdigkeit
+Látványosság
+sended
+küldött
+SEP_FRACTION
+,
+September
+Szeptember
+Serves Line:
+Kiszolg. vonal:
+Service
+Szerviz
+Ship
+Hajó
+shops and stores
+üzletek és irodák
+Show all
+mindent mutat
+show all building
+Minden épületet mutat
+show grid
+Tereprács mutat
+Show industry
+Ipar mutatása
+Show legend
+Jelmagyarázat
+Show map scale
+Színkódok
+Show schedules
+Menetrend mutat
+show station coverage
+Állomás hatókör mutat
+show station names
+Megállónevet mutat
+show waiting bars
+Terhelési csíkot mutat
+Show/hide statistics
+Mutat/rejt statiszt.
+Shows the currently selected schedule
+Jelenlegi menetrend mutatása
+Shrink city
+Város csökkentése
+Sim:
+Szimuláció:
+Sort by
+Szortírozta:
+Sort waiting list by
+Várakozáslista szort.:
+Sound
+Hang
+Sound settings
+Hang beállítások
+special freight
+különleges áru
+Speedlimit
+Sebes. korlát
+Speichern
+Mentés
+Spieler
+Játékos
+Spieler(mz)
+Játékosok
+Spielerliste
+Játékos lista
+Sprache
+Nyelv
+Sprachen
+Nyelv kiválasztás:
+Stadtinformation
+Város statisztikák
+Starte Spiel
+Játék indítása
+Station tiles:
+Állomáshosszúság:
+Status
+Státusz
+Step timeline one year
+Egy év ugrás
+Storage capacity
+Tároló kapacitás
+Strassendepot
+Kocsiszin
+Strassentunnel
+Közúti alagút építése
+street car
+Utcai kocsi
+sued
+Dél
+suedost
+Délkelet
+suedwest
+Délnyugat
+Summer snowline
+Nyári hóhatár
+Suppliers
+Beszállítók:
+Supply %s at (%i,%i)
+Utánpótlás %s (%i,%i)-nál(nél)
+Tage alt
+napos
+This Month
+Aktuális hónap
+This Year
+Ez év:
+Tile not empty.
+A terep nem üres! Terep megváltoztatása nem lehetséges.
+tl_title
+Összes város listázása
+tonnen
+t
+Total inhabitants:
+Össz lakosság:
+Tourist attractions
+Turista forgalom
+Tourists
+Turisták
+Towns
+Városok
+Tracks
+Vonalak
+Traffic
+Forgalom
+Train
+Vonat
+Trains are not available yet!
+Még nem áll rendelkezésre vonat!
+Tram
+Villamos
+Tramdepot
+Villamos kocsiszin
+Trams are not available yet!
+Még nem áll rendelkezésre villamos!
+Translation
+Fordítás
+transparent station coverage
+Átlátszó állomás hatókör
+Transport %li passengers
+%li szállítása
+Transported
+Szállítmányok
+Truck
+Kocsi
+Tunnelboden
+Alagút
+Undo last ways construction
+Utolsó útvonal visszaállítása
+Unemployed
+Munkanélküli
+Unhappy
+Elégedetlen
+units/day
+egység/nap
+Update Line
+Útvonal frissít
+upgrade HQ
+Központ fejleszt.
+Verbrauch
+Fogyasztás
+Verkauf
+Elad
+verkaufen
+Eladási mód
+via
+át
+via Menge
+tömegen át
+voranstellen
+Elé rak
+WAGGON_INFO
+%s\nÁr: %d$ (%1.2f$/km)\nKapacitás: %d %s %s\nSúly: %dt\nMax. seb.: %dkm/ó
+Waggon_tab
+Egyéb vagonok
+waiting
+Várakozik
+Water level
+Vízmennyiség:
+Ways not connected
+Az útvonal nincs összekötve
+Wegpunkt
+Várakozópont
+Wert
+Érték
+west
+Nyugat
+Winter snowline
+Téli hóhatár
+withdraw
+forgalomból kivon
+WRONGSAVE
+Inkompatibilis verzió Fájl betöltése nem lehetséges.
+Years
+Év
+Zielort
+Célállomás
+zooming in
+Nagyítás
+zooming out
+Kicsinyítés
+Zu nah am Kartenrand
+A térkép széle túl\közel van ahhoz, hogy építeni lehessen!
+#__________________________________record_text__________________________________
+#__________________________________record_text__________________________________
+New world record for monorails: %.1f km/h by %s.
+Nyeregvasútak új sebességi világrekordja: %.1f km/h - %s.
+New world record for motorcars: %.1f km/h by %s.
+Gépkocsik új sebeségi világrekordja: %.1f km/h - %s.
+New world record for railways: %.1f km/h by %s.
+Vonatok új sebességi világrekordja: %.1f km/h - %s.
+#_________________________Simutrans Experimental Texts__________________________
+#_________________________Simutrans Experimental Texts__________________________
