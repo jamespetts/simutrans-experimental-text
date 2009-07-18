@@ -90,3 +90,33 @@ FPS:</em> Higher values mean vehicles appear to move more smoothly. If number re
 <p>
 <em>Simloops:</em> If this number remains red, the computer is too slow for current settings - try a smaller map with fewer urban areas.
 </p>
+<p>
+<strong>Pathfinding information</strong>
+</p>
+<p>
+This section gives information on the status and settings of the pathfinding system in Simutrans. These settings are displayed here to give information about the performance of the system, as the pathfinding is one of the most challenging tasks for the computer.
+</p>
+<p>
+<em>Centralised path searching:</em> toggles between the distributed path searching system and the centralised path searching system (default).
+</p>
+<p>
+<em>Use performance counter:</em> indicates whether the performance counter is used, which is only customisable in simuconf.tab. This is an advanced system setting.
+</p>
+<p>
+<em>Rebuild connexions:</em> (centralised path searching only) the number of lines or convoys without lines that can be processed per step in the currently active phase.
+</p>
+<p>
+<em>Find eligible halts:</em> (centralised path searching only) the number of stops that can be processed per step in the currently active phase.
+</p>
+<p>
+<em>Fill path matrix:</em> (centralised path searching only) the number of stops that can be processed per step in the currently active phase.
+</p>
+<p>
+<em>Explore paths:</em> (centralised path searching only) the number of search iterations that can be processed per millisecond in the currently active phase.
+</p>
+<p>
+<em>Re-route goods:</em> (centralised path searching only) the number of halts that can have their goods re-routed per step in the currently active phase.
+</p>
+<p>
+<em>Status:</em> (centralised path searching only) indicates whether a search is currently in progress.
+</p>
