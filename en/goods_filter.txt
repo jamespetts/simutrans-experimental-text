@@ -16,7 +16,7 @@ Items are listed in a table containing, with information about the revenue per u
 At the top of the window are controls for adjusting various conditions that affect revenue, and information relating to the <em>speed bonus</em>.
 </p>
 <p>
-<em>Distance</em>: Adjusting this setting (which is measured in tiles) adjusts the distance over which the revenue per unit is calculated. As well as the revenue increasing with distance, adjusting the distance affects the extent to which the speed bonus and comfort settings affects the revenue.
+<em>Distance</em>: Adjusting this setting (which is measured in kilometres: see the <a href="map.txt">map</a> to check how many tiles to a kilometre: this is variable) adjusts the distance over which the revenue per unit is calculated. As well as the revenue increasing with distance, adjusting the distance affects the extent to which the speed bonus and comfort settings affects the revenue.
 </p>
 <p>
 <em>Comfort</em>: Adjusting this setting shows the revenue for different <a href="comfort.txt">comfort</a> levels. This setting only affects passengers. Comfort has a greater effect at higher distances. 

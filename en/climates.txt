@@ -45,30 +45,21 @@ Arrow buttons adjust settings:
 <it>Climate options:</it>
 </p>
 <p>
-
-<em>Desert climate:</em> sets the relative proportion of desert in the game landscape.
+There are six different <em>climates</em> in Simutrans. Each climate appears at a different map height (adjusted by the settings described below). The climate affects the appearance of the terrain, the types of trees that can grow on the terrain, and the types of industries and other buildings that appear on the terrain. The six climate types are:
 </p>
 <p>
-
-<em>Tropical climate:</em> sets the relative proportion of tropical areas in the game landscape.
+<em>- Desert</em><br>
+<em>- Tropical</em><br>
+<em>- Mediterranean</em><br>
+<em>- Temperate</em><br>
+<em>- Tundra</em><br>
+<em>- Mountain</em>
 </p>
 <p>
-
-<em>Mediterranean climate:</em> sets the relative proportion of subtropical areas in the game landscape.
-</p>
+Next to each of the climates is a number. This represents the height in tiles below which that climate will appear. If the number specified is the same as a climate further up the list, the climate type will not appear at all.
 <p>
 
-<em>Temperate climate:</em> sets the relative proportion of temperate areas in the game landscape.
 </p>
-<p>
-
-<em>Tundra:</em> sets the relative proportion of sub-arctic in the game landscape.
-</p>
-<p>
-
-<em>Mountain climate:</em> sets the relative proportion of mountainous areas in the game landscape.
-</p>
-<p>
 <it>Tree and river options:</it>
 </p>
 <p>

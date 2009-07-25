@@ -30,6 +30,12 @@ Check the <em>show schedules</em> checkbox to enable a graphical display of a co
 Check the <em>isometric view</em> checkbox to show the map in the same isometric orientation as the main game window.
 </p>
 <p>
+Click <em>show map scale</em> to see how various quantitative information (depending on the setting selected in <em>show legend</em> (explained below) is represented in colours in the map. Clicking this button will also show the scale that has been set in tiles per kilometre. 
+</p>
+<p>
+Click <em>show industry</em> to see which colours represent which industries on the map. 
+</p>
+<p>
 Click <em>show legend</em> to see additional options about what is displayed on the map. The following options are available:
 </p>
 <p>
