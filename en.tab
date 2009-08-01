@@ -160,7 +160,7 @@ Sand
 %s now\noffers bus services\nbetween %s\nand attraction\n%s\nat (%i,%i).\n
 %s now\noffers bus services\nbetween %s\nand attraction\n%s\nat (%i,%i).\n
 %s now\noffers bus services\nbetween %s\nand factory\n%s\nat (%i,%i).\n
-%s now\noffers bus services\nbetween %s\nand factory\n%s\nat (%i,%i).\n
+%s now\noffers bus services\nbetween %s\nand industry\n%s\nat (%i,%i).\n
 %s s\nheadquarter now\nat (%i,%i).
 %s's has built new headquarters.
 %s wasted\nyour money with a\nnew town hall\nwhen it reached\n%i inhabitants.
@@ -630,15 +630,15 @@ Please wait while a new\nmap is being created.\n\n(This may take a few \nminutes
 Es wird bereits\nein Fahrplan\neingegeben\n
 A schedule is\nbeing planned.\nFinish it first\nbefore re-scheduling!\n
 Fabrikanschluss
-Connected factories
+Connected industries
 Fabrikname
-Factory name
+Industry name
 Factories
-Factories
+Industries
 Factory chain extended\nfor %s near\n%s built with\n%i factories.
-Economy going strong:\n%s near %s extends chain.\n%i new factory opened.
+\n%s near %s extends its industry chain.\n%i new industry opened.
 factory details
-Factory details
+Industry details
 Fahrplan
 Schedule
 Fahrtziel
@@ -958,7 +958,7 @@ Message
 Menge
 amount
 MessageOptionsText
-\nNew Year\n\nAI News\n\nCity News\n\nNo Route\n\nNew Industries\n\nTourist\n\nNew Vehicles\n\nStation full\n\nProblems
+\nNew Year\n\nAI News\n\nCity News\n\nNo Route\n\nNew Industries\n\nTourist\n\nNew Vehicles\n\nStation full\n\nProblems\n\nTraffic congestion
 min
 min.
 Modify the selected line
@@ -1000,7 +1000,7 @@ Create a New Game
 new convoi
 New convoy
 New factory chain\nfor %s near\n%s built with\n%i factories.
-Industry growth: New factory chain\nfor %s near\n%s built with\n%i factories.
+A new industry chain\nfor %s near\n%s has been built with\n%i industries.
 New Line
 New Line
 New line created!\nYou can assign the line now\nby selecting it from the\nline selector above.
@@ -1304,7 +1304,7 @@ Show waiting graphs
 Show/hide statistics
 Show/hide Statistics
 Shows consumer/suppliers for factories
-Show consumers/suppliers for factories
+Show consumers/suppliers for industries
 Shows the currently selected schedule
 Show the currently selected schedule
 Shrink city
@@ -1414,7 +1414,7 @@ City list
 To attract more tourists\n%s built\na %s\nwith the aid of\n%i tax payers.
 To attract more tourists,\n%s built\na %s\nwith the aid of\n%i tax payers.
 To heavy traffic\nresults in traffic jam.\n
-Heavy traffic\ncauses traffic congestion.\n
+Traffic congestion\ndetected.\n
 tonnen
 t
 Total inhabitants:
@@ -1673,6 +1673,8 @@ See under the ground, one layer at a time. Toggle with CTRL + U. Move up/down in
 See under the ground, one layer at a time. Toggle with CTRL + U. Move up/down in layers with HOME and END.
 Kein Besitzer\n
 Unowned or privately owned\n
+ratio_pax
+% passengers
 rpl_cnv_replace
 Replace
 rpl_cnv_sell
@@ -1701,3 +1703,5 @@ tiles
 tiles
 per 1 km
 per 1 km
+Bauzeit
+Construction time
