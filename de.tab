@@ -8,12 +8,14 @@ Prop-Latin1.bdf
 #                             Language: de Deutsch                             #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 28.06 2009                           #
+#                            Date Created: 1.11 2009                           #
 #                                                                              #
 #                                   authors:                                   #
 #                            Alexander Brose - AlexB                           #
 #                                    note:                                     #
 #                         Klaus Thenmayer - Bitfreezer                         #
+#                                    note:                                     #
+#                                  - Christian                                 #
 #                                    note:                                     #
 #                                   - Combuijs                                 #
 #                                    note:                                     #
@@ -29,6 +31,8 @@ Prop-Latin1.bdf
 #                                    note:                                     #
 #                           Hansjörg Malthaner - Hajo                          #
 #                                    note:                                     #
+#                              Jaroslaw - Jaroslaw                             #
+#                                    note:                                     #
 #                             Marcus Haupt - Marcus                            #
 #note: if I´m not available by email to proximity.de try mail@marcus-haupt.de (#
 #                        Constantin Grabowski - Moistboy                       #
@@ -38,7 +42,7 @@ Prop-Latin1.bdf
 #                            Günter Beine - gebeine                            #
 #                        note: maintainer pak128.german                        #
 #                            Jonas Bushart - jonasbb                           #
-#                                    note:                                     #
+#                     note: graphic artist for pak192.comic                    #
 #                              Markus Rex - msrex                              #
 #                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
@@ -85,14 +89,20 @@ clf_btn_keine
 keine
 Construction_Btn
 Ausgaben Bau
+follow me
+verfolgen
 gl_btn_sort_bonus
 nach Bonus
+gl_btn_sort_catg
+nach Kategorie
 gl_btn_sort_name
 nach Namen
 gl_btn_sort_revenue
 nach Erlös
 gl_btn_unsort
 unsortiert
+go home
+zum Depot
 hl_btn_filter_disable
 aus
 hl_btn_filter_enable
@@ -117,6 +127,12 @@ hlf_btn_keine
 keine
 koord
 nach Orten
+Load game
+Lade Spiel
+Load scenario
+Szenario spielen
+Start
+Starten
 #_________________________________climates_text_________________________________
 #_________________________________climates_text_________________________________
 arctic
@@ -142,15 +158,17 @@ Autohalt muss auf\nStraße liegen!\n
 bridge is too high for its type!
 Tal ist zu tief für\ndiesen Brückentyp!\n
 Bridge is too long for this type!\n
-Die Spannweite ist\nzu groß für diese Art\nvon Brücke!\n
+Diese Brücke hat nicht die\nbenötigte Spannweite!\n
 Bruecke muss an\neinfachem\nHang beginnen!\n
 Die Brücke muss an\neinem geraden\nHang beginnen!\n
 Cannot built depot here!
-Hier kann kein Depot gebaut werden!
+Hier kann kein Depot gebaut werden!\n\nEin Depot kann nur auf einem Wegende\n\nmit dem passenden Typ gebaut werden.\n
 Cannot built this station/building\nin underground mode here.
-Gebäude müssen auf dem\nKartenboden gebaut werden.\n
+Gebäude können nur auf dem\nKartenboden gebaut werden.\n
 Cannot create generic line!\nSelect line type by\nusing filter tabs.
 Kann keine Linie vom Typ\n'Alle' erzeugen.\n\nWählen Sie einen\nanderen Linientyp aus
+Convoi handles exhausted!
+Maximale Fahrzeugzahl (Convois) erreicht.
 Das Feld gehoert\neinem anderen Spieler\n
 Das Grundstück\ngehört einem\nanderen Spieler!\n
 Der Besitzer erlaubt das Entfernen nicht
@@ -160,7 +178,7 @@ Die Brücke ist nicht frei!\n
 Diese Zusammenstellung kann nicht fahren!\n
 Diese Zusammenstellung\nkann nicht fahren!\n
 Dock must be built on single slope!
-Der Hafen muss am \nUfer gebaut werden !
+Ein Hafen muss an einem\ngeraden Ufer gebaut werden!\n
 Fahrzeuge koennen so nicht entfernt werden
 Fahrzeuge können so\nnicht entfernt werden.\n
 Flugzeughalt muss auf\nRunway liegen!\n
@@ -189,6 +207,8 @@ Noch kein Fahrzeug\nmit Fahrplan\nvorhanden\n
 Noch kein Fahrplan\nvorhanden!\n
 Not allowed!\nThe convoi's schedule can\nnot be changed currently.\nTry again later!
 Nicht möglich!\nDer Fahrplan kann zur Zeit\nnicht geändert werden.\nVersuchen Sie es später\nnoch einmal!
+Not enough money!
+Zum Bauen reicht das\nGeld nicht mehr!
 On narrowgauge track only!\n
 Ein Schmalspurhalt muss auf Schmalspurgleisen liegen.
 Planes are not available yet!
@@ -197,10 +217,12 @@ Post muss neben\nHaltestelle\nliegen!\n
 Ein Stationsgebäude (z.B. \nPostfiliale, Lager)kann \nnur auf einem freien Feld \nneben einer Haltestelle \ngebaut werden!
 Terraforming not possible\nhere in underground view
 Diese Landschaftsveränderung ist\nnur auf dem Kartenboden möglich.\n
+Upgrade must have\na higher level
+Neue Station muss ein\nhöheres Level haben.
 #___________________________________help_text___________________________________
 #___________________________________help_text___________________________________
 <title>Keyboard Help</title>\n<h1><strong>Keyboard Help</strong></h1><p>\n
-<title>Tastaturbefehle</title>\n<h1><strong>Tastaturbefehle</strong></h1><p>\nDie folgenden Tastaturbefehle kennt Simutrans:<p>\n<em>Ctrl</em>(<em>Strg</em>) + Klick - unterdrücke Infofenster (nur an einigen Orten)<br>\n<em>Ctrl</em>(<em>Strg</em>) + Werkzeug - auf oberer Ebene agieren<br>\n\n<em>Esc</em>, <em>Delete</em>: Oberstes Fenster schließen<br>\n<em>Backspace</em>: Alle Fenster schließen<br>\n<em>Page Down</em>/<em>Page up</em>, <em>&lt;</em>/<em>></em>: Zoom kleiner/größer<br>\n<em>F1</em> - Simutrans Hilfe - Übersicht<br>\n<em>1</em> - Karte südwestlich schieben<br>\n<em>2</em> - Karte südlich schieben<br>\n<em>3</em> - Karte südöstlich schieben<br>\n<em>4</em> - Karte westlich schieben<br>\n<em>6</em> - Karte östlich schieben<br>\n<em>7</em> - Karte nordwestlich schieben<br>\n<em>8</em> - Karte nördlich schieben<br>\n<em>9</em> - Karte nordöstlich schieben<br>\n<p>\nFolgende Befehle sind frei belegbar:<br>\n
+<title>Tastaturbefehle</title>\n<h1><strong>Tastaturbefehle</strong></h1><p>\nDie folgenden Tastaturbefehle kennt Simutrans:<p>\n<em>Ctrl</em>(<em>Strg</em>) + Klick - unterdrücke Infofenster (nur an einigen Orten)<br>\n<em>Ctrl</em>(<em>Strg</em>) + Werkzeug - auf oberer Ebene agieren<br>\n\n<em>Esc</em>, <em>Delete</em>: Oberstes Fenster schließen<br>\n<em>Backspace</em>: Alle Fenster schließen<br>\n<em>Bild hoch</em>/<em>Bild runter</em>, <em>&lt;</em>/<em>></em>: Zoom kleiner/größer<br>\n<em>F1</em> - Simutrans Hilfe - Übersicht<br>\n<em>1</em> - Karte südwestlich schieben<br>\n<em>2</em> - Karte südlich schieben<br>\n<em>3</em> - Karte südöstlich schieben<br>\n<em>4</em> - Karte westlich schieben<br>\n<em>6</em> - Karte östlich schieben<br>\n<em>7</em> - Karte nordwestlich schieben<br>\n<em>8</em> - Karte nördlich schieben<br>\n<em>9</em> - Karte nordöstlich schieben<br>\n<p>\nFolgende Befehle sind frei belegbar:<br>\n
 Clear block reservation
 Reservierte Wege anzeigen/löschen
 #____________________________________ki_text____________________________________
@@ -227,6 +249,8 @@ EDITTOOLS
 Karteneditor
 LISTTOOLS
 Listenverwaltung
+MAGLEVTOOLS
+Magnetbahnbauwerkzeuge
 MONORAILTOOLS
 Monorailbahnwerkzeuge
 NARROWGAUGETOOLS
@@ -290,7 +314,9 @@ With a big festival\n%s built\na new monument.\n%i citicens rejoiced.
 (in depot)
 (im Depot)
 [CTRL]
-[STRG]
+Strg
+[END]
+Ende
 [HOME]
 Pos1
 \nBauzeit bis
@@ -412,7 +438,7 @@ Kartennummer:
 3extern
 %s Land %s
 3LIGHT_CHOOSE
-Scrollgeschw.:
+Scrollgeschwindigkeit:
 3suburb
 %s Vorstadt %s %s
 3WORLD_CHOOSE
@@ -469,14 +495,16 @@ Active player only
 nur eigene Marker
 Add forest
 Wald aufforsten
+Add random citycar
+zufälliges Stadtfahrzeug erstellen
 Add Stop
 Hinzufügen
 Add stops for backward travel
 Füge Stops für Rückfahrt hinzu
 Add the selected vehicle(s) to the selected line
 Die gewählte Linie wird dem Fahrzeugverband zugewiesen\n
-Air
-Flug
+air
+Roll-/Startbahn
 aircraft_tab
 Frachtflugzeuge
 airplane
@@ -485,6 +513,10 @@ Airport
 Flughafen
 All
 Alle
+all convoi tooltips
+Fahrzeuge: alle Tooltips
+Allow city growth
+Stadt darf wachsen
 Allow player change
 Spieler darf wechseln
 allowed climates:\n
@@ -647,6 +679,8 @@ clf_chk_stucked
 blockiert
 clf_chk_trains
 Züge
+clf_chk_trams
+Straßenbahn
 clf_chk_type_filter
 Typen filtern:
 clf_chk_waren
@@ -671,10 +705,14 @@ Constructed by %s
 Gemalt von %s
 convoi %d of %d
 Fahrzeugverband %d von %d
+convoi error tooltips
+Fahrzeuge: Fehlertooltips
 Convoi has been sent\nto the nearest depot\nof appropriate type.\n
 Fahrzeug wurde zum nächsten\npassenden Depot geschickt.\n
 Convoi is sold when all wagons are empty.
 Fahrzeugverband wird vom Bildschirm entfernt, sobald dieser leer ist. Verkaufswert wird dem Kontostand gutgeschrieben.
+convoi mouseover tooltips
+Fahrzeuge: Maustooltips
 convoi passed last\nmonth %i\n
 \nIm letzten Monat vorbeigefahrene \nFahrzeuge: %i\n
 Convois
@@ -688,7 +726,9 @@ Kopieren
 Copy the selected convoi and its schedule or line
 Der Fahrzeugverband wird mit Fahrplan oder Linienzugehörigkeit kopiert
 cost for removal
-Kosten für Entfernung
+Kosten für Entfernung 
+Costs
+Kosten
 Create a new line based on this schedule
 Eine neue Linie mit diesem Fahrplan anlegen.
 curiosity builder
@@ -726,7 +766,9 @@ Midi-Musik ausschalten
 Dock
 Hafen
 Durchsatz
-Max.
+Max. 
+Economy
+Wirtschaft & Städte
 Eigenbesitz\n
 Öffentl. Eigentum\n
 Ein %s\npasst hier nicht.\n
@@ -783,8 +825,6 @@ fl_title
 Fabrikliste
 Flug_tab
 Passagierflugzeuge
-follow me
-verfolgen
 Follow the convoi on the map.
 Dem Fahrzeug folgen.
 Forest
@@ -813,14 +853,12 @@ Gear:
 Übersetzung:
 Gebaeude
 Gebäude
+General
+Allgemeines
 Give the selected vehicle(s) an individual schedule
 Gib dem ausgewählten Fahrzeug einen eigenen Fahrplan.
-gl_btn_sort_catg
-nach Kategorie
 gl_title
 Warenliste
-go home
-zum Depot
 Goods
 Waren
 Goods AI
@@ -959,6 +997,8 @@ LARGE_NUMBER_VALUE
 1e6
 Last Year
 Letztes Jahr:
+Leaving depot!
+Verlässt Depot!
 Legend
 Kartenlegende
 Leitung
@@ -975,18 +1015,22 @@ Lines serving this stop
 -- Linien, die diese Haltestelle anfahren
 LKW_tab
 LKW
-Load game
-Lade Spiel
 load height data from file
 Lade Relief aus Datei
-Load scenario
-Szenario spielen
 loaded
 geladen.
 loaded passenger/freight
 Sortiere Passagiere/Güter nach
+Loading (%i->%i%%)!
+Beladung (%i%% von %i%%)!
+Loading addon paks ...
+zusätzliche Addons laden ...
 Loading map ...
 Lade Karte ...
+Loading paks ...
+Grafikset laden ...
+Loading skins ...
+eigene Skins laden ...
 Lock game
 Karte gegen weiteren Spielerwechsel schützen.
 LOCO_CAP
@@ -1001,6 +1045,8 @@ Maglev
 Magnetbahn
 maglev vehicle
 Magnetbahnfahrzeug
+maglev_track
+Magnetbahnstrecke
 Maglevdepot
 Magnetbahndepot
 Mailbox
@@ -1012,7 +1058,7 @@ Instandhaltung
 make stop public (or join with public stop next) costs %i per tile and level
 Erzeugen/verbinden mit öffentlichem Stop (%i$ pro Feld und Level)
 Manual (Human)
-Mensch (kein KI)
+Mensch (keine KI)
 Manufactured:
 Hergestellt:
 Map roughness
@@ -1051,6 +1097,8 @@ Monorail
 Schwebebahn
 monorail vehicle
 Monorailfahrzeug
+monorail_track
+Monorailbahn
 Monorailboden
 Erhöhter Verkehrsweg
 month wait time
@@ -1066,7 +1114,7 @@ Berghöhe
 Move the selected vehicle(s) back to the depot
 Aktuellen Fahrzeugverband auflösen
 Movingobj
-Verschieben
+bewegliches Objekt
 Music playing disabled/not available
 Musik nicht verfügbar/abgeschaltet
 Music volume:
@@ -1077,6 +1125,8 @@ Narrowgauge
 Schmalspurbahn
 narrowgauge vehicle
 Schmalspurbahnfahrzeug
+narrowgauge_track
+Schmalspurstrecke
 Narrowgaugedepot
 Schmalspurbahndepot
 Net Wealth
@@ -1091,6 +1141,8 @@ New line created!\nYou can assign the line now\nby selecting it from the\nline s
 Neue Linie erzeugt!\nDie Linie kann nun oben\nfür diesen Fahrzeugverband\nausgewählt werden.
 New Vehicles
 Neue Fahrzeuge
+no buildings hidden
+keine Gebäude minimieren
 no convois
 Keine Fahrzeuge zusammengestellt
 No goods are loaded onto this convoi.
@@ -1120,7 +1172,7 @@ Nordwest
 Not enough fields would remain.
 Um jeden Hof muss eine\nMindestanzahl von Feldern\nübrigbleiben.
 Now active as %s.\n
-Du bist jetzt der Spieler:   %s.
+Du bist jetzt der Spieler:\n %s.
 Number of rivers
 Anzahl Flüsse
 Object
@@ -1155,6 +1207,8 @@ Passenger AI
 Passagier-KI
 Passengers %d %c, %d %c, %d no route
 Fahrgäste %d %c, %d %c, %d ohne Route
+PaxDest
+Reiseziele
 Percent Electricity
 Anteil Kraftwerke (%)
 Plant tree
@@ -1235,6 +1289,8 @@ remove monorails
 Monorailbahnstrecken löschen
 remove narrowgauge tracks
 Schmalspurbahnstrecke entfernen
+remove powerlines
+Übertragungsleitung entfernen
 remove roads
 Straßenzug löschen
 remove tracks
@@ -1257,24 +1313,32 @@ return ticket
 Rückfahrkarte
 Revenue
 Einnahmen
+road
+Straße
 road vehicle
 Straßenfahrzeug
 Roadsign
 Verkehrsschild
 Rotate map
 Karte um 90° drehen
+Routing
+Verbindungen
 sack
  Sack
 sail
 Wind
 Saving map ...
 Speichere Karte ...
+Schedule changing!
+Fahrplan geändert!
 Schiff_tab
 Schiffe
 Schleppkahn_tab
 Schleppkähne
 Screenshot
 Bildschirmfoto
+Seasons
+Jahreszeiten
 Sehenswuerdigkeit
 Sehenswürdigkeit
 Sell the selected vehicle(s)
@@ -1289,6 +1353,8 @@ Serves Line:
 Bedient Linie:
 Service
 An-/Abfahrten
+Setting
+Einstellungen
 Ship
 Schiff
 shops and stores
@@ -1314,9 +1380,9 @@ Auch veraltete zeigen
 Show schedules
 Linienpläne
 show station coverage
-Stationsabdeckung zeigen
+Stationsabdeckung anzeigen
 show station names
-Haltestellenamen anzeigen
+Stationsnamen anzeigen
 show waiting bars
 Güterwartebalken anzeigen
 Show/hide statistics
@@ -1332,7 +1398,7 @@ Zufallsauswahl
 Sim:
 Simloops:
 sliced underground mode
-Schnittansicht durch Oberfläche
+Ebene durch Karte
 slot empty
 unbelegt
 Sort by
@@ -1353,8 +1419,6 @@ Spieler(mz)
 Spieler
 Sprachen
 Sprachauswahl
-Start
-Starten
 Start the selected vehicle(s)
 Starte das ausgewählte Fahrzeug
 Station tiles:
@@ -1403,6 +1467,8 @@ To heavy traffic\nresults in traffic jam.\n
 Verkehrsmeldung:\nStau seit Monaten.\n
 Toggle day/night view
 Tag/Nachtmodus umschalten
+Toggle vehicle tooltips
+Tooltips für Fahrzeuge umschalten
 tonnen
 t
 Total inhabitants:
@@ -1415,6 +1481,8 @@ Town: %s\n
 Teil der Stadt: %s\n
 Towns
 Städtenamen
+track
+Eisenbahnstrecke
 Tracks
 Gleistrassen
 Traffic
@@ -1423,8 +1491,12 @@ Train
 Zug
 Trains are not available yet!
 Züge sind noch nicht verfügbar!
+Tram
+Straßenbahn
 tram %i km/h, monorail %i km/h\nmaglev %i km/h, narrowgauge %i km/h.
-Straßenbahnen %i km/h, Monorailbahnen %i km/h\nManetbahnen %i km/h, Schmalspurbahnen %i km/h.
+Straßenbahnen %i km/h, Monorailbahnen %i km/h\nMagnetbahnen %i km/h, Schmalspurbahnen %i km/h.
+tram_track
+Straßenbahnstrecke
 Tramdepot
 Straßenbahndepot
 Trams are not available yet!
@@ -1460,7 +1532,7 @@ Arbeitslos
 Unhappy
 Unzufrieden
 units/day
-Einheiten pro Monat
+ Einheiten pro Monat
 Update Line
 Linie ändern
 upgrade HQ
@@ -1487,6 +1559,10 @@ Waggon_tab
 Waggons
 waiting
 wartend
+Waiting for clearance!
+Wartet auf freie Strecke!
+water
+Kanal
 Water level
 Grundwasser
 water vehicle
@@ -1509,6 +1585,8 @@ Winter snowline
 Winterschnee bis
 withdraw
 ausmustern
+Withdraw All
+alle ausmustern
 WRONGSAVE
 \nInkompatible Spielstands-\nversion. Das Spiel kann\nnicht geladen werden.\n
 Year %i has started.

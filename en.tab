@@ -442,7 +442,7 @@ Choose operation executed on clicking stored/new vehicles
 chooses a random map
 Chooses a random map.
 citicens
-Citizens
+Population
 City industries
 Markets in cities
 City list
@@ -958,7 +958,7 @@ Message
 Menge
 amount
 MessageOptionsText
-\nNew Year\n\nAI News\n\nCity News\n\nNo Route\n\nNew Industries\n\nTourist\n\nNew Vehicles\n\nStation full\n\nProblems\n\nTraffic congestion
+\nNew Year\n\nAI News\n\nCity News\n\nNo Route\n\nIndustry\n\nTourist\n\nNew Vehicles\n\nStation full\n\nProblems\n\nTraffic congestion
 min
 min.
 Modify the selected line

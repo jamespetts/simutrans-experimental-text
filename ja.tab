@@ -8,7 +8,7 @@ m+10r.bdf
 #                             Language: ja Japanese                            #
 #                                Encoding: UTF-8                               #
 #                               Font : m+10r.bdf                               #
-#                           Date Created: 28.06 2009                           #
+#                            Date Created: 1.11 2009                           #
 #                                                                              #
 #                                   authors:                                   #
 #                              Frank Penz - FrankP                             #
@@ -57,14 +57,20 @@ clf_btn_keine
 全解除
 Construction_Btn
 建設費
+follow me
+追跡
 gl_btn_sort_bonus
 ボーナス順
+gl_btn_sort_catg
+カテゴリー順
 gl_btn_sort_name
 名前順
 gl_btn_sort_revenue
 収入順
 gl_btn_unsort
 ソート無し
+go home
+車庫へ
 hl_btn_filter_disable
 無効
 hl_btn_filter_enable
@@ -89,6 +95,20 @@ hlf_btn_keine
 全解除
 koord
 位置順
+Lade Relief
+地形データを読み込む
+Load game
+ゲームの再開
+Load scenario
+シナリオを読み込む
+Optionen
+設定
+Sprache
+言語
+Start
+スタート
+Starte Spiel
+この設定で始める
 #_________________________________climates_text_________________________________
 #_________________________________climates_text_________________________________
 arctic
@@ -123,6 +143,8 @@ Cannot built this station/building\nin underground mode here.
 駅ビル/駅舎は、\n地下には建設できません。
 Cannot create generic line!\nSelect line type by\nusing filter tabs.
 汎用の路線を作成することはできません。\nタブで路線のタイプを選んでください。
+Convoi handles exhausted!
+最大編成数(65535)に達しました。\nこれ以上追加できません。
 Das Feld gehoert\neinem anderen Spieler\n
 この場所は\n他のプレイヤーによって\nすでに占拠されています。\n
 Der Besitzer erlaubt das Entfernen nicht
@@ -161,6 +183,8 @@ Noch kein Fahrzeug\nmit Fahrplan\nvorhanden\n
 乗り物をスタートさせる前に\nスケジュールを設定してください。\n
 Not allowed!\nThe convoi's schedule can\nnot be changed currently.\nTry again later!
 現在、この編成のスケジュールは\n変更できません。少し待ってから\n再度試してください。
+Not enough money!
+資金が不足しています。
 On narrowgauge track only!\n
 ナローゲージ上にのみ\n停車することができます
 Planes are not available yet!
@@ -171,6 +195,8 @@ Schiffhalt muss im\nWasser liegen!\n
 船舶は港の周辺にのみ\n停泊することができます。\n
 Terraforming not possible\nhere in underground view
 スロープツールは、\n地下では使用できません。
+Upgrade must have\na higher level
+この駅にはアップグレードできません\n\nよりレベルの高い駅を選択するか、\n一度撤去してから、置き換えてください
 Zughalt muss auf\nSchiene liegen!\n
 列車は線路上にのみ\n停車することができます。\n
 #___________________________________help_text___________________________________
@@ -445,14 +471,16 @@ Active player only
 自社のみ表示
 Add forest
 森を作成する
+Add random citycar
+自家用車を道路上に配置
 Add Stop
  追加
 Add stops for backward travel
 折り返して戻るための停車駅を追加します
 Add the selected vehicle(s) to the selected line
 現在選択されている編成に、選択されている路線を適用します
-Air
-飛行機
+air
+航空
 aircraft_tab
 貨物機
 airplane
@@ -461,6 +489,10 @@ Airport
 空港
 All
 全て
+all convoi tooltips
+常に車両の状態を表示
+Allow city growth
+街を発展させる
 Allow player change
 プレーヤーの変更を許可する
 allowed climates:\n
@@ -639,6 +671,8 @@ clf_chk_stucked
 停滞中
 clf_chk_trains
 列車
+clf_chk_trams
+市電
 clf_chk_type_filter
 タイプフィルター:
 clf_chk_waren
@@ -663,10 +697,14 @@ Constructed by %s
 作者: %s\n
 convoi %d of %d
 入庫中の編成 %d / %d
+convoi error tooltips
+問題のある車両のみ状態を表示
 Convoi has been sent\nto the nearest depot\nof appropriate type.\n
 この編成は一番近い車庫に\n向かいました。\n
 Convoi is sold when all wagons are empty.
 この編成を回送し、空車時に売却します。
+convoi mouseover tooltips
+マウスオーバーで車両の状態を表示
 convoi passed last\nmonth %i\n
 \n前月の交通量: %i
 Convois
@@ -681,6 +719,8 @@ Copy the selected convoi and its schedule or line
 選択した編成とそのスケジュール/路線を複製します
 cost for removal
 撤去費用: 
+Costs
+　費用　
 Create a new line based on this schedule
 このスケジュールを元に新しい路線を作ります
 curiosity builder
@@ -723,6 +763,8 @@ Dock
 港
 Durchsatz
 最高生産
+Economy
+　経済　
 Eigenbesitz\n
 公共物\n
 Ein %s\npasst hier nicht.\n
@@ -787,8 +829,6 @@ fl_title
 産業一覧
 Flug_tab
 旅客機
-follow me
-追跡
 Follow the convoi on the map.
 この編成を追ってマップを移動します
 Forest
@@ -819,18 +859,16 @@ Gear:
 ギア比:
 Gebaeude
 建築物
+General
+　全般　
 Gewicht
 重量
 Gewinn
 収益
 Give the selected vehicle(s) an individual schedule
 選択している編成に個別の移動計画を設定します
-gl_btn_sort_catg
-カテゴリー順
 gl_title
 貨物一覧
-go home
-車庫へ
 Goods
 製品
 Goods AI
@@ -851,6 +889,8 @@ Hangar
 格納庫
 Happy
  幸せ
+Haus kaufen
+市内建築物を購入
 Headquarter and %li trains
 本社建設と鉄道 %li編成を黒字化
 Helligk.
@@ -953,6 +993,8 @@ Jump to
 指定座標へ移動
 June
 6月
+Kein Besitzer\n
+　\n
 keine
 無し
 Keine Einzelfahrzeuge im Depot
@@ -961,8 +1003,6 @@ Kreuzung
 踏切
 labellist_title
 マーカー一覧
-Lade Relief
-地形データを読み込む
 Laden
 ゲームの再開
 Land attraction
@@ -977,6 +1017,8 @@ LARGE_NUMBER_VALUE
 1e8
 Last Year
 前年度:
+Leaving depot!
+出庫中
 leer
 空き
 Legend
@@ -999,18 +1041,22 @@ Lines serving this stop
 乗り入れている路線
 LKW_tab
 トラック
-Load game
-ゲームの再開
 load height data from file
 地形データをファイルから読み込みます
-Load scenario
-シナリオを読み込む
 loaded
 乗車中
 loaded passenger/freight
 乗車中の旅客/貨物
+Loading (%i->%i%%)!
+積載(%i->%i%%)
+Loading addon paks ...
+アドオンを読み込み中 ...
 Loading map ...
 マップを読み込み中
+Loading paks ...
+pakを読み込み中 ...
+Loading skins ...
+スキンを読み込み中 ...
 Lock game
 プレイヤー変更の禁止【解除不可】
 LOCO_CAP
@@ -1025,6 +1071,8 @@ Maglev
 リニア
 maglev vehicle
 リニア車両
+maglev_track
+リニア
 Maglevdepot
 リニア車庫
 Mailbox
@@ -1083,6 +1131,8 @@ Monorail
 モノレール
 monorail vehicle
 モノレール/リニア車両
+monorail_track
+モノレール
 Monorailboden
 高架
 Monoraildepot
@@ -1113,6 +1163,8 @@ Narrowgauge
 ナローゲージ
 narrowgauge vehicle
 ナローゲージ車両
+narrowgauge_track
+ナローゲージ
 Narrowgaugedepot
 ナローゲージ車庫
 Net Wealth
@@ -1129,6 +1181,8 @@ New line created!\nYou can assign the line now\nby selecting it from the\nline s
 新しい路線が作られました。\n選択すれば路線を割り当てることができます。
 New Vehicles
 購入費
+no buildings hidden
+すべての建物を表示
 no convois
 編成はありません
 No goods are loaded onto this convoi.
@@ -1142,7 +1196,7 @@ No Route
 No stop here!
 ここには駅がありません。\nキャンセルします。
 No suitable ground!
-ここには建設できません。\n\n気候条件/地形が不適切、または\n適切な線路/道路上ではありません
+適切な場所ではありません。\n\n気候条件が合わない、空地ではない、\nあるいは線路/道路上ではありません。\nまた地下では線路/道路上を起点としてください。
 No terminal station here!
 この形式の停車場は走路の終端に\n建ててください！
 no timeline
@@ -1183,8 +1237,6 @@ Operation
 運行費
 Ops Profit
 運用利益
-Optionen
-設定
 Origin
 出発地
 ost
@@ -1207,6 +1259,8 @@ Passengers %d %c, %d %c, %d no route
 旅客の評価 %d %c, %d %c, %d 経路無し
 Pause
 一時停止
+PaxDest
+旅客/郵便目的地
 Percent Electricity
 電力供給率(％)：
 Plant tree
@@ -1297,10 +1351,14 @@ remove monorails
 モノレールの撤去
 remove narrowgauge tracks
 ナローゲージの撤去
+remove powerlines
+送電線の撤去
 remove roads
 道路の撤去
 remove tracks
 鉄道の撤去
+Remove wayobj %s
+%s 架線の撤去
 replace stop
 スケジュール移動ツール
 request closing
@@ -1317,6 +1375,8 @@ return ticket
 往復路線
 Revenue
 収入
+road
+道路
 road vehicle
 自動車
 Roadsign
@@ -1325,12 +1385,16 @@ Rotate map
 90°回転する
 Rotation
 向き
+Routing
+　経路　
 sack
-袋
+ 袋
 sail
 帆走
 Saving map ...
 マップを保存中
+Schedule changing!
+ルート変更中
 Schienentunnel
 鉄道トンネルの建設
 Schiff_tab
@@ -1341,6 +1405,8 @@ Schleppkahn_tab
 バージ
 Screenshot
 スクリーンショット
+Seasons
+季節
 Sehenswuerdigkeit
 名所旧跡
 Sell the selected vehicle(s)
@@ -1357,6 +1423,8 @@ Serves Line:
 指定路線:
 Service
 編成数
+Setting
+高度な設定
 Ship
 船舶
 shops and stores
@@ -1427,18 +1495,12 @@ Spieler(mz)
 ライバル会社
 Spielerliste
 ライバル会社一覧
-Sprache
-言語
 Sprachen
 言語
 Stadtinformation
 街の詳細
-Start
-スタート
 Start the selected vehicle(s)
 選択している編成を発進させます
-Starte Spiel
-この設定で始める
 Station tiles:
 ホームの長さ：
 Status
@@ -1487,6 +1549,8 @@ To heavy traffic\nresults in traffic jam.\n
 交通集中により渋滞発生中\n
 Toggle day/night view
 昼/夜を交互に切り替えます
+Toggle vehicle tooltips
+乗り物の状態(ツールチップ)表示の切り替え
 tonnen
 t
 Total inhabitants:
@@ -1499,6 +1563,8 @@ Town: %s\n
 所在地: %s\n
 Towns
 都市
+track
+鉄道
 Tracks
 鉄道線
 Traffic
@@ -1511,12 +1577,14 @@ Tram
 市電
 tram %i km/h, monorail %i km/h\nmaglev %i km/h, narrowgauge %i km/h.
         市電 %i km/h, モノレール %i km/h, \n        リニア %i km/h ナローゲージ %i km/h
+tram_track
+市電
 Tramdepot
 市電車庫
 Trams are not available yet!
 路面電車はまだ開発されていません！
 Transformer only next to factory!
-変圧所は、産業施設\n隣接して建設してください。
+変圧所は、産業施設に\n隣接して建設してください。
 Translation
 日本語名
 transparent station coverage
@@ -1583,6 +1651,10 @@ Waggon_tab
 貨車
 waiting
 待機中
+Waiting for clearance!
+停止
+water
+水上
 Water level
 海面水位：
 water vehicle
@@ -1605,6 +1677,8 @@ Winter snowline
 積雪高度
 withdraw
 引退
+Withdraw All
+すべて引退
 WRONGSAVE
 互換性が無いため、\nロードできません。\n
 Year %i has started.
@@ -1649,8 +1723,6 @@ New world record for ship: %.1f km/h by %s.
 %s\n価格: %d$\n運行経費: %1.2f$/km, %1.2f$/月\n定員/積載: %d (%d)%s %s\n重量: %dt\最高速度: %dkm/h\n
 %s\nCost:     %d$\nMaint.: %1.2f$/km, %1.2f$/month\nCapacity: %d%s %s\nWeight: %dt\nTop speed: %dkm/h\n
 %s\n価格: %d$\n運行経費: %1.2f$/km, %1.2f$/月\n定員/積載: %d%s %s\n重量: %dt\n最高速度: %dkm/h\n
-%s\nCost: %d$\nMaint.: %1.2f$/km, %1.2f$/month\nPower: %dkW, %dkm/h\nWeight: %dt\n
-%s\n価格: %d$\n運行経費: %1.2f$/km, %1.2f$/月\n出力: %dkW, %dkm/h\n重量: %dt\n
 Catering level: %i\n
 接客設備: %i\n
 Comfort:
@@ -1703,5 +1775,7 @@ This is a tilting vehicle\n
 振り子式車両\n
 To be replaced by:
 置き換える編成:
+too heavy
+過重量
 waiting time unknown)
 待ち時間不明)
