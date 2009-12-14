@@ -18,6 +18,12 @@ At the top of the <strong>convoy details</strong> window, information shown incl
 <em>Power:</em> of the convoy (combined power of all motorised vehicles in the convoy).
 </p>
 <p>
+<em>Odometer:</em> the distance that the convoy has travelled in its lifetime.
+</p>
+<p>
+<em>Station tiles:</em> the number of tiles that the convoy will occupy in a station.
+</p>
+<p>
 <em>Resale value:</em> the amount of money that would be realised if convoy was sold now (the older each vehicle in a convoy, the less that it is worth).
 </p>
 <p>
