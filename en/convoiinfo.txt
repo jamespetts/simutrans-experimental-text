@@ -69,7 +69,8 @@ Click on the following buttons in to open controls or select options:
 - <em>Comfort</em> the average comfort of vehicles in the convoy, adjusted for overcrowding and any catering present in the convoy;<br>
 - <em>Revenue</em> the gross income received from this convoy's transport activities;<br>
 - <em>Running costs</em> the costs of operating this convoy, being a total of (1) the distance dependant costs; and (2) the monthly fixed costs;<br>
-- <em>Profit</em> the net profit earned by this convoy (total revenue less total costs).
+- <em>Profit</em> the net profit earned by this convoy (total revenue less total costs).<br>
+- <em>Distance</em> the total distance (in kilometres) that this convoy has travelled.
 </p>
 <p>
 <em>Details</em> shows additional <a href="convoidetail.txt">details</a> about the convoy and its vehicles, including some additional options.
