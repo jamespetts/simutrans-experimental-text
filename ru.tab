@@ -8,7 +8,7 @@ cyr.bdf
 #                             Language: ru Russian                             #
 #                                Encoding: UTF-8                               #
 #                                Font : cyr.bdf                                #
-#                           Date Created: 28.06 2009                           #
+#                            Date Created: 1.11 2009                           #
 #                                                                              #
 #                                   authors:                                   #
 #                       Semichenkov Alexander - AleksRevo                      #
@@ -53,6 +53,8 @@ clf_btn_keine
 нет
 Construction_Btn
 Постройки
+follow me
+следить
 gl_btn_sort_bonus
 по бонусу
 gl_btn_sort_name
@@ -61,6 +63,8 @@ gl_btn_sort_revenue
 по выручке
 gl_btn_unsort
 без сорт.
+go home
+В депо
 hl_btn_filter_disable
 выкл.
 hl_btn_filter_enable
@@ -83,6 +87,18 @@ hlf_btn_invers
 обратить
 hlf_btn_keine
 нет
+Lade Relief
+Загрузить рельеф
+Load game
+Загруз. Игру
+Optionen
+Настройки
+Sprache
+Язык
+Start
+Пуск
+Starte Spiel
+Начать игру
 #_________________________________climates_text_________________________________
 #_________________________________climates_text_________________________________
 arctic
@@ -158,7 +174,7 @@ Zughalt muss auf\nSchiene liegen!\n
 #___________________________________help_text___________________________________
 #___________________________________help_text___________________________________
 <title>Keyboard Help</title>\n<h1><strong>Keyboard Help</strong></h1><p>\n
-<title>Справка по клавиатуре</title>\n<h1><strong>Справка по клавиатуре</strong></h1>\n<p>\n<strong>Справка по клавиатуре</strong> показывает работу различных комбинций клавиш.\n</p>\n<p>\n<strong>Справка по клавиатуре</strong> открывается, когда нажимается клавиша, которой не назначено ни одно действие или вручную из <a href="general.txt">Главной справки</a>.\n</p>\n<p>\nНажатия клавиш зависят от регистра (используйте [<em>Shift</em>] для заглавных букв).\n</p>\n<p>\nСреди прочего клавишам назначены такие действия:\n</p>\n<p>\n[<em>Стрелки</em>]: пролистывает игровое поле в направлении стрелки.<br>\n[<em>Backspace</em>]: закрывает все окна, панели инструментов и тексты справок.<br>\n[<em>Delete</em>], или [<em>Escape</em>]: закрывает последнее использованое окно, панель инструментов или текст справки.<br>\n[<em>Enter</em>], или [<em>Return</em>]: используется для подтверждения действий.<br>\n[<em>Page-Up</em>], или [<em>></em>]: увеличивает масштаб обзора игрового поля.<br>\n[<em>Page-Down</em>], или [<em> знак "меньше"</em>]: уменьшает масштаб обзора игрового поля.\n[<em>F1</em>]: открывает <a href="general.txt">Справку Симутранса</a>.<br></p>\n<p>\n[<em>1</em>]: пролистывает обзор на юг.<br>\n[<em>2</em>]: пролистывает обзор на юговосток.<br>\n[<em>3</em>]: пролистывает обзор на восток.<br>\n[<em>4</em>]: пролистывает обзор на югозапад.<br>\n[<em>6</em>]: пролистывает обзор на северовосток.<br>\n[<em>7</em>]: пролистывает обзор на запад.<br>\n[<em>8</em>]: пролистывает обзор на северозапад.<br>\n[<em>9</em>]: пролистывает обзор на север.\n</p>\n<p>\n[<em>Shift</em>] + <a href="mouse.txt">Мышь</a>: используется на <a href="map.txt">Карте</a> для просмотра связей в <a href="industry_info.txt">Цепочках поставок</a>.<br>\n[<em>CTRL</em>] + инструмент: построить (сигналы и <a href="station.txt">Остановки</a>) на верхнем уровне; или строить более дешёвые дороги вместо более дорогих; или строить кратчайшие дороги.<br>\n[<em>CTRL</em>] + (от [<em>F2</em>] до [<em>F12</em>]): назначает соответствующей клавише от [<em>F2</em>] до [<em>F12</em>] текущий инструмент.\n</p>\n<p>
+<title>Справка по клавиатуре</title>\n<h1><strong>Справка по клавиатуре</strong></h1>\n<p>\n<strong>Справка по клавиатуре</strong> показывает работу различных комбинций клавиш.\n</p>\n<p>\n<strong>Справка по клавиатуре</strong> открывается, когда нажимается клавиша, которой не назначено ни одно действие или вручную из <a href="general.txt">Главной справки</a>.\n</p>\n<p>\nНажатия клавиш зависят от регистра (используйте [<em>Shift</em>] для заглавных букв).\n</p>\n<p>\nСреди прочего клавишам назначены такие действия:\n</p>\n<p>\n[<em>Стрелки</em>]: пролистывает игровое поле в направлении стрелки.<br>\n[<em>Backspace</em>]: закрывает все окна, панели инструментов и тексты справок.<br>\n[<em>Delete</em>], или [<em>Escape</em>]: закрывает последнее использованое окно, панель инструментов или текст справки.<br>\n[<em>Enter</em>], или [<em>Return</em>]: используется для подтверждения действий.<br>\n[<em>Page-Up</em>], или [<em>></em>]: увеличивает масштаб обзора игрового поля.<br>\n[<em>Page-Down</em>], или [<em> знак "меньше"</em>]: уменьшает масштаб обзора игрового поля.\n[<em>F1</em>]: открывает <a href="general.txt">Справку Симутранса</a>.<br></p>\n<p>\n[<em>1</em>]: пролистывает обзор на юг.<br>\n[<em>2</em>]: пролистывает обзор на юговосток.<br>\n[<em>3</em>]: пролистывает обзор на восток.<br>\n[<em>4</em>]: пролистыв
 #____________________________________ki_text____________________________________
 #____________________________________ki_text____________________________________
 %s now\noffers bus services\nbetween %s\nand attraction\n%s\nat (%i,%i).\n
@@ -393,8 +409,6 @@ Add stops for backward travel
 Добавить остановки для обратного пути
 Add the selected vehicle(s) to the selected line
 Добавить выбранные т/с на выбранную линию
-Air
-Авиа
 aircraft_tab
 Грузовые
 airplane
@@ -596,7 +610,7 @@ Copy Convoi
 Copy the selected convoi and its schedule or line
 Копировать выбранное т/с и его расписание или линию\n\n
 cost for removal
-стоимость удаления
+стоимость удаления 
 Create a new line based on this schedule
 Создать новую линию, основываясь на этом расписании
 curiosity builder
@@ -630,7 +644,7 @@ Direkt erreichbare Haltestellen
 Dock
 док
 Durchsatz
-Макс.
+Макс. 
 Eigenbesitz\n
 Муниципальная\nсобственность\n
 Ein %s\npasst hier nicht.\n
@@ -691,8 +705,6 @@ fl_title
 Список фабрик
 Flug_tab
 Пассажирские самолеты
-follow me
-следить
 Follow the convoi on the map.
 Следует за т/с на карте.
 Forest
@@ -729,8 +741,6 @@ Give the selected vehicle(s) an individual schedule
 Назначить выбранным т/с индивидуальное расписание
 gl_title
 Список всех товаров
-go home
-В депо
 Goods
 Товары
 Goods list
@@ -837,8 +847,6 @@ Keine Einzelfahrzeuge im Depot
 Т/с не хранятся здесь
 Kreuzung
 Перекрёсток
-Lade Relief
-Загрузить рельеф
 Laden
 Загрузить
 Land attraction
@@ -871,8 +879,6 @@ Lines serving this stop
 Линии, обслуживающие эту остановку
 LKW_tab
 Грузовики
-Load game
-Загруз. Игру
 load height data from file
 Загрузить данные рельефа из файла
 loaded
@@ -1011,8 +1017,6 @@ Operation
 Эксплуатация
 Ops Profit
 Оп. прибыль
-Optionen
-Настройки
 Origin
 Исходно
 Output
@@ -1217,18 +1221,12 @@ Spieler(mz)
 Игроки
 Spielerliste
 Список игроков
-Sprache
-Язык
 Sprachen
 Языки
 Stadtinformation
 Городская статистика
-Start
-Пуск
 Start the selected vehicle(s)
 Отправить на линию выбранные т/с
-Starte Spiel
-Начать игру
 Station tiles:
 Секции cтанции:
 Status
@@ -1318,7 +1316,7 @@ Unemployed
 Unhappy
 Несчастны
 units/day
-ед./месяц
+ ед./месяц
 Update Line
 Мод. линию
 upgrade HQ

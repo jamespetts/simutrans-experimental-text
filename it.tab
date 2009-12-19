@@ -8,11 +8,13 @@ Prop-Latin1.bdf
 #                             Language: it Italiano                            #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 28.06 2009                           #
+#                            Date Created: 1.11 2009                           #
 #                                                                              #
 #                                   authors:                                   #
 #                              Frank Penz - FrankP                             #
 #                      note: Administrator SimuTranslator                      #
+#                                   - davemds                                  #
+#                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
 #              note: Administrator Base texts / pak64 / pak.japan              #
 #                                Marco - rabanne                               #
@@ -51,6 +53,8 @@ clf_btn_keine
 ness.
 Construction_Btn
 Costi costruzione
+follow me
+Seguimi.
 gl_btn_sort_bonus
 per bonus
 gl_btn_sort_name
@@ -59,6 +63,8 @@ gl_btn_sort_revenue
 per incassi
 gl_btn_unsort
 non ordinato
+go home
+Al deposito
 hl_btn_filter_disable
 inattivo
 hl_btn_filter_enable
@@ -81,6 +87,18 @@ hlf_btn_invers
 inv.
 hlf_btn_keine
 ness.
+Lade Relief
+Carica Rilievo
+Load game
+Apri file
+Optionen
+Opzioni
+Sprache
+Lingua
+Start
+Parti
+Starte Spiel
+Inizia Gioco
 #_________________________________climates_text_________________________________
 #_________________________________climates_text_________________________________
 arctic
@@ -365,8 +383,6 @@ Add stops for backward travel
 Aggiungi fermate viaggio ritorno
 Add the selected vehicle(s) to the selected line
 Aggiungi veicolo(i) a linea selezionata.
-Air
-Aria
 aircraft_tab
 Aerei merci
 Airport
@@ -564,7 +580,7 @@ Collegamenti diretti da qui
 Dock
 porto
 Durchsatz
-Max. prod.
+Max. prod. 
 Eigenbesitz\n
 Proprietà pubblica\n
 Ein %s\npasst hier nicht.\n
@@ -617,8 +633,6 @@ fl_title
 lista fabbriche
 Flug_tab
 Aereo Passeggeri
-follow me
-Seguimi.
 Follow the convoi on the map.
 Segui convoglio sulla mappa.
 Found new city
@@ -651,8 +665,6 @@ Give the selected vehicle(s) an individual schedule
 Dai al veicolo(i) selezionato un percorso individuale.
 gl_title
 Lista di tutti i beni
-go home
-Al deposito
 Goods list
 Lista beni
 Gross Profit
@@ -747,8 +759,6 @@ Keine Einzelfahrzeuge im Depot
 Nessun veicolo in deposito
 Kreuzung
 Attraversamento
-Lade Relief
-Carica Rilievo
 Laden
 Carica
 Land industries
@@ -776,11 +786,9 @@ Gestione Linee
 Lines are used to manage groups of vehicles
 Le linee servono a gestire gruppi di veicoli
 Lines serving this stop
-Linee passanti:
+Linee passanti
 LKW_tab
 Camion
-Load game
-Apri file
 load height data from file
 Apri rilievo da file.
 loaded
@@ -899,8 +907,6 @@ Operation
 Costi Operativi
 Ops Profit
 Profitti
-Optionen
-Opzioni
 Origin
 Origine
 Output
@@ -1073,18 +1079,12 @@ Spieler(mz)
 Giocatori
 Spielerliste
 Lista Giocatori
-Sprache
-Lingua
 Sprachen
 Lingue
 Stadtinformation
 Statistiche della città
-Start
-Parti
 Start the selected vehicle(s)
 Fai partire veicolo(i) selezionato.
-Starte Spiel
-Inizia Gioco
 Status
 Stato fermata
 steam
@@ -1160,7 +1160,7 @@ Disoccupati
 Unhappy
 Infelici
 units/day
-unità/giorno
+ unità/giorno
 Update Line
 Aggiorna linea
 Use timeline start year

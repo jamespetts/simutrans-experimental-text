@@ -8,7 +8,7 @@ wenquanyi_9pt.bdf
 #                           Language: cn Sim. Chinese                          #
 #                                Encoding: UTF-8                               #
 #                           Font : wenquanyi_9pt.bdf                           #
-#                           Date Created: 28.06 2009                           #
+#                            Date Created: 1.11 2009                           #
 #                                                                              #
 #                                   authors:                                   #
 #                              Frank Penz - FrankP                             #
@@ -17,6 +17,8 @@ wenquanyi_9pt.bdf
 #           note: Hope to translate at least 50% by end of November.           #
 #                          Markus Pristovsek - prissi                          #
 #              note: Administrator Base texts / pak64 / pak.japan              #
+#                                   - shinexus                                 #
+#                                    note:                                     #
 #                                                                              #
 ################################################################################
 #_____________________________Simutrans Base Texts______________________________
@@ -277,8 +279,6 @@ Add stops for backward travel
 为回程路曾设车站。
 Add the selected vehicle(s) to the selected line
 增设所选择的车辆到所选择的路线。
-Air
-空
 aircraft_tab
 货机
 airplane
@@ -494,7 +494,7 @@ Copy Convoi
 Copy the selected convoi and its schedule or line
 复制此交通工具的与路线/行程表
 cost for removal
-清除费
+清除费 
 Create a new line based on this schedule
 于这个行程表开设一个新的路线
 curiosity builder
@@ -513,6 +513,20 @@ Delete Line
 删除路线
 Delete the current stop
 清除此站
+Delete this file.
+删除此文件
+diesel
+柴油
+electric
+电力机车
+Error
+错误
+Factories
+工厂
+Fast forward
+快速进行
+Filename
+文件名
 player 2
 Trikky Transport
 player 3

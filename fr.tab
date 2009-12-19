@@ -8,9 +8,11 @@ Prop-Latin1.bdf
 #                             Language: fr Francais                            #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 28.06 2009                           #
+#                            Date Created: 1.11 2009                           #
 #                                                                              #
 #                                   authors:                                   #
+#                                  - Christophe                                #
+#                                    note:                                     #
 #                              Frank Penz - FrankP                             #
 #                      note: Administrator SimuTranslator                      #
 #                         Roman Schwörer - Gotthardlok                         #
@@ -57,6 +59,8 @@ clf_btn_keine
 rien
 Construction_Btn
 Construction
+follow me
+Suivez moi.
 gl_btn_sort_bonus
 par bonus
 gl_btn_sort_name
@@ -65,6 +69,8 @@ gl_btn_sort_revenue
 par recette
 gl_btn_unsort
 non trié
+go home
+Au dépôt !
 hl_btn_filter_disable
 désactivé
 hl_btn_filter_enable
@@ -87,6 +93,22 @@ hlf_btn_invers
 inv.
 hlf_btn_keine
 rien
+koord
+coordonnées
+Lade Relief
+Charger un relief
+Load game
+Charger partie
+Load scenario
+Charger scénario
+Optionen
+Options
+Sprache
+Langue
+Start
+Départ
+Starte Spiel
+C'est parti!
 #_________________________________climates_text_________________________________
 #_________________________________climates_text_________________________________
 arctic
@@ -117,6 +139,8 @@ Bruecke muss an\neinfachem\nHang beginnen!\n
 Le pont doit\ncommencer sur\nune pente droite!\n
 Cannot built depot here!
 Un dépôt ne peut pas être construit ici.
+Cannot built this station/building\nin underground mode here.
+Ce batiment ne peut pas\nêtre construit sous terre.\n
 Cannot create generic line!\nSelect line type by\nusing filter tabs.
 Impossible de créer une ligne générique!\nSélectionnez un type de ligne\navec les onglets.
 Das Feld gehoert\neinem anderen Spieler\n
@@ -201,6 +225,8 @@ EDITTOOLS
 Outils d'édition de carte
 LISTTOOLS
 Gestion des listes
+MAGLEVTOOLS
+Outils Maglev
 MONORAILTOOLS
 Outils monorails
 NARROWGAUGETOOLS
@@ -260,9 +286,9 @@ With a big festival\n%s built\na new monument.\n%i citicens rejoiced.
 #_________________________________program_text__________________________________
 #_________________________________program_text__________________________________
 !0_STATION_CROWDED
-stop crowded/full
+%s\nest pleine.
 !1_DEPOT_REACHED
-%s est entré au dépot.
+%s est entré au dépôt.
 (%i)-
 (%i) 
 (in depot)
@@ -445,14 +471,16 @@ Active player only
 seulement joueur actif
 Add forest
 Créer une forêt
+Add random citycar
+Générer une automobile
 Add Stop
 Aj. Arrêt
 Add stops for backward travel
 Ajouter des arrêts pour le retour
 Add the selected vehicle(s) to the selected line
 Ajouter les véhicule(s) sélectionné(s) à la ligne sélectionnée
-Air
-Aviation
+air
+Piste de décollage/Voie de circulation
 aircraft_tab
 Avions cargo
 airplane
@@ -674,7 +702,7 @@ Copier le convoi
 Copy the selected convoi and its schedule or line
 Copier le convoi sélectioné ainsi que son itinéraire ou sa ligne
 cost for removal
-cout de remplacement:
+cout de remplacement: 
 Create a new line based on this schedule
 Créer une nouvelle ligne basée sur cet itinéraire
 curiosity builder
@@ -687,6 +715,8 @@ Deccelerate time
 Ralentir le temps
 December
 Décembre
+decrease underground view level
+réduire le champ de la vue souterraine
 Del Stop
 Sup. Arrêt
 Delete Line
@@ -710,7 +740,7 @@ Arrêter la musique MIDI
 Dock
 quai
 Durchsatz
-Max. prod.
+Max. prod. 
 Eigenbesitz\n
 Prop. publique\n
 Ein %s\npasst hier nicht.\n
@@ -777,8 +807,6 @@ fl_title
 liste des fabriques
 Flug_tab
 Avions de passagers
-follow me
-Suivez moi.
 Follow the convoi on the map.
 Suivre le convoi sur la carte.
 Forest
@@ -815,8 +843,6 @@ Give the selected vehicle(s) an individual schedule
 Donner au(x) véhicule(s) sélectionné(s) un itinéraire individuel
 gl_title
 Liste de tous les biens
-go home
-Au dépôt !
 Goods
 Biens
 Goods AI
@@ -835,6 +861,8 @@ H
 arrêt
 Happy
 Content
+Haus kaufen
+Acheter la maison
 Headquarter and %li trains
 Gares centrales et %li trains
 Helligk.
@@ -907,6 +935,8 @@ ignore climates
 Ignorer le climat
 Increase Industry density
 Aumgenter la densité d'industries
+increase underground view level
+Augmenter le champ de la vue sous-terraine
 industrial building
 bâtiment industriel
 Init map ...
@@ -935,6 +965,8 @@ Jump to
 Aller à
 June
 Juin
+Kein Besitzer\n
+Sans propriétaire
 keine
 aucun
 Keine Einzelfahrzeuge im Depot
@@ -945,8 +977,6 @@ Kreuzung
 Croisement
 labellist_title
 Liste des marqueurs
-Lade Relief
-Charger un relief
 Laden
 Charger
 Land attraction
@@ -961,6 +991,8 @@ LARGE_NUMBER_VALUE
 1e6
 Last Year
 Année passée
+Leaving depot!
+Sortie du dépot!
 leer
 vide
 Legend
@@ -983,18 +1015,18 @@ Lines serving this stop
 Lignes désservant cet arrêt
 LKW_tab
 Camions
-Load game
-Charger partie
 load height data from file
 Charger les données d'altitude depuis le fichier.
-Load scenario
-Charger scénario
 loaded
 chargé
 loaded passenger/freight
 Trier passagers/marchandise par
 Loading map ...
 Ouverture de la carte ...
+Loading paks ...
+Chargement des paks ...
+Loading skins ...
+Chargement des apparences ...
 Lock game
 Refuser d'avantage de changement de joueur (besoins de confirmation)
 LOCO_CAP
@@ -1009,6 +1041,8 @@ Maglev
 LevMag
 maglev vehicle
 Véhicule à sustentation magnétique
+maglev_track
+Voie de Maglev
 Maglevdepot
 Dépot des trains à sustentation magnétique
 Mailbox
@@ -1061,6 +1095,8 @@ Monate alt
 mois.
 monorail vehicle
 Monorail
+monorail_track
+Voies de Monorail
 Monorailboden
 Support Monorail
 Monoraildepot
@@ -1087,6 +1123,8 @@ Narrowgauge
 Voie étroite
 narrowgauge vehicle
 Vehicule voie étroite
+narrowgauge_track
+Voie étroite
 Narrowgaugedepot
 Dépôt de train à voi étroite
 Net Wealth
@@ -1103,6 +1141,8 @@ New line created!\nYou can assign the line now\nby selecting it from the\nline s
 Nouvelle ligne crée!\nVous pouvez maintenant atribuer la ligne en la sélectionnant dans le sélectionneur de ligne ci-dessus.
 New Vehicles
 Nouveau Véhicule
+no buildings hidden
+Pas de batiments masqués
 no convois
 Pas de convois
 No goods are loaded onto this convoi.
@@ -1155,8 +1195,6 @@ Operation
 Opération
 Ops Profit
 Profit opérationnel
-Optionen
-Options
 Origin
 Origine
 ost
@@ -1202,7 +1240,7 @@ Trikky Express
 player 3
 TransMeyer & Cie
 player 4
-Rapexpédition Sàrl
+Transitaire Sàrl
 player 5
 Freeline SA
 player 6
@@ -1267,12 +1305,16 @@ remove monorails
 Détruire des voies de monorail
 remove narrowgauge tracks
 Détruire des voies étroites
+remove powerlines
+enlever lignes à haute tension
 remove roads
 Détruire des routes
 remove tracks
 Détruire des voies
 replace stop
 Changer l'arrêt
+request closing
+fermeture de la demande
 residential house
 maison résidentielle
 Restore natural slope
@@ -1285,6 +1327,8 @@ return ticket
 Chemin retour
 Revenue
 Revenu
+road
+route
 road vehicle
 véhicule routier
 Roadsign
@@ -1363,6 +1407,8 @@ shuffle midis
 Musique midi aléatoires
 Sim:
 Simloops:
+sliced underground mode
+mode sous-terrain
 slot empty
 slot libre
 Sort by
@@ -1389,18 +1435,12 @@ Spieler(mz)
 Joueurs
 Spielerliste
 Liste des joueurs
-Sprache
-Langue
 Sprachen
 Langue
 Stadtinformation
 Statistiques de la ville
-Start
-Départ
 Start the selected vehicle(s)
 Expédier le(s) véhicule(s) sélectionné(S).
-Starte Spiel
-C'est parti!
 Station tiles:
 Case de quai:
 Status
@@ -1461,6 +1501,8 @@ Town: %s\n
 Ville de %s.\n
 Towns
 Villes
+track
+voie
 Tracks
 Voies
 Trains are not available yet!
@@ -1469,6 +1511,8 @@ Tram
 tram
 tram %i km/h, monorail %i km/h\nmaglev %i km/h, narrowgauge %i km/h.
 tram %i km/h, monorail %i km/h\nmaglev %i km/h, voie étroite %i km/h.
+tram_track
+voie de tramway
 Tramdepot
 Dépot de Trams\n
 Trams are not available yet!
@@ -1504,7 +1548,7 @@ Chômeurs
 Unhappy
 Fâché
 units/day
-unités par mois
+ unités par mois
 Update Line
 MAJ. ligne
 upgrade HQ
@@ -1539,6 +1583,8 @@ Waggon_tab
 Wagons
 waiting
 en attente
+water
+Canal
 Water level
 Niveau de la mer:
 water vehicle
@@ -1563,6 +1609,8 @@ Winter snowline
 Altitude neige hiver
 withdraw
 Retirer
+Withdraw All
+Retirer tout
 WRONGSAVE
 Chargement impossible:\nFormat de sauvegarde\nincompatible.\n
 Year %i has started.

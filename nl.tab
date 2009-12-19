@@ -8,13 +8,15 @@ Prop-Latin1.bdf
 #                            Language: nl Nederlands                           #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 28.06 2009                           #
+#                            Date Created: 1.11 2009                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                   - Combuijs                                 #
 #                                    note:                                     #
 #                              Frank Penz - FrankP                             #
 #                      note: Administrator SimuTranslator                      #
+#                            Nathan Samson - Nathan                            #
+#                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
 #              note: Administrator Base texts / pak64 / pak.japan              #
 #                           Michael Olbricht - whoami                          #
@@ -55,14 +57,20 @@ clf_btn_keine
 geen
 Construction_Btn
 Bouwkosten
+follow me
+volgen
 gl_btn_sort_bonus
 naar bonus
+gl_btn_sort_catg
+vlgs categorie
 gl_btn_sort_name
 op naam
 gl_btn_sort_revenue
 op inkomsten
 gl_btn_unsort
 niet gesorteerd
+go home
+naar depot
 hl_btn_filter_disable
 uit
 hl_btn_filter_enable
@@ -87,6 +95,20 @@ hlf_btn_keine
 geen
 koord
 coördinaten
+Lade Relief
+Laad Hoogtekaart
+Load game
+Spel laden
+Load scenario
+Laad scenario
+Optionen
+Instellingen
+Sprache
+Taal
+Start
+Starten
+Starte Spiel
+Start Spel
 #_________________________________climates_text_________________________________
 #_________________________________climates_text_________________________________
 arctic
@@ -117,6 +139,8 @@ Bruecke muss an\neinfachem\nHang beginnen!\n
 Een brug moet op\neen rechte\nhelling beginnen!\n
 Cannot built depot here!
 Hier kan geen depot gebouwd worden!
+Cannot built this station/building\nin underground mode here.
+Dit gebouw kan niet\nondergronds gebouwd worden.\n
 Cannot create generic line!\nSelect line type by\nusing filter tabs.
 Kies eerst een voertuig voor\nde nieuwe lijn!
 Das Feld gehoert\neinem anderen Spieler\n
@@ -161,12 +185,18 @@ Noch kein Fahrzeug\nmit Fahrplan\nvorhanden\n
 Voertuig heeft\n een dienstregeling\nnodig voordat het\nkan vertrekken!\n
 Not allowed!\nThe convoi's schedule can\nnot be changed currently.\nTry again later!
 Niet mogelijk!\nDe dienstregeling kan \nnu niet veranderd \nworden.\nProbeer later.
+On narrowgauge track only!\n
+Alleen op smalspoor!\n
 Planes are not available yet!
 Vliegtuigen zijn nog niet\nbeschikbaar!
 Post muss neben\nHaltestelle\nliegen!\n
 Een postkantoor of ander \ngebouw moet geplaatst worden\nop een vrij veld naast een \nstopplaats/station!
 Schiffhalt muss im\nWasser liegen!\n
 Een scheepsstop\nmoet op het water\nworden geplaatst\n
+Terraforming not possible\nhere in underground view
+Actie niet mogelijk ondergronds
+Upgrade must have\na higher level
+Upgraden alleen naar hoger niveau
 Zughalt muss auf\nSchiene liegen!\n
 Een treinstop\nmoet op rails\ngeplaatst worden\n
 #___________________________________help_text___________________________________
@@ -197,6 +227,8 @@ EDITTOOLS
 Kaarteneditor
 LISTTOOLS
 Lijstenbeheer
+MAGLEVTOOLS
+Maglev tools
 MONORAILTOOLS
 Monorail/maglev werktuigen
 NARROWGAUGETOOLS
@@ -443,8 +475,8 @@ Add stops for backward travel
 Toevoegen van de stops voor de terugweg
 Add the selected vehicle(s) to the selected line
 Wijs de geselecteerde lijn toe aan de voertuigsamenstelling(en).
-Air
-Lucht
+air
+start/taxibaan
 aircraft_tab
 Vrachtvliegtuigen
 airplane
@@ -655,6 +687,8 @@ Convoi has been sent\nto the nearest depot\nof appropriate type.\n
 Dit voertuig is naar een\nnabijgelegen depot gestuurd.\n
 Convoi is sold when all wagons are empty.
 Het voertuig of de samenstelling wordt verkocht zodra het helemaal leeg is.
+convoi mouseover tooltips
+convooi mouseover tooltips
 convoi passed last\nmonth %i\n
 Verkeer in de \nvoorafgegane maand: %i\n
 Convois
@@ -668,7 +702,7 @@ Kopiëren
 Copy the selected convoi and its schedule or line
 Kopieer dit voertuig inclusief dienstregeling of lijn
 cost for removal
-Kosten voor verwijdering
+Kosten voor verwijdering 
 Create a new line based on this schedule
 Maak van deze dienstregeling een nieuwe lijn
 curiosity builder
@@ -702,7 +736,7 @@ Midi-muziek uitschakelen
 Dock
 haven
 Durchsatz
-Capaciteit
+Capaciteit 
 Eigenbesitz\n
 Openbaar bezit\n
 Ein %s\npasst hier nicht.\n
@@ -769,8 +803,6 @@ fl_title
 Fabrieklijst
 Flug_tab
 Passagier-vliegtuigen
-follow me
-volgen
 Follow the convoi on the map.
 Volg het voertuig op de kaart.
 Forest
@@ -803,12 +835,8 @@ Gewinn
 Inkomsten
 Give the selected vehicle(s) an individual schedule
 Ken het geselecteerde voertuig een eigen dienstregeling toe
-gl_btn_sort_catg
-vlgs categorie
 gl_title
 Goederenlijst
-go home
-naar depot
 Goods
 Goederen
 Goods AI
@@ -827,6 +855,8 @@ H
 bushalte
 Happy
 Tevreden
+Haus kaufen
+koop huis
 Headquarter and %li trains
 Hoofdkwartier en %li treinen
 Helligk.
@@ -927,6 +957,8 @@ Jump to
 Ga naar
 June
 Juni
+Kein Besitzer\n
+Geen eigenaar
 keine
 geen
 Keine Einzelfahrzeuge im Depot
@@ -937,8 +969,6 @@ Kreuzung
 Kruising
 labellist_title
 Label lijst
-Lade Relief
-Laad Hoogtekaart
 Land attraction
 Bezienswaardigheid
 Land industries
@@ -951,6 +981,8 @@ LARGE_NUMBER_VALUE
 1e6
 Last Year
 Afgelopen Jaar
+Leaving depot!
+Verlaat depot!
 leer
 leeg
 Legend
@@ -973,18 +1005,22 @@ Lines serving this stop
 Aangesloten lijnen
 LKW_tab
 Vrachtverkeer
-Load game
-Spel laden
 load height data from file
 Bestand met reliëfinformatie laden
-Load scenario
-Laad scenario
 loaded
 geladen.
 loaded passenger/freight
 Sorteer passagiers/vracht op
+Loading (%i->%i%%)!
+Laden van (%i->%i%%)!
+Loading addon paks ...
+Addon paks laden ...
 Loading map ...
 Bezig met het laden van de kaart...
+Loading paks ...
+Paks laden ...
+Loading skins ...
+Skins laden ...
 Lock game
 Blokkeer speleromschakeling.
 LOCO_CAP
@@ -999,6 +1035,8 @@ Maglev
 Magneetbaan
 maglev vehicle
 Magneetbaanvoertuig
+maglev_track
+Maglev baan
 Maglevdepot
 Maglev remise
 Mailbox
@@ -1055,6 +1093,8 @@ Monorail
 monorail
 monorail vehicle
 Monorail voertuig
+monorail_track
+Monorail baan
 Monorailboden
 monorail-ondergrond
 Monoraildepot
@@ -1083,6 +1123,8 @@ Narrowgauge
 Smalspoor
 narrowgauge vehicle
 Smalspoor voertuig
+narrowgauge_track
+Smalspoor
 Narrowgaugedepot
 Smalspoor remise
 Net Wealth
@@ -1099,6 +1141,8 @@ New line created!\nYou can assign the line now\nby selecting it from the\nline s
 Nieuwe lijn gecreëerd!\nJe kunt de lijn nu toewijzen\ndoor deze te kiezen uit\nde lijnen hierboven.
 New Vehicles
 Nieuwe voertuigen
+no buildings hidden
+geen verborgen gebouwen
 no convois
 geen voertuigsamenstellingen
 No goods are loaded onto this convoi.
@@ -1135,6 +1179,8 @@ Number of rivers
 Aantal rivieren
 Ok
 OK
+On loan since %i month(s)
+U heeft schulden sinds %i maand(en)
 Only city chains
 Alleen stadsfabrieken
 Only land chains
@@ -1143,8 +1189,6 @@ Operation
 Exploitatiekosten
 Ops Profit
 Resultaat
-Optionen
-Instellingen
 Origin
 Herkomst
 ost
@@ -1161,10 +1205,14 @@ Passagierrate
 Passagiersaanbod
 Passagierziele
 Passagiers/postbestemmingen
+Passenger AI
+Passagiers AI
 Passengers %d %c, %d %c, %d no route
 Passagiers %d %c, %d %c, %d zonder route
 Pause
 Pauze
+Percent Electricity
+Stroomproductie (% vraag)
 Plant tree
 Plant een boom
 player
@@ -1239,10 +1287,14 @@ Rating
 Beoordeling
 Reliefkarte
 Kaart
+Remove
+Verwijder
 remove airstrips
 landingsbaan verwijderen
 remove channels
 kanaal verwijderen
+remove maglev tracks
+verwijder maglevbaan
 remove monorails
 monorail verwijderen
 remove narrowgauge tracks
@@ -1251,8 +1303,12 @@ remove roads
 weg verwijderen
 remove tracks
 spoorbaan verwijderen
+Remove wayobj %s
+Verwijder wayobj %s
 replace stop
 vervang halte
+request closing
+verzoek sluiten
 residential house
 woonhuis
 Restore natural slope
@@ -1265,6 +1321,8 @@ return ticket
 Retourtraject
 Revenue
 Inkomsten
+road
+weg
 road vehicle
 Wegvoertuig
 Roadsign
@@ -1279,6 +1337,8 @@ sail
 Wind
 Saving map ...
 Bezig met het opslaan van de kaart...
+Schedule changing!
+Wijziging in routeschema!
 Schienentunnel
 Spoorwegtunnel bouwen
 Schiff_tab
@@ -1329,8 +1389,12 @@ show station coverage
 toon stations dekking
 show station names
 toon stationsnamen
+show waiting bars
+toon waiting bars
 Show/hide statistics
 Toon/verberg statistieken
+Shows consumer/suppliers for factories
+Toon afnemers/leveranciers voor fabrieken
 Shows the currently selected schedule
 Toon de gekeuzen dienstregeling
 Shrink city
@@ -1339,6 +1403,8 @@ shuffle midis
 shufflemode voor achtergrondmuziek
 Sim:
 Simloops:
+sliced underground mode
+"sliced" ondergrondse modus
 slot empty
 vrij
 Sort by
@@ -1365,18 +1431,12 @@ Spieler(mz)
 Spelers
 Spielerliste
 Lijst met spelers
-Sprache
-Taal
 Sprachen
 Talen
 Stadtinformation
 Stadsinformatie
-Start
-Starten
 Start the selected vehicle(s)
 Start het gekozen voertuig.
-Starte Spiel
-Start Spel
 Station tiles:
 min. stationslengte:
 Status
@@ -1391,6 +1451,8 @@ Strassendepot
 Garage
 Strassentunnel
 Tunnel bouwen
+street car
+Wagen
 sued
 Zuid
 suedost
@@ -1423,6 +1485,8 @@ To heavy traffic\nresults in traffic jam.\n
 Te druk verkeer veroorzaakt\nopstoppingen.
 Toggle day/night view
 dag/nacht schakelen
+Toggle vehicle tooltips
+Voertuig info omschakelen
 tonnen
 t
 Total inhabitants:
@@ -1435,6 +1499,8 @@ Town: %s\n
 Stad: %s\n
 Towns
 Stadsnamen
+track
+spoor
 Tracks
 Spoorwegen
 Traffic
@@ -1443,6 +1509,10 @@ Train
 Trein
 Trains are not available yet!
 Treinen zijn nog niet beschikbaar!
+tram %i km/h, monorail %i km/h\nmaglev %i km/h, narrowgauge %i km/h.
+tram %i km/h, monorail %i km/h\nmagneetbaan %i km/h, smalspoor %i km/h.
+tram_track
+trambaan
 Tramdepot
 Tramremise
 Trams are not available yet!
@@ -1478,7 +1548,7 @@ Werkeloos
 Unhappy
 Ontevreden
 units/day
-eenh./dag
+ eenh./dag
 Update Line
 Lijn veranderen
 upgrade HQ
@@ -1513,6 +1583,10 @@ Waggon_tab
 Wagons
 waiting
 wachtend
+Waiting for clearance!
+Wacht op voorligger
+water
+Kanaal
 Water level
 Waterpeil:
 water vehicle
@@ -1537,6 +1611,8 @@ Winter snowline
 Sneeuwgrens(w):
 withdraw
 Terugtrekken
+Withdraw All
+Alles terugtrekken
 WRONGSAVE
 Opgeslagen spelversie\nniet compatibel. Bestand kan\nniet geladen worden.\n
 Year %i has started.

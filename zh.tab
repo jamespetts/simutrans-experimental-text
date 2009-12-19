@@ -8,7 +8,7 @@ m+10r.bdf
 #                            Language: zh T. Chinese                           #
 #                                Encoding: UTF-8                               #
 #                               Font : m+10r.bdf                               #
-#                           Date Created: 28.06 2009                           #
+#                            Date Created: 1.11 2009                           #
 #                                                                              #
 #                                   authors:                                   #
 #                              Frank Penz - FrankP                             #
@@ -17,6 +17,8 @@ m+10r.bdf
 #           note: Hope to translate at least 50% by end of November.           #
 #                          Markus Pristovsek - prissi                          #
 #              note: Administrator Base texts / pak64 / pak.japan              #
+#                                   - shinexus                                 #
+#                                    note:                                     #
 #                                                                              #
 ################################################################################
 #_____________________________Simutrans Base Texts______________________________
@@ -51,6 +53,8 @@ clf_btn_keine
 全部取消
 Construction_Btn
 建設開支
+follow me
+跟隨
 gl_btn_sort_bonus
 依積分
 gl_btn_sort_name
@@ -59,6 +63,8 @@ gl_btn_sort_revenue
 依收入
 gl_btn_unsort
 未排序
+go home
+回廠待命
 hl_btn_filter_disable
 關閉
 hl_btn_filter_enable
@@ -81,6 +87,18 @@ hlf_btn_invers
 替代
 hlf_btn_keine
 全部取消
+Lade Relief
+載入地形圖
+Load game
+載入遊戲
+Optionen
+設定
+Sprache
+語言
+Start
+開始
+Starte Spiel
+開始遊戲
 #_________________________________climates_text_________________________________
 #_________________________________climates_text_________________________________
 arctic
@@ -377,8 +395,6 @@ Add stops for backward travel
 為回程路段增加車站。
 Add the selected vehicle(s) to the selected line
 增加所選車輛入所選路線。
-Air
-飛機
 aircraft_tab
 貨機
 Airport
@@ -643,8 +659,6 @@ fl_title
 工廠列表
 Flug_tab
 客機
-follow me
-跟隨
 Follow the convoi on the map.
 跟隨該運輸工具視覺
 Forest
@@ -679,8 +693,6 @@ Give the selected vehicle(s) an individual schedule
 給指定的運輸工具指定獨立的路線資料。
 gl_title
 貨物列表
-go home
-回廠待命
 Goods list
 貨物清單
 Gross Profit
@@ -777,8 +789,6 @@ Keine Einzelfahrzeuge im Depot
 無運輸工具停泊此廠
 Kreuzung
 十字路口
-Lade Relief
-載入地形圖
 Laden
 載入遊戲
 Land industries
@@ -809,8 +819,6 @@ Lines serving this stop
 途徑本站的路線
 LKW_tab
 貨車
-Load game
-載入遊戲
 load height data from file
 從檔案載入地形
 loaded
@@ -935,8 +943,6 @@ Operation
 營運開支
 Ops Profit
 淨收入
-Optionen
-設定
 Origin
 出發地
 Output
@@ -1032,7 +1038,7 @@ Revenue
 Roadsign
 道路標識
 sack
-袋
+ 袋
 sail
 風力
 Saving map ...
@@ -1121,18 +1127,12 @@ Spieler(mz)
 玩家
 Spielerliste
 玩家列表
-Sprache
-語言
 Sprachen
 語言
 Stadtinformation
 城市統計
-Start
-開始
 Start the selected vehicle(s)
 啟動所選車輛
-Starte Spiel
-開始遊戲
 Station tiles:
 月台長度：
 Status

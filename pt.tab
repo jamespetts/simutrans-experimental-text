@@ -8,7 +8,7 @@ Prop-Latin1.bdf
 #                            Language: pt Portugues                            #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 28.06 2009                           #
+#                            Date Created: 1.11 2009                           #
 #                                                                              #
 #                                   authors:                                   #
 #                              Frank Penz - FrankP                             #
@@ -55,14 +55,20 @@ clf_btn_keine
 nada
 Construction_Btn
 Construção
+follow me
+Siga-me
 gl_btn_sort_bonus
 Bônus
+gl_btn_sort_catg
+por categoria
 gl_btn_sort_name
 por nome
 gl_btn_sort_revenue
 Valor
 gl_btn_unsort
 Sem ordem
+go home
+Recolher
 hl_btn_filter_disable
 Desligado
 hl_btn_filter_enable
@@ -87,6 +93,20 @@ hlf_btn_keine
 nada
 koord
 coordenadas
+Lade Relief
+Carregar terreno
+Load game
+Carregar jogo
+Load scenario
+Carregar cenário
+Optionen
+Opções
+Sprache
+Idioma
+Start
+ Partir
+Starte Spiel
+ Criar
 #_________________________________climates_text_________________________________
 #_________________________________climates_text_________________________________
 arctic
@@ -121,6 +141,10 @@ Cannot built this station/building\nin underground mode here.
 O edifício não pode\nser construído no subterrâneo.\n
 Cannot create generic line!\nSelect line type by\nusing filter tabs.
 Não é possível criar uma linha\nna aba Geral. Selecione\no tipo de linha pelas\noutras abas.
+Cannot create socket
+Não pôde criar conexão
+Convoi handles exhausted!
+Número máximo de comboios atingido.
 Das Feld gehoert\neinem anderen Spieler\n
 Este campo é propriedade\nde outro jogador!\n
 Der Besitzer erlaubt das Entfernen nicht
@@ -163,22 +187,30 @@ Noch kein Fahrzeug\nmit Fahrplan\nvorhanden\n
 Programe o veículo\nantes de\nmandá-lo partir.\n
 Not allowed!\nThe convoi's schedule can\nnot be changed currently.\nTry again later!
 Não permitido!\nA programação não pode\nser modificada agora.\nTente mais tarde!
+Not enough money!
+Você não tem bastante dinheiro para construir isto!
 On narrowgauge track only!\n
 Somente sobre trilhos de bitola estreita!\n
 Planes are not available yet!
 Aviões ainda não estão\ndisponíveis!\n
 Post muss neben\nHaltestelle\nliegen!\n
 Extensões de estação e\nagências postais devem\nser colocadas numa área\nlivre e ao lado de uma\nparada/estação.\n\n
+Protocoll error (expecting game)
+Erro de protocolo (esperando jogo)
 Schiffhalt muss im\nWasser liegen!\n
 Só dá para colocar\nparadas\nna água!\n
+Server did not respond!
+Servidor não respondeu!
 Terraforming not possible\nhere in underground view
 Esta terraplenagem não é\npossível no subterrâneo.\n
+Upgrade must have\na higher level
+Atualização tem que ter um nível mais alto!
 Zughalt muss auf\nSchiene liegen!\n
 Só dá para colocar\nparadas de trem nos trilhos!\n
 #___________________________________help_text___________________________________
 #___________________________________help_text___________________________________
 <title>Keyboard Help</title>\n<h1><strong>Keyboard Help</strong></h1><p>\n
-<title>Ajuda - Configuração do teclado</title>\n<h1><strong>Configuração do teclado</strong></h1>\n<p>\nA <strong>configuração do teclado</strong> apresenta as funções de várias teclas do teclado.\n</p>\n<p>\nEsta ajuda aparece quando uma tecla sem função é pressionada ou pela <a href="general.txt">Ajuda do Simutrans</a>.\n</p>\n<p>\nO Simutrans faz diferenciação entre letras maiúculas e minúsculas, então use [<em>Shift</em>] para usar letras maiúsculas.\n</p>\n<p>\nAs teclas com funções atribuídas são:\n</p>\n<p>\n[<em>Setas do teclado</em>]: deslocam a área de jogo para a direção da seta.<br>\n[<em>Backspace</em>]: fecha todas as janelas, barras de ferramentas e textos de ajuda abertos.<br>\n[<em>Delete</em>], ou [<em>Esc</em>]: fecha a janela, barra de ferramentas ou texto de ajuda que está mais acima dos demais.<br>\n[<em>Enter</em>], ou [<em>Return</em>]: usado para confirmar ações.<br>\n[<em>Page-Up</em>], ou [<em>tecla 'maior que'</em>]: aproximar zoom da área de jogo.<br>\n[<em>Page-Down</em>], ou [<em>tecla 'menor que'</em>]: distanciar zoom da área de jogo.<br>\n[<em>F1</em>]: abre a <a href="general.txt">Ajuda do Simutrans</a>.\n</p>\n<p>\n[<em>1</em>]: desloca a área de jogo para o sul.<br>\n[<em>2</em>]: desloca a área de jogo para o sudeste.<br>\n[<em>3</em>]: desloca a área de jogo para o leste.<br>\n[<em>4</em>]: desloca a área de jogo para o sudoeste.<br>\n[<em>6</em>]: desloca a área de jogo para o nordeste.<br>\n[<em>7</em>]: desloca a área de jogo para o oeste.<br>\n[<em>8</em>]: desloca a área de jogo para o noroeste.<br>\n[<em>9</em>]: desloca a área de jogo para o norte.\n</p>\n<p>\n[<em>Shift</em>] + <a href="mouse.txt">mouse</a>: usado no <a href="map.txt">mapa</a> para ver as interligações de uma <a href="industry_info.txt">Cadeia de fornecedores da indústria</a>.<br>\n[<em>CTRL</em>] + ferramenta: construir e remover sinais e <a href="station.txt">paradas</a>) em nível superior (em pontes, por exemplo); ou construir vias lentas sobre vias mais rápidas; ou forçar construção em linha reta de estradas e trilhos (especial para se construir nas diagonais).<br>\n[<em>CTRL</em>] + ([<em>F2</em>] a [<em>F12</em>]): memoriza ferramenta ativa a uma das teclas, de [<em>F2</em>] até [<em>F12</em>].\n</p>\n<p>
+<title>Ajuda - Configuração do teclado</title>\n<h1><strong>Configuração do teclado</strong></h1>\n<p>\nA <strong>configuração do teclado</strong> apresenta as funções de várias teclas do teclado.\n</p>\n<p>\nEsta ajuda aparece quando uma tecla sem função é pressionada ou pela <a href="general.txt">Ajuda do Simutrans</a>.\n</p>\n<p>\nO Simutrans faz diferenciação entre letras maiúculas e minúsculas, então use [<em>Shift</em>] para usar letras maiúsculas.\n</p>\n<p>\nAs teclas com funções atribuídas são:\n</p>\n<p>\n[<em>Setas do teclado</em>]: deslocam a área de jogo para a direção da seta.<br>\n[<em>Backspace</em>]: fecha todas as janelas, barras de ferramentas e textos de ajuda abertos.<br>\n[<em>Delete</em>], ou [<em>Esc</em>]: fecha a janela, barra de ferramentas ou texto de ajuda que está mais acima dos demais.<br>\n[<em>Enter</em>], ou [<em>Return</em>]: usado para confirmar ações.<br>\n[<em>Page-Up</em>], ou [<em>tecla 'maior que'</em>]: aproximar zoom da área de jogo.<br>\n[<em>Page-Down</em>], ou [<em>tecla 'menor que'</em>]: distanciar zoom da área de jogo.<br>\n[<em>F1</em>]: abre a <a href="general.txt">Ajuda do Simutrans</a>.\n</p>\n<p>\n[<em>1</em>]: desloca a área de jogo para o sul.<br>\n[<em>2</em>]: desloca a área de jogo para o sudeste.<br>\n[<em>3</em>]: desloca a área de jogo para o leste.<br>\n[<em>4</em>]: desloca a área de jogo para o sudoeste.<br>\n[<em>6</em>]: desloca a área de jogo para o nordeste.<br>\n[<em>7</em>]: desloca a área de jogo para o oeste.<br>\n[<em>8</em>]: desloca a área de jogo para o noroeste.<br>\n[<em>9</em>]: desloca a área de jogo para o norte.\n</p>\n<p>\n[<em>Shift</em>] + <a href="mouse.txt">mouse</a>: usado no <a href="map.txt">mapa</a> para ver as interligações de uma <a href="industry_info.txt">Cadeia de fornecedores da indústria</a>.<br>\n[<em>CTRL</em>] + ferramenta: construir e remover sinais e <a href="station.txt">paradas</a>) em nível superior (em pontes, por exemplo); ou construir vias lentas sobre vias mais r
 Clear block reservation
 Mostrar/limpar vias reservadas
 #____________________________________ki_text____________________________________
@@ -205,6 +237,8 @@ EDITTOOLS
 Editor de mapa
 LISTTOOLS
 Listas
+MAGLEVTOOLS
+Ferramentas de MagLev
 MONORAILTOOLS
 Monotrilhos e Maglevs
 NARROWGAUGETOOLS
@@ -264,13 +298,13 @@ Com uma grande festa,%s construiu um novo monumento.%i pessoas comemoraram.
 #_________________________________program_text__________________________________
 #_________________________________program_text__________________________________
 !0_STATION_CROWDED
-%s \nestá lotada!
+Atrações turística urbanas devem receber uma meta de número de habitantes. Quando este número de habitantes de uma cidade for atingido, esta atração poderá ser construída.
 !1_DEPOT_REACHED
 %s chegou ao depósito
 (%i)-
 (%i)
 (in depot)
-(em depósito)
+(no depósito)
 \nBauzeit bis
 \naté 
 \nBauzeit von
@@ -383,14 +417,18 @@ Parâmetros:
 %s %s de Fora
 2LIGHT_CHOOSE
 Cores:
+2suburb
+%s Campos Verdes %s %s
 2WORLD_CHOOSE
-Número
+Número do mapa:
 3center
 %s %s Principal
 3extern
 %s %s Rural
 3LIGHT_CHOOSE
-Vel. deslocamento:
+Veloc. de deslocamento:
+3suburb
+%s vila %s %s
 3WORLD_CHOOSE
 Dimensão (%dMB)
 4center
@@ -416,7 +454,7 @@ Cidades
 6LIGHT_CHOOSE
 Pedestres nas cidades
 6WORLD_CHOOSE
-Dens. de tráfego
+Densidade de tráfego:
 7center
 %s %s D. Pedro I
 7extern
@@ -443,14 +481,16 @@ Active player only
 Somente jogador ativo
 Add forest
 Adicionar floresta
+Add random citycar
+Adicionar carros urbanos
 Add Stop
 Adicionar
 Add stops for backward travel
 Adiciona paradas para viagem no sentido contrário.
 Add the selected vehicle(s) to the selected line
 Adicionar o comboio selecionado à linha escolhida.
-Air
-Ar
+air
+Aviões
 aircraft_tab
 Aviões de carga
 airplane
@@ -459,6 +499,10 @@ Airport
 Aeroporto
 All
 Todos
+all convoi tooltips
+Todas dicas de comboios
+Allow city growth
+Permitir crescimento da cidade
 Allow player change
 Permitir mudança de jogador
 allowed climates:\n
@@ -598,7 +642,7 @@ Dim. urbana
 city_road
 Via Urbana
 citybuilding builder
-Construção de cidades
+Construção de edifícios urbanos
 CityLimit
 Limites da cidade
 cl_title
@@ -637,6 +681,8 @@ clf_chk_stucked
 preso
 clf_chk_trains
 Trens
+clf_chk_trams
+Bondes
 clf_chk_type_filter
 Filtro por tipo:
 clf_chk_waren
@@ -656,15 +702,19 @@ Conectar fábrica
 Connected stops
 Paradas conectadas
 Constructed by
-Construído por 
+Pintado por 
 Constructed by %s
    Construído por %s
 convoi %d of %d
 comboio %d de %d
+convoi error tooltips
+Dicas de erros dos comboios
 Convoi has been sent\nto the nearest depot\nof appropriate type.\n
 O comboio foi enviado\nao depósito do tipo \napropriado mais próximo.
 Convoi is sold when all wagons are empty.
 O veículo será vendido assim que estiver totalmente descarregado.
+convoi mouseover tooltips
+Dicas de comboios pelo mouse
 convoi passed last\nmonth %i\n
 Comboios passados\nno último mês: %i\n
 Convois
@@ -679,6 +729,8 @@ Copy the selected convoi and its schedule or line
 Copia o comboio e sua programação ou linha
 cost for removal
 Custo de remoção: 
+Costs
+Custos
 Create a new line based on this schedule
 Cria uma nova linha baseado na progamação desse veículo.
 curiosity builder
@@ -720,7 +772,9 @@ Mudo
 Dock
  - Doca
 Durchsatz
-Máx.
+Máx. 
+Economy
+Economia
 Eigenbesitz\n
 Propriedade pública\n
 Ein %s\npasst hier nicht.\n
@@ -787,8 +841,6 @@ fl_title
 Lista das fábricas
 Flug_tab
 Aviões de passageiros
-follow me
-Siga-me
 Follow the convoi on the map.
 Segue o comboio no mapa\n
 Forest
@@ -819,18 +871,16 @@ Gear:
    Câmbio:
 Gebaeude
 Edifício
+General
+Geral
 Gewicht
 Peso
 Gewinn
 Renda
 Give the selected vehicle(s) an individual schedule
 Dá ao comboio uma programação individual
-gl_btn_sort_catg
-por categoria
 gl_title
 Lista das cargas
-go home
-Recolher
 Goods
 Bens
 Goods AI
@@ -849,6 +899,8 @@ H
  - Parada
 Happy
 Contentes
+Haus kaufen
+Comprar um edifício
 Headquarter and %li trains
 Oficinas centrales y %li trenes
 Helligk.
@@ -951,6 +1003,8 @@ Jump to
 Ir para
 June
 Junho
+Kein Besitzer\n
+Disponível para compra\n
 keine
 nenhum(a)
 Keine Einzelfahrzeuge im Depot
@@ -961,8 +1015,6 @@ Kreuzung
 Cruzamento
 labellist_title
 Lista de marcadores
-Lade Relief
-Carregar terreno
 Laden
 Carregar
 Land attraction
@@ -977,6 +1029,8 @@ LARGE_NUMBER_VALUE
 10^6
 Last Year
 Ano passado:
+Leaving depot!
+Partindo do depósito!
 leer
 vazio
 Legend
@@ -999,18 +1053,22 @@ Lines serving this stop
 Linhas que servem esta parada
 LKW_tab
 Caminhões
-Load game
-Carregar jogo
 load height data from file
 Carregando relevo a\npartir do arquivo\n
-Load scenario
-Carregar cenário
 loaded
 carregado\n
 loaded passenger/freight
 Passageiros/carga carregada:
+Loading (%i->%i%%)!
+Carregando (%i->%i%%)!
+Loading addon paks ...
+Carregando paks add-ons...
 Loading map ...
 Carregando mapa...
+Loading paks ...
+Carregando paks...
+Loading skins ...
+Carregando temas...
 Lock game
 Proibir mudança de\njogador (confirmação\nnecessária)\n
 LOCO_CAP
@@ -1023,6 +1081,8 @@ m3
 m³
 maglev vehicle
 Veículo Maglev
+maglev_track
+Trilho de Maglev
 Maglevdepot
 Depósito de Maglev
 Mailbox
@@ -1081,6 +1141,8 @@ Monorail
 Monotrilho
 monorail vehicle
 Veículo para monotrilho
+monorail_track
+Trilho de monotrilho
 Monorailboden
 Monotrilho
 Monoraildepot
@@ -1111,6 +1173,8 @@ Narrowgauge
 Bitola estreita
 narrowgauge vehicle
 Veículo de bilota estreita
+narrowgauge_track
+trilho de bitola estreita
 Narrowgaugedepot
 Depósito de trem de bitola estreita
 Net Wealth
@@ -1127,6 +1191,8 @@ New line created!\nYou can assign the line now\nby selecting it from the\nline s
 Criada uma nova linha!\nVocê pode associar essa linha\nselecionando-a\nno seletor de linhas acima.
 New Vehicles
 Veículos Novos
+no buildings hidden
+Nenhum edifício oculto
 no convois
 Sem comboios
 No goods are loaded onto this convoi.
@@ -1179,8 +1245,6 @@ Operation
 Operação
 Ops Profit
 Lucro Operacional
-Optionen
-Opções
 Origin
 Origem
 ost
@@ -1203,6 +1267,8 @@ Passengers %d %c, %d %c, %d no route
 Passageiros: %d %c, %d %c, %d sem caminho
 Pause
 Pausa
+PaxDest
+Destinos
 Percent Electricity
 Percentual de usinas
 Plant tree
@@ -1277,6 +1343,8 @@ Rathaus
 Prefeitura
 Rating
 Taxa
+ratio_pax
+Taxa de passageiros (%)
 Reliefkarte
 Mapa
 Remove
@@ -1291,6 +1359,8 @@ remove monorails
 Remover trecho de monotrilho
 remove narrowgauge tracks
 Remover trecho de trilhos de bitola estreita
+remove powerlines
+Remover linhas de transmissão
 remove roads
 Remover trecho de estrada
 remove tracks
@@ -1313,6 +1383,8 @@ return ticket
 Espelhar linha
 Revenue
 Faturamento
+road
+estrada
 road vehicle
 veículo rodoviário
 Roadsign
@@ -1321,12 +1393,16 @@ Rotate map
 Girar mapa
 Rotation
 Rotação
+Routing
+Rotas
 sack
  sacos
 sail
 vento
 Saving map ...
 Salvando mapa...
+Schedule changing!
+Mudança de itinerário!
 Schienentunnel
 Túnel ferroviário
 Schiff_tab
@@ -1337,6 +1413,8 @@ Schleppkahn_tab
 Barcaças
 Screenshot
 Imagem da tela\n
+Seasons
+Estações do Ano
 Sehenswuerdigkeit
 Atração turística
 Sell the selected vehicle(s)
@@ -1353,6 +1431,8 @@ Serves Line:
 Serve linha:
 Service
 Serviço
+Setting
+Configuração
 Ship
 Navios
 shops and stores
@@ -1396,7 +1476,7 @@ Tocar midis aleatoriamente
 Sim:
 Simloops:
 sliced underground mode
-Visão subterrânea em níveis
+Visão subter. em níveis
 slot empty
 Campo vago
 Sort by
@@ -1423,18 +1503,12 @@ Spieler(mz)
 Jogadores
 Spielerliste
 Lista de jogadores
-Sprache
-Idioma
 Sprachen
 Língua
 Stadtinformation
 Estatísticas da Cidade
-Start
- Partir
 Start the selected vehicle(s)
 Faz o comboio partir 
-Starte Spiel
- Criar
 Station tiles:
 Quadros precisos:
 Status
@@ -1483,6 +1557,8 @@ To heavy traffic\nresults in traffic jam.\n
 Tráfego muito intenso resulta em congestionamento!\n
 Toggle day/night view
 Alternar visão diurna/noturna
+Toggle vehicle tooltips
+Ativa/desativa dicas de veículos
 tonnen
 t
 Total inhabitants:
@@ -1495,6 +1571,8 @@ Town: %s\n
 Cidade de %s\n
 Towns
 Cidades
+track
+trilho
 Tracks
 Trilhos
 Traffic
@@ -1507,6 +1585,8 @@ Tram
 Bonde
 tram %i km/h, monorail %i km/h\nmaglev %i km/h, narrowgauge %i km/h.
 bonde %i km/h, monotrilho %i km/h\nmaglev %i km/h, bitola estreita %i km/h.
+tram_track
+Trilho de bonde
 Tramdepot
 Depósito de bondes\n
 Trams are not available yet!
@@ -1542,7 +1622,7 @@ Desempregados
 Unhappy
 Descontentes
 units/day
-un./dia
+ un./dia
 Update Line
 Atualizar
 upgrade HQ
@@ -1579,6 +1659,10 @@ Waggon_tab
 Vagões
 waiting
 Esperando
+Waiting for clearance!
+Esperando por liberação!
+water
+água
 Water level
 Nivel d'água
 water vehicle
@@ -1603,6 +1687,8 @@ Winter snowline
 Altitude da neve no inverno
 withdraw
 Encerrar
+Withdraw All
+Encerrar todos
 WRONGSAVE
 Versão salva\nincompatível. Impossível ler\no arquivo.\n
 Year %i has started.
