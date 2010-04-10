@@ -8,17 +8,17 @@ m+10r.bdf
 #                             Language: ja Japanese                            #
 #                                Encoding: UTF-8                               #
 #                               Font : m+10r.bdf                               #
-#                            Date Created: 1.11 2009                           #
+#                           Date Created: 10.04 2010                           #
 #                                                                              #
 #                                   authors:                                   #
 #                              Frank Penz - FrankP                             #
-#                      note: Administrator SimuTranslator                      #
+#                                    note:                                     #
 #                                    - Hamo73                                  #
 #                                    note:                                     #
 #                           Tomohiro MATSUMURA - hiro                          #
 #                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
-#              note: Administrator Base texts / pak64 / pak.japan              #
+#                                    note:                                     #
 #                          SHISHIDO Yoshihiro - yoshi                          #
 #                                    note:                                     #
 #                                 z9999 - z9999                                #
@@ -313,6 +313,8 @@ With a big festival\n%s built\na new monument.\n%i citicens rejoiced.
 \n制限付き接続方向：
 \nRibi (unmasked)
 \n接続方向　　　　：
+\nSet phases:
+\n南北（秒間）　東西（秒間）
 \nsingle way
 \n一方通行
 \nway1 reserved by
@@ -694,7 +696,7 @@ Connected stops
 Constructed by
 作者：
 Constructed by %s
-作者: %s\n
+作者: %s
 convoi %d of %d
 入庫中の編成 %d / %d
 convoi error tooltips
@@ -706,7 +708,7 @@ Convoi is sold when all wagons are empty.
 convoi mouseover tooltips
 マウスオーバーで車両の状態を表示
 convoi passed last\nmonth %i\n
-\n前月の交通量: %i
+\n前月の交通量: %i\n―――――――――――
 Convois
 編成数
 Convois: %d\nProfit: %s
@@ -759,6 +761,8 @@ Direkt erreichbare Haltestellen
 ここから運行されている　駅・停留所・港
 disable midi
 ミュート
+Distance
+走行距離
 Dock
 港
 Durchsatz
@@ -994,7 +998,7 @@ Jump to
 June
 6月
 Kein Besitzer\n
-　\n
+\n
 keine
 無し
 Keine Einzelfahrzeuge im Depot
@@ -1196,7 +1200,7 @@ No Route
 No stop here!
 ここには駅がありません。\nキャンセルします。
 No suitable ground!
-適切な場所ではありません。\n\n気候条件が合わない、空地ではない、\nあるいは線路/道路上ではありません。\nまた地下では線路/道路上を起点としてください。
+適切な場所ではありません。\n\n気候条件が合わない/空地ではない\nまたは線路/道路上ではありません\nまた地下では線路/道路上を起点としてください。
 No terminal station here!
 この形式の停車場は走路の終端に\n建ててください！
 no timeline
@@ -1221,6 +1225,8 @@ Number of rivers
 河川の数：
 Object
 原名
+Odometer: %s km
+積算距離： %skm
 Ok
 OK
 Oktober

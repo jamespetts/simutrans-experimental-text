@@ -8,11 +8,11 @@ Prop-Latin1.bdf
 #                             Language: sv Svenska                             #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                            Date Created: 1.11 2009                           #
+#                           Date Created: 10.04 2010                           #
 #                                                                              #
 #                                   authors:                                   #
 #                              Frank Penz - FrankP                             #
-#                      note: Administrator SimuTranslator                      #
+#                                    note:                                     #
 #                           Michael Persson - Mippzon                          #
 #                                    note:                                     #
 #                          Susanna Björverud - Susanna                         #
@@ -20,7 +20,7 @@ Prop-Latin1.bdf
 #                             Paul Color - color42                             #
 #                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
-#              note: Administrator Base texts / pak64 / pak.japan              #
+#                                    note:                                     #
 #                                                                              #
 ################################################################################
 #_____________________________Simutrans Base Texts______________________________
@@ -141,6 +141,8 @@ Cannot built this station/building\nin underground mode here.
 Byggnaden kan enbart\nbyggas ovan jord.\n\n
 Cannot create generic line!\nSelect line type by\nusing filter tabs.
 Det går inte att skapa en linje av generell typ.\nVälj linjetyp med hjälp av filtreringsflikarna.
+Cannot create socket
+Kan inte skapa sockel
 Convoi handles exhausted!
 Största tillåtna antal konvojer har nåtts.
 Das Feld gehoert\neinem anderen Spieler\n
@@ -169,12 +171,16 @@ Kann Spielstand\nnicht laden.\n
 Kan inte öppna\ndet sparade spelet!\n
 Kann Spielstand\nnicht speichern.\n
 Kan inte spara\nspelet!\n
+Lost connection\nto server!
+Tappat anslutningen\till servern!
+Lost synchronisation\nwith server.
+Ej längre\nsynkroniserad\nmed servern!
 Maglevhalt muss auf\nMaglevschiene liegen!\n
 En maglevstation måste placeras på maglevräls!
 Monorailhalt muss auf\nMonorail liegen!\n
-Monorail hållplatser måste\nplaceras på monorail spår.
+Monorailhållplatser\nmåste placeras på monorail.
 Monorails are not available yet!
-Det finns ännu inte någon monorail tillgänglig.
+Det går ännu inte att bygga monorail.
 Narrowgauge are not available yet!
 Smalspår finns ännu inte tillgängligt!
 Narrowgaugehalt muss auf\nNarrowgauge liegen!\n
@@ -325,6 +331,8 @@ I %s\ninvigs ett nytt\nmonument.\n%i åskådare deltar\ni festligheterna.
 \nriktningar (dolda):
 \nRibi (unmasked)
 \nriktningar (alla):
+\nSet phases:
+\ange tidsintervall NS/ÖV riktning:
 \nsingle way
 \nEnkelriktat
 \nway1 reserved by
@@ -530,7 +538,7 @@ Lägg till stationer i slutet av tidtabellen
 Arbeiter aus:
 Arbetarna bor i:
 Arrived
-Anlänt
+Varuleverans
 Assets
 Fordonsvärde
 Aufloesen
@@ -769,6 +777,8 @@ Direkt erreichbare Haltestellen
 --direkta trafikförbindelser:
 disable midi
 Tysta MIDI-musiken
+Distance
+Färdsträcka
 Dock
 Hamn
 Durchsatz
@@ -946,7 +956,7 @@ Monorail
 hlf_chk_name_filter
 Filternamn:
 hlf_chk_narrowgaugestop
-Smalspår
+Smalspårsstation
 hlf_chk_overflow
 Överfull
 hlf_chk_spezial_filter
@@ -1030,9 +1040,9 @@ tom
 Legend
 Kartinfo
 Leistung
-Styrka
+Effekt
 Leistung: %d kW
-Styrka: %d kW
+Effekt: %d kW
 Leitung
 Högspänningsledningar
 letzen Monat: diesen Monat:
@@ -1040,7 +1050,7 @@ Förra månaden:   Den här månaden:
 Line
 Linje
 Line Management
-Linjeredigeraren
+Linjehanteraren
 Lines are used to manage groups of vehicles
 Linjer används för att hantera flera grupper av fordon
 Lines serving this stop
@@ -1136,9 +1146,9 @@ Monorailfordon
 monorail_track
 Monorailräls
 Monorailboden
-Monorail understöd
+Upphöjd vägsträcka
 Monoraildepot
-Monorail depå
+Monorailvagnhall
 month wait time
 Månaders väntetid
 Months
@@ -1219,6 +1229,8 @@ Number of rivers
 Antal floder
 Object
 Objekt
+Odometer: %s km
+Färdmätare: %s km
 Ok
 OK
 On loan since %i month(s)
@@ -1402,7 +1414,7 @@ Sevärdhet
 Sell the selected vehicle(s)
 Sälj det valda fordonet.
 sended
-Ivägskickat
+Skickad post
 SEP_FRACTION
 ,
 SEP_THOUSAND
@@ -1482,7 +1494,7 @@ Spelare
 Spieler(mz)
 Spelare
 Spielerliste
-\n   Blå . . . .  %.2f$\n\n   Gul . .  %.2f$\n\n   Röd . . . . . %.2f$\n\n   Grön . . .  %.2f$\n\n   Turkos %.2f$\n\n   Rosa . . . .  %.2f$\n
+Spelarlista
 Sprachen
 Språkval
 Stadtinformation

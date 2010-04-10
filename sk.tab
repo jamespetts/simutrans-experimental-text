@@ -8,15 +8,15 @@ prop-latin2.fnt
 #                            Language: sk Slovencina                           #
 #                             Encoding: ISO-8859-2                             #
 #                            Font : prop-latin2.fnt                            #
-#                           Date Created: 28.06 2009                           #
+#                           Date Created: 10.04 2010                           #
 #                                                                              #
 #                                   authors:                                   #
 #                              Frank Penz - FrankP                             #
-#                      note: Administrator SimuTranslator                      #
+#                                    note:                                     #
 #                           Peter Karak - peter.karak                          #
 #                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
-#              note: Administrator Base texts / pak64 / pak.japan              #
+#                                    note:                                     #
 #                                                                              #
 ################################################################################
 #_____________________________Simutrans Base Texts______________________________
@@ -51,6 +51,8 @@ clf_btn_keine
 niè
 Construction_Btn
 Stavby
+follow me
+Sledovanie
 gl_btn_sort_bonus
 podµa príplatku
 gl_btn_sort_name
@@ -59,6 +61,8 @@ gl_btn_sort_revenue
 podµa tr¾by
 gl_btn_unsort
 nezoradené
+go home
+Do depa
 hl_btn_filter_disable
 zakázaný
 hl_btn_filter_enable
@@ -81,6 +85,20 @@ hlf_btn_invers
 opak
 hlf_btn_keine
 ¾iadne
+Lade Relief
+Naèíta» terén
+Load game
+Ulo¾ené hry
+Load scenario
+Scenáre
+Optionen
+Nastavenia
+Sprache
+Jazyk
+Start
+©tart
+Starte Spiel
+Zaèa» novú hru
 #_________________________________climates_text_________________________________
 #_________________________________climates_text_________________________________
 arctic
@@ -363,8 +381,6 @@ Add stops for backward travel
 Rovnaká spiatoèná trasa
 Add the selected vehicle(s) to the selected line
 Prida» vybrané vozidlo(á) do zvolenej linky
-Air
-Aero
 aircraft_tab
 Nákladné lietadlá
 Airport
@@ -562,7 +578,7 @@ Priame spojenie
 Dock
 Dok 
 Durchsatz
-Max.
+Max. 
 Eigenbesitz\n
 Verejný majetok\n
 Ein %s\npasst hier nicht.\n
@@ -617,8 +633,6 @@ fl_title
 Zoznam fabrík
 Flug_tab
 Dopravné liatadlo
-follow me
-Sledovanie
 Follow the convoi on the map.
 Sleduj súpravu na mape
 Forest
@@ -649,8 +663,6 @@ Give the selected vehicle(s) an individual schedule
 Zadajte vybranému(ým) vozidlu(ám) osobitný cest. poriadok
 gl_title
 Zoznam tovarov
-go home
-Do depa
 Goods
 Tovar
 Goods list
@@ -747,8 +759,6 @@ Keine Einzelfahrzeuge im Depot
 V depe nie je ¾iadne vozidlo.\n
 Kreuzung
 Kri¾ovatka
-Lade Relief
-Naèíta» terén
 Laden
 Ulo¾ené hry
 Land industries
@@ -779,10 +789,6 @@ Lines serving this stop
 Linky obsluhujúce túto stanicu
 LKW_tab
 Nákladné autá
-Load game
-Ulo¾ené hry
-Load scenario
-Scenáre
 loaded
 nalo¾ené
 loaded passenger/freight
@@ -895,8 +901,6 @@ Operation
 Prevádz. náklady
 Ops Profit
 Prevádzkový zisk
-Optionen
-Nastavenia
 Origin
 Zdroj
 paletten
@@ -998,7 +1002,7 @@ Otoèi» mapu
 Rotation
 Otoèenie
 sack
-vriec
+ vriec
 sail
 vietor
 Saving map ...
@@ -1073,18 +1077,12 @@ Spieler(mz)
 Ïal¹í hráèi
 Spielerliste
 Zoznam hráèov
-Sprache
-Jazyk
 Sprachen
 Jazyky
 Stadtinformation
 Informácie o meste
-Start
-©tart
 Start the selected vehicle(s)
 Vyjs» s vybraným(i) vozidlom(ami)
-Starte Spiel
-Zaèa» novú hru
 Station tiles:
 då¾ka nástupi¹»a:
 Status
@@ -1158,7 +1156,7 @@ Nezamestnaní
 Unhappy
 Nespokojní
 units/day
-jednotiek/mesiac
+ jednotiek/mesiac
 Update Line
 Upravi» linku
 Vehicle %s can't find a route!

@@ -8,17 +8,21 @@ Prop-Latin1.bdf
 #                             Language: es Espanol                             #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                            Date Created: 1.11 2009                           #
+#                           Date Created: 10.04 2010                           #
 #                                                                              #
 #                                   authors:                                   #
+#                                   - Diegote                                  #
+#                                    note:                                     #
 #                              Frank Penz - FrankP                             #
-#                      note: Administrator SimuTranslator                      #
+#                                    note:                                     #
 #                       Zeno (Albert Ruiz) - albert.yuste                      #
 #                                    note:                                     #
+#                                    - ispero                                  #
+#                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
-#              note: Administrator Base texts / pak64 / pak.japan              #
+#                                    note:                                     #
 #                              Xavier Paz - vilvoh                             #
-#                            note: Spanish board mod                           #
+#                                    note:                                     #
 #                                                                              #
 ################################################################################
 #_____________________________Simutrans Base Texts______________________________
@@ -169,6 +173,10 @@ Kann Spielstand\nnicht laden.\n
 ¡Imposible leer/abrir\nla partida guardada!\n
 Kann Spielstand\nnicht speichern.\n
 ¡Imposible abrir\nel achivo para\nguardar!\n
+Lost connection\nto server!
+¡La conexión con el\n servidor se ha perdido!
+Lost synchronisation\nwith server.
+Se ha perdido la sincronización\n con el servidor.
 Maglevhalt muss auf\nMaglevschiene liegen!\n
 La estación de monorraíl debe estar\n sobre una vía de monorraíl
 Monorailhalt muss auf\nMonorail liegen!\n
@@ -207,6 +215,8 @@ Zughalt muss auf\nSchiene liegen!\n
 ¡Sólo puedes colocar\nparadas de\nferrocarril en\nlas vias!\n
 #___________________________________help_text___________________________________
 #___________________________________help_text___________________________________
+<title>Keyboard Help</title>\n<h1><strong>Keyboard Help</strong></h1><p>\n
+<title>Ayuda de Teclado</title>\n\n<h1><strong>Ayuda de teclado</strong></h1>\n\n<p>\n\n<strong>Ayuda de teclado</strong> muestra las funciones accedidas desde el teclado.\n</p>\n\n<p>\n\n<strong>Ayuda de teclado</strong> se abre cuando pulsas una tecla sin funcion asignada o desde <a href="general.txt">Ayuda General</a>.\n</p>\n\n<p>\n\nAl pulsar, se distingue entre mayusculas y minusculas(usa [<em>Shift</em>] para mayusculas).\n</p>\n\n<p>\n\nLas teclas con funcion asignada son:\n</p>\n\n<p>\n\n[<em>.</em>] / [<em>,</em>]: acelera/decelera el tiempo en el juego, <a href="window.txt">T</a>, (<a href="display.txt"><strong>Pantalla</strong></a> indica si el ordenador puede soportar esa aceleracion).\n\n\n[<em>!</em>]: muestra/oculta los nombres de <a href="station.txt">Paradas</a> y <a href="citywindow.txt">areas urbanas</a> asi como <a href="special.txt">el texto de las señales</a>, barras de estado de pasajeros (que indican como de concurrida esta la parada) y barras de estado de mercancias (que indican la cantidad de <a href="goods_filter.txt">elementos</a> en la parada preparados par ser transportados).\n\n\n[<em>"</em>]: activa la vista minimizada de arboles y edificios en 5 modos (primero, solo edificios de ciudades y arboles; despues todos los edificios incluyendo fabricas y atracciones; despues solo arboles; solo edificios de cuidades; por ultimo,arboles y todos los edificios).\n\n\n[<em>#</em>]: muestra la cuadricula en el terreno (solo visible en modo zoom durante el juego).\n\n\n[<em>§</em>], o [<em>Shift</em>] + [<em>3</em>]: selecciona la rutina global del bosque (no disponible en todos los teclados).\n\n\n[<em>+</em>] / [<em>-</em>]: ajusta <a href="display.txt">Brillo</a>\n</p>\n\n<p>\n\n[<em>Teclas de las flechas</em>]: desplaza la pantalla en la direccion de la flecha pulsada.\n\n\n[<em>espacio</em>]: cierra todas las ventanas, barras de herramientas y textos de ayuda.\n\n\n[<em>Delete</em>], or [<em>Escape</em>]: cierra la ventana, bara de herramientas o texto de ayuda activa.\n\n\n[<em>Enter</em>], or [<em>Return</em>]: usado para confirmar acciones.\n\n\n[<em>Page-Up</em>], or [<em>></em>]: zoom-acercar.\n\n\n[<em>Page-Down</em>], or  [<em> simbolo de menor que</em>]: zoom-alejar.\n</p>\n\n<p>\n\n[<em>a</em>]: selecciona <a href="inspection_tool.txt">herramienta de exploracion</a>.\n\n\n[<em>B</em>]: abre <a href="mailbox.txt">Buzon</a>.\n\n\n[<em>c</em>]: toma una captura de pantalla del juego (icono de la camara).\n\n\n[<em>C</em>]: selecciona la herramienta <a href="special.txt">Fundar una nueva ciudad</a>.\n\n\n[<em>e</em>]: selecciona la herramienta de Electrificar con el ultimo tipo de tendido usado.\n\n\n[<em>d</em>]: selecciona la herramienta <a href="slopetools.txt">Bajar Terreno</a>.\n\n\n[<em>f</em>]: abre <a href="finances.txt">Finanzas</a>.\n\n\n[<em>g</em>]: selecciona la herramienta <a href="special.txt">Subestacion transformadora</a>.\n\n\n[<em>G</em>]: abre la <a href="goods_filter.txt">Lista de Mercancias</a>.\n\n\n[<em>H</em>]: selecciona la herramienta de Oficinas Centrales (no usada en todos los paks).\n\n\n[<em>I</em>]: selecciona la herramienta <a href="edittools.txt">Construir una nueva Central Energetica</a>.\n\n\n[<em>k</em>]: abre la <a href="players.txt">Lista de Jugadores</a>.\n\n\n[<em>l</em>]: selecciona la herramienta <a href="special.txt">Construir una Linea Electrica</a>.\n\n\n[<em>L</em>]: abre <a href="load.txt">Cargar</a>.\n\n\n[<em>m</em>]: abre <a href="map.txt">Mapa</a>.\n\n\n[<em>M</em>]: selecciona la herramienta <a href="special.txt">Marcador</a>.\n\n\n[<em>p</em>]: pone/quita el juego del estado en pausa.\n\n\n[<em>P</em>]: cambio de <a href="players.txt">jugador</a>.\n\n\n[<em>Q</em>]: abre <a href="new_world.txt">Crear un Nuevo Mundo</a>.\n\n\n[<em>r</em>]: selecciona la herramienta Eliminar.\n\n\n[<em>s</em>]: selecciona la herramienta <a href="roadtools.txt">Carretera</a> con el ultimo tipo de carretera usado.\n\n\n[<em>S</em>]: abre  <a href="save.txt">Guardar</a>.\n\n\n[<em>t</em>]: selecciona la herramienta <a href="railtools.txt">Via de ferrocarril</a> con el ultimo tipo de via usado.\n\n\n[<em>T</em>]: abre la <a href="citylist_filter.txt">Lista de Ciudades</a>.\n\n\n[<em>u</em>]: selecciona la herramienta <a href="slopetools.txt">Elevar Terreno</a>.\n\n\n[<em>U</em>]: Modo Subterraneo\n\n\n[<em>v</em>]: Muestra el area de influencia de las <a href="station.txt">Paradas</a> en el juego (los cuadrados son del<a href="color.txt">color del jugador</a>).\n\n\n[<em>V</em>]: abre la <a href="convoi.txt">Lista de Vehiculos</a>\n\n\n[<em>w</em>]: abre la <a href="linemanagement.txt">Gestion de Lineas</a>.\n\n\n[<em>W</em>]: activa/desactiva el avance rapido.\n\n\n[<em>X</em>]: abre <a href="new_world.txt">Crear un Nuevo Mundo</a>.\n\n\n[<em>z</em>]: deshace la ultima carretera/via de tren creada (los costes de construccion no son reembolsados).\n</p>\n\n<p>\n\n[<em>1</em>]: mueve la pantalla al sur.\n\n\n[<em>2</em>]: mueve la pantalla al sureste.\n\n\n[<em>3</em>]: mueve la pantalla al este.\n\n\n[<em>4</em>]: mueve la pantalla al suroeste.\n\n\n[<em>6</em>]: mueve la pantalla al noreste.\n\n\n[<em>7</em>]: mueve la pantalla al oeste.\n\n\n[<em>8</em>]: mueve la pantalla al noroeste.\n\n\n[<em>9</em>]: mueve la pantalla al norte.\n\n\n</p>\n\n<p>\n\n[<em>Shift</em>] + <a href="mouse.txt">raton</a>: usado en el<a href="map.txt">Mapa</a> para ver enlaces entre elementos de las <a href="industry_info.txt">Cadenas Industriales</a>.\n\n\n[<em>CTRL</em>] + herramienta: construye (marcadores y <a href="station.txt">Paradas</a>) en un nivel superior; o construye carreteras o vias mas lentas sobre las mas rapidas; incluso construye vias y carreteras mas rectas (mas directas).\n\n\n[<em>CTRL</em>] + desde ([<em>F2</em>] hasta [<em>F12</em>]): asocia la herramienta actual con la tecla pulsada de entre [<em>F2</em>] hasta [<em>F12</em>].\n\n\n</p>\n\n<p>\n\n[<em>F1</em>]: abre la <a href="general.txt">Ayuda de Simutrans</a>.\n\n\n[<em>F10</em>]: pone/quita el juego en pausa.\n\n\n[<em>F2</em>] hasta [<em>F12</em>]: selecciona una herramienta asociada.\n\n\n</p>\n
 Clear block reservation
 Mostrar/Ocultar vías reservadas
 #____________________________________ki_text____________________________________
@@ -329,6 +339,8 @@ Inicio
 \nRutas\m (ocultas):
 \nRibi (unmasked)
 \nrutas\n(visibles):
+\nSet phases:
+\nAjustar fase:
 \nsingle way
 \nvía única
 \nway1 reserved by
@@ -337,6 +349,8 @@ vía 1 reservada por\n
 vía 2 reservada por\n
 \nwith sign/signal\n
 \ncon la señal\n
+&0_CITY_SYLL
+demoler
 &1_CITY_SYLL
  de Abajo
 &2_CITY_SYLL
@@ -357,6 +371,16 @@ seca
 rejo
 &A_CITY_SYLL
 s del Bosque
+&B_CITY_SYLL
+por
+&C_CITY_SYLL
+enterrar
+&D_CITY_SYLL
+lugar
+&E_CITY_SYLL
+manantial
+%0_CITY_SYLL
+Pino
 %1_CITY_SYLL
 Villa
 %2_CITY_SYLL
@@ -379,12 +403,20 @@ Cala
 Viejo
 %B_CITY_SYLL
 Nueva
+%C_CITY_SYLL
+Nuevo
 %d buildings\n
 %d edificios
 %d convois
 %d convoyes
 %d Einzelfahrzeuge im Depot
 %d vehículos almacenados aquí
+%D_CITY_SYLL
+tor
+%E_CITY_SYLL
+Wal
+%F_CITY_SYLL
+Roble
 %i km/h (max. %ikm/h)
 %i km/h (máx. %ikm/h)
 %s building %s %s
@@ -457,16 +489,30 @@ Número ciudades:
 %s Parque Industrial %s
 6LIGHT_CHOOSE
 Peatones en ciudades
+6suburb
+%s afueras %s %s
 6WORLD_CHOOSE
 Dens. de tráfico:
 7center
 %s ciudad %s
+7extern
+%s llanuras %s
+7suburb
+%s parque %s
 8center
 %s Nodo %s
+8extern
+%s %s margen %s
+8suburb
+%s satélite %s
 8WORLD_CHOOSE
 Usar modo día y noche
 9center
 %s Circunvalación %s
+9extern
+%s bypass %s
+9suburb
+%s medio %s
 Abfrage
 Exploración
 Abnehmer
@@ -769,6 +815,8 @@ Direkt erreichbare Haltestellen
 Paradas conectadas directamente
 disable midi
 Silenciar música MIDI
+Distance
+Distancia
 Dock
 Muelle
 Durchsatz
@@ -998,7 +1046,7 @@ Ir a
 June
 Junio
 Kein Besitzer\n
-Sin propietario\n
+Sin propietari\n
 keine
 nada
 Keine Einzelfahrzeuge im Depot
@@ -1225,6 +1273,8 @@ Number of rivers
 rios
 Object
 Objeto
+Odometer: %s km
+Kilometraje: %s km
 Ok
 Aceptar
 Oktober
@@ -1254,7 +1304,7 @@ Trenes de pasajeros
 Passagiere
 Pasajeros
 Passagierrate
-Nivel de pasajeros
+Nivel pasajeros
 Passagierziele
 Destino del pasaje/correo
 Passenger AI
@@ -1310,7 +1360,7 @@ Nivel de Correo
 Power
 Potencia
 Power:
-Energía eléctrica
+Potencia
 Powerlines
 Tendido elect.
 Produktion
@@ -1472,7 +1522,7 @@ desordenar midis
 Sim:
 Ciclos:
 sliced underground mode
-Modo subterráneo por capas
+Subterráneo por capas
 slot empty
 Slot vacío
 Sort by
@@ -1656,7 +1706,7 @@ Vagones
 waiting
 esperando
 Waiting for clearance!
-¡A la espera de liquidación!
+¡A la espera de vía libre!
 water
 marítimo
 Water level

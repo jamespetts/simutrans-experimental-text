@@ -8,13 +8,15 @@ prop-latin2.fnt
 #                              Language: hu Magyar                             #
 #                             Encoding: ISO-8859-2                             #
 #                            Font : prop-latin2.fnt                            #
-#                           Date Created: 28.06 2009                           #
+#                           Date Created: 10.04 2010                           #
 #                                                                              #
 #                                   authors:                                   #
 #                              Frank Penz - FrankP                             #
-#                      note: Administrator SimuTranslator                      #
+#                                    note:                                     #
+#                                   - LeitnerI                                 #
+#                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
-#              note: Administrator Base texts / pak64 / pak.japan              #
+#                                    note:                                     #
 #                                                                              #
 ################################################################################
 #_____________________________Simutrans Base Texts______________________________
@@ -49,14 +51,20 @@ clf_btn_keine
 semmi
 Construction_Btn
 Építkezések
+follow me
+Kövess!
 gl_btn_sort_bonus
 Bónusz
+gl_btn_sort_catg
+Kategória
 gl_btn_sort_name
 Név
 gl_btn_sort_revenue
 Bevétel
 gl_btn_unsort
 Deszortíroz
+go home
+Depóba
 hl_btn_filter_disable
 Tiltva
 hl_btn_filter_enable
@@ -79,6 +87,20 @@ hlf_btn_invers
 ford.
 hlf_btn_keine
 semmi
+koord
+koordináták
+Lade Relief
+Domborzat betölt.
+Load game
+Játék betöltés
+Load scenario
+Forg.könyv betölt
+Optionen
+Opciók
+Sprache
+Nyelv
+Starte Spiel
+Játék indítása
 #_________________________________climates_text_________________________________
 #_________________________________climates_text_________________________________
 arctic
@@ -109,6 +131,8 @@ Bruecke muss an\neinfachem\nHang beginnen!\n
 A híd csakis egyenes emelkedõrõl indulhat!
 Cannot built depot here!
 Ide nem építhetsz depót!
+Cannot built this station/building\nin underground mode here.
+Az épület metróépítõ módban nem építhetõ.
 Cannot create generic line!\nSelect line type by\nusing filter tabs.
 Általános menetrendet nem lehet kialakítani! Egyszer válasz menetrend típust.
 Das Feld gehoert\neinem anderen Spieler\n
@@ -117,6 +141,8 @@ Der Besitzer erlaubt das Entfernen nicht
 Az eltávolítást a tulajdonos nem engedélyezte!
 Der Tunnel ist nicht frei!\n
 Az alagút nem szabad!\n
+Die Bruecke ist nicht frei!\n
+A híd nem üres!
 Diese Zusammenstellung kann nicht fahren!\n
 Rossz kombináció!
 Dock must be built on single slope!
@@ -147,6 +173,8 @@ Noch kein Fahrzeug\nmit Fahrplan\nvorhanden\n
 Egyszer definiálj menetrendet!
 Not allowed!\nThe convoi's schedule can\nnot be changed currently.\nTry again later!
 Tilos! A menetrendet ilyenkor nem lehet megváltoztatni Próbáld késõbb!
+Not enough money!
+Nincs elég pénz az építéshez!
 On narrowgauge track only!\n
 Csakis kisvasútpályán lehet!
 Planes are not available yet!
@@ -155,10 +183,16 @@ Post muss neben\nHaltestelle\nliegen!\n
 A posta/vezérlõ/tároló egy megállóhoz/állomáshoz kell közel legyen!
 Schiffhalt muss im\nWasser liegen!\n
 Hajómegálló csak vízre a dokkok mellé tehetõ!
+Terraforming not possible\nhere in underground view
+Terraformálás nem lehetséges metróépítõ módban.
+Upgrade must have\na higher level
+Fejleszteni csak nagyobbra lehet!
 Zughalt muss auf\nSchiene liegen!\n
 Vasúti megálló csak vasútra tehetõ!
 #___________________________________help_text___________________________________
 #___________________________________help_text___________________________________
+Clear block reservation
+Mutasd/rejtsd a lefoglalt utat
 #____________________________________ki_text____________________________________
 #____________________________________ki_text____________________________________
 %s now\noffers bus services\nbetween %s\nand attraction\n%s\nat (%i,%i).\n
@@ -181,6 +215,8 @@ EDITTOOLS
 Szerkesztõ eszközök
 LISTTOOLS
 Szortírozás
+MAGLEVTOOLS
+Mágnesvasúti kellékek
 MONORAILTOOLS
 Nyeregvasúti kellékek
 RAILTOOLS
@@ -379,6 +415,8 @@ Fordított görgetés
 %s átszálló %s
 5LIGHT_CHOOSE
 Gyalogost megállóban mutat
+5suburb
+%s falu %s
 5WORLD_CHOOSE
 Városok száma:
 6center
@@ -389,8 +427,20 @@ Gyalogost városban mutat
 Forgalom sûrûsége:
 7center
 %s város %s\n
+7suburb
+%s park %s
+8center
+%s üzleti %s
+8suburb
+%s szatelit %s
 8WORLD_CHOOSE
 Éjszaka/nappal mód
+9center
+%s tengely %s
+9extern
+%s híd %s
+9suburb
+%s közbülsõ %s
 Abfrage
 Infó eszköz
 Abnehmer
@@ -413,8 +463,6 @@ Add stops for backward travel
 Megállók hozzáadása a visszaúthoz
 Add the selected vehicle(s) to the selected line
 Társítsd a kijelölt jármût/jármûveket az útvonalhoz
-Air
-Lég
 aircraft_tab
 Repülõgépek
 airplane
@@ -423,6 +471,8 @@ Airport
 Repülõtér
 All
 Mind
+Allow city growth
+Város növekedés engedélyezve
 Allow player change
 Játékosváltás engedélyezése
 allowed climates:\n
@@ -483,6 +533,8 @@ Bruecke
 Híd
 Brueckenboden
 hídalap
+Build air depot
+Légi depó építése
 build choosesignals
 Jelzõberendezés építése
 Build city market
@@ -493,6 +545,8 @@ build HQ
 Központ építés
 Build land consumer
 Hõerõmû építése
+Build maglev depot
+Mágnesvasúti depó építése
 Build monorail depot
 Nyeregvasút depó építése
 Build powerline
@@ -622,9 +676,11 @@ Konvoj másolása
 Copy the selected convoi and its schedule or line
 Megkettõzi a már kész konvojt és menetrendjét/vonalát
 cost for removal
-Törlés díja
+Törlés díja 
 Create a new line based on this schedule
 Új útvonal készítés a jelenlegi menetrend alapján
+curiosity builder
+Látványosság építése
 curlist_title
 Turista látványosságok listája
 Currently playing:
@@ -653,10 +709,16 @@ diesel
 dízel
 Direkt erreichbare Haltestellen
 Egyenes út innen
+disable midi
+Zene kikapcsol
+Distance
+távolság
 Dock
 Dokk
 Durchsatz
-Max.
+Max. 
+Economy
+Gazdaság és városok
 Eigenbesitz\n
 Köztulajdon:\n
 Ein %s\npasst hier nicht.\n
@@ -673,8 +735,12 @@ Electricity
 Villamosság
 Electricity producer\n\n
 Villanytermelõ\n\n
+Electrics_tab
+Elektromos jármúvek
 Electrify track
 Vágányok villamosítása
+enlarge map
+Térkép nagyítása
 Error
 Hiba
 Erzeuge neue Karte.\n
@@ -689,6 +755,8 @@ Factories
 Gyárak
 factory details
 Term./fogy. infó
+factorybuilder
+Gyárak építése
 Fahrplan
 Menetrend
 Fahrtziel
@@ -715,8 +783,6 @@ fl_title
 Termelõegységek listázása
 Flug_tab
 Személy/posta szállítás
-follow me
-Kövess!
 Follow the convoi on the map.
 Kövesd a konvojt a térképen
 Forest
@@ -751,8 +817,6 @@ Give the selected vehicle(s) an individual schedule
 A jármû(vek)nek egyszer menetrendet kell adni
 gl_title
 Javak listázása
-go home
-Depóba
 Goods
 Javak
 Goods list
@@ -807,12 +871,18 @@ hlf_chk_frachthof
 Rakodó udvar
 hlf_chk_keine_verb
 Nincs kapcsolat
+hlf_chk_maglevstop
+Mágnesvasút megálló
+hlf_chk_monorailstop
+Nyeregvasút megálló
 hlf_chk_name_filter
 Filter neve:
 hlf_chk_overflow
 túlterhelt
 hlf_chk_spezial_filter
 Speciális filter:
+hlf_chk_tramstop
+Villamos megálló
 hlf_chk_type_filter
 Filter típusa:
 hlf_chk_waren_abgabe
@@ -865,8 +935,6 @@ Keyboard_Help\n
 Billentyûzet segítség
 Kreuzung
 keresztezés/keresztezõdés
-Lade Relief
-Domborzat betölt.
 Laden
 Betöltés
 Land attraction
@@ -877,6 +945,8 @@ LANG_CHOOSE\n
 Válasz nyelvet:
 Last Year
 Múlt év:
+Leaving depot!
+Elhagyja a depót!
 leer
 üres
 Legend
@@ -899,16 +969,16 @@ Lines serving this stop
 Megállót kiszolgáló vonalak
 LKW_tab
 Kocsik
-Load game
-Játék betöltés
 load height data from file
 Terepadatok betöltése
-Load scenario
-Forg.könyv betölt
 loaded
 Betöltve
 loaded passenger/freight
 Utas/rakomány betöltve
+Loading (%i->%i%%)!
+Betöltés (%i->%i%%)!
+Loading addon paks ...
+Pak fájl betöltése ...
 Loading map ...
 Térkép betöltése
 Lock game
@@ -919,6 +989,14 @@ LOCO_INFO
 %s\nÁr: %d$ (%1.2f$/km)\nTeljesítmény: %dKW\nMax.seb: %dkm/ó  Súly: %dt\n
 Lokomotive_tab
 Mozdonyok
+Maglev
+Mágnesvasút
+maglev vehicle
+Mágnesvasúti jármû
+maglev_track
+Mágnesvasúti pálya
+Maglevdepot
+Mágnesvasúti depó
 Mailbox
 Postaláda
 Mailbox Options
@@ -943,6 +1021,8 @@ Max. speed:
 Max. sebesség: \n
 Maximum 254 stops\nin a schedule!\n
 Maximum 254 megálló engedélyezett!
+maximum length of rivers
+Folyók maximum hossza
 Maximum tile height difference reached.
 A két szomszédos \nterület \nmagasságkülönbsége \nnagyobb mint \na megengedett!
 May
@@ -955,6 +1035,8 @@ Menge
 Mennyiség
 MessageOptionsText
 \n Új év\n\nAuto intelig.\n\nVárosi hírek\n\nNincs út\n\nÚj üzem\n\nTúrista\n\nÚj jármû\n\nÁllomás tele\n\nProblémák
+minimum length of rivers
+Folyók minimum hossza
 Modify the selected line
 Kiválasztott útvonal módosítása
 Monate alt
@@ -963,6 +1045,8 @@ Monorail
 Nyeregvasút
 monorail vehicle
 Nyeregvasúti jármû
+monorail_track
+Nyeregvasúti pálya
 Monorailboden
 Nyeregvasút alap
 Monoraildepot
@@ -1001,6 +1085,8 @@ New line created!\nYou can assign the line now\nby selecting it from the\nline s
 Az új útvonal kész! Hozzárendelheted az útvonal szelektorral
 New Vehicles
 Új jármû
+no buildings hidden
+Épületek mutatása
 no convois
 nincs konvoj
 No goods are loaded onto this convoi.
@@ -1031,6 +1117,8 @@ Not enough fields would remain.
 A farm körül nem marad elég szabad terület!
 Now active as %s.\n
 Most "%s" játékosként folytatódik a játék.
+Number of rivers
+Folyók száma
 Object
 Objektum
 Ok
@@ -1047,8 +1135,6 @@ Operation
 Munkálatok
 Ops Profit
 Üzleti eredmény
-Optionen
-Opciók
 Origin
 Kiindulás
 ost
@@ -1073,6 +1159,8 @@ Percent Electricity
 Százalék villamosság
 Plant tree
 Faültetés
+player
+játékos
 player -1
 Énmagam :-).
 player 0
@@ -1131,8 +1219,12 @@ remove airstrips
 Kifutópálya eltávolítása
 remove channels
 Csatorna eltávolítása
+remove maglev tracks
+Mágnesvasút eltávolítása
 remove monorails
 Nyeregvasút eltávolítása
+remove powerlines
+Elektromos vezeték eltávolítása
 remove roads
 Közút eltávolítása
 remove tracks
@@ -1165,6 +1257,8 @@ sail
 Szél
 Saving map ...
 Térkép mentése...
+Schedule changing!
+Menetrend megváltozik!
 Schienentunnel
 Vasúti alagút építése
 Schiff_tab
@@ -1175,6 +1269,8 @@ Schleppkahn_tab
 Uszályok
 Screenshot
 Képernyõmentés
+Seasons
+Évszakok
 Sehenswuerdigkeit
 Látványosság
 Sell the selected vehicle(s)
@@ -1189,6 +1285,8 @@ Serves Line:
 Kiszolg. vonal:
 Service
 Szerviz
+Setting
+Beállítások
 Ship
 Hajó
 shops and stores
@@ -1231,6 +1329,8 @@ shuffle midis
 Véletlenszerû midi lejátszás
 Sim:
 Szimuláció:
+sliced underground mode
+Metróépítõ mód rétegei
 Sort by
 Szortírozta:
 Sort waiting list by
@@ -1255,16 +1355,12 @@ Spieler(mz)
 Játékosok
 Spielerliste
 Játékos lista
-Sprache
-Nyelv
 Sprachen
 Nyelv kiválasztás:
 Stadtinformation
 Város statisztikák
 Start the selected vehicle(s)
 A kiválasztott jármû(vek) indítása
-Starte Spiel
-Játék indítása
 Station tiles:
 Állomáshosszúság:
 Status
@@ -1347,6 +1443,8 @@ Transport %li passengers
 %li szállítása
 Transported
 Szállítmányok
+TrolleyBus_tab
+Trolibuszok
 Truck
 Kocsi
 Tunnel muss an\neinfachem\nHang beginnen!\n
@@ -1366,7 +1464,7 @@ Munkanélküli
 Unhappy
 Elégedetlen
 units/day
-egység/nap
+ egység/nap
 Update Line
 Útvonal frissít
 upgrade HQ
@@ -1401,6 +1499,8 @@ Waggon_tab
 Egyéb vagonok
 waiting
 Várakozik
+Waiting for clearance!
+Várakozás a szabad útra!
 Water level
 Vízmennyiség:
 water vehicle

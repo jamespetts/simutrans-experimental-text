@@ -8,13 +8,13 @@ cyr.bdf
 #                           Language: be Belaruskaja                           #
 #                                Encoding: UTF-8                               #
 #                                Font : cyr.bdf                                #
-#                           Date Created: 28.06 2009                           #
+#                           Date Created: 10.04 2010                           #
 #                                                                              #
 #                                   authors:                                   #
 #                              Frank Penz - FrankP                             #
-#                      note: Administrator SimuTranslator                      #
+#                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
-#              note: Administrator Base texts / pak64 / pak.japan              #
+#                                    note:                                     #
 #                                                                              #
 ################################################################################
 #_____________________________Simutrans Base Texts______________________________
@@ -47,6 +47,8 @@ clf_btn_keine
 нічога
 Construction_Btn
 Будаўніцтва
+follow me
+сачыць
 gl_btn_sort_bonus
 прэмія
 gl_btn_sort_name
@@ -55,6 +57,8 @@ gl_btn_sort_revenue
 прыбытак
 gl_btn_unsort
 несартаваны
+go home
+Дадому
 hl_btn_filter_disable
 выкл.
 hl_btn_filter_enable
@@ -77,6 +81,16 @@ hlf_btn_invers
 інв.
 hlf_btn_keine
 нічога
+Lade Relief
+Загруз. рэльеф
+Optionen
+Настаўленні
+Sprache
+Мова
+Start
+Пуск
+Starte Spiel
+Пачаць гульню
 #_________________________________climates_text_________________________________
 #_________________________________climates_text_________________________________
 #__________________________________error_text___________________________________
@@ -273,8 +287,6 @@ Add stops for backward travel
 Дадаць прыпынкі для вяртання
 Add the selected vehicle(s) to the selected line
 Дадаць абраны транспарт да абранай лініі
-Air
-Паветр.
 aircraft_tab
 Грузавыя
 Airport
@@ -446,7 +458,7 @@ Direkt erreichbare Haltestellen
 Dock
 Док
 Durchsatz
-Макс.
+Макс. 
 Eigenbesitz\n
 Грамадская\nуласнасць\n\n
 Ein %s\npasst hier nicht.\n
@@ -493,8 +505,6 @@ fl_title
 Спіс прадпрыемстваў
 Flug_tab
 Пасажырскія
-follow me
-сачыць
 Follow the convoi on the map.
 Рухаць камеру ўслед за саставам.
 Found new city
@@ -521,8 +531,6 @@ Give the selected vehicle(s) an individual schedule
 Даць абранаму транспарту асабісты расклад
 gl_title
 Спіс грузаў
-go home
-Дадому
 Goods list
 Спіс грузаў
 Gross Profit
@@ -595,8 +603,6 @@ keine
 нічога
 Keine Einzelfahrzeuge im Depot
 Няма тр. адзінак у дэпо
-Lade Relief
-Загруз. рэльеф
 Laden
 Загрузіць
 Land industries
@@ -709,8 +715,6 @@ Operation
 Бягучыя выд.
 Ops Profit
 Прыбытак
-Optionen
-Настаўленні
 Origin
 Месца адпраўлення
 Output
@@ -843,16 +847,10 @@ Spieler(mz)
 Гульцы
 Spielerliste
 \n   Блакітны . . . %.2f$\n\n   Жоўты . . . %.2f$\n\n   Чырвоны . . . . %.2f$\n\n   Зялёны . . . %.2f$\n\n   Зял.-блак. . . %.2f$\n\n   Ружовы .  %.2f$\n
-Sprache
-Мова
 Stadtinformation
 Звесткі пра горад
-Start
-Пуск
 Start the selected vehicle(s)
 Запусціць абраны транспарт
-Starte Spiel
-Пачаць гульню
 Status
 Стан
 steam
@@ -906,7 +904,7 @@ Unemployed
 Unhappy
 Нездаволеныя п.
 units/day
-адзінак/дзень
+ адзінак/дзень
 Update Line
 Змяніць лінію
 Use timeline start year

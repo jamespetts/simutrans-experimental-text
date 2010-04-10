@@ -8,15 +8,17 @@ prop-latin2.fnt
 #                              Language: ro Romana                             #
 #                             Encoding: ISO-8859-2                             #
 #                            Font : prop-latin2.fnt                            #
-#                           Date Created: 28.06 2009                           #
+#                           Date Created: 10.04 2010                           #
 #                                                                              #
 #                                   authors:                                   #
+#                                   - CDAndrei                                 #
+#                                    note:                                     #
 #                              Frank Penz - FrankP                             #
-#                      note: Administrator SimuTranslator                      #
+#                                    note:                                     #
 #                         N. Ifteni - emaxectranspoorte                        #
 #                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
-#              note: Administrator Base texts / pak64 / pak.japan              #
+#                                    note:                                     #
 #                                                                              #
 ################################################################################
 #_____________________________Simutrans Base Texts______________________________
@@ -39,6 +41,8 @@ clf_btn_invers
 inv.
 clf_btn_keine
 nimic
+go home
+înapoi depou
 hl_btn_filter_disable
 Interzis
 hl_btn_filter_enable
@@ -57,6 +61,8 @@ hlf_btn_invers
 inv.
 hlf_btn_keine
 nimic
+Sprache
+Limba
 #_________________________________climates_text_________________________________
 #_________________________________climates_text_________________________________
 #__________________________________error_text___________________________________
@@ -163,6 +169,8 @@ About
 Despre
 Add the selected vehicle(s) to the selected line
 Atribuie vehicolului traseul selectat
+Airport
+Aeroport
 All
 Tot
 Angenommene Waren
@@ -195,6 +203,8 @@ Cancel
 Retrage
 Chart
 Grafic
+city_road
+Drum or???nesc
 cl_title
 Lista vehicole
 cl_txt_filter
@@ -242,7 +252,7 @@ Traseu direct
 Dock
 Doc
 Durchsatz
-Max.
+Max. 
 Ein %s\npasst hier nicht.\n
 '%s'\nnu încape!\n
 Es wird bereits\nein Fahrplan\neingegeben\n
@@ -265,8 +275,6 @@ Gewicht
 Greutate
 Gewinn
 Încasare
-go home
-înapoi depou
 Goods list
 Lista bunurilor
 Gross Profit
@@ -349,6 +357,8 @@ New Vehicles
 Vehicol nou
 no convois
 nu este conv.
+none
+nimic
 November
 Noiembrie
 Oktober
@@ -397,8 +407,6 @@ Sound settings
 Setare sunet
 Sound volume:
 Volum efecte:
-Sprache
-Limba
 Status
 Stare
 steam
@@ -424,7 +432,7 @@ Tren
 Truck
 Camion
 units/day
-unitate/zi
+ unitate/zi
 Update Line
 Actualizare traseu
 Verbrauch

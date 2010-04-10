@@ -8,15 +8,15 @@ Prop-Latin1.bdf
 #                              Language: ca Catala                             #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 28.06 2009                           #
+#                           Date Created: 10.04 2010                           #
 #                                                                              #
 #                                   authors:                                   #
 #                              Frank Penz - FrankP                             #
-#                      note: Administrator SimuTranslator                      #
+#                                    note:                                     #
 #                           Joan-Josep Bargues - Joan                          #
 #                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
-#              note: Administrator Base texts / pak64 / pak.japan              #
+#                                    note:                                     #
 #                                                                              #
 ################################################################################
 #_____________________________Simutrans Base Texts______________________________
@@ -51,14 +51,20 @@ clf_btn_keine
 res
 Construction_Btn
 Cost de construcció
+follow me
+Seguiu-me.
 gl_btn_sort_bonus
 per bonus
+gl_btn_sort_catg
+per categoria
 gl_btn_sort_name
 per nom
 gl_btn_sort_revenue
 per ingressos
 gl_btn_unsort
 desordenat
+go home
+Vés a cotxera.
 hl_btn_filter_disable
 Desactivat
 hl_btn_filter_enable
@@ -81,6 +87,14 @@ hlf_btn_invers
 inv.
 hlf_btn_keine
 res
+Lade Relief
+Carrega topografia
+Sprache
+Idioma
+Start
+ Arranca
+Starte Spiel
+ Crea món
 #_________________________________climates_text_________________________________
 #_________________________________climates_text_________________________________
 arctic
@@ -134,7 +148,7 @@ Zughalt muss auf\nSchiene liegen!\n
 #___________________________________help_text___________________________________
 #___________________________________help_text___________________________________
 <title>Keyboard Help</title>\n<h1><strong>Keyboard Help</strong></h1><p>\n
-<title>Ajuda del teclat</title>\n<h1><strong>Ajuda del teclat</strong></h1>\n<p>\nL'<strong>ajuda del teclat</strong> mostra les funcions per a les tecles que es poden prémer.\n</p>\n<p>\nL'<strong>ajuda del teclat</strong> s'obre quan es prem una tecla no assignada a l'<a href="general.txt">ajuda general</a>.\n</p>\n<p>\nLes tecles premudes diferencien les majúscules (fent servir [<em>Shift</em>] per a aquestes lletres).\n</p>\n<p>\nLes tecles que tenen funcions assignades són:\n</p>\n<p>\n[<em>Tecles de direcció</em>]: desplaça la pantalla del joc en la direcció de la fletxa.<br>\n[<em>Esborrar</em>]: tanca totes les finestres, barres de tasques i ajudes contextuals del joc en curs.<br>\n[<em>Esborrar</em>], o [<em>Escape</em>]: tanca la finestra d'un nivell superior, barres de tasques o ajuda contextual del joc en curs.<br>\n[<em>Introduïu</em>]: s'empra per a confirmar accions.<br>\n[<em>Pàgina amunt</em>], o [<em>></em>]: amplia la imatge.<br>\n[<em>Pàgina baix</em>], o [<em>símbol "menor que"</em>]: allunya la imatge.\n[<em>F1</em>]: obre l'<a href="general.txt">ajuda de Simutrans</a>.<br></p>\n<p>\n[<em>1</em>]: desplaça el joc cap al sud.<br>\n[<em>2</em>]: desplaça el joc cap al sudest.<br>\n[<em>3</em>]: Desplaça el joc cap a l'est.<br>\n[<em>4</em>]: desplaça el joc cap al sudoest.<br>\n[<em>6</em>]: desplaça el joc cap al nordest.<br>\n[<em>7</em>]: desplaça el joc cap a l'oest.<br>\n[<em>8</em>]: desplaça el joc cap al nordoest.<br>\n[<em>9</em>]: desplaça el joc cap al nord.\n</p>\n<p>\n[<em>Shift</em>] + <a href="mouse.txt">ratolí</a>: empreu-ho per al <a href="map.txt">mapa</a> per a veure les connexios de la<a href="industry_info.txt">cadena industrial</a>.<br>\n[<em>CTRL</em>] + eina: construeix (senyals i <a href="station.txt">aturades</a>) a un nivell superior; o carreteres de baixa velocitat damunt una de més ràpida; o carreteres i vies rectes (sobretot diagonals).<br>\n[<em>CTRL</em>] + ([<em>F2</em>] a [<em>F12</em>]): memoritza l'eina activa a una de les tecles de [F2] a [F12].\n</p>\n<p>
+<title>Ajuda del teclat</title>\n<h1><strong>Ajuda del teclat</strong></h1>\n<p>\nL'<strong>ajuda del teclat</strong> mostra les funcions per a les tecles que es poden prémer.\n</p>\n<p>\nL'<strong>ajuda del teclat</strong> s'obre quan es prem una tecla no assignada a l'<a href="general.txt">ajuda general</a>.\n</p>\n<p>\nLes tecles premudes diferencien les majúscules (fent servir [<em>Shift</em>] per a aquestes lletres).\n</p>\n<p>\nLes tecles que tenen funcions assignades són:\n</p>\n<p>\n[<em>Tecles de direcció</em>]: desplaça la pantalla del joc en la direcció de la fletxa.<br>\n[<em>Esborrar</em>]: tanca totes les finestres, barres de tasques i ajudes contextuals del joc en curs.<br>\n[<em>Esborrar</em>], o [<em>Escape</em>]: tanca la finestra d'un nivell superior, barres de tasques o ajuda contextual del joc en curs.<br>\n[<em>Introduïu</em>]: s'empra per a confirmar accions.<br>\n[<em>Pàgina amunt</em>], o [<em>></em>]: amplia la imatge.<br>\n[<em>Pàgina baix</em>], o [<em>símbol "menor que"</em>]: allunya la imatge.\n[<em>F1</em>]: obre l'<a href="general.txt">ajuda de Simutrans</a>.<br></p>\n<p>\n[<em>1</em>]: desplaça el joc cap al sud.<br>\n[<em>2</em>]: desplaça el joc cap al sudest.<br>\n[<em>3</em>]: Desplaça el joc cap a l'est.<br>\n[<em>4</em>]: desplaça el joc cap al sudoest.<br>\n[<em>6</em>]: desplaça el joc cap al nordest.<br>\n[<em>7</em>]: desplaça el joc cap a l'oest.<br>\n[<em>8</em>]: desplaça el joc cap al nordoest.<br>\n[<em>9</em>]: desplaça el joc cap al nord.\n</p>\n<p>\n[<em>Shift</em>] + <a href="mouse.txt">ratolí</a>: empreu-ho per al <a href="map.txt">mapa</a> per a veure les connexios de la<a href="industry_info.txt">cadena industrial</a>.<br>\n[<em>CTRL</em>] + eina: construeix (senyals i <a href="station.txt">aturades</a>) a un nivell superior; o carreteres de baixa velocitat damunt una de més ràpida; o carreteres i vies rectes (sobretot diagonals).<br>\n[<em>CTRL</em>] + ([<em>F2</em>] a [<em>F12</em>]): memoritza l'eina activa a una de les tecles de [F2]
 Clear block reservation
 Mostra/oculta les vies reservades
 #____________________________________ki_text____________________________________
@@ -381,8 +395,6 @@ Add stops for backward travel
 Afegeix aturades per a la tornada.
 Add the selected vehicle(s) to the selected line
 Afegeix el(s) vehicle(s) seleccionat(s) a la línia seleccionada.
-Air
-Aire
 aircraft_tab
 Avions de càrrega
 airplane
@@ -616,7 +628,7 @@ Lleva la música MIDI
 Dock
 -Moll
 Durchsatz
-Màx. prod.
+Màx. prod. 
 Eigenbesitz\n
 Propietat pública\n
 Ein %s\npasst hier nicht.\n
@@ -673,18 +685,20 @@ fl_title
 llistat de fàbriques
 Flug_tab
 Passatgers d'avió
-follow me
-Seguiu-me.
 Follow the convoi on the map.
 Segueix el convoi en el mapa.
+Forest
+Boscos
 Found new city
-Funda una nova ciutat
+crea una nova ciutat
 Fracht
 Mercaderia
 Frame time:
 Retard:
 Free Capacity
-Remanent:
+Capacitat
+freeplay mode
+Sense fallida
 Friction:
 quoeficient de fricció:
 fuel_cell
@@ -705,12 +719,8 @@ Gewinn
 Ingressos
 Give the selected vehicle(s) an individual schedule
 Atorga al(s) vehicle(s) seleccionat(s) un itinerari individual.
-gl_btn_sort_catg
-per categoria
 gl_title
 Llistat de béns
-go home
-Vés a cotxera.
 Goods list
 Llistat de béns
 Gross Profit
@@ -767,8 +777,6 @@ Ins Stop
 Inserta
 keine
 res
-Lade Relief
-Carrega topografia
 Laden
 Carrega
 LANG_CHOOSE\n
@@ -865,14 +873,8 @@ Spieler
 Jugador
 Spieler(mz)
 Jugadors
-Sprache
-Idioma
 Stadtinformation
 Estadístiques de la població
-Start
- Arranca
-Starte Spiel
- Crea món
 Strassendepot
 Cotxera camió/bus
 Strassentunnel

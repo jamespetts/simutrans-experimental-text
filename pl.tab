@@ -8,15 +8,17 @@ prop-latin2.fnt
 #                              Language: pl Polski                             #
 #                             Encoding: ISO-8859-2                             #
 #                            Font : prop-latin2.fnt                            #
-#                           Date Created: 28.06 2009                           #
+#                           Date Created: 10.04 2010                           #
 #                                                                              #
 #                                   authors:                                   #
 #                              Frank Penz - FrankP                             #
-#                      note: Administrator SimuTranslator                      #
+#                                    note:                                     #
+#                              Jaroslaw - Jaroslaw                             #
+#                                    note:                                     #
 #                                     - Rivo                                   #
 #                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
-#              note: Administrator Base texts / pak64 / pak.japan              #
+#                                    note:                                     #
 #                                                                              #
 ################################################################################
 #_____________________________Simutrans Base Texts______________________________
@@ -50,7 +52,9 @@ Odwr.
 clf_btn_keine
 Brak
 Construction_Btn
-Konstrukcja
+Koszty konstrukcji
+follow me
+¦led¼
 gl_btn_sort_bonus
 w/g premii
 gl_btn_sort_name
@@ -59,6 +63,8 @@ gl_btn_sort_revenue
 w/g dochodu
 gl_btn_unsort
 nieposortowane
+go home
+Do bazy
 hl_btn_filter_disable
 Wy³±cz
 hl_btn_filter_enable
@@ -81,6 +87,18 @@ hlf_btn_invers
 Odwr.
 hlf_btn_keine
 Brak
+Lade Relief
+Wczytaj mapê
+Load game
+Za³aduj grê
+Load scenario
+Scenariusz
+Optionen
+Opcje
+Sprache
+Jêzyk
+Starte Spiel
+Rozpocznij grê
 #_________________________________climates_text_________________________________
 #_________________________________climates_text_________________________________
 arctic
@@ -111,6 +129,8 @@ Bruecke muss an\neinfachem\nHang beginnen!\n
 Most musi\nzaczynaæ siê na\nrównym zboczu!\n
 Cannot built depot here!
 Nie mo¿na zbudowaæ tu zajezdni.
+Cannot built this station/building\nin underground mode here.
+Budynek mo¿na wybudowaæ tylko na powierzchni.\n
 Cannot create generic line!\nSelect line type by\nusing filter tabs.
 Nie mogê utworzyæ linii \nnie znaj±c jej typu! \n\n\nWybierz typ linii za pomoc± zak³adek.
 Das Feld gehoert\neinem anderen Spieler\n
@@ -153,6 +173,8 @@ Post muss neben\nHaltestelle\nliegen!\n
 Poczta musi\nznajdowaæ siê\nprzy stacji/przystanku!\n
 Schiffhalt muss im\nWasser liegen!\n
 Porty mo¿na budowaæ\ntylko na wodzie!\n
+Upgrade must have\na higher level
+Unowocze¶niæ mo¿na tylko\nna wy¿szy poziom!
 Zughalt muss auf\nSchiene liegen!\n
 Stacje kolejowe\nmo¿na budowaæ\ntylko na\ntorach kolejowych!\n
 #___________________________________help_text___________________________________
@@ -195,6 +217,8 @@ Buduj tramwaje
 %s\n\nzbudowa³o nowy\n\nratusz gdy ilo¶æ\n\nmieszkañców wynios³a\n\n%i.
 Bankrott:\n\nDu bist bankrott.\n
 Bankructwo:\n\nStraci³e¶ ca³y maj±tek.\n
+Congratulation\nScenario was complete in\n%i months %i years.
+Gratulacje!\nScenariusz zosta³ ukoñczony \nw %i miêsiecy i %i lat!
 Du hast %d Monate Zeit, deine Schulden zurueckzuzahlen
 Masz %d miesiêcy na sp³atê zad³u¿enia.
 New factory chain\nfor %s near\n%s built with\n%i factories.
@@ -205,6 +229,8 @@ On this map, you are not\nallowed to change player!\n
 Ta gra jest zablokowana.\nNie mo¿na zmieniaæ gracza.\n
 Remove vehicle from map. Use with care!
 Usuñ pojazd z gry. U¿ywaæ ostro¿nie!
+Scenario complete: %i%%
+Scenariusz kompletny w %i%%.
 Screenshot\ngespeichert.\n
 Zapisano\nzrzut ekranu.\n
 Sends the convoi to the last depot it departed from!
@@ -227,6 +253,10 @@ Dziêki du¿emu festiwalowi,\n\nw %s zbudowano\n\nnowy monument powoduj±c\n\nrado¶
 (%i)
 (in depot)
 (w zajezdni)
+[END]
+End
+[HOME]
+Home
 \nBauzeit bis
 a¿ do
 \nBauzeit von
@@ -375,6 +405,8 @@ Absenken
 Obni¿ poziom
 Accelerate time
 Przy¶piesz
+Account above %s
+%s ¶rodków na koncie
 Active player only
 Tylko Aktywny Gracz
 Add forest
@@ -385,8 +417,6 @@ Add stops for backward travel
 Dodaj stacje drogi powrotnej
 Add the selected vehicle(s) to the selected line
 Dodaj wybrany pojazd do wybranej linii
-Air
-Lotnicze
 aircraft_tab
 Transportowe
 airplane
@@ -407,6 +437,8 @@ Anhaenger_tab
 Przyczepy
 Anheben
 Podnie¶ poziom
+Appends stops at the end of the schedule
+Dodaj przystanki na koñcu rozk³adu
 April
 Kwiecieñ
 Arbeiter aus:
@@ -431,6 +463,8 @@ baum builder
 Posad¼ drzewa
 Baustelle
 Konstrukcja
+Bauzeit
+Czas budowy
 Beenden
 Koniec gry
 Beginner mode
@@ -449,6 +483,8 @@ Bruecke
 Most
 Brueckenboden
 most
+Build air depot
+Zbuduj hangar lotniczy
 build choosesignals
 Zbuduj semafory wyboru peronu
 Build city market
@@ -477,30 +513,40 @@ Build tram depot
 Zajezdnia tramwajowa
 Build truck depot
 Baza
+Buildings
+Ilo¶æ budynków
 Built artifical slopes
 Zbuduj sztuczne zbocza
 Built random attraction
 Buduj losow± atrakcjê
 Bus_tab
 Autobusy
+Can only move from halt to halt or waypoint to waypoint.
+Mo¿e siê przemieszczaæ jedynie\nod przystanku do przystanku lub\nod punktu do punktu.
 Cancel
 Anuluj
 Capacity: %s\nLoad: %d (%d%%)
 Pojemno¶æ: %s\n£adunek: %d (%d%%)
 Cars are not available yet!
 Samochody nie s± jeszcze dostêpne.
+cars.\nstate
+pojazdów\n
 Cash
 Gotówka
 Change player
 Zmieñ gracza
 Chart
 Wykres
+Choose direction
+Wybierz kierunek
 Choose operation executed on clicking stored/new vehicles
 Wybierz operacjê wykonywan± podczas klikniêcia na pojazdy 
 chooses a random map
 Wybiera losow± mapê
 citicens
 Obywateli
+City attraction
+Atrakcja turystyczna
 City industries
 Marketów w miastach:
 City list
@@ -509,6 +555,8 @@ City size
 Ludno¶æ
 city_road
 Droga miejska
+citybuilding builder
+Rozbudowa urbanizacji
 CityLimit
 Zasiêg miast
 cl_title
@@ -547,8 +595,12 @@ clf_title
 Filtruj listê pojazdów
 Climate Control
 Kontrola klimatu
+closed
+Zamkniête
 COLOR_CHOOSE\n
 Wybierz kolor\n z tabeli:\n
+Company bankrupt
+Firma zbankrutowa³a!
 Constructed by
 Autor
 Constructed by %s
@@ -597,10 +649,12 @@ diesel
 Diesel
 Direkt erreichbare Haltestellen
 Bezpo¶rednie po³±czenie z
+disable midi
+Wy³±cz muzykê Midi
 Dock
 Port
 Durchsatz
-Max. prod.
+Max. prod. 
 Eigenbesitz\n
 Obiekt publiczny\n
 Ein %s\npasst hier nicht.\n
@@ -617,6 +671,8 @@ Electrify track
 Elektryfikuj trasê
 enlarge map
 Powiêksz mapê
+enter a value between %i and %i
+wprowad¼ warto¶æ pomiêdzy %i - %i
 Error
 B³±d
 Erzeuge neue Karte.\n
@@ -657,8 +713,6 @@ fl_title
 Lista fabryk
 Flug_tab
 Pasa¿erskie
-follow me
-¦led¼
 Follow the convoi on the map.
 Pod±¿aj za pojazdem na mapie
 Forest
@@ -693,8 +747,8 @@ Give the selected vehicle(s) an individual schedule
 Nadaj wybranemu pojazdowi indywidulany rozk³ad.
 gl_title
 Lista towarów
-go home
-Do bazy
+Goods
+Towary
 Goods list
 Lista towarów
 Gross Profit
@@ -785,14 +839,14 @@ July
 Lipiec
 June
 Czerwiec
+Kein Besitzer\n
+Brak w³a¶ciciela
 keine
 brak
 Keine Einzelfahrzeuge im Depot
 ¯adnych pojazdów w zajezdni
 Kreuzung
 Skrzy¿owanie
-Lade Relief
-Wczytaj mapê
 Laden
 Wczytaj
 Land industries
@@ -823,8 +877,6 @@ Lines serving this stop
 Line obs³uguj±ce ten przystanek
 LKW_tab
 Ciê¿arówki
-Load game
-Za³aduj grê
 load height data from file
 Wczytuje plik z map±.
 loaded
@@ -867,6 +919,8 @@ Max. speed:
 Prêdko¶æ max:
 Maximum 254 stops\nin a schedule!\n
 Maksymalnie 254\nprzystanki na trasie!\n
+maximum length of rivers
+Max d³ugo¶æ rzek
 Maximum tile height difference reached.
 Maksymalna ró¿nica\nwysoko¶ci pomiêdzy\ndwoma polami\nzosta³a osi±gniêta.
 May
@@ -881,6 +935,8 @@ MessageOptionsText
 \nNowy rok\n\nAI Wiadomo¶ci\n\nMiasto Wiadomo¶ci\n\nBrak trasy\n\nNowe Fabryki\n\nTurysta\n\nNowe Pojezdy\n\nPe³na Stacja\n\nProblemy
 min
 Min.
+minimum length of rivers
+Min d³ugo¶æ rzek
 Modify the selected line
 Edytuj wybran± liniê
 Monate alt
@@ -901,6 +957,8 @@ Music playing disabled/not available
 Muzyka wy³/niedostêpna.
 Music volume:
 Poziom muzyki:
+mute sound
+wycisz
 Name
 Nazwa
 Net Wealth
@@ -927,10 +985,14 @@ no load
 bez ³adowania
 No Route
 Bez po³±czenia
+No suitable ground!
+Z³e pod³o¿e!
 No terminal station here!
 Nie ma tutaj stacji!
 no timeline
 Bez osi czasu
+no tree
+bez drzew
 none
 Nic
 Not enough fields would remain.
@@ -939,16 +1001,18 @@ November
 Listopad
 Now active as %s.\n
 Aktywny teraz jako %s.\n
+Number of rivers
+Ilo¶æ rzek
 Ok
 OK
 Oktober
 Pa¼dziernik
+On loan since %i month(s)
+Na debecie od %i miesi±c/miesiêcy.
 Operation
 Koszty ruchu
 Ops Profit
 Przychody
-Optionen
-Opcje
 Origin
 Pochodzenie
 Output
@@ -967,6 +1031,8 @@ Passengers %d %c, %d %c, %d no route
 Pasa¿erowie %d %c, %d %c, %d brak trasy
 Pause
 Pauza
+Percent Electricity
+Procent zelektryfikowania
 Plant tree
 Zasad¼ drzewa.
 player -1
@@ -1043,12 +1109,18 @@ Revenue
 Przychody
 Roadsign
 Znak drogowy
+Rotate map
+Obróæ mapê o 90° (CTRL + R)
+Rotation
+Obrót
 sack
  Paczek
 sail
 Si³a wiatru
 Saving map ...
 Zapisujê mapê...
+Schedule changing!
+Zmieniono rozk³ad jazdy!
 Schienentunnel
 Zbuduj tunel kolejowy
 Schiff_tab
@@ -1079,6 +1151,8 @@ shops and stores
 Sklepy i biura
 Show all
 Poka¿ wszystko
+show all building
+Poka¿ wszystkie budynki
 Show also vehicles no longer in production.
 Poka¿ równie¿ pojazdy wycofane z produkcji.
 Show also vehicles that do not match for current action.
@@ -1097,6 +1171,10 @@ Show schedules
 Poka¿ linie
 show station coverage
 Poka¿ zasiêg stacji
+show station names
+Poka¿ nazwy stacji
+show waiting bars
+Poka¿ wykresy potrzeb nad stacjami
 Show/hide statistics
 Poka¿/ukryj statystyki
 Shows consumer/suppliers for factories
@@ -1133,16 +1211,12 @@ Spieler(mz)
 Gracze
 Spielerliste
 \n   Niebieski. . . %.2f$\n\n   ¯ó³ty . . . .  %.2f$\n\n   Czerwony. . %.2f$\n\n   Zielony . . .  %.2f$\n\n   Turkusowy. %.2f$\n\n   Ró¿owy .  .  %.2f$\n
-Sprache
-Jêzyk
 Sprachen
 Jêzyki
 Stadtinformation
 Statystyka miasta
 Start the selected vehicle(s)
 Uruchom wybrany pojazd
-Starte Spiel
-Rozpocznij grê
 Station tiles:
 Wielko¶æ stacji:
 Status
@@ -1205,6 +1279,8 @@ Tramdepot
 Zajezdnia tramwajowa
 Trams are not available yet!
 Tramwaje jeszcze nie dostêpne.
+Translation
+T³umaczenie
 transparent station coverage
 Przezr. zasiêg stacji
 Transported
@@ -1221,12 +1297,14 @@ underground mode
 Tryb podziemi
 UNDO failed!
 Nie mo¿na cofn±æ.\n\nCofaæ trasê mo¿na do czasu\n\npostawienia semaforów\n\nstacji/przystanków.
+Undo last ways construction
+Cofnij ostatni± budowê trasy.
 Unemployed
 Bezrobotni
 Unhappy
 Niezadowoleni
 units/day
-jedn./dzieñ
+ jedn./dzieñ
 Update Line
 Zmieñ liniê
 upgrade HQ
@@ -1241,6 +1319,8 @@ Vehicle details
 Szczegó³y pojazdu
 Verbrauch
 Zu¿ycie
+Vergroessere die Karte\n
+Powiêksz mapê.\n
 Verkauf
 Sprzedaj
 verkaufen
@@ -1256,13 +1336,17 @@ przez (ilo¶æ)
 voranstellen
 Dostaw z przodu
 WAGGON_INFO
-%s\n\nCena: %d$ (%1.2f$/km)\n\nPojemno¶æ: %d%s %s\n\nMasa: %dt\n\nPrêdko¶æ max: %dkm/h
+%s\nCena: %d$ (%1.2f$/km)\nPojemno¶æ: %d%s %s\nMasa: %dt\nPrêdko¶æ max: %dkm/h
 Waggon_tab
 Wagony
 waiting
 Czekaj±cych
+Waiting for clearance!
+Czekam na woln± drogê!
 Water level
 Poziom wody:
+water vehicle
+Pojazd wodny
 way %s cannot longer used:\n
 Droga typu %s nie mo¿e byæ dalej u¿ywana:\n
 way %s cannot longer used:\n%s\n
@@ -1271,10 +1355,14 @@ way %s now available:\n
 Droga %s jest dostêpna:\n
 way %s now available:\n%s\n
 Droga %s jest dostêpna:\n\n%s\n
+Ways not connected
+Trasa nie jest po³±czona!\n
 Wegpunkt
 Punkt
 Wert
 Warto¶æ
+west
+Zachód
 Winter snowline
 ¦nieg w zimie (linia)
 withdraw

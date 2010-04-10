@@ -8,17 +8,17 @@ Prop-Latin1.bdf
 #                            Language: nl Nederlands                           #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                            Date Created: 1.11 2009                           #
+#                           Date Created: 10.04 2010                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                   - Combuijs                                 #
 #                                    note:                                     #
 #                              Frank Penz - FrankP                             #
-#                      note: Administrator SimuTranslator                      #
+#                                    note:                                     #
 #                            Nathan Samson - Nathan                            #
 #                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
-#              note: Administrator Base texts / pak64 / pak.japan              #
+#                                    note:                                     #
 #                           Michael Olbricht - whoami                          #
 #                                    note:                                     #
 #                            Wim Vreeswijk - wipi35                            #
@@ -128,7 +128,7 @@ Toendra:
 #__________________________________error_text___________________________________
 #__________________________________error_text___________________________________
 A bridge must start on a way!
-Een brug\nmoet beginnen o\neen weg!
+Een brug \nmoet op een weg beginnen!
 Autohalt muss auf\nStrasse liegen!\n
 Een halte voor bussen of \nvrachtwagens moet op een \nweg geplaatst worden!
 bridge is too high for its type!
@@ -143,6 +143,8 @@ Cannot built this station/building\nin underground mode here.
 Dit gebouw kan niet\nondergronds gebouwd worden.\n
 Cannot create generic line!\nSelect line type by\nusing filter tabs.
 Kies eerst een voertuig voor\nde nieuwe lijn!
+Convoi handles exhausted!
+Maximum aantal lijnen bereikt!
 Das Feld gehoert\neinem anderen Spieler\n
 Deze grond \nis van een \nandere Speler!\n\n
 Der Besitzer erlaubt das Entfernen nicht
@@ -185,14 +187,20 @@ Noch kein Fahrzeug\nmit Fahrplan\nvorhanden\n
 Voertuig heeft\n een dienstregeling\nnodig voordat het\nkan vertrekken!\n
 Not allowed!\nThe convoi's schedule can\nnot be changed currently.\nTry again later!
 Niet mogelijk!\nDe dienstregeling kan \nnu niet veranderd \nworden.\nProbeer later.
+Not enough money!
+Onvoldoende saldo!
 On narrowgauge track only!\n
 Alleen op smalspoor!\n
 Planes are not available yet!
 Vliegtuigen zijn nog niet\nbeschikbaar!
 Post muss neben\nHaltestelle\nliegen!\n
 Een postkantoor of ander \ngebouw moet geplaatst worden\nop een vrij veld naast een \nstopplaats/station!
+Protocoll error (expecting game)
+Protocolfout 
 Schiffhalt muss im\nWasser liegen!\n
 Een scheepsstop\nmoet op het water\nworden geplaatst\n
+Server did not respond!
+Server reageert niet
 Terraforming not possible\nhere in underground view
 Actie niet mogelijk ondergronds
 Upgrade must have\na higher level
@@ -288,7 +296,7 @@ With a big festival\n%s built\na new monument.\n%i citicens rejoiced.
 #_________________________________program_text__________________________________
 #_________________________________program_text__________________________________
 !0_STATION_CROWDED
-%s \nis overbeladen!
+ %s is overbelast.
 !1_DEPOT_REACHED
 %s heeft een depot bereikt.
 (%i)-
@@ -296,7 +304,7 @@ With a big festival\n%s built\na new monument.\n%i citicens rejoiced.
 (in depot)
 (in remise)
 \nBauzeit bis
-\ntot 
+ tot 
 \nBauzeit von
 \ngebouwd vanaf 
 \nCan't open heightfield file.\n
@@ -485,6 +493,8 @@ Airport
 Luchthaven 
 All
 Alle
+Allow city growth
+Stadsuitbreiding toestaan
 Allow player change
 Speleromschakeling toelaten
 allowed climates:\n
@@ -733,6 +743,8 @@ Direkt erreichbare Haltestellen
 Direct bereikbare stopplaatsen
 disable midi
 Midi-muziek uitschakelen
+Distance
+Afstand
 Dock
 haven
 Durchsatz
@@ -831,6 +843,8 @@ Gear:
 Overbrenging:
 Gebaeude
 Gebouw
+General
+Algemeen
 Gewinn
 Inkomsten
 Give the selected vehicle(s) an individual schedule
@@ -1299,6 +1313,8 @@ remove monorails
 monorail verwijderen
 remove narrowgauge tracks
 smalspoor verwijderen
+remove powerlines
+Verwijder HSP-leidingen
 remove roads
 weg verwijderen
 remove tracks
@@ -1349,6 +1365,8 @@ Schleppkahn_tab
 Sleepboot
 Screenshot
 Schermafdruk
+Seasons
+Seizoenen
 Sehenswuerdigkeit
 Bezienswaardigheid
 Sell the selected vehicle(s)
@@ -1361,6 +1379,8 @@ SEP_THOUSAND
 .
 Serves Line:
 Bedient lijn:
+Setting
+Instellingen
 Ship
 Schip
 shops and stores
@@ -1396,7 +1416,7 @@ Toon/verberg statistieken
 Shows consumer/suppliers for factories
 Toon afnemers/leveranciers voor fabrieken
 Shows the currently selected schedule
-Toon de gekeuzen dienstregeling
+Toon de gekozen dienstregeling
 Shrink city
 Stad verkleinen
 shuffle midis
@@ -1468,11 +1488,11 @@ Bezorg %s bij (%i,%i)
 Tage alt
 dagen oud
 There are still vehicles\nstored in this depot!\n
-Er zijn nog steeds\n voertuigen in\ndit depot!\n
+Er zijn nog\nvoertuigen in\ndit depot!\n
 This Month
 Deze maand
 This Year
-Dit Jaar
+Dit jaar
 Tile not empty.
 Het veld is niet leeg!
 timeline
@@ -1490,7 +1510,7 @@ Voertuig info omschakelen
 tonnen
 t
 Total inhabitants:
-Totaal inwoners
+Aantal inwoners
 Tourist attractions
 Bezienswaardigheden
 Tourists
@@ -1512,7 +1532,7 @@ Treinen zijn nog niet beschikbaar!
 tram %i km/h, monorail %i km/h\nmaglev %i km/h, narrowgauge %i km/h.
 tram %i km/h, monorail %i km/h\nmagneetbaan %i km/h, smalspoor %i km/h.
 tram_track
-trambaan
+tramrails
 Tramdepot
 Tramremise
 Trams are not available yet!

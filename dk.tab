@@ -8,13 +8,13 @@ Prop-Latin1.bdf
 #                              Language: dk Dansk                              #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 28.06 2009                           #
+#                           Date Created: 10.04 2010                           #
 #                                                                              #
 #                                   authors:                                   #
 #                              Frank Penz - FrankP                             #
-#                      note: Administrator SimuTranslator                      #
+#                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
-#              note: Administrator Base texts / pak64 / pak.japan              #
+#                                    note:                                     #
 #                                                                              #
 ################################################################################
 #_____________________________Simutrans Base Texts______________________________
@@ -69,6 +69,12 @@ hlf_btn_invers
 inv.
 hlf_btn_keine
 ingen
+Lade Relief
+Indlæs reliefkort
+Sprache
+Sprog
+Starte Spiel
+Start
 #_________________________________climates_text_________________________________
 #_________________________________climates_text_________________________________
 #__________________________________error_text___________________________________
@@ -131,8 +137,6 @@ Du har gæld!\n\nDu har %d måneder til\nat betale din gæld!
 %s er overfyldt.
 !1_DEPOT_REACHED
 %s er tilbage i depot.
-[END]
-Ende
 \nCan't open heightfield file.\n
 \nKan ikke åbne relieffilen.\n
 \nHeightfield has wrong image type.\n
@@ -340,7 +344,7 @@ Direkte ruter herfra
 Dock
 havn
 Durchsatz
-Max.
+Max. 
 Eigenbesitz\n
 Offentlig ejendom\n
 Ein %s\npasst hier nicht.\n
@@ -447,8 +451,6 @@ keine
 ingen
 Keine Einzelfahrzeuge im Depot
 Ingen enkeltkøretøjer i depotet
-Lade Relief
-Indlæs reliefkort
 Laden
 Indlæs
 LANG_CHOOSE\n
@@ -587,12 +589,8 @@ Spieler(mz)
 AI-spillerliste
 Spielerliste
 \n   Blå . . . .  %.2f$\n\n   Gul . .  %.2f$\n\n   Rød . . . . . %.2f$\n\n   Grøn . . .  %.2f$\n\n   Turkis %.2f$\n\n   Rosa . . . .  %.2f$\n
-Sprache
-Sprog
 Stadtinformation
 Byinformation
-Starte Spiel
-Start
 Strassendepot
 Vejdepot
 Strassentunnel
@@ -612,7 +610,7 @@ Arbejdsløse
 Unhappy
 Utilfredse
 units/day
-enheder/dag
+ enheder/dag
 Update Line
 Opdater rute
 Verbrauch

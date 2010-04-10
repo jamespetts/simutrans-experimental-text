@@ -8,13 +8,13 @@ Prop-Latin1.bdf
 #                              Language: et Eesti                              #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 28.06 2009                           #
+#                           Date Created: 10.04 2010                           #
 #                                                                              #
 #                                   authors:                                   #
 #                              Frank Penz - FrankP                             #
-#                      note: Administrator SimuTranslator                      #
+#                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
-#              note: Administrator Base texts / pak64 / pak.japan              #
+#                                    note:                                     #
 #                                                                              #
 ################################################################################
 #_____________________________Simutrans Base Texts______________________________
@@ -189,8 +189,6 @@ Add stops for backward travel
 Lisa peatused tagasiretkele.
 Add the selected vehicle(s) to the selected line
 Lisa valitud sõidukid valitud liinile.
-Air
-Õhu
 aircraft_tab
 Veolennukid
 Airport

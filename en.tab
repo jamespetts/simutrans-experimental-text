@@ -918,7 +918,7 @@ LOCO_INFO_EXT
 Lokomotive_tab
 Locomotives
 m3
-m3
+ cubic meters
 Mailbox
 Message Centre
 Mailbox Options
@@ -1707,3 +1707,11 @@ Bauzeit
 Construction time
 Setting
 Settings
+remove channels
+Remove waterways
+barrels
+ barrels
+head
+ head
+cars
+ cars

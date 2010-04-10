@@ -8,15 +8,15 @@ prop-latin2.fnt
 #                            Language: lt Lithuanian                           #
 #                             Encoding: ISO-8859-2                             #
 #                            Font : prop-latin2.fnt                            #
-#                           Date Created: 28.06 2009                           #
+#                           Date Created: 10.04 2010                           #
 #                                                                              #
 #                                   authors:                                   #
 #                              Frank Penz - FrankP                             #
-#                      note: Administrator SimuTranslator                      #
+#                                    note:                                     #
 #                          Ignas Brasiskis - enternald                         #
 #note: I love simutrans. Reikalui esant teikite si?lymus Lietuvi? kalbai Simutr#
 #                          Markus Pristovsek - prissi                          #
-#              note: Administrator Base texts / pak64 / pak.japan              #
+#                                    note:                                     #
 #                                                                              #
 ################################################################################
 #_____________________________Simutrans Base Texts______________________________
@@ -51,14 +51,20 @@ clf_btn_keine
 joks
 Construction_Btn
 Konstrukcijos kaina
+follow me
+Sek mane!
 gl_btn_sort_bonus
 pagal bonus±
+gl_btn_sort_catg
+pagal kategorij±
 gl_btn_sort_name
 pagal vard±
 gl_btn_sort_revenue
 pagal pajamas
 gl_btn_unsort
 nesurikiuota
+go home
+gr±¾inti ? dep±\n
 hl_btn_filter_disable
 I¹jungti
 hl_btn_filter_enable
@@ -83,6 +89,20 @@ hlf_btn_keine
 n?ra
 koord
 koordinat?s
+Lade Relief
+U¾krauti auk¹èi? ¾em?lap?
+Load game
+u¾krauti ¾aidim±
+Load scenario
+U¾krauti scenarij?
+Optionen
+Parametrai
+Sprache
+Kalba
+Start
+Prad?ti
+Starte Spiel
+Paleisti ¾aidim±
 #_________________________________climates_text_________________________________
 #_________________________________climates_text_________________________________
 arctic
@@ -111,14 +131,20 @@ Bruecke muss an\neinfachem\nHang beginnen!\n
 Tiltas privalo\nprasid?ti ant\nb?gi? esanèi? nuokaln?je!\n
 Cannot built depot here!
 Negalima èia pastatyti depo.
+Cannot built this station/building\nin underground mode here.
+Pastatas negali b?ti\npastatytas po ¾eme.\n
 Cannot create generic line!\nSelect line type by\nusing filter tabs.
 Negalima sukurtu neesanèios linijos!\npasirinkitr tip±\nfiltrancijoslentel?se.
+Convoi handles exhausted!
+Pasiektas maksimalus transporto priemoni? skaièius.
 Das Feld gehoert\neinem anderen Spieler\n
 ©itas ¾em?s lopin?lis\nvaldomas\nkito ¾aid?jo!\n
 Der Besitzer erlaubt das Entfernen nicht
 \nLaukelio savininkas atsisako\nduoti leidim±\nsunaikinti ¹it± objekt±!\n
 Der Tunnel ist nicht frei!\n
 Tunelis n?ra tu¹èias.\n 
+Die Bruecke ist nicht frei!\n
+Tiltas u¾imtas \n
 Diese Zusammenstellung kann nicht fahren!\n
 ©ita kombinacija\nneva¾iuoja!\n
 Dock must be built on single slope!
@@ -137,6 +163,8 @@ Kann Spielstand\nnicht laden.\n
 Ne?manoma u¾krauti i¹saugoto ¾aidimo!
 Kann Spielstand\nnicht speichern.\n
 Ne?manoma atverti\npasirinktos bylos\n?ra¹imui!
+Lost connection\nto server!
+Prarastas ry¹ys\nsu serveriu!
 Maglevhalt muss auf\nMaglevschiene liegen!\n
 M. levitacijos traukinio stotel? privalo b?ti ant atitinkam? b?gi?!
 Monorailhalt muss auf\nMonorail liegen!\n
@@ -145,12 +173,16 @@ Monorails are not available yet!
 Vienb?giai dar neatsirado.
 Narrowgauge are not available yet!
 Siauruko dar negalima statyti.
+Narrowgaugehalt muss auf\nNarrowgauge liegen!\n
+Siauruko sustojimas tik ant atitinkam? b?gi?
 No through station here!
 Ne?manoma pastatyti stoties
 Noch kein Fahrzeug\nmit Fahrplan\nvorhanden\n
 Duokite tvarkara¹t?\n(a) schedule(s), prie¹ \nduodami ?sakym±!\n
 Not allowed!\nThe convoi's schedule can\nnot be changed currently.\nTry again later!
 Transporto priemon?s\ngrafiko nekeisti\nper kelio ie¹k±.
+Not enough money!
+Tr?ksta pinig?!
 On narrowgauge track only!\n
 Tik ant siauruko b?gi?!
 Planes are not available yet!
@@ -159,6 +191,10 @@ Post muss neben\nHaltestelle\nliegen!\n
 Stotel?s i¹pl?timas\n(and?liai, kita)\nprivalo b?ti ¹alia\negzistuojanèios stotel?s.\n
 Schiffhalt muss im\nWasser liegen!\n
 Laiv? stotel?\n gali b?ti tik ant vandens\n¹alia prieplaukos!\n
+Terraforming not possible\nhere in underground view
+Ne?manoma po ¾eme tvarkyti aplinkos.
+Upgrade must have\na higher level
+Atnaujinimas turi b?ti\nauk¹tesnio lygio
 Zughalt muss auf\nSchiene liegen!\n
 Gele¾inkelio stotys\n turi b?ti pad?tos ant b?gi?.\n
 #___________________________________help_text___________________________________
@@ -191,6 +227,8 @@ EDITTOOLS
 ®em?lapio redagavimo ?rankiai 
 LISTTOOLS
 s±ra¹ai
+MAGLEVTOOLS
+Maglev ?rankiai
 MONORAILTOOLS
 Vienb?gi? traukini? statybos ?rankiai
 NARROWGAUGETOOLS
@@ -203,6 +241,8 @@ SHIPTOOLS
 Uost? statybos ?rankiai
 SLOPETOOLS
 kelti/leisti ¾emê
+SPECIALTOOLS
+Spec. statybos ?rankiai
 TRAMTOOLS
 Tramvaj?/lengvojo traukinio ?rankiai
 #_________________________________message_text__________________________________
@@ -237,6 +277,10 @@ Screenshot\ngespeichert.\n
 Ekrano fonas\ni¹saugotas.\n
 Sends the convoi to the last depot it departed from!
 Siunèia konvoj? ? praeit± dep± i¹ kurio i¹vyko
+Spielstand wurde\ngeladen!\n
+\n®aidimas u¾krautas.\n
+Spielstand wurde\ngespeichert!\n
+\n®aidimas i¹saugotas.\n
 Verschuldet:\n\nDu hast %d Monate Zeit,\ndie Schulden zurueckzuzahlen.\n
 Tu turi %d m?nesi?\ni¹mok?ti skol±.\n
 With a big festival\n%s built\na new monument.\n%i citicens rejoiced.
@@ -273,10 +317,14 @@ iki
 \nkryptys (masked)
 \nRibi (unmasked)
 \nkryptys\n (unmasked): 
+\nSet phases:
+\nustatyti ilg? ns/ew:
 \nsingle way
 \nViena kryptis
 \nway1 reserved by
 kelias 1 reservuotas \nkelias 1 reservuotas 
+\nway2 reserved by
+kelias 2 u¾imtas: \nkelias 2 paruo¹tas 
 \nwith sign/signal\n
 \nsu ¾enklu/signalu\n
 %1_CITY_SYLL
@@ -379,14 +427,16 @@ Active player only
 Tik aktyvus ¾aid?jas
 Add forest
 Prid?ti mi¹k±
+Add random citycar
+Prid?ti bet kok? automobil?
 Add Stop
 Pastatyti stotelê
 Add stops for backward travel
 Prid?ti stot? atgaliniam keliavimui.
 Add the selected vehicle(s) to the selected line
 Prid?ti pasirinkt± transporto priemonê ? linij±.
-Air
-Oras
+air
+takas
 aircraft_tab
 Krovininiai l?ktuvai
 airplane
@@ -395,6 +445,8 @@ Airport
 Aerouostas
 All
 Visi
+Allow city growth
+Leisti miestui augti
 Allow player change
 Leisti ¾aid?jo apsikeitim±
 allowed climates:\n
@@ -435,6 +487,8 @@ baum builder
 Sodinti med¾ius
 Baustelle
 Statybviet?
+Bauzeit
+stat. laikas
 Beenden
 I¹eiti
 Beginner mode
@@ -469,6 +523,8 @@ Build maglev depot
 Statyti maglev dep±
 Build monorail depot
 Pastatyti vienb?gio dep±
+Build narrowgauge depot
+Statyti siauruko dep±
 Build powerline
 Pastatyti elektros tras±
 Build presignals
@@ -503,6 +559,8 @@ Capacity: %s\nLoad: %d (%d%%)
 Talpa: %s\n? %d (%d%%)
 Cars are not available yet!
 Ma¹inos dar neprieinamos.
+cars.\nstate
+automobiliai /n
 Cash
 S±skaitos balansas.
 Change player
@@ -567,6 +625,8 @@ clf_chk_stucked
 u¾strigo
 clf_chk_trains
 Traukiniai
+clf_chk_trams
+Tramvajai
 clf_chk_type_filter
 Filtro tipai:
 clf_chk_waren
@@ -608,7 +668,9 @@ Nukopijuoti ma¹in±
 Copy the selected convoi and its schedule or line
 Kopijuoti pasirinkta konvoj? ir jo grafik± ar linij± 
 cost for removal
-pa¹alinimo kaina
+pa¹alinimo kaina 
+Costs
+Kainuoja
 Create a new line based on this schedule
 Sukurti linija paremta ¹iuo grafiku
 curiosity builder
@@ -645,10 +707,14 @@ Direkt erreichbare Haltestellen
 Tiesioginiai mar¹rutai i¹ ¹ios vietos
 disable midi
 I¹jungti muzik±
+Distance
+Atstumas
 Dock
 dokai
 Durchsatz
-Max
+Max. 
+Economy
+Miestai ir ekonomika
 Eigenbesitz\n
 Vie¹a nuosavyb?\n
 Ein %s\npasst hier nicht.\n
@@ -715,8 +781,6 @@ fl_title
 Gamykl? s±ra¹as
 Flug_tab
 Keleivinis l?ktuvas
-follow me
-Sek mane!
 Follow the convoi on the map.
 Sekti konvoj? ¾em?lapyje.
 Forest
@@ -747,18 +811,16 @@ Gear:
 Pavara:
 Gebaeude
 Pastatas
+General
+Pagrindiniai
 Gewicht
 Svoris
 Gewinn
 Pelnas:
 Give the selected vehicle(s) an individual schedule
 Duoti transporto priemonei nuosav± grafik±.
-gl_btn_sort_catg
-pagal kategorij±
 gl_title
 Vis? preki? s±ra¹as
-go home
-gr±¾inti ? dep±\n
 Goods
 Prek?s
 Goods AI
@@ -779,6 +841,8 @@ Hangar
 Angaras
 Happy
 Laimingi
+Haus kaufen
+Nupirkti nam±
 Headquarter and %li trains
 Valdo ir %li traukini?
 Helligk.
@@ -879,6 +943,8 @@ Jump to
 Per¹okti ?
 June
 Bir¾elis
+Kein Besitzer\n
+Neturi savininko\n
 keine
 n?ra
 Keine Einzelfahrzeuge im Depot
@@ -887,8 +953,8 @@ Keyboard_Help\n
 Klaviat?ros pagalba\n
 Kreuzung
 Perva¾a
-Lade Relief
-U¾krauti auk¹èi? ¾em?lap?
+labellist_title
+®ymekli? s±ra¹as
 Laden
 U¾krauti
 Land attraction
@@ -903,6 +969,8 @@ LARGE_NUMBER_VALUE
 1e6
 Last Year
 Praeiti metai:
+Leaving depot!
+Paliek± dep±!
 leer
 tu¹èia
 Legend
@@ -925,16 +993,16 @@ Lines serving this stop
 Linijos aptarnaujanèios ¹i± stotelê
 LKW_tab
 Sunkve¾imiai
-Load game
-u¾krauti ¾aidim±
 load height data from file
 U¾krauti auk¹èi? duomenis i¹ failo.
-Load scenario
-U¾krauti scenarij?
 loaded
 u¾krauta
 loaded passenger/freight
 Rikiuoti prekes/krovinius pagal
+Loading (%i->%i%%)!
+Krauna (%i->%i%%)!
+Loading addon paks ...
+Krauna papildinius ...
 Loading map ...
 Kraunamas pasaulis...
 Lock game
@@ -1107,8 +1175,6 @@ Operation
 Veikimo kaina
 Ops Profit
 Atne¹tas pelnas
-Optionen
-Parametrai
 Origin
 Kilm?
 ost
@@ -1246,7 +1312,7 @@ sukti vaizd±
 Rotation
 sukimas
 sack
-mai¹ai
+ mai¹ai
 sail
 V?jas
 Saving map ...
@@ -1319,6 +1385,8 @@ shuffle midis
 i¹mai¹yti muzik±
 Sim:
 Simuliacijos/min
+Start the selected vehicle(s)
+Paleid¾ia transporto priemones.
 Station tiles:
 Stotel?s laukeliai:
 Status
@@ -1379,6 +1447,8 @@ Town: %s\n
 Miestas %s.\n
 Towns
 Miestai
+track
+b?giai
 Tracks
 B?giai
 Traffic
@@ -1391,6 +1461,8 @@ Tram
 Tramvajus
 tram %i km/h, monorail %i km/h\nmaglev %i km/h, narrowgauge %i km/h.
 tramvajus %i km/h, vienb?gis %i km/h\nmaglev %i km/h, siaurukas %i km/h
+tram_track
+Tramvajaus b?giai
 Tramdepot
 Tramvajus depas
 Trams are not available yet!
@@ -1426,7 +1498,7 @@ Bedarbiai
 Unhappy
 Nepatenkinti
 units/day
-vienetai/m?nes?
+ vienetai/m?nes?
 Update Line
 Atnaujinti linij±
 upgrade HQ
@@ -1463,6 +1535,10 @@ Waggon_tab
 Automobiliai
 waiting
 laukia
+Waiting for clearance!
+Laukia laisvo kelio!
+water
+Kanalas
 Water level
 Vandens lygis:
 water vehicle
@@ -1487,6 +1563,8 @@ Winter snowline
 ®iemos sniego juosta
 withdraw
 trauktis
+Withdraw All
+©alinti visus
 WRONGSAVE
 \nI¹saugotas ¾aidimas ne tai versijai.\nNe?manoma ?krauti failo.\n
 Year %i has started.

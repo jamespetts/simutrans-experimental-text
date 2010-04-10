@@ -8,7 +8,7 @@ Prop-Latin1.bdf
 #                             Language: de Deutsch                             #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                            Date Created: 1.11 2009                           #
+#                           Date Created: 10.04 2010                           #
 #                                                                              #
 #                                   authors:                                   #
 #                            Alexander Brose - AlexB                           #
@@ -23,10 +23,16 @@ Prop-Latin1.bdf
 #                       note: Administrator pak192.comic                       #
 #                             Dirk W. - DirrrtyDirk                            #
 #                                    note:                                     #
+#                                    - Dwachs                                  #
+#                                    note:                                     #
 #                            Christian W. - Eps-Omo                            #
 #                                    note:                                     #
+#                                   - Florian                                  #
+#                                    note:                                     #
 #                              Frank Penz - FrankP                             #
-#                      note: Administrator SimuTranslator                      #
+#                                    note:                                     #
+#                                    - GerdW                                   #
+#                                    note:                                     #
 #                         Roman Schwörer - Gotthardlok                         #
 #                                    note:                                     #
 #                           Hansjörg Malthaner - Hajo                          #
@@ -39,14 +45,16 @@ Prop-Latin1.bdf
 #                                    note:                                     #
 #                                 compo - compo                                #
 #                                    note:                                     #
+#                               Florian - floppy                               #
+#                                    note:                                     #
 #                            Günter Beine - gebeine                            #
 #                        note: maintainer pak128.german                        #
 #                            Jonas Bushart - jonasbb                           #
-#                     note: graphic artist for pak192.comic                    #
+#                        note: developer SimuTranslator                        #
 #                              Markus Rex - msrex                              #
 #                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
-#              note: Administrator Base texts / pak64 / pak.japan              #
+#                                    note:                                     #
 #                            Oliver Mayer - rakishly                           #
 #                                    note:                                     #
 #                               Sven Osada - sojo                              #
@@ -167,6 +175,8 @@ Cannot built this station/building\nin underground mode here.
 Gebäude können nur auf dem\nKartenboden gebaut werden.\n
 Cannot create generic line!\nSelect line type by\nusing filter tabs.
 Kann keine Linie vom Typ\n'Alle' erzeugen.\n\nWählen Sie einen\nanderen Linientyp aus
+Cannot create socket
+Kann Netzwerk nicht initialisieren!
 Convoi handles exhausted!
 Maximale Fahrzeugzahl (Convois) erreicht.
 Das Feld gehoert\neinem anderen Spieler\n
@@ -191,6 +201,10 @@ Kann Spielstand\nnicht laden.\n
 Kann Spielstand\nnicht laden!\n
 Kann Spielstand\nnicht speichern.\n
 Kann Spielstand\nnicht speichern!\n
+Lost connection\nto server!
+Server antwortet\nnicht mehr!\n\nSpiel ist nur\nnoch lokal!
+Lost synchronisation\nwith server.
+Spiel ist nicht\nmehr synchron zum\nServer!\n\nBitte neu\nladen!\n
 Maglevhalt muss auf\nMaglevschiene liegen!\n
 Magnetbahnhalt muss auf Magnetschiene liegen.
 Monorailhalt muss auf\nMonorail liegen!\n
@@ -215,6 +229,8 @@ Planes are not available yet!
 Noch keine Fluggeräte erfunden!
 Post muss neben\nHaltestelle\nliegen!\n
 Ein Stationsgebäude (z.B. \nPostfiliale, Lager)kann \nnur auf einem freien Feld \nneben einer Haltestelle \ngebaut werden!
+Server did not respond!
+Server antwortet nicht!
 Terraforming not possible\nhere in underground view
 Diese Landschaftsveränderung ist\nnur auf dem Kartenboden möglich.\n
 Upgrade must have\na higher level
@@ -341,6 +357,8 @@ Pos1
 \nRichtungen (erl.) 
 \nRibi (unmasked)
 \nRichtungen (alle) 
+\nSet phases:
+\nAmpelphasen NS/OW:
 \nsingle way
 Keine Einfahrt!
 \nway1 reserved by
@@ -400,9 +418,9 @@ Rast
 %s building %s %s
 %s %s %s
 %s city %d %s
-%s %d Land %s
-%s land %d %s
 %s %d %s
+%s land %d %s
+%s %d Land %s
 %s\nspeed %i\nmax_speed %i\ndx:%i dy:%i
 %s\n\n
 %s\nwas liquidated.
@@ -450,7 +468,7 @@ Größe (%d MB):
 4LIGHT_CHOOSE
 Inverses Kartenscrolling
 4suburb
-%s Kolonie %s %s
+%s, %s Kolonie
 5center
 %s Transfer %s
 5extern
@@ -763,6 +781,8 @@ Direkt erreichbare Haltestellen
 -- direkte Verkehrsverbindungen:
 disable midi
 Midi-Musik ausschalten
+Distance
+Strecke/Monat
 Dock
 Hafen
 Durchsatz
@@ -977,6 +997,8 @@ Jump to
 Zentrieren auf
 June
 Juni
+Kein Besitzer\n
+kein Besitzer\n\n
 Keine Einzelfahrzeuge im Depot
 Keine Fahrzeuge im Depot
 Keyboard_Help\n
@@ -1177,6 +1199,8 @@ Number of rivers
 Anzahl Flüsse
 Object
 Objekt
+Odometer: %s km
+Kilometerstand: %s
 On loan since %i month(s)
 %i Monat(e) Konto überzogen
 Only city chains
@@ -1306,7 +1330,7 @@ Wohnhaus
 Restore natural slope
 Natürliche Neigung wiederherstellen
 Restwert:
-\nVerkaufswert:
+Verkaufswert:
 Retire. date:
 Außerdienststellung:
 return ticket

@@ -8,19 +8,23 @@ Prop-Latin2.bdf
 #                             Language: hr Hrvatski                            #
 #                             Encoding: ISO-8859-2                             #
 #                            Font : Prop-Latin2.bdf                            #
-#                           Date Created: 28.06 2009                           #
+#                           Date Created: 10.04 2010                           #
 #                                                                              #
 #                                   authors:                                   #
+#                                    - EdinU                                   #
+#                                    note:                                     #
 #                              Frank Penz - FrankP                             #
-#                      note: Administrator SimuTranslator                      #
+#                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
-#              note: Administrator Base texts / pak64 / pak.japan              #
+#                                    note:                                     #
 #                                                                              #
 ################################################################################
 #_____________________________Simutrans Base Texts______________________________
 #_____________________________Simutrans Base Texts______________________________
 #__________________________________button_text__________________________________
 #__________________________________button_text__________________________________
+Apply Line
+Primjeni liniju
 cl_btn_filter_disable
 tiltva
 cl_btn_filter_enable
@@ -43,6 +47,8 @@ clf_btn_keine
 semmi
 Construction_Btn
 Gradnja
+follow me
+Slijedi me.
 gl_btn_sort_bonus
 bonusom
 gl_btn_sort_name
@@ -51,6 +57,8 @@ gl_btn_sort_revenue
 prihodom
 gl_btn_unsort
 nesortirano
+go home
+Idi u depo
 hl_btn_filter_settings
 Opcije
 hl_btn_sort_asc
@@ -65,10 +73,22 @@ hlf_btn_alle
 sve
 hlf_btn_invers
 obrnuti
+Lade Relief
+Domborzat betölt.
+Load game
+Játék betöltés
+Load scenario
+Forg.könyv betölt
+Optionen
+Opciók
+Sprache
+Nyelv
+Starte Spiel
+Játék indítása
 #_________________________________climates_text_________________________________
 #_________________________________climates_text_________________________________
 arctic
-Sarkvidéki éghajlat
+Arkticka klima
 desert
 pustinjska klima
 mediterran
@@ -83,8 +103,16 @@ tundra
 Tundra éghajlat
 #__________________________________error_text___________________________________
 #__________________________________error_text___________________________________
+A bridge must start on a way!
+Ne posjedujete krajeve mosta, ili se ne¹to na¹lo na njegovom putu.
+Autohalt muss auf\nStrasse liegen!\n
+Autobuske postaje\nmoraju se\nnalazitina cesti.
 bridge is too high for its type!
-A híd túl magas a típusához képest!
+Most je previsok za svoj tip!
+Bridge is too long for this type!\n
+Raspon mosta\nje prevelik za\novaj tip mosta.\n
+Bruecke muss an\neinfachem\nHang beginnen!\n
+Most mora\nnpoceti na\npravom nagibu!\n
 Cannot built depot here!
 Ide nem építhetsz depót!
 Das Feld gehoert\neinem anderen Spieler\n
@@ -117,10 +145,12 @@ Ide nem lehet építeni átszállót!
 %s\sada ima\n%i kaimona izmedju\n%s na (%i,%i)\ni %s\na (%i, %i).
 %s\nopened a new railway\nbetween %s\nat (%i,%i) and\n%s at (%i,%i).
 %s\notvara novu zeljeznicu\nizmedju %s\nna (%i,%i) i\n%s\nna (%i,%i).\n
+Airline service by\n%s\nnow between\n%s \nand %s.\n
+Avionska slu¾ba od\n%s\nizmedju\n%s \ni %s.\n
 #___________________________________menu_text___________________________________
 #___________________________________menu_text___________________________________
 AIRTOOLS
-Avionski alati
+Alati za aerodrom
 EDITTOOLS
 Alati za uredjivanje mape
 LISTTOOLS
@@ -141,6 +171,8 @@ TRAMTOOLS
 Villamos kellékek
 #_________________________________message_text__________________________________
 #_________________________________message_text__________________________________
+Bankrott:\n\nDu bist bankrott.\n
+Bankrot:\n\nBankrotirali ste!\n
 Du hast %d Monate Zeit, deine Schulden zurueckzuzahlen
 Imate %d mjeseca da otplatite svoj dug.
 Scenario complete: %i%%
@@ -235,108 +267,144 @@ Abnehmer
 Potrosac
 About
 O
+Abriss
+Uni¹ti/Ukloni
+Absenken
+Snizi zemlji¹te
+Accelerate time
+Vrijeme ubrzanja
 Account above %s
-Egyenleg %s alatt
+Podizanje preko %s
+Active player only
+Samo aktivan igraè
+Add forest
+Dodaj ¹umu
+Add random citycar
+Dodaj slucajan gradski automobil
 Add Stop
 Dodaj postaju
 Add stops for backward travel
-Dodaj postaje za putovanje unatrag
+Dodaj postaje za povratak
 Add the selected vehicle(s) to the selected line
 Dodaj odabrano vozilo/la odabranoj liniji.
-Air
-Zrak
+air
+Pista
 aircraft_tab
 Teretni avioni
+airplane
+Avion
 Airport
 Aerodrom
 All
 Sve
+all convoi tooltips
+Savjet za sve konvoje
+Allow city growth
+Dozvoli razvoj grada
 Allow player change
 Dopusti promjenu igraca
 allowed climates:\n
-megengedett klímatípusok:\n
+Dozvoljene klime
 Alters a schedule.
 Dodaj/ukloni postaje iz voznog reda
 Angenommene Waren
-Közeli ipartelepek szükségletei
+Sirovine potrebne obliznjim industrijama
 anhaengen
-Utánfutó
+Dodaj
 Anhaenger_tab
-Utánfutók
+Prikolice
 Anheben
-Talaj emelése
+Izdigni teren
 Appends stops at the end of the schedule
-Megálló hozzáadása a menetrend végéhez
-April
-Április
+Dodaj postaju na kraj linije
 Arbeiter aus:
-Munkások:
+Radnici zive u:
 Arrived
-Érkezett
+Opsrkba
 Assets
-Vagyon
+Imovina
 Aufloesen
-Felbont
-August
-Augusztus
+Rastavi
 Available
-Rendelkezésre állás
+Dostupno
 Bahndepot
-Vasúti kocsiszin
+Depo za vozove.
 battery
-akkumulátor
+Akumulator
 Baum
-Fa
+Drvo
 baum builder
-Faültetés
+Posadi drvece
 Baustelle
-Építési terület
+Gradiliste
+Bauzeit
+Vrijeme izgradnje
 Beenden
-Kilépés
+Kraj
+Beginner mode
+Pocetnicki Mod
 Besonderes Gebaeude
-Különleges épületek
+Turisticka atrakcija
 BF
-p.u.
+postaja
 bio
-bió
+bioloski
+Blockstrecke ist\nbelegt\n
+\nTracnicu koristi\ndrugi voz!\n
 Boden
-Föld
+Zemljiste
 Bruecke
-Híd
+Most
 Brueckenboden
 hídalap
+Build air depot
+Izgradi hangar
+build choosesignals
+Izgradi znak za odabir platforme
 Build city market
-Fogyasztó/ipari egység építése
+Izgradi novu prodavnicu u najblizem gradu.
 Build drain
-Trafóállomás építése
+Trafostanica
 build HQ
-Központ építés
+Izgradi sjediste firme
+Build land consumer
+Izgradi novu elektricnu centralu
+Build maglev depot
+Izgradi depo za Maglev vozove
 Build monorail depot
-Nyeregvasút depó építése
+Izgradi depo za Monorail vozove
+Build narrowgauge depot
+Izgradi depo uskotracne pruge
 Build powerline
-Elektromos hálózat építése
+Izgradi dalekovod
+Build presignals
+Izgradi dvoblokni signal
 Build road depot
-Közúti depó építése
+Izgradi garazu
 Build ship depot
-Hajódepó építése
+Izgradi brodogradiliste
+Build signals
+Napravi semafor
 Build train depot
-Vasúti depó építése
+Izgradi depo za vozove
 Build tram depot
-Villamos depó építése
+Izgradi depo za tramvaje
 Build truck depot
-Kocsiszín építése
+Izgradi depo za kamione
 Building costs estimates
-Építkezés költségeinek becslése
+Procijenjena cijena izgradnje
 Buildings
-Épületek
+Broj gradjevina
 Built artifical slopes
-Mesterséges töltés építése
+Izgradi vjestacke nasipe
+Built random attraction
+Izgradi nasumicnu turisticku atrakciju
 Bus_tab
-Személy/posta szállítás
+Autobusi
 Can only move from halt to halt or waypoint to waypoint.
-Eltávolítás csak megállótól megállóig vagy szakaszponttól szakaszpontig lehetséges.
+Moze se kretati\nsamo od postaje do postaje\ili od tocke do tocke.
 Cancel
-Mégsem
+Ponisti
 Cars are not available yet!
 Még nem áll rendelkezésre gépkocsi!
 Cash
@@ -420,7 +488,7 @@ Kopiraj Konvoj
 Copy the selected convoi and its schedule or line
 Kopiraj odabrani konvoj i njegov vozni red ili liniju
 cost for removal
-Törlés díja
+Törlés díja 
 Create a new line based on this schedule
 Napravi novu liniju baziranu na ovom voznom redu
 curlist_title
@@ -452,7 +520,7 @@ Direktne rute odavde
 Dock
 dok
 Durchsatz
-Max.
+Max. 
 Eigenbesitz\n
 Javni posjed\n
 Ein %s\npasst hier nicht.\n
@@ -501,8 +569,6 @@ fl_title
 lista tvornica
 Flug_tab
 Putnicki Avioni
-follow me
-Slijedi me.
 Follow the convoi on the map.
 Slijedi konvoj na mapi.
 Found new city
@@ -533,8 +599,6 @@ Give the selected vehicle(s) an individual schedule
 Dati odabranom(nim) vozilu(ima) poseban vozni red.
 gl_title
 Lista svih dobara
-go home
-Idi u depo
 Goods
 Javak
 Goods list
@@ -625,8 +689,6 @@ June
 Lipanj
 keine
 nincs
-Lade Relief
-Domborzat betölt.
 Laden
 Betöltés
 Land attraction
@@ -655,12 +717,8 @@ Lines serving this stop
 Megállót kiszolgáló vonalak
 LKW_tab
 Kocsik
-Load game
-Játék betöltés
 load height data from file
 Terepadatok betöltése
-Load scenario
-Forg.könyv betölt
 loaded
 Betöltve
 loaded passenger/freight
@@ -775,8 +833,6 @@ Operation
 Munkálatok
 Ops Profit
 Üzleti eredmény
-Optionen
-Opciók
 Origin
 Kiindulás
 ost
@@ -955,14 +1011,10 @@ Spieler(mz)
 Játékosok
 Spielerliste
 Játékos lista
-Sprache
-Nyelv
 Sprachen
 Nyelv kiválasztás:
 Stadtinformation
 Város statisztikák
-Starte Spiel
-Játék indítása
 Station tiles:
 Állomáshosszúság:
 Status
@@ -1042,7 +1094,7 @@ Munkanélküli
 Unhappy
 Elégedetlen
 units/day
-egység/nap
+ egység/nap
 Update Line
 Útvonal frissít
 upgrade HQ

@@ -8,11 +8,11 @@ Prop-Latin1.bdf
 #                            Language: pt Portugues                            #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                            Date Created: 1.11 2009                           #
+#                           Date Created: 10.04 2010                           #
 #                                                                              #
 #                                   authors:                                   #
 #                              Frank Penz - FrankP                             #
-#                      note: Administrator SimuTranslator                      #
+#                                    note:                                     #
 #                          Igor Eliezer - IgorEliezer                          #
 #                                    note:                                     #
 #                  Richard Gatinho Ruas Ramos - RichardGatinho                 #
@@ -20,7 +20,7 @@ Prop-Latin1.bdf
 #                             Eric Oliveira - eric                             #
 #                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
-#              note: Administrator Base texts / pak64 / pak.japan              #
+#                                    note:                                     #
 #                                                                              #
 ################################################################################
 #_____________________________Simutrans Base Texts______________________________
@@ -171,6 +171,10 @@ Kann Spielstand\nnicht laden.\n
 Impossível ler/abrir\no arquivo salvo!\n
 Kann Spielstand\nnicht speichern.\n
 Impossível abrir\no arquivo para\nsalvar!\n
+Lost connection\nto server!
+Conexão ao servidor foi perdida!
+Lost synchronisation\nwith server.
+Sincronização com o servidor foi perdida.
 Maglevhalt muss auf\nMaglevschiene liegen!\n
 Paradas de maglev devem\nficar em vias magnéticas!
 Monorailhalt muss auf\nMonorail liegen!\n
@@ -200,7 +204,7 @@ Erro de protocolo (esperando jogo)
 Schiffhalt muss im\nWasser liegen!\n
 Só dá para colocar\nparadas\nna água!\n
 Server did not respond!
-Servidor não respondeu!
+O servidor não respondeu!
 Terraforming not possible\nhere in underground view
 Esta terraplenagem não é\npossível no subterrâneo.\n
 Upgrade must have\na higher level
@@ -298,7 +302,7 @@ Com uma grande festa,%s construiu um novo monumento.%i pessoas comemoraram.
 #_________________________________program_text__________________________________
 #_________________________________program_text__________________________________
 !0_STATION_CROWDED
-Atrações turística urbanas devem receber uma meta de número de habitantes. Quando este número de habitantes de uma cidade for atingido, esta atração poderá ser construída.
+%s\nestá lotada.
 !1_DEPOT_REACHED
 %s chegou ao depósito
 (%i)-
@@ -327,6 +331,8 @@ Arquivo de relevo\ntem formato de\narquivo errado.\n
 \nDireções (oculto): 
 \nRibi (unmasked)
 \nDireções (aparente): 
+\nSet phases:
+\najustar comprimento NS/LO:
 \nsingle way
 Mão única.
 \nway1 reserved by
@@ -769,6 +775,8 @@ Direkt erreichbare Haltestellen
 Paradas conectadas diretamente
 disable midi
 Mudo
+Distance
+Distância
 Dock
  - Doca
 Durchsatz
@@ -1004,7 +1012,7 @@ Ir para
 June
 Junho
 Kein Besitzer\n
-Disponível para compra\n
+Disponível para compr\n
 keine
 nenhum(a)
 Keine Einzelfahrzeuge im Depot
@@ -1231,6 +1239,8 @@ Number of rivers
 Número de rios
 Object
 Objeto
+Odometer: %s km
+Odômetro: %s km
 Oktober
 Outubro
 On loan since %i month(s)

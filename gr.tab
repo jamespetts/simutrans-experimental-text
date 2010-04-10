@@ -8,13 +8,13 @@ cyr.bdf
 #                             Language: gr Ellinika                            #
 #                                Encoding: UTF-8                               #
 #                                Font : cyr.bdf                                #
-#                           Date Created: 28.06 2009                           #
+#                           Date Created: 10.04 2010                           #
 #                                                                              #
 #                                   authors:                                   #
 #                              Frank Penz - FrankP                             #
-#                      note: Administrator SimuTranslator                      #
+#                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
-#              note: Administrator Base texts / pak64 / pak.japan              #
+#                                    note:                                     #
 #                         Yannis Kaskamanidis - yannis                         #
 #                                    note:                                     #
 #                                                                              #
@@ -47,10 +47,14 @@ clf_btn_alle
 όλα
 clf_btn_keine
 κανένα
+gl_btn_sort_catg
+ανά κατηγορία
 gl_btn_sort_name
 ανά όνομα
 gl_btn_unsort
 αταξινόμητο
+go home
+Μετάβαση στον χώρο στάθμευσης
 hl_btn_filter_disable
 απενεργοποιημένο
 hl_btn_filter_enable
@@ -375,12 +379,8 @@ diesel
 πετρελαιοκινητήρας
 Give the selected vehicle(s) an individual schedule
 Δώστε στο επιλεγμένο όχημα(τα) ένα ατομικό χρονοδιάγραμμα.
-gl_btn_sort_catg
-ανά κατηγορία
 gl_title
 Κατάλογος όλων των αγαθών
-go home
-Μετάβαση στον χώρο στάθμευσης
 Goods list
 Κατάλογος εμπορευμάτων
 Gross Profit
