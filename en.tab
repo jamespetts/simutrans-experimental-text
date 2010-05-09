@@ -154,7 +154,7 @@ Camber
 %20_CITY_SYLL
 Winter
 %21_CITY_SYLL
-Winter
+Hunger
 %22_CITY_SYLL
 Hard
 %23_CITY_SYLL
@@ -323,6 +323,18 @@ Varl
 Yend
 %75_CITY_SYLL
 Yerl
+%76_CITY_SYLL
+Pent
+%77_CITY_SYLL
+Kis
+%78_CITY_SYLL
+Kil
+%79_CITY_SYLL
+Chil
+%7A_CITY_SYLL
+Dar
+%7B_CITY_SYLL
+Dor
 %d buildings\n
 %d buildings
 %d convois
@@ -439,6 +451,24 @@ shaw
 shore
 &26_CITY_SYLL
 thorne
+&27_CITY_SYLL
+ton
+&28_CITY_SYLL
+ham
+&29_CITY_SYLL
+ford
+&2A_CITY_SYLL
+ington
+&2B_CITY_SYLL
+ingham
+&2C_CITY_SYLL
+ton
+&2D_CITY_SYLL
+ham
+&2E_CITY_SYLL
+wick
+&2F_CITY_SYLL
+by
 (%i)-
 (%i) 
 (in depot)
@@ -1424,7 +1454,7 @@ Spring
 q2
 Summer
 q3
-Fall
+Autumn
 q4
 Winter
 RAILTOOLS
@@ -1450,7 +1480,7 @@ Restore natural slope.
 Restwert:
 Resale Value:
 Retire. date:
-Retire Date:
+Available until:
 return ticket
 Mirror schedule
 Revenue
@@ -1947,3 +1977,9 @@ head
  head
 cars
  cars
+replace all in line
+Replace all in line
+replace all
+Replace all
+Distance\nComfort\nSpeedbonus\nroad %i km/h, rail %i km/h\nships %i km/h, planes %i km/h.
+Distance (km)\nComfort\nSpeedbonus\nroad %i km/h, rail %i km/h\nships %i km/h, planes %i km/h.
