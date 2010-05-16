@@ -335,6 +335,20 @@ Chil
 Dar
 %7B_CITY_SYLL
 Dor
+%7C_CITY_SYLL
+Kings
+%7D_CITY_SYLL
+Queens
+%7E_CITY_SYLL
+Pros
+%7F_CITY_SYLL
+Ingle
+%80_CITY_SYLL
+Beal
+%81_CITY_SYLL
+Tel
+%82_CITY_SYLL
+Hunt
 %d buildings\n
 %d buildings
 %d convois
@@ -364,7 +378,7 @@ Dor
 %s\nopened a new railway\nbetween %s\nat (%i,%i) and\n%s at (%i,%i).
 %s\nopened a new railway\nbetween %s\nat (%i,%i) and\n%s\nat (%i,%i).
 %s\nspeed %i\nmax_speed %i\ndx:%i dy:%i
-%s\nspeed %i\nmax speed %i\ndx:%i dy:%i
+%s\nSpeed: %i km/h\nMax. speed: %i km/h
 %s\nwas liquidated.
 %s\nhas been liquidated.
 <em>%C</em> - %s<br>\n
@@ -469,6 +483,12 @@ ham
 wick
 &2F_CITY_SYLL
 by
+&30_CITY_SYLL
+bridge
+&31_CITY_SYLL
+bere
+&32_CITY_SYLL
+water
 (%i)-
 (%i) 
 (in depot)
@@ -649,8 +669,8 @@ Build city market
 Build a new market in the nearest city.
 Build drain
 Build substation
-Transformer only next to factory!
-Substations can only be\nbuilt next to industries.
+Transformer only next to factory or in city!
+Substations can only be built adjacent to industries or inside cities.
 build HQ
 Build HQ
 Build land consumer
@@ -1983,3 +2003,7 @@ replace all
 Replace all
 Distance\nComfort\nSpeedbonus\nroad %i km/h, rail %i km/h\nships %i km/h, planes %i km/h.
 Distance (km)\nComfort\nSpeedbonus\nroad %i km/h, rail %i km/h\nships %i km/h, planes %i km/h.
+Abspanntransformator
+Downstream substation
+Aufspanntransformator
+Upstream substation
