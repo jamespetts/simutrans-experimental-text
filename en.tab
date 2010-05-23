@@ -2007,3 +2007,5 @@ Abspanntransformator
 Downstream substation
 Aufspanntransformator
 Upstream substation
+Only one transformer per factory!
+Each industry may have only one attached substation.
