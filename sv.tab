@@ -8,7 +8,7 @@ Prop-Latin1.bdf
 #                             Language: sv Svenska                             #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 24.05 2010                           #
+#                            Date Created: 1.06 2010                           #
 #                                                                              #
 #                                   authors:                                   #
 #                              Frank Penz - FrankP                             #
@@ -176,7 +176,7 @@ Tappat anslutningen\till servern!
 Lost synchronisation\nwith server.
 Ej längre\nsynkroniserad\nmed servern!
 Maglevhalt muss auf\nMaglevschiene liegen!\n
-En maglevstation måste placeras på maglevräls!
+En magnetspårsstation måste placeras på magnetspår!
 Monorailhalt muss auf\nMonorail liegen!\n
 Monorailhållplatser\nmåste placeras på monorail.
 Monorails are not available yet!
@@ -242,7 +242,7 @@ Kartredigerare
 LISTTOOLS
 Listor
 MAGLEVTOOLS
-Maglevverktyg
+Magnetspårsverktyg
 MONORAILTOOLS
 Monorailverktyg
 NARROWGAUGETOOLS
@@ -341,70 +341,12 @@ I %s\ninvigs ett nytt\nmonument.\n%i åskådare deltar\ni festligheterna.
 \nväg 2 är reserverad av 
 \nwith sign/signal\n
 \n med skylt/signal\n
-&1_CITY_SYLL
-stad
-&2_CITY_SYLL
-by
-&3_CITY_SYLL
-bro
-&4_CITY_SYLL
-brunn
-&5_CITY_SYLL
-berg
-&6_CITY_SYLL
-dal
-&7_CITY_SYLL
-fält
-&8_CITY_SYLL
-fors
-&9_CITY_SYLL
-sluss
-&A_CITY_SYLL
-vad
-&B_CITY_SYLL
-köping
-&C_CITY_SYLL
-hult
-&D_CITY_SYLL
-vik
-&E_CITY_SYLL
-borg
-%1_CITY_SYLL
-Lunds
-%2_CITY_SYLL
-Malm
-%3_CITY_SYLL
-Norr
-%4_CITY_SYLL
-Väster
-%5_CITY_SYLL
-Söder
-%6_CITY_SYLL
-Öster
-%7_CITY_SYLL
-Skog
-%8_CITY_SYLL
-Marie
-%9_CITY_SYLL
-Karls
-%A_CITY_SYLL
-Oskars
-%B_CITY_SYLL
-Alm
-%C_CITY_SYLL
-Böke
 %d buildings\n
 %d byggnader 
 %d convois
 %d konvojer
 %d Einzelfahrzeuge im Depot
 Här förvaras %d fordon
-%D_CITY_SYLL
-Gran
-%E_CITY_SYLL
-Tall
-%F_CITY_SYLL
-Ek
 %i km/h (max. %ikm/h)
 %i km/t (max %i km/t)
 %s building %s %s
@@ -427,58 +369,28 @@ Ek
 1 konvoj
 1 Einzelfahrzeug im Depot
 Här förvaras 1 fordon
-1center
-%s %s
-1extern
-%s filial %s
 1LIGHT_CHOOSE
 Ljusstyrka:
-1suburb
-%s %s %s
 1WORLD_CHOOSE
 Inställningar för nytt spel:
-2center
-%s central %s
-2extern
-%s annex %s
 2LIGHT_CHOOSE
 Färger:
-2suburb
-%s Nya %s %s
 2WORLD_CHOOSE
 Kartnummer:
-3center
-%s huvud%s
-3extern
-%s landsbygd %s
 3LIGHT_CHOOSE
 Rullningsfart:
-3suburb
-%s by %s %s
 3WORLD_CHOOSE
 Kartstorlek (%d MB):
-4center
-%s inre %s
-4extern
-%s yttre %s
 4LIGHT_CHOOSE
 Omvänd rullning
-4suburb
-%s koloni %s %s
 5LIGHT_CHOOSE
 Fotgängare vid stationer
 5WORLD_CHOOSE
 Antal städer:
-6center
-%s centrum %s
-6extern
-%s industriområde %s
 6LIGHT_CHOOSE
 Fotgängare i städer
 6WORLD_CHOOSE
 Trafiktäthet:
-7center
-%s stad %s
 8WORLD_CHOOSE
 Skilj på dag och natt
 Abfrage
@@ -830,7 +742,7 @@ Bygg industrianläggningar
 Fahrplan
 Tidtabell
 Fahrtziel
-Färdmål:
+Färdmål: 
 Fahrzeuge:
 Fordon/fartyg:
 Farbe
@@ -1086,13 +998,13 @@ Lokomotiv
 m3
 m³
 Maglev
-maglev
+Magnetspår
 maglev vehicle
-Maglevfordon
+Magnetspårsfordon
 maglev_track
 Magneträls
 Maglevdepot
-Maglevvagnhall
+Magnetspårsvagnhall
 Mailbox
 Meddelanden
 Mailbox Options
@@ -1711,32 +1623,124 @@ New world record for railways: %.1f km/h by %s.
 Där flög vevstaken\nsin väg. Lokförare\nCederlund körde i %.f km/t med \n%s.
 New world record for ship: %.1f km/h by %s.
 Ett nytt världsrekord för\nfartyg med: %.1f km/t\npå %s.
+#_______________________________unnecessary_text________________________________
+#_______________________________unnecessary_text________________________________
+&1_CITY_SYLL
+stad
+&2_CITY_SYLL
+by
+&3_CITY_SYLL
+bro
+&4_CITY_SYLL
+brunn
+&5_CITY_SYLL
+berg
+&6_CITY_SYLL
+dal
+&7_CITY_SYLL
+fält
+&8_CITY_SYLL
+fors
+&9_CITY_SYLL
+sluss
+&A_CITY_SYLL
+vad
+&B_CITY_SYLL
+köping
+&C_CITY_SYLL
+hult
+&D_CITY_SYLL
+vik
+&E_CITY_SYLL
+borg
+%1_CITY_SYLL
+Lunds
+%2_CITY_SYLL
+Malm
+%3_CITY_SYLL
+Norr
+%4_CITY_SYLL
+Väster
+%5_CITY_SYLL
+Söder
+%6_CITY_SYLL
+Öster
+%7_CITY_SYLL
+Skog
+%8_CITY_SYLL
+Marie
+%9_CITY_SYLL
+Karls
+%A_CITY_SYLL
+Oskars
+%B_CITY_SYLL
+Alm
+%C_CITY_SYLL
+Böke
+%D_CITY_SYLL
+Gran
+%E_CITY_SYLL
+Tall
+%F_CITY_SYLL
+Ek
+1center
+%s %s
+1extern
+%s filial %s
+1suburb
+%s %s %s
+2center
+%s central %s
+2extern
+%s annex %s
+2suburb
+%s Nya %s %s
+3center
+%s huvud%s
+3extern
+%s landsbygd %s
+3suburb
+%s by %s %s
+4center
+%s inre %s
+4extern
+%s yttre %s
+4suburb
+%s koloni %s %s
+6center
+%s centrum %s
+6extern
+%s industriområde %s
+7center
+%s stad %s
 #_________________________Simutrans Experimental Texts__________________________
 #_________________________Simutrans Experimental Texts__________________________
 #_________________________________program_text__________________________________
 #_________________________________program_text__________________________________
+ from %s
+ från %s
  mins. travelling
 min. restid
  mins. waiting)
 min. väntetid
 \n\nInterest on your debt is\naccumulating at %i %%
-\n\nRänta påförs din skuld\nmed %i %%
+\n\nRänta på din skuld\npåförs med %i %%
 \n\nYour credit rating is being affected.
 \n\nDin kreditvärdighet påverkas.
 \nCity: 
 \nStad:
 \nMax. weight:
-\nMaxvikt:
+\nStörsta vikt:
 \nMAY USE:  
-\nKAN ANVÄNDA SIG AV:
+\nFÅR ANVÄNDA: 
 \nMUST USE: 
-\nMÅSTE ANVÄNDA SIG AV:
+\nMÅSTE ANVÄNDA: 
 \nNetwork ID:
-\nNätverksid:
+\nNätverks-ID:
 %s\nCost:     %d$\nMaint.: %1.2f$/km, %1.2f$/month\nCapacity: %d (%d)%s %s\nWeight: %dt\nTop speed: %dkm/h\n
-%s\nKostn.:     %d$\nUnderh.: %1.2f$/km, %1.2f$/mån.\nKapacitet: %d (%d)%s %s\nVikt: %dt\nMaxhast.: %dkm/h\n
+%s\nKostnad: %d$\nUnderh.: %1.2f$/km, %1.2f$/månad\nKapacitet: %d (%d)%s %s\nVikt: %dt\nTopphastighet: %dkm/h\n
 %s\nCost:     %d$\nMaint.: %1.2f$/km, %1.2f$/month\nCapacity: %d%s %s\nWeight: %dt\nTop speed: %dkm/h\n
-%s\nKostn.:     %d$\nUnderh.: %1.2f$/km, %1.2f$/månad\nKapacitet: %d%s %s\nVikt: %dt\nMaxhast.: %dkm/h\n
+%s\nKostnad: %d$\nUnderh.: %1.2f$/km, %1.2f$/månad\nKapacitet: %d%s %s\nVikt: %dt\nTopphast.: %dkm/h\n
 %s\nCost: %d$\nMaint.: %1.2f$/km, %1.2f$/month\nPower: %dkW, %dkm/h\nWeight: %dt\n
  %s\nKostn.: %d$\nUnderh.: %1.2f$/km, %1.2f$/månad\nStyrka: %dkW, %dkm/h\nVikt: %dt\n
 above\nminutes
@@ -1747,6 +1751,10 @@ All traction types
 Alla framdrivningstyper
 assume_everywhere_connected_by_road
 Anta att vägar går mellan alla orter
+Automatically replace this convoy.
+Ersätt denna konvoj automatiskt.
+Average speed
+Medelhastighet
 Cannot set marker here.\n
 Det går inte att sätta ut en markör här.\n
 Capital expenditure on infrastructure
@@ -1755,6 +1763,8 @@ Capital expenditure on vehicle purchases and upgrades
 Utlägg för fordonsinköp och -förbättringar
 capital_threshold_size
 Tröskelvärde för huvudstad
+Car ownership
+Privatbilar
 catering bonus\nfor travelling
 serveringsbonus\nför resa
 catering level 1
@@ -1774,39 +1784,69 @@ Centraliserad vägsökning.
 chance\npercent
 sannolikhet\nprocent
 Cities ignore height
-Städer tar ej hänsyn till höjd
+Städer ignorerar höjd
 Cities will be built all over the terrain, rather than preferring lower ground
 Städer kommer att byggas på alla typer av terräng istället för att företrädesvis byggas på lägre höjd
+City
+Stad
 city_threshold_size
 Tröskelvärde för stad
 Clear
 Rensa
+Comfort
+Komfort
 comfort expectance\nfor travelling
 bekvämlighetsförväntningar\nför resa
 comfort impact\nlimitations
-begränsning av\nbekvämlighetspåverkan
+begränsning av\nkomfortpåverkan
 Comfort:
-Bekvämlighet:
+Komfort:
+Congestion
+Trafikstockning
+Constructed by %s\n
+Skapad av %s\n
 Cost of overdraft interest payments
 Räntekostnader för övertrasserat konto
+Credit limit
+Kredit
 distance_per_tile_percent
 Avstånd/ruta (%)
+Distance\nComfort\nSpeedbonus\nroad %i km/h, rail %i km/h\nships %i km/h, planes %i km/h.
+Avstånd\nKomfort\nHastighetsbonus\nlandsväg %i km/h, järnväg %i km/h\nfartyg %i km/h, flyg %i km/h.
 duration\nin minutes
-varaktighet\ni minuter
+restid\ni minuter
+Electrical consumption: 
+Elförbrukning: 
+Explore paths:
+Undersöker vägar:
+Fill path matrix:
+Fyller sökvektor:
 Filter eligible halts:
 Filtrera lämpliga hållplatser:
+Fixed Costs
+Fasta kostnader
 Full replace
 Ersätt fullständigt
+General Exp.
+Exp. inst.
 gl_btn_sort_catg
 efter kategori
+Goods supplied
+Varuleveranser
 Graphs showing financial information will appear from right to left instead of left to right
 Grafer visar finansinformation från höger till vänster i stället för från vänster till höger.
 Graphs showing non-financial information will appear from right to left instead of left to right
 Grafer visar övrig information (ej finanser) från höger till vänster i stället för från vänster till höger.
 Gross revenue
 Bruttoinkomst
+head
+ st
+Hilly landscape
+Kuperat landskap
 Industry: %s has closed down, with the loss of %d jobs. %d upstream suppliers and %d downstream customers are affected.
-Industriy: %s har lagts ner, %d blev arbetslösa. %d leverantörer och %d kunder påverkas.
+Industri: %s har stängts ner, %d jobb har försvunnit. %d leverantörer och %d konsumenter påverkas.
+Interest
+Ränta
 Inverse graphs (financial)
 Omvända grafer (finanser)
 Inverse graphs (other)
@@ -1827,8 +1867,20 @@ Mark for replacing
 Markera för utbyte
 Mark for replacing. The convoy will replace when manually sent to depot
 Markera för utbyte. Konvojen kommer att bytas ut när den manuellt skickas till en fordonshall.
+max discomfort penalty
+största avdrag för bristande bekvämlighet
+max dist.\nkm
+största avstånd\nkm
+max luxury bonus
+största lyxbonus
 min dist.\nkm
 minimiavst.\nkm
+Narrow gauge
+Smalspår
+Next Month:
+Nästa månad:
+North To South
+Nord-Syd
 Number of units of passengers and goods transported
 Antal enheter passagerare och gods som transporterats.
 Obsolescence increase
@@ -1836,11 +1888,15 @@ Obsolescence increase
 Operating revenue less operating expenditure
 Driftsinkomster minus driftskostnader
 origin
-Startpunkt
+start
+origin (amount)
+start (antal)
+origin (detail)
+start (detaljer)
 Passenger destinations
 Resmål
-Passengers %d %c, %d %c, %d no route\n\nCapacity: %i\n
-Passagerare %d %c, %d %c, %d utan rutt\n\nKapacitet: %i\n
+Passengers %d %c, %d %c, %d no route, %d too slow
+Passagerare %d %c, %d %c, %d utan rutt, %d för långsam
 Pedestrians will appear near stops whenver a passenger vehicle unloads there.
 Fotgängare kommer att uppträda i närheten av hållplatser vid varje tillfälle då ett passagerarfordon släpper av passagerare där.
 Pedestrians will appear randomly in towns.
@@ -1851,10 +1907,18 @@ Percentage of revenue retained as profit
 Andel av inkomster som avsätts för vinst
 Power demand
 Kraftbehov
+Power supply
+Kraftförsörjning
 pulls
 drar
+Rail
+Järnväg
+Re-route goods:
+Lägg om rutt för varor:
 Read-only option : need to be set in simuconf.tab
 Detta alternativ kan enbart läsas,  sätts m h a simuconf.tab
+Rebuild connexions:
+Bygg om förbindelser:
 Recurring expenses of infrastructure maintenance
 Återkommande utgifter för infrastrukturens underhåll
 Refunds
@@ -1864,7 +1928,7 @@ Ta bort mellanliggande signaler
 Replace
 Ersätt
 replace all
-ersätt alla
+Ersätt alla
 Replace all convoys like this
 Ersätt alla likadana konvojer
 Replace all convoys like this belonging to this line
@@ -1877,20 +1941,28 @@ Replace cycle:
 Ersättningscykel:
 replace other signals
 Ersätt existerande signaler
+Replacing
+Ersätts
+Replacing\nvehicles of\n%-20s\ncompleted
+Ersättning\nav fordon för\n%-20s\nslutförd
+Reset this replacing operation
+Nollställ denna ersättning
 Retain in depot
 Behåll fordon
+Retire
+Återkalla
 Revenue from electricity transmission
 Inkomster från elektricitetsöverföring
-Routes will update instantly after any changes to lines/schedules. Can make the game respond slowly on big maps.
-Rutter kommer att uppdateras omedelbart efter någon ändring av tidtabellen. Kan leda till att spelet verkar reagera långsamt på stora kartor.
+Reversing
+Vänder
+Road
+Landsväg
 rpl_cnv_replace
 Ersätt
 rpl_cnv_sell
 Sälj
 rpl_cnv_skip
 Hoppa över
-See under the ground, one layer at a time. Toggle with CTRL + U. Move up/down in layers with HOME and END.
-Se under marken, ett lager åt gången. Växla med CTRL + U. Flytta dig upp och ner mellan lagrena med HOME och END.
 See under the ground, to build tunnels and underground railways/metros. Toggle with SHIFT + U
 Se under marken, för att bygga tunnlar och underjordiska järnvägar/tunnelbanor. Växla med SKIFT + U
 Sell
@@ -1900,29 +1972,39 @@ Sänd konvojen till en fordonshall, ersätt den och kör iväg den igen automatiskt
 Send convoy to depot, replace it and stay there
 Sänd konvojen till en fordonshall, ersätt den och låt den stanna kvar där.
 Send the convoy to its home depot for replacing rather than the nearest depot.
-Skicka konvojen för utbyte  i dess hemmafordonshall och inte i närmaste fordonshall.
+Skicka konvojen för utbyte i dess hemmafordonshall och inte i närmaste fordonshall.
 set signal spacing
 Ange signaltäthet
+short time
+lokalreson
+Show a non-transient dialogue box
+Visa en dialogruta som blir kvar
+Show a transient dialogue box
+Visa en dialogruta som stängs automatiskt
 Show from how far that passengers or goods will come to use your stops. Toggle with the v key.
 Visa upptagningsområdet för dina hållplatser. Växla med v-tangenten.
+Show in ticker
+Visa i nyhetsrullning
 Show the map in the same isometric orientation as the main game window
 Visa kartan i samma isometriska projektion som kartan i huvudfönstret
 Shows a bar graph representing the number of passengers/mail/goods waiting at stops.
 Visar stapeldiagram över antal passagerare/post/frakt som väntar vid hållplatser.
-Shows the borderlines of each tile in the main game window. Can be useful for construction. Toggle with the # key.
-Visar kantlinjer för varje ruta i huvudfönstret. Kan vara användbart vid byggnation. Växla med #-tangenten.
 Shows the names of the individual stations in the main game window.
 Visar enskilda stationers namn i huvudfönstret.
 signale bauen
 Bygg
+Size
+Storlek
 Skip
 Hoppa över
-That would exceed\nyour credit limit.
-Det skulle överstiga\ndin kreditvärdighet.
 The amount of mail transported in the region overall
 Sammanlagda mängden post som fraktats i regionen
+The convoy has been sent\nto its home depot.\n
+Konvojen har skickats\ntill sin hemmafordonshall.\n
 The display of the station coverage can either be a transparent rectangle or a series of boxes.
 En stations upptagningsområde kan antingen visas som en genomskinlig rektangel, eller som en serie av rutor.
+The following %s has become obsolete:\n%s\n
+Följande %s har blivit föråldrade:\n%s\n
 The main game window can be scrolled by right-clicking and dragging the ground.
 Huvudfönstret kan skrollas genom att dra med höger musknapp.
 The maximum amount that can be borrowed without prohibiting further capital outlays
@@ -1965,8 +2047,8 @@ The total number of mail/passengers/goods transported in the region
 Det sammanlagda antalet post/passagerare/gods som har transporterats i regionen
 The total number of passengers wanting to be transported in the region
 Det sammanlagda antalet passagerare som önskar transport i regionen
-This is a tilting vehicle\n
-Detta är ett fordon med lutande vagnskorg\n
+tile
+ruta
 tiles
 rutor
 To be replaced by:
@@ -1983,8 +2065,14 @@ Total income less total expenditure
 Sammanlagda inkomster minus sammanlagda utgifter
 Total liquid assets
 Sammanlagda likvida medel
+Transformer only next to factory or in city!
+Transformatorer kan enbart byggas i direkt anslutning till en fabrik, eller inom städer.
+travelling post office
+Postsorteringsvagn
 Trees will be miniaturised or made transparent in the main game window.
 Träd kommer att krympas eller göras genomskinliga i huvudfönstret.
+Unpowered vehicles only
+Endast omotoriserade fordon
 Use any vehicles already present in the depot, if available, instead of buying new ones or upgrading.
 Använd alla de fordon som redan förvaras i fordonshallen, om de är tillgängliga, i stället för att köpa nya eller uppgradera.
 Use centralised instead of distributed path searching system.
@@ -2001,11 +2089,15 @@ waiting time unknown)
 okänd väntetid)
 Way constraint permissive 
 Tillåtande vägbegränsning
-Way constraint prohibitive %n\n
-Förbjudande vägbegränsning
+West To East
+Väst-Öst
 Whether the lighting in the main game window simulates a periodic transition between day and night.
 Om ljussättningen i huvudfönstret skall simulera en periodisk växling mellan dag och natt.
 You have been overdrawn\nfor %i months
-Ditt konto har varit övertrasserat\ni %i månader.
+Ditt konto har varit övertrasserat\ni %i månader
 You have been overdrawn\nfor one month
-Ditt konto har varit övertrasserat\ni en månad.
+Ditt konto har varit övertrasserat\ni 1 månad
+#_______________________________unnecessary_text________________________________
+#_______________________________unnecessary_text________________________________
+Passengers %d %c, %d %c, %d no route\n\nCapacity: %i\n
+Passagerare %d %c, %d %c, %d utan rutt\n\nKapacitet: %i\n
