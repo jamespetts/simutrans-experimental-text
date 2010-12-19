@@ -62,6 +62,9 @@ Click on the following buttons in to open controls or select options:
 <em>Replace:</em> opens the <a href="replace.txt">replace</a> window, which allows the convoy, either individually, or along with all other like convoys in the line, or all other like convoys owned by the same player, to be replaced automatically.
 </p>
 <p>
+<em>Reverse route:</em> determines the order in which this convoy follows its schedule. If this is not selected, the convoy will follow its schedule from the first item in the list to the last item in the list. If this button is selected, will follow its schedule from the last item in the list to the first item in the list. For information on how to set up convoys and lines to alternate between forward and reverse running automatically, see the information about the <a href="schedule.txt">schedule</a> window.
+</p>
+<p>
 <em>Chart:</em> click on the "chart" button to toggle graphs showing statistics relating to the convoy over the last twelve months. Click one or more of the coloured buttons to select which statistics are displayed (colours on the graph correspond to colours of the buttons pressed):<br>
 - <em>Free Capacity</em> the proportion of the convoy that is running empty. This might be negative if the convoy is regularly overcrowded;<br>
 - <em>Transported</em> the quantity of goods, passengers or mail transported;<br>

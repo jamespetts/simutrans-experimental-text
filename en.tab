@@ -349,6 +349,66 @@ Beal
 Tel
 %82_CITY_SYLL
 Hunt
+%83_CITY_SYLL
+Did
+%84_CITY_SYLL
+Car
+%85_CITY_SYLL
+Pond
+%86_CITY_SYLL
+Wolf
+%87_CITY_SYLL
+Ten
+%88_CITY_SYLL
+Murd
+%89_CITY_SYLL
+Ul
+%8A_CITY_SYLL
+Int
+%8B_CITY_SYLL
+Curl
+%8C_CITY_SYLL
+Tog
+%8D_CITY_SYLL
+Perl
+%8E_CITY_SYLL
+Hert
+%8F_CITY_SYLL
+Up
+%90_CITY_SYLL
+Pint
+%91_CITY_SYLL
+Punt
+%92_CITY_SYLL
+Hend
+%93_CITY_SYLL
+Worl
+%93_CITY_SYLL
+Peach
+%94_CITY_SYLL
+Apple
+%95_CITY_SYLL
+Plum
+%96_CITY_SYLL
+Nut
+%97_CITY_SYLL
+Fur
+%98_CITY_SYLL
+Berry
+%99_CITY_SYLL
+Cat
+%9A_CITY_SYLL
+Currant
+%9B_CITY_SYLL
+Bramble
+%9C_CITY_SYLL
+Daisy
+%9D_CITY_SYLL
+Mid
+%9E_CITY_SYLL
+Pud
+%9F_CITY_SYLL
+War
 %d buildings\n
 %d buildings
 %d convois
@@ -489,6 +549,20 @@ bridge
 bere
 &32_CITY_SYLL
 water
+&33_CITY_SYLL
+bury
+&34_CITY_SYLL
+pool
+&35_CITY_SYLL
+inghall
+&36_CITY_SYLL
+hall
+&37_CITY_SYLL
+sand
+&38_CITY_SYLL
+brook
+&39_CITY_SYLL
+hampton
 (%i)-
 (%i) 
 (in depot)
@@ -655,6 +729,8 @@ Blockstrecke ist\nbelegt\n
 \nRail block is in use\nby another train!\n
 Boden
 Land
+Wasser
+Water
 Bridge is too long for this type!\n
 Bridge span is too\nlong for this type of\nbridge.\nBuild a different sort of bridge,\nor make it shorter.
 Bruecke
@@ -952,9 +1028,9 @@ Passenger Aircraft
 fl_title
 Industry list
 follow me
-Follow me.
+Follow me
 Follow the convoi on the map.
-Follow the convoy on the map.
+Follow the convoy on the map
 Forest
 Forest
 Found new city
@@ -1173,14 +1249,14 @@ Line Management
 Line Management
 Lines are used to manage groups of vehicles
 Lines are used to manage groups of vehicles
-Lines serving this stop
-Lines serving this stop:
 LISTTOOLS
 Lists
 LKW_tab
 Trucks
 Load game
 Load game
+join game
+Play online
 load height data from file
 Load height data from file.
 loaded
@@ -1218,7 +1294,7 @@ March
 Margin (%)
 Margin
 Marker
-Add a marker
+Marker
 max
 max
 Max income:
@@ -1240,7 +1316,7 @@ Message
 Menge
 amount
 MessageOptionsText
-\nNew Year\n\nAI News\n\nCity News\n\nNo Route\n\nIndustry\n\nTourist\n\nNew Vehicles\n\nStation full\n\nProblems\n\nTraffic congestion
+\nNew Year\n\nAI News\n\nCity News\n\nNo Route\n\nIndustry\n\nTourist\n\nNew Vehicles\n\nStation full\n\nProblems\n\nTraffic congestion\n\nChat
 min
 min.
 Modify the selected line
@@ -2009,3 +2085,21 @@ Aufspanntransformator
 Upstream substation
 Only one transformer per factory!
 Each industry may have only one attached substation.
+waiting\ntolerance\nmin. min
+journey time\ntolerance\nmin. min
+reverse route
+Reverse route
+Chat_msg
+Chat
+Problems_msg
+Problems
+Warnings_msg
+Warnings
+Station_msg
+Stations
+Town_msg
+Towns
+Company_msg
+AI players
+Game_msg
+General
