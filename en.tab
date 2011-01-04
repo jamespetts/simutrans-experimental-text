@@ -409,6 +409,10 @@ Mid
 Pud
 %9F_CITY_SYLL
 War
+%100_CITY_SYLL
+Dark
+%101_CITY_SYLL
+Hat
 %d buildings\n
 %d buildings
 %d convois
@@ -702,13 +706,13 @@ Disassemble
 August
 August
 Autohalt muss auf\nStrasse liegen!\n
-Bus or car stops\nmust be\nplaced on the road.
+The location specified\nis not a valid\nplace to send\na road vehicle.
 Available
 Available
 Bahndepot
 Rail depot
 Bankrott:\n\nDu bist bankrott.\n
-Bankrupt:\n\nYou are bankrupt!\n
+Bankrupt:\n\nYou are insolvent.\n
 battery
 Battery
 Baum
@@ -738,7 +742,7 @@ Bridge
 Bruecke muss an\neinfachem\nHang beginnen!\n
 Bridges must\nstart on a\nstraight slope\n
 Brueckenboden
-bridge
+Bridge (base)
 build choosesignals
 Build platform choose signals
 Build city market
@@ -1328,7 +1332,7 @@ months old.
 Monorail
 Monorail
 Monorailboden
-Monorail Support
+Elevated section (support)
 Monoraildepot
 Monorail Depot
 Monorailhalt muss auf\nMonorail liegen!\n
@@ -2103,3 +2107,9 @@ Company_msg
 AI players
 Game_msg
 General
+Fundament
+Base
+%s s\nheadquarter now\nat (%i,%i).
+%s s\nhas built new headquarters\nat (%i,%i).
+%s at (%i,%i) now public stop.
+%s at (%i,%i) is now a public stop.

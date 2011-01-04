@@ -8,7 +8,7 @@ Prop-Latin1.bdf
 #                              Language: fi Suomi                              #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 10.04 2010                           #
+#                           Date Created: 25.10 2010                           #
 #                                                                              #
 #                                   authors:                                   #
 #                              Esa Lindroos - Esa                              #
@@ -193,6 +193,8 @@ Not enough money!
 Sinulla ei ole tarpeeksi varoja t‰m‰n rakentamiseen!
 On narrowgauge track only!\n
 T‰m‰ onnistuu vain kapearaideradalla!\n
+Only one transformer per factory!
+Vain yksi muuntaja tehdasta kohden!
 Planes are not available yet!
 Lentokoneet eiv‰t ole viel‰ k‰ytett‰viss‰!
 Post muss neben\nHaltestelle\nliegen!\n
@@ -339,48 +341,6 @@ Tien 1 varannut\nTien 1 varannut
 Tien 2 varannut\nTien 2 varannut 
 \nwith sign/signal\n
 \nmerkill‰/opastimella\n
-&1_CITY_SYLL
-kaupunki
-&2_CITY_SYLL
-kyl‰
-&3_CITY_SYLL
-joki
-&4_CITY_SYLL
-linna
-&5_CITY_SYLL
-mets‰
-&6_CITY_SYLL
-laakso
-&7_CITY_SYLL
-keto
-&8_CITY_SYLL
-kulma
-&9_CITY_SYLL
-niitty
-&A_CITY_SYLL
-pohja
-%1_CITY_SYLL
-Uusi
-%2_CITY_SYLL
-V‰h‰
-%3_CITY_SYLL
-Peruna
-%4_CITY_SYLL
-Viher
-%5_CITY_SYLL
-Armon
-%6_CITY_SYLL
-Omena
-%7_CITY_SYLL
-Oja
-%8_CITY_SYLL
-Lahti
-%9_CITY_SYLL
-Vanha
-%A_CITY_SYLL
-Kivi
-%B_CITY_SYLL
-Kauko
 %d buildings\n
 %d rakennusta
 %d convois
@@ -389,6 +349,8 @@ Kauko
 %d kulj.v‰linett‰ tallissa
 %i km/h (max. %ikm/h)
 %i km/h (max. %i km/h)
+%i years %i months old.
+%i vuotta %i kuukautta vanha.
 %s building %s %s
 %s %s %s
 %s city %d %s
@@ -407,50 +369,28 @@ Kauko
 1 kuljetusv‰line
 1 Einzelfahrzeug im Depot
 1 kulj.v‰line tallissa.
-1center
-%s taajama %s
-1extern
-%s haara %s
 1LIGHT_CHOOSE
 Kirkkaus:
 1WORLD_CHOOSE
 Uuden kartan asetukset:
-2center
-%s keskusta %s
-2extern
-%s sivu %s
 2LIGHT_CHOOSE
 V‰rit:
 2WORLD_CHOOSE
 Kartan numero:
-3center
-%s kyl‰ %s
-3extern
-%s maaseutu %s
 3LIGHT_CHOOSE
 Vieritysnopeus:
 3WORLD_CHOOSE
 Kartan koko:
-4center
-%s sisus %s
-4extern
-%s ulkoinen %s
 4LIGHT_CHOOSE
 K‰‰nteinen vieritys
-5center
-%s risteys %s
 5LIGHT_CHOOSE
 N‰yt‰ jalankulkijat
 5WORLD_CHOOSE
 Kaupunkien m‰‰r‰:
-6center
-%s keskus %s
 6LIGHT_CHOOSE
 Jalankulkijat kaupungeissa
 6WORLD_CHOOSE
 Liikennetiheys:
-7center
-%s kaupunki %s
 8WORLD_CHOOSE
 K‰yt‰ p‰iv‰/yˆ-tilaa
 Abfrage
@@ -601,6 +541,8 @@ Cancel
 Peruuta
 Capacity: %s\nLoad: %d (%d%%)
 Kapasiteetti: %s\nLasti: %d (%d%%)
+Capacity: %u MW\n
+Kapasiteetti: %u MW\n
 Cars are not available yet!
 Autot eiv‰t ole viel‰ k‰ytett‰viss‰.
 cars.\nstate
@@ -741,6 +683,8 @@ Delete the current stop
 Poista nykyinen pys‰kki
 Delete this file.
 Poista t‰m‰ tiedosto.
+Demand: %u MW\n
+Tarve: %u MW\n
 Denkmal
 Muistomerkki
 Departed
@@ -859,6 +803,8 @@ Gebaeude
 Rakennus
 General
 Yleinen
+Generation: %u MW\n
+Tuotanto: %u MW\n
 Gewicht
 Paino
 Gewinn
@@ -1035,6 +981,8 @@ Line
 linja
 Line Management
 Linjojen hallinta
+Lineless convoys serving this stop
+Linjattomat ajoneuvot t‰ll‰ pys‰kill‰
 Lines are used to manage groups of vehicles
 Linjoilla hallitaan ajoneuvoryhmi‰
 Lines serving this stop
@@ -1159,6 +1107,8 @@ narrowgauge_track
 Kapearaiderata
 Narrowgaugedepot
 Kapearaidetalli
+Net ID: %u\n
+Verkko: %u\n
 Net Wealth
 Nettovarallisuus
 Neue Karte
@@ -1575,6 +1525,8 @@ Tramdepot
 Raitiovaunutalli
 Trams are not available yet!
 Raitiovaunut eiv‰t ole viel‰ k‰ytett‰viss‰!
+Transferring game ...
+Siirret‰‰n peli‰...
 Transformer only next to factory!
 Muuntamon voi rakentaa vain\ntyhj‰‰m, tasaiseen ruutuun\ntehtaan viereen.
 Translation
@@ -1611,6 +1563,8 @@ Update Line
 P‰ivit‰ linja
 upgrade HQ
 P‰ivit‰ p‰‰konttori
+Usage: %u %%
+K‰yttˆaste: %u %%
 Use timeline start year
 K‰yt‰ aikalinjaa vuodesta
 Vehicle %s can't find a route!
@@ -1703,5 +1657,197 @@ New world record for railways: %.1f km/h by %s.
 Uusi nopeusenn‰tys\nrautateill‰: %.1f km/h\n(%s).
 New world record for ship: %.1f km/h by %s.
 Uusi nopeusenn‰tys\nmerell‰: %.1f km/h\n(%s).
+#_______________________________unnecessary_text________________________________
+#_______________________________unnecessary_text________________________________
+&1_CITY_SYLL
+kaupunki
+&2_CITY_SYLL
+kyl‰
+&3_CITY_SYLL
+joki
+&4_CITY_SYLL
+linna
+&5_CITY_SYLL
+mets‰
+&6_CITY_SYLL
+laakso
+&7_CITY_SYLL
+keto
+&8_CITY_SYLL
+kulma
+&9_CITY_SYLL
+niitty
+&A_CITY_SYLL
+pohja
+%1_CITY_SYLL
+Uusi
+%2_CITY_SYLL
+V‰h‰
+%3_CITY_SYLL
+Peruna
+%4_CITY_SYLL
+Viher
+%5_CITY_SYLL
+Armon
+%6_CITY_SYLL
+Omena
+%7_CITY_SYLL
+Oja
+%8_CITY_SYLL
+Lahti
+%9_CITY_SYLL
+Vanha
+%A_CITY_SYLL
+Kivi
+%B_CITY_SYLL
+Kauko
+1center
+%s taajama %s
+1extern
+%s haara %s
+2center
+%s keskusta %s
+2extern
+%s sivu %s
+3center
+%s kyl‰ %s
+3extern
+%s maaseutu %s
+4center
+%s sisus %s
+4extern
+%s ulkoinen %s
+5center
+%s risteys %s
+6center
+%s keskus %s
+7center
+%s kaupunki %s
 #_________________________Simutrans Experimental Texts__________________________
 #_________________________Simutrans Experimental Texts__________________________
+#_________________________________program_text__________________________________
+#_________________________________program_text__________________________________
+ from %s
+ kohteesta %s
+ mins. travelling
+min. matka-
+ mins. waiting)
+min. odotusaika)
+ via %s
+ kautta %s
+\n\nInterest on your debt is\naccumulating at %i %%
+\n\nVelkasi korko kasvaa\nkuukausittain %i %%:lla
+\n\nYour credit rating is being affected.
+\n\nLuottokelpoisuutesi arvioidaan heikentyneen.
+\nCity: 
+\nKaupunki:
+\nMax. weight:
+\nEnimm‰ispaino:
+Acceleration
+Kiihdytys
+All hidden items (such as trees and buildings) will appear as transparent.
+Kaikki piilotetut kohteet (puut, rakennukset) ovat l‰pin‰kyvi‰.
+Automatically replace this convoy.
+Korvaa kulkuv‰line automaattisesti.
+Average speed
+Keskinopeus
+Capital expenditure on infrastructure
+Infrastruktuurin p‰‰omamenot
+Capital expenditure on vehicle purchases and upgrades
+Ajoneuvo-ostojen ja -p‰ivitysten p‰‰omamenot
+Car ownership
+Auton omistaja
+catering level 1
+tarjoilutaso 1
+catering level 2
+tarjoilutaso 2
+catering level 3
+tarjoilutaso 3
+catering level 4
+tarjoilutaso 4
+catering level 5
+tarjoilutaso 5
+Catering level: %i\n
+Tarjoilutaso: %i\n
+Cities will be built all over the terrain, rather than preferring lower ground
+Kaupungit voivat olla miss‰ tahansa, ei ainoastaan matalilla alueilla
+City
+Kaupunki
+Clear
+Peruuta
+Comfort
+Mukavuus
+comfort expectance\nfor travelling
+matkustajien\nmukavuudenhalu
+comfort impact\nlimitations
+mukavuusvaikutuksen\nrajoitukset
+Comfort:
+Mukavuus:
+Congestion
+Ruuhkaisuus
+Constructed by %s\n
+Rakentanut %s\n
+Credit limit
+Luottoraja
+Electrical consumption: 
+S‰hkˆn kulutus: 
+Hilly landscape
+Vuoristomaasto
+Industry: %s has closed down, with the loss of %d jobs. %d upstream suppliers and %d downstream customers are affected.
+%s lopettaa tuotannon ja %d ihmist‰ joutuu etsim‰‰n uusia tˆit‰. Samalla %d alihankkijaa ja %d asiakasta myy liiketilansa.
+Interest
+Korko
+Inverse graphs (financial)
+K‰‰nteiset kuvaajat (talous)
+Inverse graphs (other)
+K‰‰nteiset kuvaajat (muut)
+Loading time:
+Lastausaika:
+Next Month:
+Ensi kuu:
+origin
+Alkuper‰
+origin (amount)
+Alkuper‰ (m‰‰r‰)
+origin (detail)
+Alkup. (tiedot)
+Passengers %d %c, %d %c, %d no route, %d too slow
+Matkustajat %d %c %d %c, %d ei reitti‰, %d liian hidas
+per 1 km
+/ 1 km
+Power demand
+S‰hkˆn tarve
+Power supply
+S‰hkˆn tarjonta
+pulls
+vet‰‰
+Replace
+Korvaa
+replace all
+Korvaa kaikki
+Replace all convoys like this
+Korvaa kaikki samanlaiset
+Replace all convoys like this belonging to this line
+Korvaa t‰m‰n linjan samanlaiset
+replace all in line
+Korvaa linjan kaikki
+Replace but stay
+Korvaa ja j‰‰
+Replacing
+Korvataan
+Size
+Koko
+Status:
+Tila:
+tile
+ruutu
+tiles
+ruutua
+too heavy
+Liian raskas
+Too slow
+liian hidas
+You have been overdrawn\nfor %i months
+Olet ollut veloissa\njo %i kuukauden ajan.
+You have been overdrawn\nfor one month
+Olet ollut veloissa\nnyt kuukauden ajan.

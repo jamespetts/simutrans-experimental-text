@@ -8,7 +8,7 @@ Prop-Latin1.bdf
 #                             Language: de Deutsch                             #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 10.04 2010                           #
+#                           Date Created: 25.10 2010                           #
 #                                                                              #
 #                                   authors:                                   #
 #                            Alexander Brose - AlexB                           #
@@ -39,9 +39,13 @@ Prop-Latin1.bdf
 #                                    note:                                     #
 #                              Jaroslaw - Jaroslaw                             #
 #                                    note:                                     #
+#                                   - Lemuria                                  #
+#                                    note:                                     #
 #                             Marcus Haupt - Marcus                            #
 #note: if I´m not available by email to proximity.de try mail@marcus-haupt.de (#
 #                        Constantin Grabowski - Moistboy                       #
+#                                    note:                                     #
+#                                   - Nico192                                  #
 #                                    note:                                     #
 #                                 compo - compo                                #
 #                                    note:                                     #
@@ -50,15 +54,25 @@ Prop-Latin1.bdf
 #                            Günter Beine - gebeine                            #
 #                        note: maintainer pak128.german                        #
 #                            Jonas Bushart - jonasbb                           #
-#                        note: developer SimuTranslator                        #
+#                                    note:                                     #
+#                                - jounior-fuchs                               #
+#                                    note:                                     #
 #                              Markus Rex - msrex                              #
+#                                    note:                                     #
+#                                    - petter                                  #
 #                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
 #                                    note:                                     #
 #                            Oliver Mayer - rakishly                           #
 #                                    note:                                     #
+#                                     - sdog                                   #
+#                                    note:                                     #
+#                                    - smu42                                   #
+#                                    note:                                     #
 #                               Sven Osada - sojo                              #
 #                         note: maintainer pak96.comic                         #
+#                                 - transporter                                #
+#                                    note:                                     #
 #                           Werner Brandt - wernieman                          #
 #                             note: Nightly creator                            #
 #                           Michael Olbricht - whoami                          #
@@ -225,10 +239,14 @@ Not enough money!
 Zum Bauen reicht das\nGeld nicht mehr!
 On narrowgauge track only!\n
 Ein Schmalspurhalt muss auf Schmalspurgleisen liegen.
+Only one transformer per factory!
+Es ist nur ein Transformator je Industrie erlaubt!
 Planes are not available yet!
 Noch keine Fluggeräte erfunden!
 Post muss neben\nHaltestelle\nliegen!\n
 Ein Stationsgebäude (z.B. \nPostfiliale, Lager)kann \nnur auf einem freien Feld \nneben einer Haltestelle \ngebaut werden!
+Protocoll error (expecting game)
+Protokollfehler
 Server did not respond!
 Server antwortet nicht!
 Terraforming not possible\nhere in underground view
@@ -301,6 +319,8 @@ New factory chain\nfor %s near\n%s built with\n%i factories.
 Gründerzeit:\nDurch %s\nbei %s\nentstehen %i weitere\nFabriken.\n
 New vehicle now available:\n%s\n
 Ein neues Fahrzeug ist\nab jetzt verfügbar:\n\n»%s«\n\n
+Now %u clients connected.
+Aktuell %i Mitspieler.
 On this map, you are not\nallowed to change player!\n
 Spiel geschützt!\nSpielerwechsel ist auf dieser\nKarte nicht möglich.\n
 Production of %s has been stopped:\n%s\n
@@ -362,139 +382,65 @@ Pos1
 \nsingle way
 Keine Einfahrt!
 \nway1 reserved by
-Weg 1 besetzt von\nWeg 1 besetzt von 
+\nWeg 1 besetzt von 
 \nway2 reserved by
-Weg 2 besetzt von\nWeg 2 besetzt von 
+\nWeg 2 besetzt von 
 \nwith sign/signal\n
 \nHat Verkehrszeichen/Signal\n
-&1_CITY_SYLL
-stadt
-&2_CITY_SYLL
-dorf
-&3_CITY_SYLL
-bruck
-&4_CITY_SYLL
-bronn
-&5_CITY_SYLL
-berg
-&6_CITY_SYLL
-tal
-&7_CITY_SYLL
-weiler
-&8_CITY_SYLL
-hausen
-&9_CITY_SYLL
-steig
-&A_CITY_SYLL
-brigg
-%1_CITY_SYLL
-Kalten
-%2_CITY_SYLL
-Friedrichs
-%3_CITY_SYLL
-Bo
-%4_CITY_SYLL
-Michel
-%5_CITY_SYLL
-Tuna
-%6_CITY_SYLL
-Karls
-%7_CITY_SYLL
-Frei
-%8_CITY_SYLL
-Alten
-%9_CITY_SYLL
-Neu
-%A_CITY_SYLL
-Steinen
-%B_CITY_SYLL
-Rast
 %d buildings\n
 %d Gebäude
 %d convois
 %d Fahrzeuge
 %d Einzelfahrzeuge im Depot
 %d Einheiten im Depot
+%i years %i months old.
+%i Jahre und %i Monate alt.
 %s building %s %s
 %s %s %s
 %s city %d %s
 %s %d %s
+%s factory %s %s
+%s %s Betriebshof
 %s land %d %s
 %s %d Land %s
 %s\nspeed %i\nmax_speed %i\ndx:%i dy:%i
 %s\n\n
 %s\nwas liquidated.
 %s\nwurde entfernt.
+%u Client(s)\n
+%i Mitspieler\n
+%u Player (%u locked)\n
+%i Unternehmen (%i mit Passwort)\n
 <em>%C</em> - %s<br>\n
 [<em>%C</em>]: %s<br>\n
 <no line>
 <keine Linie>
 1 convoi
 1 Fahrzeugverband
-1center
-%s %s
-1extern
-%s Zweig %s
 1LIGHT_CHOOSE
 Helligkeit:
-1suburb
-%s %s %s
 1WORLD_CHOOSE
 Einstellungen für neue Karte:
-2center
-%s Haupt %s
-2extern
-%s Neben %s
 2LIGHT_CHOOSE
 Farbigkeit:
-2suburb
-%s Ausbau %s %s
 2WORLD_CHOOSE
 Kartennummer:
-3center
-%s Zentral %s
-3extern
-%s Land %s
 3LIGHT_CHOOSE
 Scrollgeschwindigkeit:
-3suburb
-%s Vorstadt %s %s
 3WORLD_CHOOSE
 Größe (%d MB):
-4center
-%s %s Mitte
-4extern
-%s Außen %s
 4LIGHT_CHOOSE
 Inverses Kartenscrolling
-4suburb
-%s, %s Kolonie
-5center
-%s Transfer %s
-5extern
-%s Wiesengrund %s
 5LIGHT_CHOOSE
 Fußgänger (Haltestellen)
-5suburb
-Entwicklungsgebiet %s %s %s
 5WORLD_CHOOSE
 Anzahl Städte:
-6center
-%s Zentrum %s
-6extern
-%s Industriepark %s
 6LIGHT_CHOOSE
 Fußgänger (Stadt)
 6WORLD_CHOOSE
 Verkehrsdichte:
-7center
-%s Stadt %s
-8center
-%s Knoten %s
 8WORLD_CHOOSE
 Tag und Nacht wechseln
-9center
-%s Ring %s
 Abfrage
 Abfragewerkzeug
 Abnehmer
@@ -505,16 +451,22 @@ Abriss
 Abrisswerkzeug
 Absenken
 Land absenken
+Abspanntransformator
+Umspannwerk (Fabrik)
 Accelerate time
 Spielablauf beschleunigen
 Account above %s
 %s Kontostand
+Act. load: %u MW\n
+Verbrauch: %u MW\n
 Active player only
 nur eigene Marker
 Add forest
 Wald aufforsten
 Add random citycar
 zufälliges Stadtfahrzeug erstellen
+add server
+Server hinzufügen
 Add Stop
 Hinzufügen
 Add stops for backward travel
@@ -557,6 +509,8 @@ Assets
 Fahrzeugwert
 Aufloesen
 Auflösen
+Aufspanntransformator
+Umspannwerk (Kraftwerk)
 Available
 Verfügbar
 battery
@@ -629,10 +583,12 @@ Cancel
 Abbrechen
 Capacity: %s\nLoad: %d (%d%%)
 Kapazität: %s\n» %d (%d%%)
+Capacity: %u MW\n
+Kapazität: %u MW\n
 Cars are not available yet!
 Es gibt noch nicht einmal Pferde!\nBitte erst nach dem Urknall starten ...
 cars.\nstate
-Fahrzeugen\n
+ Fahrzeugen\n
 Cash
 Kontostand
 Change player
@@ -706,7 +662,7 @@ Waren filtern:
 clf_title
 Fahrzeugliste - Einstellungen
 Climate Control
-Klimazonen einstellen
+Einstellungen Landschaft
 closed
 Geschlossen
 COLOR_CHOOSE\n
@@ -717,6 +673,8 @@ Connect factory
 Industrieanlagen mit Verträgen verbinden
 Connected stops
 Haltestelle (mit dieser Fabrik verbunden):
+Connected with server
+Mit Server verbunden
 Constructed by
 Gemalt von 
 Constructed by %s
@@ -760,7 +718,7 @@ Spielablauf verlangsamen
 December
 Dezember
 decrease underground view level
-Höhe des Schnittes durch Karte erniedrigen
+Ebene durch Karte tiefer
 Del Stop
 Löschen
 Delete Line
@@ -769,6 +727,8 @@ Delete the current stop
 ausgewählten Halt löschen
 Delete this file.
 Diese Datei löschen.
+Demand: %u MW\n
+Nachfrage: %u MW\n
 Denkmal
 Monument
 Departed
@@ -875,6 +835,8 @@ Gebaeude
 Gebäude
 General
 Allgemeines
+Generation: %u MW\n
+Erzeugung: %u MW\n
 Give the selected vehicle(s) an individual schedule
 Gib dem ausgewählten Fahrzeug einen eigenen Fahrplan.
 gl_title
@@ -968,7 +930,7 @@ alle Klimazonen
 Increase Industry density
 Industriedichte erhöhen
 increase underground view level
-Höhe des Schnittes durch Karte erhöhen
+Ebene durch Karte höher
 industrial building
 Industriegebäude
 Init map ...
@@ -991,6 +953,8 @@ isometric map
 isometrische Anzeige
 January
 Januar
+join game
+Mitspielen!
 July
 Juli
 Jump to
@@ -1031,6 +995,8 @@ Line
 Linie
 Line Management
 Linienverwaltung
+Lineless convoys serving this stop
+Einzelfahrzeuge, die hier halten
 Lines are used to manage groups of vehicles
 Linien werden benutzt, um Gruppen von Fahrzeugen zu verwalten.
 Lines serving this stop
@@ -1058,7 +1024,7 @@ Karte gegen weiteren Spielerwechsel schützen.
 LOCO_CAP
 Zuladung: %d%s %s\n
 LOCO_INFO
-%s\nPreis:    %d$ (%1.2f$/km)\nLeistung: %dkW, %dkm/h\nGewicht:  %dt\n
+%s\nPreis:    %d$ (%1.2f$/km)\nLeistung: %dkW\nHöchstgeschw: %dkm/h\nGewicht:  %dt\n
 Lokomotive_tab
 Loks
 m3
@@ -1151,6 +1117,8 @@ narrowgauge_track
 Schmalspurstrecke
 Narrowgaugedepot
 Schmalspurbahndepot
+Net ID: %u\n
+Netz-ID: %u\n
 Net Wealth
 Gesamtvermögen
 Neue Welt
@@ -1307,6 +1275,8 @@ remove airstrips
 Landebahnen und Rollfeld entfernen
 remove channels
 Kanal zuschütten
+remove interm. signals
+andere Signale entfernen
 remove maglev tracks
 Magnetbahnstrecke löschen
 remove monorails
@@ -1321,6 +1291,8 @@ remove tracks
 Eisenbahnstrecken entfernen
 Remove wayobj %s
 Wegzusatz von %s entfernen.
+replace other signals
+Andere Signale ersetzen
 replace stop
 Stop verlegen
 request closing
@@ -1337,6 +1309,8 @@ return ticket
 Rückfahrkarte
 Revenue
 Einnahmen
+Revision:
+Revision: 
 road
 Straße
 road vehicle
@@ -1373,10 +1347,14 @@ SEP_FRACTION
 ,
 SEP_THOUSAND
 .
+SEP_THOUSAND_EXPONENT
+3
 Serves Line:
 Bedient Linie:
 Service
 An-/Abfahrten
+set signal spacing
+Signalabstand festlegen
 Setting
 Einstellungen
 Ship
@@ -1391,6 +1369,8 @@ Show also vehicles no longer in production.
 Auch Fahrzeuge anzeigen, die nicht mehr produziert werden.
 Show also vehicles that do not match for current action.
 Auch Fahrzeuge anzeigen, die im Moment nicht passen.
+Show even servers with wrong version or pakset
+Auch Server anzeigen, die die falsche Programmversion bzw. das falsche Pak-Set haben.
 show grid
 Gitternetz einblenden
 Show industry
@@ -1419,6 +1399,8 @@ Shrink city
 Einwohnerzahl verringern
 shuffle midis
 Zufallsauswahl
+signal spacing
+Signalabstand
 Sim:
 Simloops:
 sliced underground mode
@@ -1525,6 +1507,8 @@ Tramdepot
 Straßenbahndepot
 Trams are not available yet!
 Noch keine Straßenbahnen verfügbar!
+Transferring game ...
+Karte wird übertragen ...
 Transformer only next to factory!
 Umspannwerke können nur auf\neinem freien geraden Feld\ndirekt neben einer Fabrik\ngebaut werden!
 Translation
@@ -1588,7 +1572,7 @@ Wartet auf freie Strecke!
 water
 Kanal
 Water level
-Grundwasser
+Meereshöhe
 water vehicle
 Wasserfahrzeug
 way %s cannot longer used:\n
@@ -1639,18 +1623,102 @@ New world record for railways: %.1f km/h by %s.
 Da fliegt die Pleuelstange\nweg. Lokführer Braun holt\n%.1fkm/h heraus aus\n%s.
 New world record for ship: %.1f km/h by %s.
 Blaues Band mit\n%.1fkm/h vergeben\nan %s.
+#_______________________________unnecessary_text________________________________
+#_______________________________unnecessary_text________________________________
+&1_CITY_SYLL
+stadt
+&2_CITY_SYLL
+dorf
+&3_CITY_SYLL
+bruck
+&4_CITY_SYLL
+bronn
+&5_CITY_SYLL
+berg
+&6_CITY_SYLL
+tal
+&7_CITY_SYLL
+weiler
+&8_CITY_SYLL
+hausen
+&9_CITY_SYLL
+steig
+&A_CITY_SYLL
+brigg
+%1_CITY_SYLL
+Kalten
+%2_CITY_SYLL
+Friedrichs
+%3_CITY_SYLL
+Bo
+%4_CITY_SYLL
+Michel
+%5_CITY_SYLL
+Tuna
+%6_CITY_SYLL
+Karls
+%7_CITY_SYLL
+Frei
+%8_CITY_SYLL
+Alten
+%9_CITY_SYLL
+Neu
+%A_CITY_SYLL
+Steinen
+%B_CITY_SYLL
+Rast
+1center
+%s %s
+1extern
+%s Zweig %s
+1suburb
+%s %s %s
+2center
+%s Haupt %s
+2extern
+%s Neben %s
+2suburb
+%s Ausbau %s %s
+3center
+%s Zentral %s
+3extern
+%s Land %s
+3suburb
+%s Vorstadt %s %s
+4center
+%s %s Mitte
+4extern
+%s Außen %s
+4suburb
+%s, %s Kolonie
+5center
+%s Transfer %s
+5extern
+%s Wiesengrund %s
+5suburb
+Entwicklungsgebiet %s %s %s
+6center
+%s Zentrum %s
+6extern
+%s Industriepark %s
+7center
+%s Stadt %s
+8center
+%s Knoten %s
+9center
+%s Ring %s
 #_________________________Simutrans Experimental Texts__________________________
 #_________________________Simutrans Experimental Texts__________________________
 #_________________________________program_text__________________________________
 #_________________________________program_text__________________________________
-\nMax. weight:
-\nMax. Gewicht:
 All hidden items (such as trees and buildings) will appear as transparent.
 Alle versteckten Elemente (wie Bäume und Gebäude) werden Transparent dargstellt.
 Comfort:
 Komfort:
 Loading time:
 Lade Zeit:
+LOCO_INFO_EXT
+%s\nPreis: %d$\nBetriebsk.: %1.2f$/km, %1.2f$/Monat\nLeistung: %dkW, %dkN\nHöchstgeschw.: %dkm/h\nGewicht: %dt\n
 Replace
 Ersetzen
 replace all
