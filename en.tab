@@ -980,7 +980,7 @@ Docks must be built on a\nsingle, sloped tile.
 Du hast %d Monate Zeit, deine Schulden zurueckzuzahlen
 You have %d months to repay your debt.
 Durchsatz
-Max.
+Max. 
 EDITTOOLS
 Map Editing Tools
 Eigenbesitz\n
@@ -1253,6 +1253,8 @@ Legend
 Map legend
 MAGLEVTOOLS
 Maglev tools
+NARROWGAUGETOOLS
+Narrow gauge tools
 Leistung
 Power
 Leistung: %d kW
@@ -1846,7 +1848,7 @@ Unemployed
 Unhappy
 Unhappy
 units/day
-units/month
+ units per month
 Update Line
 Update line
 upgrade HQ
@@ -1856,9 +1858,9 @@ An upgrade to a %s is now available:\n%s\n
 Use timeline start year
 Use timeline from year:
 Vehicle %s can't find a route!
-Vehicle %s\ncan't find a route!
+Vehicle %s\ncannot find a route.
 Vehicle %s is stucked!
-Vehicle %s is stuck!
+Vehicle %s is stuck.
 Vehicle details
 Vehicle details
 Rotate map
@@ -2002,7 +2004,7 @@ Terraforming not possible\nhere in underground view
 Cannot built this station/building\nin underground mode here.
 Cannot built this station/building\nin underground mode here.
 sliced underground mode
-Sliced underground mode (CTRL + U)
+Sliced underground\nmode (CTRL + U)
 decrease underground view level
 Decrease underground view level
 increase underground view level
@@ -2135,3 +2137,21 @@ Movingobj
 Moving object
 On loan since %i month(s)
 You have been overdrawn\nfor %i months
+Loading. %s left!
+Loading: %s left
+Destroying map ...
+Unloading map ...
+Waiting for clearance!
+Waiting for clearance
+Loading (%i->%i%%)!
+Loading (%i->%i%%)
+Loading. %s left!
+Loading. %s left
+Loading (%i->%i%%), %s left!
+Loading (%i->%i%%), %s left
+Avg trip time
+Average trip time
+koord3d invalid
+Invalid location
+koord invalid
+Invalid location

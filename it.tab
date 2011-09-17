@@ -8,7 +8,7 @@ Prop-Latin1.bdf
 #                             Language: it Italiano                            #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 11.01 2011                           #
+#                           Date Created: 24.08 2011                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                    - Dwachs                                  #
@@ -20,6 +20,8 @@ Prop-Latin1.bdf
 #                                   - davemds                                  #
 #                                    note:                                     #
 #                                    - milko                                   #
+#                                    note:                                     #
+#                                   - notorius                                 #
 #                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
 #                                    note:                                     #
@@ -703,12 +705,16 @@ curlist_title
 Lista attrazioni
 Currently playing:
 Brano in esecuzione:
+deactivated in online mode
+Non attivo online.
 Deccelerate time
 Rallenta tempo
 December
 Dicembre
 decrease underground view level
 Diminuisci livello visione sotterranea
+Default.sve
+Default
 Del Stop
 Rimuovi
 Delete Line
@@ -828,9 +834,11 @@ Modalità gioco libero
 Friction:
 fattore frizione attuale:
 fuel_cell
-celle carburante
+celle combustibile
 Full load
 Carico:      
+Fundament
+Fondazione
 Fussgaenger
 Pedoni
 Game info
@@ -897,6 +905,8 @@ hide trees
 Nascondi alberi
 Hier warten/lagern:
 Passeggeri/merci in attesa:
+Higher transport fees, crossconnect all factories
+Tasse di trasporto più alte, disabilita Just-in-time.
 hl_title
 Lista stazioni/fermate
 hl_txt_filter
@@ -970,7 +980,7 @@ Mappa isometrica
 January
 Gennaio
 join game
-Partecipa al gioco!
+Gioca online!
 July
 Luglio
 Jump to
@@ -1523,6 +1533,8 @@ steam
 vapore
 Step timeline one year
 Salta un anno.
+Stops
+Fermate
 Storage capacity
 Capacità di accoglienza
 Strassendepot
@@ -1637,6 +1649,8 @@ upgrade HQ
 Migliora sede
 Usage: %u %%
 Utilizzo: %u %%
+Use beginner mode
+Modalità principiante
 Use timeline start year
 Linea del tempo dall'anno:
 Vehicle %s can't find a route!
@@ -1793,6 +1807,8 @@ Ponte
 nuovo
 %D_CITY_SYLL
 Vuoto
+%F_CITY_SYLL
+Quercia
 1center
 %s %s
 1extern
@@ -1854,9 +1870,9 @@ Vuoto
  from %s
 da %s
  mins. travelling
-Durata viaggio (minuti)
+ durata viaggio (minuti)
  mins. waiting)
-Tempo attesa (minuti)
+ tempo attesa (minuti)
  via %s
 via %s
 \n\nInterest on your debt is\naccumulating at %i %%
@@ -1871,6 +1887,8 @@ via %s
 \nPossono utilizzare:
 \nMUST USE: 
 \nDevono utilizzare:
+\nOrigin: %s\nDestination: %s
+\nOrigine: %s\nDestinazione: %s
 %s\nCost:     %d$\nMaint.: %1.2f$/km, %1.2f$/month\nCapacity: %d (%d)%s %s\nWeight: %dt\nTop speed: %dkm/h\n
 %s\nCosto: %d$\nManut.: %1.2f$/km, %1.2f$/mese\nCapacità: %d (%d)%s %s\nPeso: %dt\nVel. Max.: %dkm/h\n
 %s\nCost:     %d$\nMaint.: %1.2f$/km, %1.2f$/month\nCapacity: %d%s %s\nWeight: %dt\nTop speed: %dkm/h\n
@@ -1956,7 +1974,7 @@ Costo interessi sullo scoperto
 Credit limit
 Limite del credito
 Distance\nComfort\nSpeedbonus\nroad %i km/h, rail %i km/h\nships %i km/h, planes %i km/h.
-Distanza\nComfort\nSpeedbonus\nStrada %i km/h, Ferrovia %i km/h\nNave %i km/h, Aereo %i km/h.
+Distanza (km)\nComfort\nSpeedbonus\nStrada %i km/h, Ferrovia %i km/h\nNave %i km/h, Aereo %i km/h.
 Electrical consumption: 
 Consumo elettrico:
 Explore paths:
@@ -2005,10 +2023,18 @@ local
 locale
 LOCO_INFO_EXT
 %s\nCosto: %d$\nManuten.: %1.2f$/km, %1.2f$/mese\nPotenza: %dkW, %dkN\nVel. Max.: %dkm/h\nPeso: %dt\n
+long dist.
+Lunga distanza
 Mark for replacing
 Marca per la sostituzione
 Mark for replacing. The convoy will replace when manually sent to depot
 Marcato per la sostituzione. Il convoglio verrà sostituito quando sarà inviato manualmente al deposito
+max discomfort penalty
+Max penalità discomfort
+max luxury bonus
+Max bonus lusso
+min comfort\nrating
+Minima percentuale comfort
 Narrow gauge
 Scartamento ridotto
 Next Month:
