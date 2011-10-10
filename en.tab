@@ -409,19 +409,19 @@ Mid
 Pud
 %9F_CITY_SYLL
 War
-%100_CITY_SYLL
+%A0_CITY_SYLL
 Dark
-%101_CITY_SYLL
+%A1_CITY_SYLL
 Hat
-%102_CITY_SYLL
+%A2_CITY_SYLL
 Bush
-%103_CITY_SYLL
+%A3_CITY_SYLL
 Peter
-%104_CITY_SYLL
+%A4_CITY_SYLL
 Lin
-%105_CITY_SYLL
+%A5_CITY_SYLL
 Win
-%106_CITY_SYLL
+%A6_CITY_SYLL
 Wer
 %d buildings\n
 %d buildings
@@ -1450,7 +1450,9 @@ Vehicle running costs (both fixed and distance related)
 Capital expenditure on vehicle purchases and upgrades
 Capital expenditure on vehicle purchases and upgrades
 Gross revenue
-Gross revenue
+Gross revenue from transport operations only
+Road toll
+Way access charges
 Recurring expenses of infrastructure maintenance
 Recurring expenses of infrastructure maintenance
 Total capital assets, excluding liabilities
