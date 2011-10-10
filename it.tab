@@ -8,7 +8,7 @@ Prop-Latin1.bdf
 #                             Language: it Italiano                            #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 24.08 2011                           #
+#                           Date Created: 18.09 2011                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                    - Dwachs                                  #
@@ -1911,6 +1911,8 @@ Automatically replace this convoy.
 Rimpiazza automaticamente questo convoglio
 Average speed
 Velocità media
+Avg trip time
+Tempo medio di percorrenza
 Cannot set marker here.\n
 Non si possono impostare marker qui.\n
 Capital expenditure on infrastructure
@@ -2001,6 +2003,8 @@ Graphs showing non-financial information will appear from right to left instead 
 Il grafico delle informazioni non finanziarie apparirà da destra a sinistra invece che da sinistra a destra
 Gross revenue
 Reddito lordo
+Groups:
+Gruppi:
 Growing cities ...
 Crescita città ...
 head
@@ -2017,8 +2021,12 @@ Inverse graphs (other)
 Grafico inverso (altro)
 Keep replaced vehicles in the depot for future use rather than selling or upgrading them.
 Tenere i veicoli sostituiti in magazzino per un uso futuro piuttosto che venderli o ristrutturarli.
+Livery scheme:
+Schema di livree:
 Loading time:
 Tempo carico:
+Loading. %s left!
+Caricamento. %s da attendere
 local
 locale
 LOCO_INFO_EXT
@@ -2051,6 +2059,8 @@ Number of units of passengers and goods transported
 Numero di passeggeri e merci trasportate
 Obsolescence increase
 Costo aggiuntivo obsolescenza
+on foot)
+a piedi)
 Operating revenue less operating expenditure
 Ricavo operativo meno costi operativi
 origin
@@ -2141,6 +2151,8 @@ reverse route
 Percorso al contrario
 Reversing
 Inversione
+Reversing. %s left
+Inversione. %s da attendere
 Road
 Strada
 Routes will update instantly after any changes to lines/schedules. Can make the game respond slowly on big maps.
